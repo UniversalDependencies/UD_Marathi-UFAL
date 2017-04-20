@@ -1,0 +1,7276 @@
+"<एक>"
+	"एक" det indef mfn sg
+"<होता>"
+	"आहे" vaux past p3 m sg
+"<राजा>"
+	"राजा" n m sg nom @root #3->0
+"<.>"
+	"." sent @punct #4->3
+
+"<त्याला>"
+	"तो" prn p3 m sg dat
+"<एक>"
+	"एक" det indef mfn sg
+"<मुलगा>"
+	"मुलगा" n m sg nom
+"<होता>"
+	"आहे" vaux past p3 m sg
+"<.>"
+	"." sent
+
+"<एकुलता>"
+	"एकुलता" adj m sg
+"<एक>"
+	"एक" det indef mfn sg
+"<मुलगा>"
+	"मुलगा" n m sg nom
+"<म्हणून>"
+	"म्हणून" cnjcoo
+"<राजा>"
+	"राजा" n m sg nom
+"<->"
+	"-" guio
+"<राणी>"
+	"राणी" n f sg nom
+"<त्याला>"
+	"तो" prn p3 m sg dat
+"<जीव>"
+	"जीव" n m sg nom
+"<की>"
+	"की" n f sg nom
+"<प्राण>"
+	"*प्राण"
+"<करित>"
+	"*करित"
+"<.>"
+	"." sent
+
+"<परंतु>"
+	"परंतु" cnjcoo @cc #1->5
+"<लाडामुळे>"
+	"लाड" n m sg obl @nmod #2->5
+	"मुळे" post adv @case #3->2
+"<तो>"
+	"तो" prn p3 m sg nom @nsubj #4->5
+"<बिघडला>"
+	"बिघडणे" vblex perf p3 m sg @root #5->0
+"<.>"
+	"." sent @punct #6->5
+
+"<राजा>"
+	"राजा" n nt sg nom @nsubj #1->4
+"<मनात>"
+	"मन" n nt sg obl @advcl #2->4
+	"त" loc @case #3->2
+"<म्हणाला>"
+	"म्हणणे" vblex perf p3 m sg @root #4->0
+"<,>"
+	"," cm @punct #5->4 
+"<">"
+	""" qt @punct #6->10
+"<याला>"
+	"हा" det prox m sg obl 
+	"ला" dat @case #8->7
+"<घालवून>"
+	"घालवणे" adv compl @mwe #9->10
+"<द्यावे>"
+	"देणे" vblex subj p3 m pl @parataxis #10->4
+"<.>"
+	"." sent @punct #11->10
+
+"<टक्केटोणपे>"
+	"टक्केटोणपे" n m pl nom 
+"<खाऊन>"
+	"खाणे" adv compl
+"<शहाणा>"
+	"शहाणा" adj m sg 
+"<होऊन>"
+	"होणे" adv compl @advmod #4->6
+"<घरी>"
+	"घरी" adv @advmod #5->6
+"<येईल>"
+	"येणे" vblex fut p3 mfn sg @root #6->0
+"<.>"
+	"." sent @punct #7->6
+
+' 
+"<राजाने>"
+	"राजा" n m sg obl @nsubj #1->7
+	"ने" erg @case #2->1
+"<राणीला>"
+	"राणी" n f sg obl @iobj #3->7
+	"ला" dat @case #4->3
+"<हा>"
+	"हा" det prox m sg @det #5->6
+"<विचार>"
+	"विचार" n m sg nom @dobj #6->7
+"<सांगितला>"
+	"सांगणे" vblex perf p3 m sg @root #7->0
+"<.>"
+	"." sent @punct #8->7
+
+
+"<">"
+	""" qt @punct #1->5
+"<आज>"
+	"आज" adv @advmod #2->5
+"<ना>"
+	"ना" cnjcoo @cc #3->2
+"<उद्या>"
+	"उद्या" adv @conj #4->2
+"<सुधारेल>"
+	"सुधारणे" vblex fut p3 mfn sg @root #5->0
+"<तो>"
+	"तो" prn p3 m sg nom @nsubj #6->5
+"<.>"
+	"." sent @punct #7->5
+"<">"
+	""" qt @punct #8->5
+
+"<नका>"
+	"नका" adv @neg 
+"<घालवू>"
+	"घालवणे" vblex incp
+	"घालवणे" vblex imp p1 sg
+	"घालवणे" vblex imp p1 pl
+	"घालवणे" vblex fut p1 mfn pl
+"<त्याला>"
+	"तो" prn p3 m sg acc
+	"तो" prn p3 m sg dat
+	"तो" prn p3 nt sg acc
+	"तो" prn p3 nt sg dat
+	"तो" prn corel m sg obl
+	"तो" det dist m sg obl
+		"ला" acc
+	"तो" det dist m sg obl
+		"ला" dat
+	"तो" det dist nt sg obl
+		"ला" acc
+	"तो" det dist nt sg obl
+		"ला" dat
+"<दूर>"
+	"दूर" adj mfn sp
+	"दूर" adj mfn sp obl
+"<!>"
+	"!" sent
+
+" 
+"<ती>"
+	"तो" det dist f sg
+	"तो" det dist nt pl
+	"तो" prn p3 f sg nom
+	"तो" prn p3 nt pl nom
+	"तो" prn corel f sg nom
+	"तो" prn corel nt pl nom
+"<रडत>"
+	"रडणे" adv impf
+	"रडणे" vblex impf
+"<म्हणाली>"
+	"म्हणणे" vblex perf p2 f sg
+	"म्हणणे" vblex perf p3 f sg
+	"म्हणणे" vblex perf p3 nt pl
+"<.>"
+	"." sent
+
+
+"<">"
+	""" qt
+"<तुम्हा>"
+	"तुम्हा" prn p2 mf pl excl @nsubj #
+"<बायकांना>"
+	"बाई" n f pl obl
+"<कळत>"
+	"कळणे" vblex impf @root #4->0
+"<नाही>"
+	"नाही" adv @neg #5->4
+"<.>"
+	"." sent @punct #6->4
+
+"<आज>"
+	"आज" adv
+	"आज" n m sg nom
+	"आज" n m pl nom
+"<त्याला>"
+	"तो" prn p3 m sg acc
+	"तो" prn p3 m sg dat
+	"तो" prn p3 nt sg acc
+	"तो" prn p3 nt sg dat
+	"तो" prn corel m sg obl
+	"तो" det dist m sg obl
+		"ला" acc
+	"तो" det dist m sg obl
+		"ला" dat
+	"तो" det dist nt sg obl
+		"ला" acc
+	"तो" det dist nt sg obl
+		"ला" dat
+"<हाकलून>"
+	"हाकलणे" adv compl
+"<देणे>"
+	"देणे" vblex inf acc
+	"देणे" vblex inf nom
+"<तुला>"
+	"तू" prn p2 mf sg acc
+	"तू" prn p2 mf sg dat
+"<कठोरपणाचे>"
+	"*कठोरपणाचे"
+"<वाटले>"
+	"वाटणे" vblex perf p1 f sg
+	"वाटणे" vblex perf p2 m pl
+	"वाटणे" vblex perf p3 m pl
+	"वाटणे" vblex perf p3 nt sg
+"<तरी>"
+	"तरी" corel
+"<तेच>"
+	"तो" det dist m pl
+		"च" emph
+	"तो" det dist nt sg
+		"च" emph
+	"तो" prn p3 m pl nom
+		"च" emph
+	"तो" prn p3 nt sg nom
+		"च" emph
+	"तो" prn corel m pl nom
+		"च" emph
+	"तो" prn corel nt sg nom
+		"च" emph
+"<हिताचे>"
+	"*हिताचे"
+"<आहे>"
+	"आहे" vaux pres p1 mf sg
+	"आहे" vaux pres p3 mfn sg
+"<.>"
+	"." sent
+
+" 
+"<तो>"
+	"तो" det dist m sg
+	"तो" prn p3 m sg nom
+	"तो" prn corel m sg nom
+"<म्हणाला>"
+	"म्हणणे" vblex perf p2 m sg
+	"म्हणणे" vblex perf p2 m pl
+	"म्हणणे" vblex perf p2 f pl
+	"म्हणणे" vblex perf p3 m sg
+"<.>"
+	"." sent
+
+"<राणी>"
+	"राणी" n f sg nom
+"<काय>"
+	"काय" prn interr mfn sp nom
+"<करणार>"
+	"करणे" vblex pros mfn sp
+"<,>"
+	"," cm
+"<काय>"
+	"काय" prn interr mfn sp nom
+"<बोलणार>"
+	"बोलणे" vblex pros mfn sp
+"<?>"
+	"?" sent
+
+"<रात्रभर>"
+	"*रात्रभर"
+"<तिला>"
+	"तो" det dist f sg obl
+		"ला" acc
+	"तो" det dist f sg obl
+		"ला" dat
+	"तो" prn p3 f sg acc
+	"तो" prn p3 f sg dat
+	"तो" prn corel f sg obl
+"<झोप>"
+	"झोप" n f sg nom
+	"झोपणे" vblex imp p2 sg
+"<आली>"
+	"आले" n nt pl nom
+	"येणे" vblex perf p2 f sg
+	"येणे" vblex perf p3 f sg
+	"येणे" vblex perf p3 nt pl
+"<नाही>"
+	"नाही" part
+"<.>"
+	"." sent
+
+"<सकाळी>"
+	"सकाळी" adv
+"<राजा>"
+	"राजा" n nt sg nom
+"<मुलाला>"
+	"मुल" n nt sg obl
+		"ला" acc
+	"मुल" n nt sg obl
+		"ला" dat
+	"मुलगा" n m sg obl
+		"ला" acc
+	"मुलगा" n m sg obl
+		"ला" dat
+"<म्हणाला>"
+	"म्हणणे" vblex perf p2 m sg
+	"म्हणणे" vblex perf p2 m pl
+	"म्हणणे" vblex perf p2 f pl
+	"म्हणणे" vblex perf p3 m sg
+"<,>"
+	"," cm
+ "
+"<राज्यातून>"
+	"राजे" n nt sg obl
+		"तून" gna
+	"राज्य" n m sg obl
+		"तून" gna
+	"राज्य" n nt sg obl
+		"तून" gna
+	"राजे" n nt sg obl
+		"तून" post adv
+	"राज्य" n m sg obl
+		"तून" post adv
+	"राज्य" n nt sg obl
+		"तून" post adv
+"<चालता>"
+	"*चालता"
+"<हो>"
+	"हो" part
+	"होणे" vblex imp
+"<.>"
+	"." sent
+
+"<आपण>"
+	"आपण" prn refl mfn sp nom
+	"मी" prn p1 mf pl incl nom
+	"मी" prn p2 mf sg hon2 nom
+"<आता>"
+	"आता" adv
+"<शहाणे>"
+	"शहाणा" adj m pl
+	"शहाणा" adj nt sg
+"<झालोत>"
+	"*झालोत"
+"<असे>"
+	"असे" cnjsub
+	"असा" adj m pl
+	"असा" adj nt sg
+	"अस" vaux past p1 mf sg
+	"अस" vaux past p2 mf sg
+	"अस" vaux past p3 mfn sg
+"<वाटेल>"
+	"वाटणे" vblex fut p3 mfn sg
+"<तेव्हा>"
+	"तेव्हा" n m sg nom
+	"तेव्हा" n m pl nom
+"<घरी>"
+	"घरी" adv
+"<ये>"
+	"येणे" vblex imp sg
+"<!>"
+	"!" sent
+
+"
+"
+"<तुमची>"
+	"तू" prn p2 mf pl excl
+		"ी" gen f sg
+	"तू" prn p2 mf pl excl
+		"ी" gen nt pl
+"<आज्ञा>"
+	"आज्ञा" n f sg nom
+	"आज्ञा" n f pl nom
+"<प्रमाण>"
+	"प्रमाण" n nt sg nom
+"<,>"
+	"," cm
+" 
+"<असे>"
+	"असे" cnjsub
+	"असा" adj m pl
+	"असा" adj nt sg
+	"अस" vaux past p1 mf sg
+	"अस" vaux past p2 mf sg
+	"अस" vaux past p3 mfn sg
+"<म्हणून>"
+	"म्हणून" cnjcoo
+	"म्हणून" cnjsub
+	"म्हणणे" adv compl
+"<पित्याच्या>"
+	"*पित्याच्या"
+"<पाया>"
+	"पाया" n m sg nom
+"<पडून>"
+	"पडणे" adv compl
+"<तो>"
+	"तो" det dist m sg
+	"तो" prn p3 m sg nom
+	"तो" prn corel m sg nom
+"<आईचा>"
+	"आई" n f sg obl
+		"चा" gen m sg
+"<निरोप>"
+	"निरोप" n m sg nom
+	"निरोप" n m pl nom
+"<घ्यायला>"
+	"*घ्यायला"
+"<गेला>"
+	"जाणे" vblex perf p2 m sg
+	"जाणे" vblex perf p2 m pl
+	"जाणे" vblex perf p2 f pl
+	"जाणे" vblex perf p3 m sg
+"<.>"
+	"." sent
+
+"<तो>"
+	"तो" det dist m sg
+	"तो" prn p3 m sg nom
+	"तो" prn corel m sg nom
+"<आईच्या>"
+	"आई" n f sg obl
+		"च्या" gen f pl
+	"आई" n f sg obl
+		"च्या" gen obl mfn sp
+"<पाया>"
+	"पाया" n m sg nom
+"<पडला>"
+	"पडणे" vblex perf p2 m sg
+	"पडणे" vblex perf p2 mf pl
+	"पडणे" vblex perf p3 m sg
+"<.>"
+	"." sent
+
+"<आईने>"
+	"आई" n f sg obl
+		"ने" erg
+"<त्याला>"
+	"तो" prn p3 m sg acc
+	"तो" prn p3 m sg dat
+	"तो" prn p3 nt sg acc
+	"तो" prn p3 nt sg dat
+	"तो" prn corel m sg obl
+	"तो" det dist m sg obl
+		"ला" acc
+	"तो" det dist m sg obl
+		"ला" dat
+	"तो" det dist nt sg obl
+		"ला" acc
+	"तो" det dist nt sg obl
+		"ला" dat
+"<पोटाशी>"
+	"*पोटाशी"
+"<धरले>"
+	"धरणे" vblex perf p1 f sg
+	"धरणे" vblex perf p2 m pl
+	"धरणे" vblex perf p3 m pl
+	"धरणे" vblex perf p3 nt sg
+"<.>"
+	"." sent
+
+
+"
+"<हे>"
+	"हा" det prox m pl
+	"हा" det prox nt sg
+"<घे>"
+	"घेणे" vblex imp sg
+"<चार>"
+	"चार" num
+	"चारणे" vblex imp p2 sg
+"<लाडू>"
+	"*लाडू"
+"<.>"
+	"." sent
+
+"<भूक>"
+	"*भूक"
+"<->"
+	"-" guio
+"<तहानेचे>"
+	"तहान" n f sg obl
+		"चे" gen m pl
+	"तहान" n f sg obl
+		"चे" gen nt sg
+"<लाडू>"
+	"*लाडू"
+"<.>"
+	"." sent
+
+" 
+"<ती>"
+	"तो" det dist f sg
+	"तो" det dist nt pl
+	"तो" prn p3 f sg nom
+	"तो" prn p3 nt pl nom
+	"तो" prn corel f sg nom
+	"तो" prn corel nt pl nom
+"<म्हणाली>"
+	"म्हणणे" vblex perf p2 f sg
+	"म्हणणे" vblex perf p3 f sg
+	"म्हणणे" vblex perf p3 nt pl
+"<.>"
+	"." sent
+
+"<आईचा>"
+	"आई" n f sg obl
+		"चा" gen m sg
+"<आशीर्वाद>"
+	"आशीर्वाद" n m sg nom
+	"आशीर्वाद" n m pl nom
+"<घेऊन>"
+	"घेणे" adv compl
+"<,>"
+	"," cm
+"<ते>"
+	"तो" det dist m pl
+	"तो" det dist nt sg
+	"तो" prn p3 m pl nom
+	"तो" prn p3 nt sg nom
+	"तो" prn corel m pl nom
+	"तो" prn corel nt sg nom
+"<लाडू>"
+	"*लाडू"
+"<घेऊन>"
+	"घेणे" adv compl
+"<,>"
+	"," cm
+"<धनुष्यबाण>"
+	"*धनुष्यबाण"
+"<नि>"
+	"*नि"
+"<तलवार>"
+	"तलवार" n f sg nom
+"<घेऊन>"
+	"घेणे" adv compl
+"<तो>"
+	"तो" det dist m sg
+	"तो" prn p3 m sg nom
+	"तो" prn corel m sg nom
+"<निघाला>"
+	"*निघाला"
+"<.>"
+	"." sent
+
+"<पायी>"
+	"*पायी"
+"<जात>"
+	"जाणे" adv impf
+	"जाणे" vblex impf
+	"जात" n f sg nom
+	"जाते" n nt sg nom
+"<होता>"
+	"हो" vaux pres p2 mf pl
+	"हो" vaux pres p3 m sg
+	"आहे" vaux past p2 m sg
+	"आहे" vaux past p2 mf pl
+	"आहे" vaux past p3 m sg
+	"होणे" vblex impf p2 mf pl
+"<.>"
+	"." sent
+
+"<दिवस>"
+	"दिवस" n m sg nom
+	"दिवस" n m pl nom
+"<गेला>"
+	"जाणे" vblex perf p2 m sg
+	"जाणे" vblex perf p2 m pl
+	"जाणे" vblex perf p2 f pl
+	"जाणे" vblex perf p3 m sg
+"<,>"
+	"," cm
+"<रात्र>"
+	"रात्र" n f sg nom
+"<गेली>"
+	"जाणे" vblex perf p2 f sg
+	"जाणे" vblex perf p3 f sg
+	"जाणे" vblex perf p3 nt pl
+"<.>"
+	"." sent
+
+"<चालत>"
+	"चालत" adv
+"<होता>"
+	"हो" vaux pres p2 mf pl
+	"हो" vaux pres p3 m sg
+	"आहे" vaux past p2 m sg
+	"आहे" vaux past p2 mf pl
+	"आहे" vaux past p3 m sg
+	"होणे" vblex impf p2 mf pl
+"<.>"
+	"." sent
+
+"<थकल्यावर>"
+	"थकणे" vblex ger perf
+		"वर" gna
+"<दगडाची>"
+	"दगड" n m sg obl
+		"ची" gen f sg
+	"दगड" n m sg obl
+		"ची" gen nt pl
+"<उशी>"
+	"*उशी"
+"<करून>"
+	"करणे" adv compl
+"<वडाखाली>"
+	"*वडाखाली"
+"<झोपे>"
+	"झोपा" n m pl nom
+"<.>"
+	"." sent
+
+"<पुन्हा>"
+	"पुन्हा" adv
+"<उठे>"
+	"*उठे"
+"<नि>"
+	"*नि"
+"<चालू>"
+	"चालू" adv
+"<लागे>"
+	"*लागे"
+"<.>"
+	"." sent
+
+"<त्याला>"
+	"तो" prn p3 m sg acc
+	"तो" prn p3 m sg dat
+	"तो" prn p3 nt sg acc
+	"तो" prn p3 nt sg dat
+	"तो" prn corel m sg obl
+	"तो" det dist m sg obl
+		"ला" acc
+	"तो" det dist m sg obl
+		"ला" dat
+	"तो" det dist nt sg obl
+		"ला" acc
+	"तो" det dist nt sg obl
+		"ला" dat
+"<भूक>"
+	"*भूक"
+"<लागली>"
+	"लागणे" vblex perf p2 f sg
+	"लागणे" vblex perf p3 f sg
+	"लागणे" vblex perf p3 nt pl
+"<.>"
+	"." sent
+
+"<त्या>"
+	"तो" det dist f pl
+	"तो" prn p3 f pl nom
+	"तो" prn corel f pl nom
+	"तो" prn corel nt sg obl
+"<लाडूंची>"
+	"*लाडूंची"
+"<त्याला>"
+	"तो" prn p3 m sg acc
+	"तो" prn p3 m sg dat
+	"तो" prn p3 nt sg acc
+	"तो" prn p3 nt sg dat
+	"तो" prn corel m sg obl
+	"तो" det dist m sg obl
+		"ला" acc
+	"तो" det dist m sg obl
+		"ला" dat
+	"तो" det dist nt sg obl
+		"ला" acc
+	"तो" det dist nt sg obl
+		"ला" dat
+"<आठवण>"
+	"आठवण" n f sg nom
+"<झाली>"
+	"हो" vaux past p2 f sg
+	"हो" vaux past p3 f sg
+	"हो" vaux past p3 nt pl
+	"होणे" vblex perf p2 f sg
+	"होणे" vblex perf p3 f sg
+	"होणे" vblex perf p3 nt pl
+"<.>"
+	"." sent
+
+"<एक>"
+	"एक" part
+	"एक" num
+	"एक" det indef mfn sg
+"<झरा>"
+	"झरा" n m sg nom
+	"झरणे" vblex imp p2 pl
+"<खळखळ>"
+	"खळखळ" n f sg nom
+"<वाहत>"
+	"वहाणे" adv impf
+	"वहाणे" vblex impf
+"<होता>"
+	"हो" vaux pres p2 mf pl
+	"हो" vaux pres p3 m sg
+	"आहे" vaux past p2 m sg
+	"आहे" vaux past p2 mf pl
+	"आहे" vaux past p3 m sg
+	"होणे" vblex impf p2 mf pl
+"<.>"
+	"." sent
+
+"<हातपाय>"
+	"*हातपाय"
+"<धुऊन>"
+	"*धुऊन"
+"<तेथे>"
+	"तेथे" adv
+"<बसला>"
+	"बस" n m sg obl
+		"ला" acc
+	"बस" n m sg obl
+		"ला" dat
+	"बसणे" vblex perf p2 m sg
+	"बसणे" vblex perf p2 mf pl
+	"बसणे" vblex perf p3 m sg
+"<.>"
+	"." sent
+
+"<त्याने>"
+	"तो" det dist m sg obl
+		"ने" erg
+	"तो" det dist nt sg obl
+		"ने" erg
+"<एक>"
+	"एक" part
+	"एक" num
+	"एक" det indef mfn sg
+"<लाडू>"
+	"*लाडू"
+"<फोडला>"
+	"फोडणे" vblex perf p2 m sg
+	"फोडणे" vblex perf p2 mf pl
+	"फोडणे" vblex perf p3 m sg
+"<तो>"
+	"तो" det dist m sg
+	"तो" prn p3 m sg nom
+	"तो" prn corel m sg nom
+"<आतून>"
+	"*आतून"
+"<एक>"
+	"एक" part
+	"एक" num
+	"एक" det indef mfn sg
+"<रत्न>"
+	"रत्न" n nt sg nom
+"<निघाले>"
+	"*निघाले"
+"<.>"
+	"." sent
+
+"<त्याला>"
+	"तो" prn p3 m sg acc
+	"तो" prn p3 m sg dat
+	"तो" prn p3 nt sg acc
+	"तो" prn p3 nt sg dat
+	"तो" prn corel m sg obl
+	"तो" det dist m sg obl
+		"ला" acc
+	"तो" det dist m sg obl
+		"ला" dat
+	"तो" det dist nt sg obl
+		"ला" acc
+	"तो" det dist nt sg obl
+		"ला" dat
+"<आनंद>"
+	"आनंद" n m sg nom
+	"आनंद" n m pl nom
+"<झाला>"
+	"हो" vaux past p2 m sg
+	"हो" vaux past p3 m sg
+	"होणे" vblex perf p2 m sg
+	"होणे" vblex perf p2 m pl
+	"होणे" vblex perf p2 f pl
+	"होणे" vblex perf p3 m sg
+"<.>"
+	"." sent
+
+"<आईला>"
+	"आई" n f sg obl
+		"ला" acc
+	"आई" n f sg obl
+		"ला" dat
+"<किती>"
+	"किती" adj mfn sp
+	"किती" adj mfn sp obl
+"<चिंता>"
+	"चिंता" n f sg nom
+	"चिंता" n f pl nom
+	"चिंतणे" vblex imp p2 pl
+"<ते>"
+	"तो" det dist m pl
+	"तो" det dist nt sg
+	"तो" prn p3 m pl nom
+	"तो" prn p3 nt sg nom
+	"तो" prn corel m pl nom
+	"तो" prn corel nt sg nom
+"<मनात>"
+	"मन" n nt sg obl
+		"त" loc
+	"मन" n nt sg obl
+		"त" gna
+"<येऊन>"
+	"येणे" adv compl
+"<त्याचे>"
+	"त्याचा" adj m pl
+	"त्याचा" adj nt sg
+	"तो" det dist m sg obl
+		"चे" gen m pl
+	"तो" det dist m sg obl
+		"चे" gen nt sg
+	"तो" det dist nt sg obl
+		"चे" gen m pl
+	"तो" det dist nt sg obl
+		"चे" gen nt sg
+	"तो" prn p3 m sg
+		"े" gen m pl
+	"तो" prn p3 m sg
+		"े" gen nt sg
+	"तो" prn p3 nt sg
+		"े" gen m pl
+	"तो" prn p3 nt sg
+		"े" gen nt sg
+"<डोळे>"
+	"डोळा" n m pl nom
+"<भरून>"
+	"भरणे" adv compl
+"<आले>"
+	"आले" n nt sg nom
+	"येणे" vblex perf p1 f sg
+	"येणे" vblex perf p2 m pl
+	"येणे" vblex perf p3 m pl
+	"येणे" vblex perf p3 nt sg
+"<.>"
+	"." sent
+
+
+"<लाडू>"
+	"*लाडू"
+"<खाऊन>"
+	"*खाऊन"
+"<,>"
+	"," cm
+"<पाणी>"
+	"पाण" n nt sg nom
+	"पाण" n nt pl nom
+"<पिऊन>"
+	"*पिऊन"
+"<तो>"
+	"तो" det dist m sg
+	"तो" prn p3 m sg nom
+	"तो" prn corel m sg nom
+"<पुढे>"
+	"पुढे" post adv
+"<निघाला>"
+	"*निघाला"
+"<,>"
+	"," cm
+"<तो>"
+	"तो" det dist m sg
+	"तो" prn p3 m sg nom
+	"तो" prn corel m sg nom
+"<त्याला>"
+	"तो" prn p3 m sg acc
+	"तो" prn p3 m sg dat
+	"तो" prn p3 nt sg acc
+	"तो" prn p3 nt sg dat
+	"तो" prn corel m sg obl
+	"तो" det dist m sg obl
+		"ला" acc
+	"तो" det dist m sg obl
+		"ला" dat
+	"तो" det dist nt sg obl
+		"ला" acc
+	"तो" det dist nt sg obl
+		"ला" dat
+"<एक>"
+	"एक" part
+	"एक" num
+	"एक" det indef mfn sg
+"<हरिणी>"
+	"हरिणी" n m sg nom
+	"हरिणी" n m pl nom
+"<दिसली>"
+	"दिसणे" vblex perf p2 f sg
+	"दिसणे" vblex perf p3 f sg
+	"दिसणे" vblex perf p3 nt pl
+"<.>"
+	"." sent
+
+"<तिच्याभोवती>"
+	"*तिच्याभोवती"
+"<तिची>"
+	"तो" det dist f sg obl
+		"ची" gen f sg
+	"तो" det dist f sg obl
+		"ची" gen nt pl
+	"तो" prn p3 f sg
+		"ी" gen f sg
+	"तो" prn p3 f sg
+		"ी" gen nt pl
+"<पाडसे>"
+	"पाडस" n nt pl nom
+"<खेळत>"
+	"खेळणे" adv impf
+	"खेळणे" vblex impf
+"<होती>"
+	"आहे" vaux past p2 f sg
+	"आहे" vaux past p3 f sg
+	"आहे" vaux past p3 nt pl
+"<.>"
+	"." sent
+
+"<राजपुत्राने>"
+	"*राजपुत्राने"
+"<धनुष्याला>"
+	"धनुष्य" n nt sg obl
+		"ला" acc
+	"धनुष्य" n nt sg obl
+		"ला" dat
+"<बाण>"
+	"बाण" n m sg nom
+	"बाण" n m pl nom
+	"बाणणे" vblex imp p2 sg
+"<लावला>"
+	"लावणे" vblex perf p2 m sg
+	"लावणे" vblex perf p2 mf pl
+	"लावणे" vblex perf p3 m sg
+"<.>"
+	"." sent
+
+"<तो>"
+	"तो" det dist m sg
+	"तो" prn p3 m sg nom
+	"तो" prn corel m sg nom
+"<त्या>"
+	"तो" det dist f pl
+	"तो" prn p3 f pl nom
+	"तो" prn corel f pl nom
+	"तो" prn corel nt sg obl
+"<हरिणीला>"
+	"हरिणी" n m sg obl
+		"ला" acc
+	"हरिणी" n m sg obl
+		"ला" dat
+"<मारणार>"
+	"मारणे" vblex pros mfn sp
+"<होता>"
+	"हो" vaux pres p2 mf pl
+	"हो" vaux pres p3 m sg
+	"आहे" vaux past p2 m sg
+	"आहे" vaux past p2 mf pl
+	"आहे" vaux past p3 m sg
+	"होणे" vblex impf p2 mf pl
+"<;>"
+	";" sent
+
+"<परंतु>"
+	"परंतु" cnjcoo
+"<त्याला>"
+	"तो" prn p3 m sg acc
+	"तो" prn p3 m sg dat
+	"तो" prn p3 nt sg acc
+	"तो" prn p3 nt sg dat
+	"तो" prn corel m sg obl
+	"तो" det dist m sg obl
+		"ला" acc
+	"तो" det dist m sg obl
+		"ला" dat
+	"तो" det dist nt sg obl
+		"ला" acc
+	"तो" det dist nt sg obl
+		"ला" dat
+"<स्वत>"
+	"स्वत" n m sg nom
+	"स्वत" n m pl nom
+"<:>"
+	":" sent
+
+"<ची>"
+	"ची" gen f sg
+	"ची" gen nt pl
+"<आई>"
+	"आई" n f sg nom
+"<आठवली>"
+	"आठवणे" vblex perf p2 f sg
+	"आठवणे" vblex perf p3 f sg
+	"आठवणे" vblex perf p3 nt pl
+"<.>"
+	"." sent
+
+"<माझी>"
+	"माझा" adj f sg
+	"माझा" adj nt pl
+	"मी" prn p1 mf sg
+		"ी" gen f sg
+	"मी" prn p1 mf sg
+		"ी" gen nt pl
+	"माझी" n f sg nom
+"<आई>"
+	"आई" n f sg nom
+"<मला>"
+	"म" n m sg obl
+		"ला" acc
+	"म" n m sg obl
+		"ला" dat
+	"मी" prn p1 mf sg acc
+	"मी" prn p1 mf sg dat
+"<,>"
+	"," cm
+"<तशी>"
+	"तसा" adj f sg
+	"तसा" adj nt pl
+"<ही>"
+	"हा" det prox f sg
+"<हरिणी>"
+	"हरिणी" n m sg nom
+	"हरिणी" n m pl nom
+"<या>"
+	"हा" det prox f pl
+	"हा" det prox nt pl
+	"येणे" vblex imp pl
+"<पाडसांना>"
+	"पाडस" n nt pl obl
+		"ना" acc
+	"पाडस" n nt pl obl
+		"ना" dat
+"<.>"
+	"." sent
+
+"<त्याचे>"
+	"त्याचा" adj m pl
+	"त्याचा" adj nt sg
+	"तो" det dist m sg obl
+		"चे" gen m pl
+	"तो" det dist m sg obl
+		"चे" gen nt sg
+	"तो" det dist nt sg obl
+		"चे" gen m pl
+	"तो" det dist nt sg obl
+		"चे" gen nt sg
+	"तो" prn p3 m sg
+		"े" gen m pl
+	"तो" prn p3 m sg
+		"े" gen nt sg
+	"तो" prn p3 nt sg
+		"े" gen m pl
+	"तो" prn p3 nt sg
+		"े" gen nt sg
+"<हृदय>"
+	"*हृदय"
+"<द्रवले>"
+	"द्रवणे" vblex perf p1 f sg
+	"द्रवणे" vblex perf p2 m pl
+	"द्रवणे" vblex perf p3 m pl
+	"द्रवणे" vblex perf p3 nt sg
+"<.>"
+	"." sent
+
+"<त्याने>"
+	"तो" det dist m sg obl
+		"ने" erg
+	"तो" det dist nt sg obl
+		"ने" erg
+"<बाण>"
+	"बाण" n m sg nom
+	"बाण" n m pl nom
+	"बाणणे" vblex imp p2 sg
+"<परत>"
+	"परतणे" vblex imp p2 sg
+"<भात्यात>"
+	"भाता" n m sg obl
+		"त" loc
+	"भाता" n m sg obl
+		"त" gna
+"<ठेवला>"
+	"ठेवणे" vblex perf p2 m sg
+	"ठेवणे" vblex perf p2 mf pl
+	"ठेवणे" vblex perf p3 m sg
+"<.>"
+	"." sent
+
+"<तो>"
+	"तो" det dist m sg
+	"तो" prn p3 m sg nom
+	"तो" prn corel m sg nom
+"<पुढे>"
+	"पुढे" post adv
+"<निघाला>"
+	"*निघाला"
+"<.>"
+	"." sent
+
+"<काही>"
+	"काही" adv
+	"काही" n m sg nom
+	"काही" n m pl nom
+"<अंतर>"
+	"अंतर" n nt sg nom
+	"अंतरणे" vblex imp p2 sg
+"<चालून>"
+	"*चालून"
+"<गेल्यावर>"
+	"जाणे" vblex ger perf
+		"वर" gna
+"<मागून>"
+	"*मागून"
+"<कोणीतरी>"
+	"*कोणीतरी"
+"<माणूस>"
+	"माणूस" n m sg nom
+"<येत>"
+	"येणे" adv impf
+	"येणे" vblex impf
+"<आहे>"
+	"आहे" vaux pres p1 mf sg
+	"आहे" vaux pres p3 mfn sg
+"<,>"
+	"," cm
+"<असे>"
+	"असे" cnjsub
+	"असा" adj m pl
+	"असा" adj nt sg
+	"अस" vaux past p1 mf sg
+	"अस" vaux past p2 mf sg
+	"अस" vaux past p3 mfn sg
+"<त्याला>"
+	"तो" prn p3 m sg acc
+	"तो" prn p3 m sg dat
+	"तो" prn p3 nt sg acc
+	"तो" prn p3 nt sg dat
+	"तो" prn corel m sg obl
+	"तो" det dist m sg obl
+		"ला" acc
+	"तो" det dist m sg obl
+		"ला" dat
+	"तो" det dist nt sg obl
+		"ला" acc
+	"तो" det dist nt sg obl
+		"ला" dat
+"<वाटले>"
+	"वाटणे" vblex perf p1 f sg
+	"वाटणे" vblex perf p2 m pl
+	"वाटणे" vblex perf p3 m pl
+	"वाटणे" vblex perf p3 nt sg
+"<.>"
+	"." sent
+
+"<एक>"
+	"एक" part
+	"एक" num
+	"एक" det indef mfn sg
+"<स्त्री>"
+	"स्त्री" n f sg nom
+"<येत>"
+	"येणे" adv impf
+	"येणे" vblex impf
+"<होती>"
+	"आहे" vaux past p2 f sg
+	"आहे" vaux past p3 f sg
+	"आहे" vaux past p3 nt pl
+"<.>"
+	"." sent
+
+"<साधीभोळी>"
+	"*साधीभोळी"
+"<,>"
+	"," cm
+"<निष्पाप>"
+	"*निष्पाप"
+"<दिसत>"
+	"दिसणे" adv impf
+	"दिसणे" vblex impf
+"<होती>"
+	"आहे" vaux past p2 f sg
+	"आहे" vaux past p3 f sg
+	"आहे" vaux past p3 nt pl
+"<.>"
+	"." sent
+
+"<तो>"
+	"तो" det dist m sg
+	"तो" prn p3 m sg nom
+	"तो" prn corel m sg nom
+"<थांबला>"
+	"थांबणे" vblex perf p2 m sg
+	"थांबणे" vblex perf p2 mf pl
+	"थांबणे" vblex perf p3 m sg
+"<.>"
+	"." sent
+
+"<ती>"
+	"तो" det dist f sg
+	"तो" det dist nt pl
+	"तो" prn p3 f sg nom
+	"तो" prn p3 nt pl nom
+	"तो" prn corel f sg nom
+	"तो" prn corel nt pl nom
+"<स्त्री>"
+	"स्त्री" n f sg nom
+"<जवळ>"
+	"जवळ" adj mfn sp
+	"जवळ" adj mfn sp obl
+"<आली>"
+	"आले" n nt pl nom
+	"येणे" vblex perf p2 f sg
+	"येणे" vblex perf p3 f sg
+	"येणे" vblex perf p3 nt pl
+"<.>"
+	"." sent
+
+
+"
+"<कोण>"
+	"कोण" prn interr mfn sp nom
+"<तुम्ही>"
+	"तू" prn p2 mf pl excl nom
+"<,>"
+	"," cm
+"<कुठल्या>"
+	"कुठला" adj f pl
+	"कुठला" adj mfn sp obl
+"<?>"
+	"?" sent
+
+"<या>"
+	"हा" det prox f pl
+	"हा" det prox nt pl
+	"येणे" vblex imp pl
+"<रानावनातून>"
+	"*रानावनातून"
+"<एकट्या>"
+	"एकटा" adj f pl
+	"एकटा" adj mfn sp obl
+"<कुठे>"
+	"कुठे" adv
+"<जाता>"
+	"जाणे" vblex impf p2 mf pl
+"<?>"
+	"?" sent
+
+"
+"
+"<मी>"
+	"मी" prn p1 mf sg nom
+"<तुझी>"
+	"तुझा" adj f sg
+	"तुझा" adj nt pl
+	"तू" prn p2 mf sg
+		"ी" gen f sg
+	"तू" prn p2 mf sg
+		"ी" gen nt pl
+"<बहीण>"
+	"बहीण" n f sg nom
+"<होऊ>"
+	"होणे" vblex incp
+	"हो" vaux fut p1 mf pl
+	"होणे" vblex fut p1 mfn pl
+"<इच्छिते>"
+	"*इच्छिते"
+"<.>"
+	"." sent
+
+"<मला>"
+	"म" n m sg obl
+		"ला" acc
+	"म" n m sg obl
+		"ला" dat
+	"मी" prn p1 mf sg acc
+	"मी" prn p1 mf sg dat
+"<नाही>"
+	"नाही" part
+"<म्हणू>"
+	"म्हणणे" vblex incp
+	"म्हणणे" vblex fut p1 mfn pl
+"<नकोस>"
+	"*नकोस"
+"<.>"
+	"." sent
+
+" 
+"<ती>"
+	"तो" det dist f sg
+	"तो" det dist nt pl
+	"तो" prn p3 f sg nom
+	"तो" prn p3 nt pl nom
+	"तो" prn corel f sg nom
+	"तो" prn corel nt pl nom
+"<म्हणाली>"
+	"म्हणणे" vblex perf p2 f sg
+	"म्हणणे" vblex perf p3 f sg
+	"म्हणणे" vblex perf p3 nt pl
+"<.>"
+	"." sent
+
+
+"
+"<ये>"
+	"येणे" vblex imp sg
+"<माझ्याबरोबर>"
+	"*माझ्याबरोबर"
+"<.>"
+	"." sent
+
+"<भावाला>"
+	"भाव" n m sg obl
+		"ला" acc
+	"भाव" n m sg obl
+		"ला" dat
+	"भाऊ" n m sg obl
+		"ला" acc
+	"भाऊ" n m sg obl
+		"ला" dat
+"<बहीण>"
+	"बहीण" n f sg nom
+"<झाली>"
+	"हो" vaux past p2 f sg
+	"हो" vaux past p3 f sg
+	"हो" vaux past p3 nt pl
+	"होणे" vblex perf p2 f sg
+	"होणे" vblex perf p3 f sg
+	"होणे" vblex perf p3 nt pl
+"<.>"
+	"." sent
+
+" 
+"<तो>"
+	"तो" det dist m sg
+	"तो" prn p3 m sg nom
+	"तो" prn corel m sg nom
+"<म्हणाला>"
+	"म्हणणे" vblex perf p2 m sg
+	"म्हणणे" vblex perf p2 m pl
+	"म्हणणे" vblex perf p2 f pl
+	"म्हणणे" vblex perf p3 m sg
+"<.>"
+	"." sent
+
+
+"<द>"
+	"द" barb
+"<ोघे>"
+	"*ोघे"
+"<जात>"
+	"जाणे" adv impf
+	"जाणे" vblex impf
+	"जात" n f sg nom
+	"जाते" n nt sg nom
+"<होती>"
+	"आहे" vaux past p2 f sg
+	"आहे" vaux past p3 f sg
+	"आहे" vaux past p3 nt pl
+"<.>"
+	"." sent
+
+"<दोघांना>"
+	"दोघ" n m pl obl
+		"ना" acc
+	"दोघ" n m pl obl
+		"ना" dat
+"<भूक>"
+	"*भूक"
+"<लागली>"
+	"लागणे" vblex perf p2 f sg
+	"लागणे" vblex perf p3 f sg
+	"लागणे" vblex perf p3 nt pl
+"<.>"
+	"." sent
+
+"<एका>"
+	"एक" det indef obl mfn sg
+"<खळखळ>"
+	"खळखळ" n f sg nom
+"<वाहणाऱ्या>"
+	"*वाहणाऱ्या"
+"<झऱ्याच्या>"
+	"*झऱ्याच्या"
+"<काठी>"
+	"काठी" n m sg nom
+	"काठी" n m pl nom
+	"काठी" n f sg nom
+"<द>"
+	"द" barb
+"<ोघं>"
+	"*ोघं"
+"<बसली>"
+	"बसणे" vblex perf p2 f sg
+	"बसणे" vblex perf p3 f sg
+	"बसणे" vblex perf p3 nt pl
+"<.>"
+	"." sent
+
+"<त्याने>"
+	"तो" det dist m sg obl
+		"ने" erg
+	"तो" det dist nt sg obl
+		"ने" erg
+"<एक>"
+	"एक" part
+	"एक" num
+	"एक" det indef mfn sg
+"<लाडू>"
+	"*लाडू"
+"<फोडला>"
+	"फोडणे" vblex perf p2 m sg
+	"फोडणे" vblex perf p2 mf pl
+	"फोडणे" vblex perf p3 m sg
+"<.>"
+	"." sent
+
+"<त्यातून>"
+	"त्यातून" adv
+	"तो" prn p3 m sg obl
+		"तून" gna
+	"तो" prn p3 nt sg obl
+		"तून" gna
+	"तो" det dist m sg obl
+		"तून" gna
+	"तो" det dist nt sg obl
+		"तून" gna
+	"तो" prn p3 m sg obl
+		"तून" post adv
+	"तो" prn p3 nt sg obl
+		"तून" post adv
+	"तो" det dist m sg obl
+		"तून" post adv
+	"तो" det dist nt sg obl
+		"तून" post adv
+"<पुन्हा>"
+	"पुन्हा" adv
+"<एक>"
+	"एक" part
+	"एक" num
+	"एक" det indef mfn sg
+"<रत्न>"
+	"रत्न" n nt sg nom
+"<निघाले>"
+	"*निघाले"
+"<.>"
+	"." sent
+
+"<अर्धा>"
+	"अर्धा" adj m sg
+"<अर्धा>"
+	"अर्धा" adj m sg
+"<लाडू>"
+	"*लाडू"
+"<दोघांनी>"
+	"दोन" num obl
+		"नी" erg
+	"दोघ" n m pl obl
+		"नी" erg
+"<खाल्ला>"
+	"*खाल्ला"
+"<.>"
+	"." sent
+
+"<इतक्यात>"
+	"*इतक्यात"
+"<केविलवाणा>"
+	"केविलवाणा" n m sg nom
+"<शब्द>"
+	"शब्द" n m sg nom
+	"शब्द" n m pl nom
+"<कानी>"
+	"*कानी"
+"<आला>"
+	"येणे" vblex perf p2 m sg
+	"येणे" vblex perf p2 m pl
+	"येणे" vblex perf p2 f pl
+	"येणे" vblex perf p3 m sg
+"<.>"
+	"." sent
+
+"<एका>"
+	"एक" det indef obl mfn sg
+"<सापाने>"
+	"साप" n m sg obl
+		"ने" erg
+"<बेडकाला>"
+	"*बेडकाला"
+"<तोंडात>"
+	"तोंड" n nt sg obl
+		"त" loc
+	"तोंड" n nt sg obl
+		"त" gna
+"<धरले>"
+	"धरणे" vblex perf p1 f sg
+	"धरणे" vblex perf p2 m pl
+	"धरणे" vblex perf p3 m pl
+	"धरणे" vblex perf p3 nt sg
+"<होते>"
+	"हो" vaux pres p1 f sg
+	"हो" vaux pres p3 f sg
+	"हो" vaux pres p3 n sg
+	"आहे" vaux past p1 f sg
+	"आहे" vaux past p3 m pl
+	"आहे" vaux past p3 nt sg
+	"होणे" vblex impf p1 f sg
+	"होणे" vblex impf p3 f sg
+	"होणे" vblex impf p3 nt sg
+"<.>"
+	"." sent
+
+"<बेडूक>"
+	"*बेडूक"
+"<वाचवावा>"
+	"वाचवणे" vblex subj p1 m sg
+	"वाचवणे" vblex subj p2 m sg
+	"वाचवणे" vblex subj p3 m sg
+"<तर>"
+	"तरणे" vblex imp p2 sg
+"<सापाची>"
+	"साप" n m sg obl
+		"ची" gen f sg
+	"साप" n m sg obl
+		"ची" gen nt pl
+"<भूक>"
+	"*भूक"
+"<कशी>"
+	"कसा" adj f sg
+	"कसा" adj nt pl
+"<शमवायची>"
+	"शमवणे" vblex past hab p1 f sg
+	"शमवणे" vblex past hab p2 f sg
+	"शमवणे" vblex past hab p2 nt pl
+"<?>"
+	"?" sent
+
+"<राजपुत्राने>"
+	"*राजपुत्राने"
+"<जवळच्या>"
+	"जवळचा" adj f pl
+	"जवळचा" adj mfn sp obl
+"<तलवारीने>"
+	"तलवार" n f sg obl
+		"ने" erg
+"<मांडीचे>"
+	"मांडी" n f sg obl
+		"चे" gen m pl
+	"मांडी" n f sg obl
+		"चे" gen nt sg
+"<मांस>"
+	"मांस" n m sg nom
+	"मांस" n m pl nom
+"<कापून>"
+	"कापणे" adv compl
+"<सापाकडे>"
+	"साप" n m sg obl
+		"कडे" post adv
+"<फेकले>"
+	"फेकणे" vblex perf p1 f sg
+	"फेकणे" vblex perf p2 m pl
+	"फेकणे" vblex perf p3 m pl
+	"फेकणे" vblex perf p3 nt sg
+"<.>"
+	"." sent
+
+"<तो>"
+	"तो" det dist m sg
+	"तो" prn p3 m sg nom
+	"तो" prn corel m sg nom
+"<लाल>"
+	"लाल" adj mfn sp
+	"लाल" adj mfn sp obl
+	"लाल" np ant m sg nom
+"<तुकडा>"
+	"तुकडा" n m sg nom
+"<पाहून>"
+	"पहाणे" adv compl
+"<बेडकाला>"
+	"*बेडकाला"
+"<सोडून>"
+	"सोडणे" adv compl
+"<साप>"
+	"साप" n m sg nom
+	"साप" n m pl nom
+"<तिकडे>"
+	"तो" prn p3 f sg obl
+		"कडे" post adv
+	"तो" det dist f sg obl
+		"कडे" post adv
+"<धावला>"
+	"धावणे" vblex perf p2 m sg
+	"धावणे" vblex perf p2 mf pl
+	"धावणे" vblex perf p3 m sg
+"<.>"
+	"." sent
+
+"<बेडूक>"
+	"*बेडूक"
+"<टुणटुण>"
+	"*टुणटुण"
+"<उड्या>"
+	"उडी" n f pl nom
+"<मारीत>"
+	"*मारीत"
+"<गेला>"
+	"जाणे" vblex perf p2 m sg
+	"जाणे" vblex perf p2 m pl
+	"जाणे" vblex perf p2 f pl
+	"जाणे" vblex perf p3 m sg
+"<.>"
+	"." sent
+
+"<सापाची>"
+	"साप" n m sg obl
+		"ची" gen f sg
+	"साप" n m sg obl
+		"ची" gen nt pl
+"<भूक>"
+	"*भूक"
+"<शमली>"
+	"शमणे" vblex perf p2 f sg
+	"शमणे" vblex perf p3 f sg
+	"शमणे" vblex perf p3 nt pl
+"<,>"
+	"," cm
+"<बेडकाचेही>"
+	"*बेडकाचेही"
+"<प्राण>"
+	"*प्राण"
+"<वाचले>"
+	"वाचणे" vblex perf p1 f sg
+	"वाचणे" vblex perf p2 m pl
+	"वाचणे" vblex perf p3 m pl
+	"वाचणे" vblex perf p3 nt sg
+"<.>"
+	"." sent
+
+"<भावाची>"
+	"भाव" n m sg obl
+		"ची" gen f sg
+	"भाव" n m sg obl
+		"ची" gen nt pl
+	"भाऊ" n m sg obl
+		"ची" gen f sg
+	"भाऊ" n m sg obl
+		"ची" gen nt pl
+"<रक्तबंबाळ>"
+	"*रक्तबंबाळ"
+"<झालेली>"
+	"झालेला" gpr perf
+		"चा" f sg
+	"झालेला" gpr perf
+		"चा" nt pl
+"<मांडी>"
+	"मांडी" n f sg nom
+"<पाहून>"
+	"पहाणे" adv compl
+"<बहिणीचे>"
+	"बहिण" n f sg obl
+		"चे" gen m pl
+	"बहिण" n f sg obl
+		"चे" gen nt sg
+"<डोळे>"
+	"डोळा" n m pl nom
+"<भरून>"
+	"भरणे" adv compl
+"<आले>"
+	"आले" n nt sg nom
+	"येणे" vblex perf p1 f sg
+	"येणे" vblex perf p2 m pl
+	"येणे" vblex perf p3 m pl
+	"येणे" vblex perf p3 nt sg
+"<.>"
+	"." sent
+
+"<ती>"
+	"तो" det dist f sg
+	"तो" det dist nt pl
+	"तो" prn p3 f sg nom
+	"तो" prn p3 nt pl nom
+	"तो" prn corel f sg nom
+	"तो" prn corel nt pl nom
+"<पटकन>"
+	"*पटकन"
+"<कुठेतरी>"
+	"*कुठेतरी"
+"<गेली>"
+	"जाणे" vblex perf p2 f sg
+	"जाणे" vblex perf p3 f sg
+	"जाणे" vblex perf p3 nt pl
+"<नि>"
+	"*नि"
+"<पाला>"
+	"पाला" n m sg nom
+"<घेऊन>"
+	"घेणे" adv compl
+"<आली>"
+	"आले" n nt pl nom
+	"येणे" vblex perf p2 f sg
+	"येणे" vblex perf p3 f sg
+	"येणे" vblex perf p3 nt pl
+"<.>"
+	"." sent
+
+"<तिने>"
+	"तो" det dist f sg obl
+		"ने" erg
+"<त्या>"
+	"तो" det dist f pl
+	"तो" prn p3 f pl nom
+	"तो" prn corel f pl nom
+	"तो" prn corel nt sg obl
+"<पाल्याचा>"
+	"पाला" n m sg obl
+		"चा" gen m sg
+	"पाल्य" n m sg obl
+		"चा" gen m sg
+"<चोळामोळा>"
+	"*चोळामोळा"
+"<करून>"
+	"करणे" adv compl
+"<तो>"
+	"तो" det dist m sg
+	"तो" prn p3 m sg nom
+	"तो" prn corel m sg nom
+"<पाला>"
+	"पाला" n m sg nom
+"<आपला>"
+	"आप" n m sg obl
+		"ला" acc
+	"आप" n m sg obl
+		"ला" dat
+	"आपला" adj m sg
+	"आपण" prn refl mfn sp
+		"ा" gen m sg
+	"मी" prn p1 mf pl incl
+		"ा" gen m sg
+	"मी" prn p2 mf sg hon2
+		"ा" gen m sg
+"<पदर>"
+	"पदर" n m sg nom
+	"पदर" n m pl nom
+"<फाडून>"
+	"फाडणे" adv compl
+"<जखमेवर>"
+	"जखम" n f sg obl
+		"वरती" post adv
+"<बांधला>"
+	"बांधणे" vblex perf p2 m sg
+	"बांधणे" vblex perf p2 mf pl
+	"बांधणे" vblex perf p3 m sg
+"<.>"
+	"." sent
+
+"<द>"
+	"द" barb
+"<ोघे>"
+	"*ोघे"
+"<पुढे>"
+	"पुढे" post adv
+"<जाऊ>"
+	"जाणे" vblex incp
+	"जाणे" vblex fut p1 mfn pl
+"<लागली>"
+	"लागणे" vblex perf p2 f sg
+	"लागणे" vblex perf p3 f sg
+	"लागणे" vblex perf p3 nt pl
+"<.>"
+	"." sent
+
+"<तो>"
+	"तो" det dist m sg
+	"तो" prn p3 m sg nom
+	"तो" prn corel m sg nom
+
+"<पाठीमागून>"
+	"*पाठीमागून"
+"<कोणी>"
+	"कोण" prn interr mfn sp erg
+"<येत>"
+	"येणे" adv impf
+	"येणे" vblex impf
+"<आहे>"
+	"आहे" vaux pres p1 mf sg
+	"आहे" vaux pres p3 mfn sg
+"<असे>"
+	"असे" cnjsub
+	"असा" adj m pl
+	"असा" adj nt sg
+	"अस" vaux past p1 mf sg
+	"अस" vaux past p2 mf sg
+	"अस" vaux past p3 mfn sg
+"<त्यांना>"
+	"तो" prn p3 m pl acc
+	"तो" prn p3 m pl dat
+	"तो" prn p3 f pl acc
+	"तो" prn p3 f pl dat
+	"तो" prn p3 nt pl acc
+	"तो" prn p3 nt pl dat
+	"तो" prn corel m pl obl
+	"तो" prn corel f pl obl
+	"तो" prn corel nt pl obl
+	"तो" det dist mfn pl obl
+		"ना" acc
+	"तो" det dist mfn pl obl
+		"ना" dat
+"<वाटले>"
+	"वाटणे" vblex perf p1 f sg
+	"वाटणे" vblex perf p2 m pl
+	"वाटणे" vblex perf p3 m pl
+	"वाटणे" vblex perf p3 nt sg
+"<.>"
+	"." sent
+
+"<द>"
+	"द" barb
+"<ोघे>"
+	"*ोघे"
+"<थांबली>"
+	"थांबणे" vblex perf p2 f sg
+	"थांबणे" vblex perf p3 f sg
+	"थांबणे" vblex perf p3 nt pl
+"<.>"
+	"." sent
+
+"<एक>"
+	"एक" part
+	"एक" num
+	"एक" det indef mfn sg
+"<तरुण>"
+	"तरुण" adj mfn sp
+	"तरुण" adj mfn sp obl
+"<येत>"
+	"येणे" adv impf
+	"येणे" vblex impf
+"<होता>"
+	"हो" vaux pres p2 mf pl
+	"हो" vaux pres p3 m sg
+	"आहे" vaux past p2 m sg
+	"आहे" vaux past p2 mf pl
+	"आहे" vaux past p3 m sg
+	"होणे" vblex impf p2 mf pl
+"<.>"
+	"." sent
+
+
+"
+"<कोण>"
+	"कोण" prn interr mfn sp nom
+"<रे>"
+	"रे" inj
+"<तू>"
+	"तू" prn p2 mf sg nom
+"<?>"
+	"?" sent
+
+"<कुठला>"
+	"कुठला" adj m sg
+"<?>"
+	"?" sent
+
+"<रानावनात>"
+	"*रानावनात"
+"<एकटा>"
+	"एकटा" adj m sg
+"<का>"
+	"का" adv interr
+"<?>"
+	"?" sent
+
+" 
+"<राजपुत्राने>"
+	"*राजपुत्राने"
+"<विचारले>"
+	"विचारणे" vblex perf p1 f sg
+	"विचारणे" vblex perf p2 m pl
+	"विचारणे" vblex perf p3 m pl
+	"विचारणे" vblex perf p3 nt sg
+"<.>"
+	"." sent
+
+
+"
+"<मला>"
+	"म" n m sg obl
+		"ला" acc
+	"म" n m sg obl
+		"ला" dat
+	"मी" prn p1 mf sg acc
+	"मी" prn p1 mf sg dat
+"<तुमचा>"
+	"तू" prn p2 mf pl excl
+		"ा" gen m sg
+"<भाऊ>"
+	"भाऊ" n m sg nom
+	"भाऊ" n m pl obl
+"<होऊ>"
+	"होणे" vblex incp
+	"हो" vaux fut p1 mf pl
+	"होणे" vblex fut p1 mfn pl
+"<दे>"
+	"देणे" vblex imp sg
+"<.>"
+	"." sent
+
+" 
+"<तो>"
+	"तो" det dist m sg
+	"तो" prn p3 m sg nom
+	"तो" prn corel m sg nom
+"<म्हणाला>"
+	"म्हणणे" vblex perf p2 m sg
+	"म्हणणे" vblex perf p2 m pl
+	"म्हणणे" vblex perf p2 f pl
+	"म्हणणे" vblex perf p3 m sg
+"<.>"
+	"." sent
+
+
+"
+"<ठीक>"
+	"*ठीक"
+"<.>"
+	"." sent
+
+"<हरकत>"
+	"हरकत" n f sg nom
+"<नाही>"
+	"नाही" part
+"<.>"
+	"." sent
+
+" 
+"<राजपुत्र>"
+	"*राजपुत्र"
+"<म्हणाला>"
+	"म्हणणे" vblex perf p2 m sg
+	"म्हणणे" vblex perf p2 m pl
+	"म्हणणे" vblex perf p2 f pl
+	"म्हणणे" vblex perf p3 m sg
+"<.>"
+	"." sent
+
+
+"<तिघे>"
+	"तिघ" n nt pl nom
+"<चालू>"
+	"चालू" adv
+"<लागली>"
+	"लागणे" vblex perf p2 f sg
+	"लागणे" vblex perf p3 f sg
+	"लागणे" vblex perf p3 nt pl
+"<.>"
+	"." sent
+
+"<तो>"
+	"तो" det dist m sg
+	"तो" prn p3 m sg nom
+	"तो" prn corel m sg nom
+"<आणखी>"
+	"आणखी" cnjcoo
+"<एक>"
+	"एक" part
+	"एक" num
+	"एक" det indef mfn sg
+"<तरुण>"
+	"तरुण" adj mfn sp
+	"तरुण" adj mfn sp obl
+"<धावत>"
+	"धावणे" adv impf
+	"धावणे" vblex impf
+"<आला>"
+	"येणे" vblex perf p2 m sg
+	"येणे" vblex perf p2 m pl
+	"येणे" vblex perf p2 f pl
+	"येणे" vblex perf p3 m sg
+"<.>"
+	"." sent
+
+
+"
+"<तू>"
+	"तू" prn p2 mf sg nom
+"<रे>"
+	"रे" inj
+"<कोण>"
+	"कोण" prn interr mfn sp nom
+"<?>"
+	"?" sent
+
+" 
+"<राजपुत्राने>"
+	"*राजपुत्राने"
+"<विचारले>"
+	"विचारणे" vblex perf p1 f sg
+	"विचारणे" vblex perf p2 m pl
+	"विचारणे" vblex perf p3 m pl
+	"विचारणे" vblex perf p3 nt sg
+"<.>"
+	"." sent
+
+
+"
+"<मला>"
+	"म" n m sg obl
+		"ला" acc
+	"म" n m sg obl
+		"ला" dat
+	"मी" prn p1 mf sg acc
+	"मी" prn p1 mf sg dat
+"<तुमचा>"
+	"तू" prn p2 mf pl excl
+		"ा" gen m sg
+"<भाऊ>"
+	"भाऊ" n m sg nom
+	"भाऊ" n m pl obl
+"<होऊ>"
+	"होणे" vblex incp
+	"हो" vaux fut p1 mf pl
+	"होणे" vblex fut p1 mfn pl
+"<दे>"
+	"देणे" vblex imp sg
+"<.>"
+	"." sent
+
+"<नाही>"
+	"नाही" part
+"<म्हणू>"
+	"म्हणणे" vblex incp
+	"म्हणणे" vblex fut p1 mfn pl
+"<नका>"
+	"*नका"
+"<.>"
+	"." sent
+
+" 
+"<तोही>"
+	"*तोही"
+"<म्हणाला>"
+	"म्हणणे" vblex perf p2 m sg
+	"म्हणणे" vblex perf p2 m pl
+	"म्हणणे" vblex perf p2 f pl
+	"म्हणणे" vblex perf p3 m sg
+"<.>"
+	"." sent
+
+"<राजपुत्राने>"
+	"*राजपुत्राने"
+"<त्यालाही>"
+	"*त्यालाही"
+"<आपल्याबरोबर>"
+	"*आपल्याबरोबर"
+"<घेतले>"
+	"घेणे" vblex perf p3 m pl
+	"घेणे" vblex perf p3 nt sg
+"<.>"
+	"." sent
+
+"<ती>"
+	"तो" det dist f sg
+	"तो" det dist nt pl
+	"तो" prn p3 f sg nom
+	"तो" prn p3 nt pl nom
+	"तो" prn corel f sg nom
+	"तो" prn corel nt pl nom
+"<चौघे>"
+	"चौघे" n m sg nom
+	"चौघे" n m pl nom
+"<जात>"
+	"जाणे" adv impf
+	"जाणे" vblex impf
+	"जात" n f sg nom
+	"जाते" n nt sg nom
+"<होती>"
+	"आहे" vaux past p2 f sg
+	"आहे" vaux past p3 f sg
+	"आहे" vaux past p3 nt pl
+"<.>"
+	"." sent
+
+"<सर्वांना>"
+	"सर्व" n m pl obl
+		"ना" acc
+	"सर्व" n m pl obl
+		"ना" dat
+"<भुका>"
+	"*भुका"
+"<लागल्या>"
+	"लागणे" vblex perf p2 f pl
+	"लागणे" vblex perf p3 f pl
+"<.>"
+	"." sent
+
+"<दोन>"
+	"दोन" num
+"<लाडू>"
+	"*लाडू"
+"<शिल्लक>"
+	"*शिल्लक"
+"<होते>"
+	"हो" vaux pres p1 f sg
+	"हो" vaux pres p3 f sg
+	"हो" vaux pres p3 n sg
+	"आहे" vaux past p1 f sg
+	"आहे" vaux past p3 m pl
+	"आहे" vaux past p3 nt sg
+	"होणे" vblex impf p1 f sg
+	"होणे" vblex impf p3 f sg
+	"होणे" vblex impf p3 nt sg
+"<.>"
+	"." sent
+
+"<एका>"
+	"एक" det indef obl mfn sg
+"<सरोवराच्या>"
+	"सरोवर" n nt sg obl
+		"च्या" gen f pl
+	"सरोवर" n nt sg obl
+		"च्या" gen obl mfn sp
+"<काठी>"
+	"काठी" n m sg nom
+	"काठी" n m pl nom
+	"काठी" n f sg nom
+"<चौघे>"
+	"चौघे" n m sg nom
+	"चौघे" n m pl nom
+"<बसली>"
+	"बसणे" vblex perf p2 f sg
+	"बसणे" vblex perf p3 f sg
+	"बसणे" vblex perf p3 nt pl
+"<.>"
+	"." sent
+
+
+"<राजपुत्राने>"
+	"*राजपुत्राने"
+"<दोन्ही>"
+	"दोन" num aggr
+"<लाडू>"
+	"*लाडू"
+"<फोडले>"
+	"फोडणे" vblex perf p1 f sg
+	"फोडणे" vblex perf p2 m pl
+	"फोडणे" vblex perf p3 m pl
+	"फोडणे" vblex perf p3 nt sg
+"<.>"
+	"." sent
+
+"<त्यांतूनही>"
+	"*त्यांतूनही"
+"<दोन>"
+	"दोन" num
+"<रत्ने>"
+	"रत्न" n nt pl nom
+"<बाहेर>"
+	"बाहेर" post adv
+"<निघाली>"
+	"*निघाली"
+"<.>"
+	"." sent
+
+"<अर्धा>"
+	"अर्धा" adj m sg
+"<लाडू>"
+	"*लाडू"
+"<सर्वांनी>"
+	"सर्व" n m pl obl
+		"नी" erg
+"<खाल्ला>"
+	"*खाल्ला"
+"<.>"
+	"." sent
+
+"<सर्वांना>"
+	"सर्व" n m pl obl
+		"ना" acc
+	"सर्व" n m pl obl
+		"ना" dat
+"<ढेकर>"
+	"ढेकर" n m sg nom
+	"ढेकर" n m pl nom
+"<निघाली>"
+	"*निघाली"
+"<.>"
+	"." sent
+
+"<आईच्या>"
+	"आई" n f sg obl
+		"च्या" gen f pl
+	"आई" n f sg obl
+		"च्या" gen obl mfn sp
+"<हातचा>"
+	"हातचा" n m sg nom
+"<लाडू>"
+	"*लाडू"
+"<,>"
+	"," cm
+"<त्याने>"
+	"तो" det dist m sg obl
+		"ने" erg
+	"तो" det dist nt sg obl
+		"ने" erg
+"<नाही>"
+	"नाही" part
+"<तृप्ती>"
+	"*तृप्ती"
+"<व्हावयाची>"
+	"*व्हावयाची"
+"<तर>"
+	"तरणे" vblex imp p2 sg
+"<कशाने>"
+	"काय" prn interr mfn sp erg
+"<?>"
+	"?" sent
+
+
+"<जवळच>"
+	"जवळ" adj mfn sp
+		"च" emph
+	"जवळ" adj mfn sp obl
+		"च" emph
+"<एक>"
+	"एक" part
+	"एक" num
+	"एक" det indef mfn sg
+"<शहर>"
+	"शहर" n nt sg nom
+"<दिसत>"
+	"दिसणे" adv impf
+	"दिसणे" vblex impf
+"<होते>"
+	"हो" vaux pres p1 f sg
+	"हो" vaux pres p3 f sg
+	"हो" vaux pres p3 n sg
+	"आहे" vaux past p1 f sg
+	"आहे" vaux past p3 m pl
+	"आहे" vaux past p3 nt sg
+	"होणे" vblex impf p1 f sg
+	"होणे" vblex impf p3 f sg
+	"होणे" vblex impf p3 nt sg
+"<.>"
+	"." sent
+
+"<प्रासादांचे>"
+	"*प्रासादांचे"
+"<,>"
+	"," cm
+"<मंदिरांचे>"
+	"मंदिर" n nt pl obl
+		"चे" gen m pl
+	"मंदिर" n nt pl obl
+		"चे" gen nt sg
+"<कळस>"
+	"कळस" n m sg nom
+	"कळस" n m pl nom
+"<दिसत>"
+	"दिसणे" adv impf
+	"दिसणे" vblex impf
+"<होते>"
+	"हो" vaux pres p1 f sg
+	"हो" vaux pres p3 f sg
+	"हो" vaux pres p3 n sg
+	"आहे" vaux past p1 f sg
+	"आहे" vaux past p3 m pl
+	"आहे" vaux past p3 nt sg
+	"होणे" vblex impf p1 f sg
+	"होणे" vblex impf p3 f sg
+	"होणे" vblex impf p3 nt sg
+"<.>"
+	"." sent
+
+"<राजपुत्र>"
+	"*राजपुत्र"
+"<दोन>"
+	"दोन" num
+"<भावांना>"
+	"भाव" n m pl obl
+		"ना" acc
+	"भाव" n m pl obl
+		"ना" dat
+	"भाऊ" n m pl obl
+		"ना" acc
+	"भाऊ" n m pl obl
+		"ना" dat
+"<म्हणाला>"
+	"म्हणणे" vblex perf p2 m sg
+	"म्हणणे" vblex perf p2 m pl
+	"म्हणणे" vblex perf p2 f pl
+	"म्हणणे" vblex perf p3 m sg
+"<,>"
+	"," cm
+ "
+"<त्या>"
+	"तो" det dist f pl
+	"तो" prn p3 f pl nom
+	"तो" prn corel f pl nom
+	"तो" prn corel nt sg obl
+"<राजधानीत>"
+	"*राजधानीत"
+"<जा>"
+	"जाणे" vblex imp
+"<.>"
+	"." sent
+
+"<ही>"
+	"हा" det prox f sg
+"<रत्ने>"
+	"रत्न" n nt pl nom
+"<विकून>"
+	"विकणे" adv compl
+"<एक>"
+	"एक" part
+	"एक" num
+	"एक" det indef mfn sg
+"<राजवाडा>"
+	"राजवाडा" n m sg nom
+"<खरेदी>"
+	"खरेदी" n m sg nom
+	"खरेदी" n m pl nom
+"<करा>"
+	"करणे" vblex imp pl
+"<.>"
+	"." sent
+
+"<तेथे>"
+	"तेथे" adv
+"<नोकरचाकर>"
+	"*नोकरचाकर"
+"<ठेवा>"
+	"ठेवा" n m sg nom
+	"ठेवणे" vblex imp p2 pl
+"<आणि>"
+	"आणि" cnjcoo
+"<हत्ती>"
+	"हत्ती" n m sg nom
+	"हत्ती" n m pl nom
+"<,>"
+	"," cm
+"<घोडे>"
+	"घोडा" n m pl nom
+"<विकत>"
+	"विकणे" adv impf
+	"विकणे" vblex impf
+"<घ्या>"
+	"घेणे" vblex imp pl
+"<.>"
+	"." sent
+
+"<घोडेस्वार>"
+	"घोडेस्वार" n m sg nom
+	"घोडेस्वार" n m pl nom
+"<तयार करा>"
+	"तयार करणे" vblex imp pl
+"<.>"
+	"." sent
+
+"<मला>"
+	"म" n m sg obl
+		"ला" acc
+	"म" n m sg obl
+		"ला" dat
+	"मी" prn p1 mf sg acc
+	"मी" prn p1 mf sg dat
+"<सन्मानाने>"
+	"सन्मान" n m sg obl
+		"ने" erg
+"<मिरवत>"
+	"मिरवणे" adv impf
+	"मिरवणे" vblex impf
+"<नेण्यासाठी>"
+	"*नेण्यासाठी"
+"<या>"
+	"हा" det prox f pl
+	"हा" det prox nt pl
+	"येणे" vblex imp pl
+"<!>"
+	"!" sent
+
+"
+"<द>"
+	"द" barb
+"<ोघे>"
+	"*ोघे"
+"<भाऊ>"
+	"भाऊ" n m sg nom
+	"भाऊ" n m pl obl
+"<त्या>"
+	"तो" det dist f pl
+	"तो" prn p3 f pl nom
+	"तो" prn corel f pl nom
+	"तो" prn corel nt sg obl
+"<नगरीत>"
+	"*नगरीत"
+"<गेले>"
+	"जाणे" vblex perf p1 f sg
+	"जाणे" vblex perf p2 m pl
+	"जाणे" vblex perf p3 m pl
+	"जाणे" vblex perf p3 nt sg
+"<.>"
+	"." sent
+
+"<दोन>"
+	"दोन" num
+"<रत्ने>"
+	"रत्न" n nt pl nom
+"<त्यांनी>"
+	"तो" det dist mfn pl obl
+		"नी" erg
+"<विकली>"
+	"विकणे" vblex perf p2 f sg
+	"विकणे" vblex perf p3 f sg
+	"विकणे" vblex perf p3 nt pl
+"<.>"
+	"." sent
+
+"<त्यांचे>"
+	"तो" det dist mfn pl obl
+		"चे" gen m pl
+	"तो" det dist mfn pl obl
+		"चे" gen nt sg
+	"तो" prn p3 m pl
+		"े" gen m pl
+	"तो" prn p3 m pl
+		"े" gen nt sg
+	"तो" prn p3 f pl
+		"े" gen m pl
+	"तो" prn p3 f pl
+		"े" gen nt sg
+	"तो" prn p3 nt pl
+		"े" gen m pl
+	"तो" prn p3 nt pl
+		"े" gen nt sg
+"<दहा>"
+	"दहा" num
+	"दहा" n m sg nom
+	"दहा" n m pl nom
+"<लाख>"
+	"लाख" n m sg nom
+	"लाख" n m pl nom
+"<रुपये>"
+	"रुपय" n nt pl nom
+"<मिळाले>"
+	"मिळणे" vblex perf p1 f sg
+	"मिळणे" vblex perf p2 m pl
+	"मिळणे" vblex perf p3 m pl
+	"मिळणे" vblex perf p3 nt sg
+"<.>"
+	"." sent
+
+"<दुसरी>"
+	"दुसरा" adj f sg
+	"दुसरा" adj nt pl
+	"दोन" num ord
+		"चा" f sg
+	"दोन" num ord
+		"चा" nt pl
+"<दोन>"
+	"दोन" num
+"<विकावी>"
+	"विकणे" vblex subj p1 f sg
+	"विकणे" vblex subj p2 f sg
+	"विकणे" vblex subj p3 f sg
+	"विकणे" vblex subj p3 nt pl
+"<लागली>"
+	"लागणे" vblex perf p2 f sg
+	"लागणे" vblex perf p3 f sg
+	"लागणे" vblex perf p3 nt pl
+"<नाहीत>"
+	"नाही" adj
+		"आहे" vaux pres p3 mfn pl
+"<.>"
+	"." sent
+
+"<त्यांनी>"
+	"तो" det dist mfn pl obl
+		"नी" erg
+"<राजवाडा>"
+	"राजवाडा" n m sg nom
+"<खरेदी>"
+	"खरेदी" n m sg nom
+	"खरेदी" n m pl nom
+"<केला>"
+	"के" n m sg obl
+		"ला" acc
+	"के" n m sg obl
+		"ला" dat
+	"करणे" vblex perf p1 m sg
+	"करणे" vblex perf p2 m sg
+	"करणे" vblex perf p3 m sg
+"<,>"
+	"," cm
+"<नोकरचाकर>"
+	"*नोकरचाकर"
+"<ठेवले>"
+	"ठेवणे" vblex perf p1 f sg
+	"ठेवणे" vblex perf p2 m pl
+	"ठेवणे" vblex perf p3 m pl
+	"ठेवणे" vblex perf p3 nt sg
+"<.>"
+	"." sent
+
+"<राजवाडा>"
+	"राजवाडा" n m sg nom
+"<शृंगारला>"
+	"*शृंगारला"
+"<गेला>"
+	"जाणे" vblex perf p2 m sg
+	"जाणे" vblex perf p2 m pl
+	"जाणे" vblex perf p2 f pl
+	"जाणे" vblex perf p3 m sg
+"<.>"
+	"." sent
+
+"<ठायी>"
+	"*ठायी"
+"<ठायी>"
+	"*ठायी"
+"<गालिचे>"
+	"गालिचा" n m pl nom
+"<होते>"
+	"हो" vaux pres p1 f sg
+	"हो" vaux pres p3 f sg
+	"हो" vaux pres p3 n sg
+	"आहे" vaux past p1 f sg
+	"आहे" vaux past p3 m pl
+	"आहे" vaux past p3 nt sg
+	"होणे" vblex impf p1 f sg
+	"होणे" vblex impf p3 f sg
+	"होणे" vblex impf p3 nt sg
+"<,>"
+	"," cm
+"<ठायी>"
+	"*ठायी"
+"<ठायी>"
+	"*ठायी"
+"<आसने>"
+	"आसन" n nt pl nom
+"<,>"
+	"," cm
+"<फुलांचे>"
+	"फुल" n nt pl obl
+		"चे" gen m pl
+	"फुल" n nt pl obl
+		"चे" gen nt sg
+"<गुच्छ>"
+	"*गुच्छ"
+"<होते>"
+	"हो" vaux pres p1 f sg
+	"हो" vaux pres p3 f sg
+	"हो" vaux pres p3 n sg
+	"आहे" vaux past p1 f sg
+	"आहे" vaux past p3 m pl
+	"आहे" vaux past p3 nt sg
+	"होणे" vblex impf p1 f sg
+	"होणे" vblex impf p3 f sg
+	"होणे" vblex impf p3 nt sg
+"<,>"
+	"," cm
+"<पडदे>"
+	"पडदा" n m pl nom
+"<सोडलेले>"
+	"सोडलेला" gpr perf
+		"चा" m pl
+	"सोडलेला" gpr perf
+		"चा" nt sg
+	"सोडणे" vblex past perf p1 m pl
+	"सोडणे" vblex past perf p1 f sg
+	"सोडणे" vblex past perf p2 m pl
+	"सोडणे" vblex past perf p2 nt sg
+"<होते>"
+	"हो" vaux pres p1 f sg
+	"हो" vaux pres p3 f sg
+	"हो" vaux pres p3 n sg
+	"आहे" vaux past p1 f sg
+	"आहे" vaux past p3 m pl
+	"आहे" vaux past p3 nt sg
+	"होणे" vblex impf p1 f sg
+	"होणे" vblex impf p3 f sg
+	"होणे" vblex impf p3 nt sg
+"<.>"
+	"." sent
+
+"<चांदी>"
+	"चांदी" n f sg nom
+"<->"
+	"-" guio
+"<सोन्याची>"
+	"सोने" n nt sg obl
+		"ची" gen f sg
+	"सोने" n nt sg obl
+		"ची" gen nt pl
+"<भांडी>"
+	"भांडे" n nt pl nom
+"<होती>"
+	"आहे" vaux past p2 f sg
+	"आहे" vaux past p3 f sg
+	"आहे" vaux past p3 nt pl
+"<.>"
+	"." sent
+
+"<त्या>"
+	"तो" det dist f pl
+	"तो" prn p3 f pl nom
+	"तो" prn corel f pl nom
+	"तो" prn corel nt sg obl
+"<द>"
+	"द" barb
+"<ोघा>"
+	"*ोघा"
+"<भावांनी>"
+	"भाव" n m pl obl
+		"नी" erg
+	"भाऊ" n m pl obl
+		"नी" erg
+"<घोडेस्वार>"
+	"घोडेस्वार" n m sg nom
+	"घोडेस्वार" n m pl nom
+"<तैनातीस>"
+	"तैनाती" n m sg obl
+		"स" gna
+"<ठेवले>"
+	"ठेवणे" vblex perf p1 f sg
+	"ठेवणे" vblex perf p2 m pl
+	"ठेवणे" vblex perf p3 m pl
+	"ठेवणे" vblex perf p3 nt sg
+"<आणि>"
+	"आणि" cnjcoo
+"<हत्ती>"
+	"हत्ती" n m sg nom
+	"हत्ती" n m pl nom
+"<सजविला>"
+	"*सजविला"
+"<.>"
+	"." sent
+
+"<त्याच्यावर>"
+	"तो" prn p3 m sg obl
+		"च्या" clit
+			"वरती" post adv
+	"तो" prn p3 nt sg obl
+		"च्या" clit
+			"वरती" post adv
+	"तो" det dist m sg obl
+		"च्या" clit
+			"वरती" post adv
+	"तो" det dist nt sg obl
+		"च्या" clit
+			"वरती" post adv
+"<अंबारी>"
+	"*अंबारी"
+"<ठेवण्यात>"
+	"ठेवणे" vblex inf loc
+	"ठेवणे" vblex inf obl
+		"त" gna
+	"ठेवणे" vblex ger inf
+		"त" loc
+	"ठेवणे" vblex ger inf
+		"त" gna
+"<आली>"
+	"आले" n nt pl nom
+	"येणे" vblex perf p2 f sg
+	"येणे" vblex perf p3 f sg
+	"येणे" vblex perf p3 nt pl
+"<.>"
+	"." sent
+
+"<राजपुत्राला>"
+	"*राजपुत्राला"
+"<आणायला>"
+	"आणणे" vblex incp
+"<घोडेस्वारांसह>"
+	"*घोडेस्वारांसह"
+"<,>"
+	"," cm
+"<त्या>"
+	"तो" det dist f pl
+	"तो" prn p3 f pl nom
+	"तो" prn corel f pl nom
+	"तो" prn corel nt sg obl
+"<हत्तीसह>"
+	"*हत्तीसह"
+"<ते>"
+	"तो" det dist m pl
+	"तो" det dist nt sg
+	"तो" prn p3 m pl nom
+	"तो" prn p3 nt sg nom
+	"तो" prn corel m pl nom
+	"तो" prn corel nt sg nom
+"<द>"
+	"द" barb
+"<ोघे>"
+	"*ोघे"
+"<भाऊ>"
+	"भाऊ" n m sg nom
+	"भाऊ" n m pl obl
+"<गेले>"
+	"जाणे" vblex perf p1 f sg
+	"जाणे" vblex perf p2 m pl
+	"जाणे" vblex perf p3 m pl
+	"जाणे" vblex perf p3 nt sg
+"<.>"
+	"." sent
+
+
+"<आली>"
+	"आले" n nt pl nom
+	"येणे" vblex perf p2 f sg
+	"येणे" vblex perf p3 f sg
+	"येणे" vblex perf p3 nt pl
+"<सारी>"
+	"*सारी"
+"<मंडळी>"
+	"मंडळी" n m sg nom
+	"मंडळी" n m pl nom
+	"मंडळी" n f sg nom
+"<वनात>"
+	"वन" n nt sg obl
+		"त" loc
+	"वन" n nt sg obl
+		"त" gna
+"<.>"
+	"." sent
+
+"<राजपुत्र>"
+	"*राजपुत्र"
+"<अंबारीत>"
+	"*अंबारीत"
+"<बसला>"
+	"बस" n m sg obl
+		"ला" acc
+	"बस" n m sg obl
+		"ला" dat
+	"बसणे" vblex perf p2 m sg
+	"बसणे" vblex perf p2 mf pl
+	"बसणे" vblex perf p3 m sg
+"<.>"
+	"." sent
+
+"<बहीण>"
+	"बहीण" n f sg nom
+"<एका>"
+	"एक" det indef obl mfn sg
+"<पालखीत>"
+	"पालखी" n f sg obl
+		"त" loc
+	"पालखी" n f sg obl
+		"त" gna
+"<बसली>"
+	"बसणे" vblex perf p2 f sg
+	"बसणे" vblex perf p3 f sg
+	"बसणे" vblex perf p3 nt pl
+"<.>"
+	"." sent
+
+"<दोन>"
+	"दोन" num
+"<भाऊ>"
+	"भाऊ" n m sg nom
+	"भाऊ" n m pl obl
+"<दोन>"
+	"दोन" num
+"<उमद्या>"
+	"*उमद्या"
+"<घोड्यांवर>"
+	"घोडा" n m pl obl
+		"वरती" post adv
+	"घोडी" n f pl obl
+		"वरती" post adv
+"<बसले>"
+	"बसणे" vblex perf p1 f sg
+	"बसणे" vblex perf p2 m pl
+	"बसणे" vblex perf p3 m pl
+	"बसणे" vblex perf p3 nt sg
+"<.>"
+	"." sent
+
+"<मिरवणूक>"
+	"मिरवणूक" n f sg nom
+"<निघाली>"
+	"*निघाली"
+"<.>"
+	"." sent
+
+"<शहरात>"
+	"शहर" n nt sg obl
+		"त" loc
+	"शहर" n nt sg obl
+		"त" gna
+"<आली>"
+	"आले" n nt pl nom
+	"येणे" vblex perf p2 f sg
+	"येणे" vblex perf p3 f sg
+	"येणे" vblex perf p3 nt pl
+"<.>"
+	"." sent
+
+"<द>"
+	"द" barb
+"<ुतर्फा>"
+	"*ुतर्फा"
+"<लोक>"
+	"लोक" n m sg nom
+	"लोक" n m pl nom
+"<बघत>"
+	"*बघत"
+"<होते>"
+	"हो" vaux pres p1 f sg
+	"हो" vaux pres p3 f sg
+	"हो" vaux pres p3 n sg
+	"आहे" vaux past p1 f sg
+	"आहे" vaux past p3 m pl
+	"आहे" vaux past p3 nt sg
+	"होणे" vblex impf p1 f sg
+	"होणे" vblex impf p3 f sg
+	"होणे" vblex impf p3 nt sg
+"<.>"
+	"." sent
+
+"<घरांतून>"
+	"घर" n nt pl obl
+		"तून" gna
+	"घर" n nt pl obl
+		"तून" post adv
+"<,>"
+	"," cm
+"<गच्चीतून>"
+	"गच्ची" n f sg obl
+		"तून" gna
+	"गच्ची" n f sg obl
+		"तून" post adv
+"<लोक>"
+	"लोक" n m sg nom
+	"लोक" n m pl nom
+"<बघत>"
+	"*बघत"
+"<होते>"
+	"हो" vaux pres p1 f sg
+	"हो" vaux pres p3 f sg
+	"हो" vaux pres p3 n sg
+	"आहे" vaux past p1 f sg
+	"आहे" vaux past p3 m pl
+	"आहे" vaux past p3 nt sg
+	"होणे" vblex impf p1 f sg
+	"होणे" vblex impf p3 f sg
+	"होणे" vblex impf p3 nt sg
+"<.>"
+	"." sent
+
+"<राजपुत्र>"
+	"*राजपुत्र"
+"<राजवाड्यात>"
+	"राजवाडा" n m sg obl
+		"त" loc
+	"राजवाडा" n m sg obl
+		"त" gna
+"<उतरला>"
+	"उतरणे" vblex perf p2 m sg
+	"उतरणे" vblex perf p2 mf pl
+	"उतरणे" vblex perf p3 m sg
+"<.>"
+	"." sent
+
+"<तेथील>"
+	"तेथे" adj mfn sp
+"<जीवन>"
+	"जीवन" n nt sg nom
+"<सुरू झाले>"
+	"सुरू होणे" vblex perf p1 f sg
+	"सुरू होणे" vblex perf p2 m pl
+	"सुरू होणे" vblex perf p3 m pl
+	"सुरू होणे" vblex perf p3 nt sg
+"<.>"
+	"." sent
+
+"<राजाच्या>"
+	"*राजाच्या"
+"<कानावर>"
+	"कान" n m sg obl
+		"वरती" post adv
+"<वार्ता>"
+	"वार्ता" n f sg nom
+	"वार्ता" n f pl nom
+"<गेली>"
+	"जाणे" vblex perf p2 f sg
+	"जाणे" vblex perf p3 f sg
+	"जाणे" vblex perf p3 nt pl
+"<.>"
+	"." sent
+
+"<राजाचा>"
+	"*राजाचा"
+"<एक>"
+	"एक" part
+	"एक" num
+	"एक" det indef mfn sg
+"<खुशमस्कऱ्या>"
+	"*खुशमस्कऱ्या"
+"<होता>"
+	"हो" vaux pres p2 mf pl
+	"हो" vaux pres p3 m sg
+	"आहे" vaux past p2 m sg
+	"आहे" vaux past p2 mf pl
+	"आहे" vaux past p3 m sg
+	"होणे" vblex impf p2 mf pl
+"<.>"
+	"." sent
+
+"<राजाने>"
+	"*राजाने"
+"<त्याला>"
+	"तो" prn p3 m sg acc
+	"तो" prn p3 m sg dat
+	"तो" prn p3 nt sg acc
+	"तो" prn p3 nt sg dat
+	"तो" prn corel m sg obl
+	"तो" det dist m sg obl
+		"ला" acc
+	"तो" det dist m sg obl
+		"ला" dat
+	"तो" det dist nt sg obl
+		"ला" acc
+	"तो" det dist nt sg obl
+		"ला" dat
+"<विचारले>"
+	"विचारणे" vblex perf p1 f sg
+	"विचारणे" vblex perf p2 m pl
+	"विचारणे" vblex perf p3 m pl
+	"विचारणे" vblex perf p3 nt sg
+"<,>"
+	"," cm
+
+"
+"<कोण>"
+	"कोण" prn interr mfn sp nom
+"<आला>"
+	"येणे" vblex perf p2 m sg
+	"येणे" vblex perf p2 m pl
+	"येणे" vblex perf p2 f pl
+	"येणे" vblex perf p3 m sg
+"<आहे>"
+	"आहे" vaux pres p1 mf sg
+	"आहे" vaux pres p3 mfn sg
+"<राजपुत्र>"
+	"*राजपुत्र"
+"<?>"
+	"?" sent
+
+"
+"
+"<मी>"
+	"मी" prn p1 mf sg nom
+"<बातमी>"
+	"बातमी" n f sg nom
+"<काढून>"
+	"काढणे" adv compl
+"<आणतो>"
+	"आणणे" vblex impf p1 m sg
+	"आणणे" vblex impf p1 mf pl
+	"आणणे" vblex impf p3 m sg
+"<.>"
+	"." sent
+
+" 
+"<तो>"
+	"तो" det dist m sg
+	"तो" prn p3 m sg nom
+	"तो" prn corel m sg nom
+"<म्हणाला>"
+	"म्हणणे" vblex perf p2 m sg
+	"म्हणणे" vblex perf p2 m pl
+	"म्हणणे" vblex perf p2 f pl
+	"म्हणणे" vblex perf p3 m sg
+"<.>"
+	"." sent
+
+"<खुशमस्कऱ्या>"
+	"*खुशमस्कऱ्या"
+"<राजपुत्राकडे>"
+	"*राजपुत्राकडे"
+"<गेला>"
+	"जाणे" vblex perf p2 m sg
+	"जाणे" vblex perf p2 m pl
+	"जाणे" vblex perf p2 f pl
+	"जाणे" vblex perf p3 m sg
+"<.>"
+	"." sent
+
+"<पहारेकऱ्यांनी>"
+	"*पहारेकऱ्यांनी"
+"<त्याला>"
+	"तो" prn p3 m sg acc
+	"तो" prn p3 m sg dat
+	"तो" prn p3 nt sg acc
+	"तो" prn p3 nt sg dat
+	"तो" prn corel m sg obl
+	"तो" det dist m sg obl
+		"ला" acc
+	"तो" det dist m sg obl
+		"ला" dat
+	"तो" det dist nt sg obl
+		"ला" acc
+	"तो" det dist nt sg obl
+		"ला" dat
+"<हटकले>"
+	"हटकणे" vblex perf p1 f sg
+	"हटकणे" vblex perf p2 m pl
+	"हटकणे" vblex perf p3 m pl
+	"हटकणे" vblex perf p3 nt sg
+"<.>"
+	"." sent
+
+"<तो>"
+	"तो" det dist m sg
+	"तो" prn p3 m sg nom
+	"तो" prn corel m sg nom
+"<म्हणाला>"
+	"म्हणणे" vblex perf p2 m sg
+	"म्हणणे" vblex perf p2 m pl
+	"म्हणणे" vblex perf p2 f pl
+	"म्हणणे" vblex perf p3 m sg
+"<,>"
+	"," cm
+
+"
+"<मी>"
+	"मी" prn p1 mf sg nom
+"<येथल्या>"
+	"*येथल्या"
+"<राजाची>"
+	"*राजाची"
+"<करमणूक>"
+	"करमणूक" n f sg nom
+"<करणारा>"
+	"करणारा" gpr inf
+		"रा" gen m sg
+"<.>"
+	"." sent
+
+"<तुमच्या>"
+	"तू" prn p2 mf pl excl
+		"्या" gen f pl
+"<राजपुत्राची>"
+	"*राजपुत्राची"
+"<करमणूक>"
+	"करमणूक" n f sg nom
+"<करायला>"
+	"करणे" vblex incp
+"<आलो>"
+	"येणे" vblex perf p1 m sg
+	"येणे" vblex perf p1 mf pl
+"<आहे>"
+	"आहे" vaux pres p1 mf sg
+	"आहे" vaux pres p3 mfn sg
+"<.>"
+	"." sent
+
+" 
+"<नोकराने>"
+	"नोकर" n m sg obl
+		"ने" erg
+"<राजपुत्राला>"
+	"*राजपुत्राला"
+"<जाऊन>"
+	"जाणे" adv compl
+"<विचारले>"
+	"विचारणे" vblex perf p1 f sg
+	"विचारणे" vblex perf p2 m pl
+	"विचारणे" vblex perf p3 m pl
+	"विचारणे" vblex perf p3 nt sg
+"<.>"
+	"." sent
+
+
+"
+"<पाठवा>"
+	"पाठवणे" vblex imp p2 pl
+"<त्याला>"
+	"तो" prn p3 m sg acc
+	"तो" prn p3 m sg dat
+	"तो" prn p3 nt sg acc
+	"तो" prn p3 nt sg dat
+	"तो" prn corel m sg obl
+	"तो" det dist m sg obl
+		"ला" acc
+	"तो" det dist m sg obl
+		"ला" dat
+	"तो" det dist nt sg obl
+		"ला" acc
+	"तो" det dist nt sg obl
+		"ला" dat
+"<.>"
+	"." sent
+
+" 
+"<राजपुत्र>"
+	"*राजपुत्र"
+"<म्हणाला>"
+	"म्हणणे" vblex perf p2 m sg
+	"म्हणणे" vblex perf p2 m pl
+	"म्हणणे" vblex perf p2 f pl
+	"म्हणणे" vblex perf p3 m sg
+"<.>"
+	"." sent
+
+"<खुषमस्कऱ्या>"
+	"*खुषमस्कऱ्या"
+"<आला>"
+	"येणे" vblex perf p2 m sg
+	"येणे" vblex perf p2 m pl
+	"येणे" vblex perf p2 f pl
+	"येणे" vblex perf p3 m sg
+"<.>"
+	"." sent
+
+"<राजपुत्राची>"
+	"*राजपुत्राची"
+"<तो>"
+	"तो" det dist m sg
+	"तो" prn p3 m sg nom
+	"तो" prn corel m sg nom
+"<करमणूक>"
+	"करमणूक" n f sg nom
+"<करू>"
+	"करणे" vblex fut p1 mfn pl
+"<लागला>"
+	"लागणे" vblex perf p2 m sg
+	"लागणे" vblex perf p2 mf pl
+	"लागणे" vblex perf p3 m sg
+"<.>"
+	"." sent
+
+"<तो>"
+	"तो" det dist m sg
+	"तो" prn p3 m sg nom
+	"तो" prn corel m sg nom
+"<तेथील>"
+	"तेथे" adj mfn sp
+"<हास्यविनोद>"
+	"*हास्यविनोद"
+"<ऐकून>"
+	"ऐकणे" adv compl
+"<त्याची>"
+	"त्याचा" adj f sg
+	"त्याचा" adj nt pl
+	"तो" det dist m sg obl
+		"ची" gen f sg
+	"तो" det dist m sg obl
+		"ची" gen nt pl
+	"तो" det dist nt sg obl
+		"ची" gen f sg
+	"तो" det dist nt sg obl
+		"ची" gen nt pl
+	"तो" prn p3 m sg
+		"ी" gen f sg
+	"तो" prn p3 m sg
+		"ी" gen nt pl
+	"तो" prn p3 nt sg
+		"ी" gen f sg
+	"तो" prn p3 nt sg
+		"ी" gen nt pl
+"<बहीणही>"
+	"*बहीणही"
+"<आली>"
+	"आले" n nt pl nom
+	"येणे" vblex perf p2 f sg
+	"येणे" vblex perf p3 f sg
+	"येणे" vblex perf p3 nt pl
+"<.>"
+	"." sent
+
+"<थोड्या>"
+	"थोडा" adj f pl
+	"थोडा" adj mfn sp obl
+"<वेळाने>"
+	"*वेळाने"
+"<खुशमस्कऱ्या>"
+	"*खुशमस्कऱ्या"
+"<जायला>"
+	"जाणे" vblex incp
+"<निघाला>"
+	"*निघाला"
+"<.>"
+	"." sent
+
+
+"
+"<येत>"
+	"येणे" adv impf
+	"येणे" vblex impf
+"<जा>"
+	"जाणे" vblex imp
+"<!>"
+	"!" sent
+
+" 
+"<राजपुत्र>"
+	"*राजपुत्र"
+"<म्हणाला>"
+	"म्हणणे" vblex perf p2 m sg
+	"म्हणणे" vblex perf p2 m pl
+	"म्हणणे" vblex perf p2 f pl
+	"म्हणणे" vblex perf p3 m sg
+"<.>"
+	"." sent
+
+
+"
+"<राजाने>"
+	"*राजाने"
+"<येऊ>"
+	"येणे" vblex incp
+	"येणे" vblex fut p1 mfn pl
+"<दिले>"
+	"देणे" vblex perf p3 m pl
+	"देणे" vblex perf p3 nt sg
+"<तर>"
+	"तरणे" vblex imp p2 sg
+"<!>"
+	"!" sent
+
+" 
+"<तो>"
+	"तो" det dist m sg
+	"तो" prn p3 m sg nom
+	"तो" prn corel m sg nom
+"<म्हणाला>"
+	"म्हणणे" vblex perf p2 m sg
+	"म्हणणे" vblex perf p2 m pl
+	"म्हणणे" vblex perf p2 f pl
+	"म्हणणे" vblex perf p3 m sg
+"<.>"
+	"." sent
+
+"<खुशमस्कऱ्या>"
+	"*खुशमस्कऱ्या"
+"<राजाकडे>"
+	"*राजाकडे"
+"<गेला>"
+	"जाणे" vblex perf p2 m sg
+	"जाणे" vblex perf p2 m pl
+	"जाणे" vblex perf p2 f pl
+	"जाणे" vblex perf p3 m sg
+"<व>"
+	"व" cnjcoo
+	"वणे" vblex imp p2 sg
+"<म्हणाला>"
+	"म्हणणे" vblex perf p2 m sg
+	"म्हणणे" vblex perf p2 m pl
+	"म्हणणे" vblex perf p2 f pl
+	"म्हणणे" vblex perf p3 m sg
+"<,>"
+	"," cm
+
+"
+"<राजा>"
+	"राजा" n nt sg nom
+"<,>"
+	"," cm
+"<राजा>"
+	"राजा" n nt sg nom
+"<,>"
+	"," cm
+"<त्या>"
+	"तो" det dist f pl
+	"तो" prn p3 f pl nom
+	"तो" prn corel f pl nom
+	"तो" prn corel nt sg obl
+"<राजपुत्राची>"
+	"*राजपुत्राची"
+"<बहीण>"
+	"बहीण" n f sg nom
+"<फार>"
+	"फार" part
+"<सुंदर>"
+	"सुंदर" adj mfn sp
+	"सुंदर" adj mfn sp obl
+"<आहे>"
+	"आहे" vaux pres p1 mf sg
+	"आहे" vaux pres p3 mfn sg
+"<.>"
+	"." sent
+
+"<ती>"
+	"तो" det dist f sg
+	"तो" det dist nt pl
+	"तो" prn p3 f sg nom
+	"तो" prn p3 nt pl nom
+	"तो" prn corel f sg nom
+	"तो" prn corel nt pl nom
+"<तुम्हालाच>"
+	"तू" prn p2 mf pl excl acc
+		"च" emph
+	"तू" prn p2 mf pl excl dat
+		"च" emph
+"<शोभेल>"
+	"शोभणे" vblex fut p3 mfn sg
+"<.>"
+	"." sent
+
+"<तुम्ही>"
+	"तू" prn p2 mf pl excl nom
+"<तिच्यासाठी>"
+	"तो" prn p3 f sg obl
+		"च्या" clit
+			"साठी" post adv
+	"तो" det dist f sg obl
+		"च्या" clit
+			"साठी" post adv
+"<मागणी>"
+	"मागणी" n f sg nom
+	"मागणे" n nt pl nom
+"<करा>"
+	"करणे" vblex imp pl
+"<!>"
+	"!" sent
+
+"
+"
+"<ठीक>"
+	"*ठीक"
+"<आहे>"
+	"आहे" vaux pres p1 mf sg
+	"आहे" vaux pres p3 mfn sg
+"<.>"
+	"." sent
+
+" 
+"<राजा>"
+	"राजा" n nt sg nom
+"<म्हणाला>"
+	"म्हणणे" vblex perf p2 m sg
+	"म्हणणे" vblex perf p2 m pl
+	"म्हणणे" vblex perf p2 f pl
+	"म्हणणे" vblex perf p3 m sg
+"<.>"
+	"." sent
+
+"<दुसऱ्या>"
+	"दुसरा" adj f pl
+	"दुसरा" adj mfn sp obl
+"<दिवशी>"
+	"दिवशी" n m sg nom
+	"दिवशी" n m pl nom
+"<राजाने>"
+	"*राजाने"
+"<राजपुत्राला>"
+	"*राजपुत्राला"
+"<बोलावणे>"
+	"बोलावणे" vblex inf acc
+	"बोलावणे" vblex inf nom
+	"बोलावणे" n nt sg nom
+"<धाडले>"
+	"धाडणे" vblex perf p1 f sg
+	"धाडणे" vblex perf p2 m pl
+	"धाडणे" vblex perf p3 m pl
+	"धाडणे" vblex perf p3 nt sg
+"<.>"
+	"." sent
+
+"<राजपुत्र>"
+	"*राजपुत्र"
+"<आला>"
+	"येणे" vblex perf p2 m sg
+	"येणे" vblex perf p2 m pl
+	"येणे" vblex perf p2 f pl
+	"येणे" vblex perf p3 m sg
+"<,>"
+	"," cm
+"<आसनावर>"
+	"आसन" n nt sg obl
+		"वरती" post adv
+"<बसला>"
+	"बस" n m sg obl
+		"ला" acc
+	"बस" n m sg obl
+		"ला" dat
+	"बसणे" vblex perf p2 m sg
+	"बसणे" vblex perf p2 mf pl
+	"बसणे" vblex perf p3 m sg
+"<.>"
+	"." sent
+
+"<कुशल>"
+	"*कुशल"
+"<प्रश्न>"
+	"प्रश्न" n m sg nom
+	"प्रश्न" n m pl nom
+"<झाल्यावर>"
+	"हो" vblex gna impf
+		"वर" gna
+	"हो" vblex ger perf
+		"वर" gna
+	"होणे" vblex ger perf
+		"वर" gna
+"<राजा>"
+	"राजा" n nt sg nom
+"<म्हणाला>"
+	"म्हणणे" vblex perf p2 m sg
+	"म्हणणे" vblex perf p2 m pl
+	"म्हणणे" vblex perf p2 f pl
+	"म्हणणे" vblex perf p3 m sg
+"<,>"
+	"," cm
+
+"
+"<तुमची>"
+	"तू" prn p2 mf pl excl
+		"ी" gen f sg
+	"तू" prn p2 mf pl excl
+		"ी" gen nt pl
+"<पत्नी>"
+	"पत्नी" n m sg nom
+	"पत्नी" n m pl nom
+"<फार>"
+	"फार" part
+"<लावण्यवती>"
+	"*लावण्यवती"
+"<आहे>"
+	"आहे" vaux pres p1 mf sg
+	"आहे" vaux pres p3 mfn sg
+"<असे>"
+	"असे" cnjsub
+	"असा" adj m pl
+	"असा" adj nt sg
+	"अस" vaux past p1 mf sg
+	"अस" vaux past p2 mf sg
+	"अस" vaux past p3 mfn sg
+"<ऐकतो>"
+	"ऐकणे" vblex impf p1 m sg
+	"ऐकणे" vblex impf p1 mf pl
+	"ऐकणे" vblex impf p3 m sg
+"<.>"
+	"." sent
+
+"
+"
+"<ती>"
+	"तो" det dist f sg
+	"तो" det dist nt pl
+	"तो" prn p3 f sg nom
+	"तो" prn p3 nt pl nom
+	"तो" prn corel f sg nom
+	"तो" prn corel nt pl nom
+"<माझी>"
+	"माझा" adj f sg
+	"माझा" adj nt pl
+	"मी" prn p1 mf sg
+		"ी" gen f sg
+	"मी" prn p1 mf sg
+		"ी" gen nt pl
+	"माझी" n f sg nom
+"<बहीण>"
+	"बहीण" n f sg nom
+"<!>"
+	"!" sent
+
+"
+"
+"<ती>"
+	"तो" det dist f sg
+	"तो" det dist nt pl
+	"तो" prn p3 f sg nom
+	"तो" prn p3 nt pl nom
+	"तो" prn corel f sg nom
+	"तो" prn corel nt pl nom
+"<माझी>"
+	"माझा" adj f sg
+	"माझा" adj nt pl
+	"मी" prn p1 mf sg
+		"ी" gen f sg
+	"मी" prn p1 mf sg
+		"ी" gen nt pl
+	"माझी" n f sg nom
+"<राणी>"
+	"राणी" n f sg nom
+"<होऊ>"
+	"होणे" vblex incp
+	"हो" vaux fut p1 mf pl
+	"होणे" vblex fut p1 mfn pl
+"<दे>"
+	"देणे" vblex imp sg
+"<!>"
+	"!" sent
+
+"
+"
+"<मी>"
+	"मी" prn p1 mf sg nom
+"<तिला>"
+	"तो" det dist f sg obl
+		"ला" acc
+	"तो" det dist f sg obl
+		"ला" dat
+	"तो" prn p3 f sg acc
+	"तो" prn p3 f sg dat
+	"तो" prn corel f sg obl
+"<विचारीन>"
+	"विचारणे" vblex fut p1 mfn sg
+"<!>"
+	"!" sent
+
+"
+"
+"<कळवा>"
+	"कळवणे" vblex imp p2 pl
+"<मला>"
+	"म" n m sg obl
+		"ला" acc
+	"म" n m sg obl
+		"ला" dat
+	"मी" prn p1 mf sg acc
+	"मी" prn p1 mf sg dat
+"<काय>"
+	"काय" prn interr mfn sp nom
+"<ते>"
+	"तो" det dist m pl
+	"तो" det dist nt sg
+	"तो" prn p3 m pl nom
+	"तो" prn p3 nt sg nom
+	"तो" prn corel m pl nom
+	"तो" prn corel nt sg nom
+"<!>"
+	"!" sent
+
+"
+"<राजपुत्र>"
+	"*राजपुत्र"
+"<माघारी>"
+	"माघार" n f pl nom
+"<आला>"
+	"येणे" vblex perf p2 m sg
+	"येणे" vblex perf p2 m pl
+	"येणे" vblex perf p2 f pl
+	"येणे" vblex perf p3 m sg
+"<.>"
+	"." sent
+
+"<त्याने>"
+	"तो" det dist m sg obl
+		"ने" erg
+	"तो" det dist nt sg obl
+		"ने" erg
+
+"<बहिणीला>"
+	"बहिण" n f sg obl
+		"ला" acc
+	"बहिण" n f sg obl
+		"ला" dat
+"<सारी>"
+	"*सारी"
+"<हकीगत>"
+	"हकीगत" n f sg nom
+"<सांगितली>"
+	"*सांगितली"
+"<.>"
+	"." sent
+
+"<ती>"
+	"तो" det dist f sg
+	"तो" det dist nt pl
+	"तो" prn p3 f sg nom
+	"तो" prn p3 nt pl nom
+	"तो" prn corel f sg nom
+	"तो" prn corel nt pl nom
+"<म्हणाली>"
+	"म्हणणे" vblex perf p2 f sg
+	"म्हणणे" vblex perf p3 f sg
+	"म्हणणे" vblex perf p3 nt pl
+"<,>"
+	"," cm
+
+"
+"<राजाला>"
+	"*राजाला"
+"<सांग>"
+	"*सांग"
+"<मी>"
+	"मी" prn p1 mf sg nom
+"<व्रती>"
+	"*व्रती"
+"<आहे>"
+	"आहे" vaux pres p1 mf sg
+	"आहे" vaux pres p3 mfn sg
+"<.>"
+	"." sent
+
+"<मी>"
+	"मी" prn p1 mf sg nom
+"<कोणाची>"
+	"कोण" prn interr mfn sp
+		"ी" gen f sg
+	"कोण" prn interr mfn sp
+		"ी" gen nt pl
+"<राणी>"
+	"राणी" n f sg nom
+"<होऊ>"
+	"होणे" vblex incp
+	"हो" vaux fut p1 mf pl
+	"होणे" vblex fut p1 mfn pl
+"<शकत>"
+	"शकणे" adv impf
+	"शकणे" vblex impf
+"<नाही>"
+	"नाही" part
+"<!>"
+	"!" sent
+
+" 
+"<राजपुत्राने>"
+	"*राजपुत्राने"
+"<राजाला>"
+	"*राजाला"
+"<त्याप्रमाणे>"
+	"*त्याप्रमाणे"
+"<सांगितले>"
+	"*सांगितले"
+"<नि>"
+	"*नि"
+"<तो>"
+	"तो" det dist m sg
+	"तो" prn p3 m sg nom
+	"तो" prn corel m sg nom
+"<परत>"
+	"परतणे" vblex imp p2 sg
+"<आला>"
+	"येणे" vblex perf p2 m sg
+	"येणे" vblex perf p2 m pl
+	"येणे" vblex perf p2 f pl
+	"येणे" vblex perf p3 m sg
+"<.>"
+	"." sent
+
+"<राजा>"
+	"राजा" n nt sg nom
+"<विचार>"
+	"विचार" n m sg nom
+	"विचार" n m pl nom
+	"विचारणे" vblex imp p2 sg
+"<करू>"
+	"करणे" vblex fut p1 mfn pl
+"<लागला>"
+	"लागणे" vblex perf p2 m sg
+	"लागणे" vblex perf p2 mf pl
+	"लागणे" vblex perf p3 m sg
+"<.>"
+	"." sent
+
+"<इतक्यात>"
+	"*इतक्यात"
+"<तो>"
+	"तो" det dist m sg
+	"तो" prn p3 m sg nom
+	"तो" prn corel m sg nom
+"<खुशमस्कऱ्या>"
+	"*खुशमस्कऱ्या"
+"<आला>"
+	"येणे" vblex perf p2 m sg
+	"येणे" vblex perf p2 m pl
+	"येणे" vblex perf p2 f pl
+	"येणे" vblex perf p3 m sg
+"<.>"
+	"." sent
+
+
+"
+"<काय>"
+	"काय" prn interr mfn sp nom
+"<उपाय>"
+	"उपाय" n m sg nom
+	"उपाय" n m pl nom
+"<?>"
+	"?" sent
+
+" 
+"<राजाने>"
+	"*राजाने"
+"<विचारले>"
+	"विचारणे" vblex perf p1 f sg
+	"विचारणे" vblex perf p2 m pl
+	"विचारणे" vblex perf p3 m pl
+	"विचारणे" vblex perf p3 nt sg
+"<.>"
+	"." sent
+
+
+"
+"<त्याला>"
+	"तो" prn p3 m sg acc
+	"तो" prn p3 m sg dat
+	"तो" prn p3 nt sg acc
+	"तो" prn p3 nt sg dat
+	"तो" prn corel m sg obl
+	"तो" det dist m sg obl
+		"ला" acc
+	"तो" det dist m sg obl
+		"ला" dat
+	"तो" det dist nt sg obl
+		"ला" acc
+	"तो" det dist nt sg obl
+		"ला" dat
+"<म्हणावे>"
+	"म्हणणे" vblex subj p1 m pl
+	"म्हणणे" vblex subj p2 m pl
+	"म्हणणे" vblex subj p3 m pl
+	"म्हणणे" vblex subj p3 nt sg
+"<,>"
+	"," cm
+"<तुझी>"
+	"तुझा" adj f sg
+	"तुझा" adj nt pl
+	"तू" prn p2 mf sg
+		"ी" gen f sg
+	"तू" prn p2 mf sg
+		"ी" gen nt pl
+"<बहीण>"
+	"बहीण" n f sg nom
+"<तरी>"
+	"तरी" corel
+"<दे>"
+	"देणे" vblex imp sg
+"<,>"
+	"," cm
+"<नाहीतर>"
+	"*नाहीतर"
+"<रात्री>"
+	"रात्री" adv
+	"रात्र" n f pl nom
+"<पायी>"
+	"*पायी"
+"<चाळीस>"
+	"चाळीस" num
+	"चाळ" n f sg obl
+		"स" gna
+"<कोस>"
+	"को" n m sg obl
+		"स" gna
+"<चालत>"
+	"चालत" adv
+"<जा>"
+	"जाणे" vblex imp
+"<व>"
+	"व" cnjcoo
+	"वणे" vblex imp p2 sg
+"<त्या>"
+	"तो" det dist f pl
+	"तो" prn p3 f pl nom
+	"तो" prn corel f pl nom
+	"तो" prn corel nt sg obl
+"<अंधाऱ्या>"
+	"*अंधाऱ्या"
+"<द>"
+	"द" barb
+"<रीतील>"
+	"री" n f sg obl
+		"तील" post adv
+	"री" n f sg obl
+		"तील" post attr mfn pl
+"<पांढरी>"
+	"पांढरा" adj f sg
+	"पांढरा" adj nt pl
+	"पांढर" n f pl nom
+"<फुले>"
+	"फुल" n nt pl nom
+"<घेऊन>"
+	"घेणे" adv compl
+"<उजाडत>"
+	"उजाडणे" adv impf
+	"उजाडणे" vblex impf
+"<हजर>"
+	"*हजर"
+"<हो>"
+	"हो" part
+	"होणे" vblex imp
+"<,>"
+	"," cm
+"<नाहीतर>"
+	"*नाहीतर"
+"<डोके>"
+	"डोके" n nt sg nom
+"<उडवण्यात>"
+	"उडवणे" vblex inf loc
+	"उडवणे" vblex inf obl
+		"त" gna
+	"उडवणे" vblex ger inf
+		"त" loc
+	"उडवणे" vblex ger inf
+		"त" gna
+"<येईल>"
+	"येणे" vblex fut p3 mfn sg
+"<!>"
+	"!" sent
+
+"
+"<राजपुत्राला>"
+	"*राजपुत्राला"
+"<निरोप>"
+	"निरोप" n m sg nom
+	"निरोप" n m pl nom
+"<कळविण्यात>"
+	"*कळविण्यात"
+"<आला>"
+	"येणे" vblex perf p2 m sg
+	"येणे" vblex perf p2 m pl
+	"येणे" vblex perf p2 f pl
+	"येणे" vblex perf p3 m sg
+"<.>"
+	"." sent
+
+"<तो>"
+	"तो" det dist m sg
+	"तो" prn p3 m sg nom
+	"तो" prn corel m sg nom
+"<रडत>"
+	"रडणे" adv impf
+	"रडणे" vblex impf
+"<बसला>"
+	"बस" n m sg obl
+		"ला" acc
+	"बस" n m sg obl
+		"ला" dat
+	"बसणे" vblex perf p2 m sg
+	"बसणे" vblex perf p2 mf pl
+	"बसणे" vblex perf p3 m sg
+"<.>"
+	"." sent
+
+"<बहीण>"
+	"बहीण" n f sg nom
+"<येऊन>"
+	"येणे" adv compl
+"<म्हणाली>"
+	"म्हणणे" vblex perf p2 f sg
+	"म्हणणे" vblex perf p3 f sg
+	"म्हणणे" vblex perf p3 nt pl
+"<,>"
+	"," cm
+
+"
+"<दादा>"
+	"दादा" n m sg nom
+	"दादा" n m pl nom
+"<,>"
+	"," cm
+"<का>"
+	"का" adv interr
+"<रडतोस>"
+	"रडणे" vblex impf p2 m sg
+"<?>"
+	"?" sent
+
+"
+"<त्याने>"
+	"तो" det dist m sg obl
+		"ने" erg
+	"तो" det dist nt sg obl
+		"ने" erg
+"<तो>"
+	"तो" det dist m sg
+	"तो" prn p3 m sg nom
+	"तो" prn corel m sg nom
+"<वृत्तान्त>"
+	"*वृत्तान्त"
+"<सांगितला>"
+	"*सांगितला"
+"<.>"
+	"." sent
+
+
+"<ती>"
+	"तो" det dist f sg
+	"तो" det dist nt pl
+	"तो" prn p3 f sg nom
+	"तो" prn p3 nt pl nom
+	"तो" prn corel f sg nom
+	"तो" prn corel nt pl nom
+"<म्हणाली>"
+	"म्हणणे" vblex perf p2 f sg
+	"म्हणणे" vblex perf p3 f sg
+	"म्हणणे" vblex perf p3 nt pl
+"<,>"
+	"," cm
+ "
+"<गावाबाहेर>"
+	"गाव" n m sg obl
+		"बाहेर" post adv
+"<जाऊन>"
+	"जाणे" adv compl
+"<दोन>"
+	"दोन" num
+"<कोसांवर>"
+	"*कोसांवर"
+"<बसून>"
+	"बसणे" adv compl
+"<राहा>"
+	"*राहा"
+"<.>"
+	"." sent
+
+"<चिंता>"
+	"चिंता" n f sg nom
+	"चिंता" n f pl nom
+	"चिंतणे" vblex imp p2 pl
+"<नको>"
+	"*नको"
+"<करूस>"
+	"*करूस"
+"<!>"
+	"!" sent
+
+"
+"<राजपुत्र>"
+	"*राजपुत्र"
+"<पायी>"
+	"*पायी"
+"<निघाला>"
+	"*निघाला"
+"<व>"
+	"व" cnjcoo
+	"वणे" vblex imp p2 sg
+"<जाऊन>"
+	"जाणे" adv compl
+"<बसला>"
+	"बस" n m sg obl
+		"ला" acc
+	"बस" n m sg obl
+		"ला" dat
+	"बसणे" vblex perf p2 m sg
+	"बसणे" vblex perf p2 mf pl
+	"बसणे" vblex perf p3 m sg
+"<.>"
+	"." sent
+
+"<बहीण>"
+	"बहीण" n f sg nom
+"<घरातून>"
+	"घर" n nt sg obl
+		"तून" gna
+	"घर" n nt sg obl
+		"तून" post adv
+"<बाहेर>"
+	"बाहेर" post adv
+"<पडली>"
+	"पडणे" vblex perf p2 f sg
+	"पडणे" vblex perf p3 f sg
+	"पडणे" vblex perf p3 nt pl
+"<आणि>"
+	"आणि" cnjcoo
+"<शहराबाहेर>"
+	"शहर" n nt sg obl
+		"बाहेर" post adv
+"<पडल्यावरती>"
+	"*पडल्यावरती"
+"<हरिणी>"
+	"हरिणी" n m sg nom
+	"हरिणी" n m pl nom
+"<बनली>"
+	"बनणे" vblex perf p2 f sg
+	"बनणे" vblex perf p3 f sg
+	"बनणे" vblex perf p3 nt pl
+"<.>"
+	"." sent
+
+"<वाऱ्याप्रमाणे>"
+	"*वाऱ्याप्रमाणे"
+"<ती>"
+	"तो" det dist f sg
+	"तो" det dist nt pl
+	"तो" prn p3 f sg nom
+	"तो" prn p3 nt pl nom
+	"तो" prn corel f sg nom
+	"तो" prn corel nt pl nom
+"<पळत>"
+	"पळणे" adv impf
+	"पळणे" vblex impf
+"<सुटली>"
+	"सुटणे" vblex perf p2 f sg
+	"सुटणे" vblex perf p3 f sg
+	"सुटणे" vblex perf p3 nt pl
+"<.>"
+	"." sent
+
+"<अंधाऱ्या>"
+	"*अंधाऱ्या"
+"<द>"
+	"द" barb
+"<रीतील>"
+	"री" n f sg obl
+		"तील" post adv
+	"री" n f sg obl
+		"तील" post attr mfn pl
+"<पांढरी>"
+	"पांढरा" adj f sg
+	"पांढरा" adj nt pl
+	"पांढर" n f pl nom
+"<फुले>"
+	"फुल" n nt pl nom
+"<तिने>"
+	"तो" det dist f sg obl
+		"ने" erg
+"<तोडली>"
+	"तोडणे" vblex perf p2 f sg
+	"तोडणे" vblex perf p3 f sg
+	"तोडणे" vblex perf p3 nt pl
+"<.>"
+	"." sent
+
+"<ती>"
+	"तो" det dist f sg
+	"तो" det dist nt pl
+	"तो" prn p3 f sg nom
+	"तो" prn p3 nt pl nom
+	"तो" prn corel f sg nom
+	"तो" prn corel nt pl nom
+"<फुले>"
+	"फुल" n nt pl nom
+"<दातात>"
+	"दात" n m sg obl
+		"त" loc
+	"दात" n m sg obl
+		"त" gna
+"<धरून>"
+	"धरणे" adv compl
+"<सूर्योदयाच्या>"
+	"*सूर्योदयाच्या"
+"<आत>"
+	"*आत"
+"<ती>"
+	"तो" det dist f sg
+	"तो" det dist nt pl
+	"तो" prn p3 f sg nom
+	"तो" prn p3 nt pl nom
+	"तो" prn corel f sg nom
+	"तो" prn corel nt pl nom
+"<आली>"
+	"आले" n nt pl nom
+	"येणे" vblex perf p2 f sg
+	"येणे" vblex perf p3 f sg
+	"येणे" vblex perf p3 nt pl
+"<.>"
+	"." sent
+
+"<पुन्हा>"
+	"पुन्हा" adv
+"<बहीण>"
+	"बहीण" n f sg nom
+"<बनून>"
+	"बनणे" adv compl
+"<राजपुत्राजवळ>"
+	"*राजपुत्राजवळ"
+"<ती>"
+	"तो" det dist f sg
+	"तो" det dist nt pl
+	"तो" prn p3 f sg nom
+	"तो" prn p3 nt pl nom
+	"तो" prn corel f sg nom
+	"तो" prn corel nt pl nom
+"<फुले>"
+	"फुल" n nt pl nom
+"<देऊन>"
+	"देणे" adv compl
+"<ती>"
+	"तो" det dist f sg
+	"तो" det dist nt pl
+	"तो" prn p3 f sg nom
+	"तो" prn p3 nt pl nom
+	"तो" prn corel f sg nom
+	"तो" prn corel nt pl nom
+"<म्हणाली>"
+	"म्हणणे" vblex perf p2 f sg
+	"म्हणणे" vblex perf p3 f sg
+	"म्हणणे" vblex perf p3 nt pl
+"<,>"
+	"," cm
+
+"
+"<जा>"
+	"जाणे" vblex imp
+"<,>"
+	"," cm
+"<राजाला>"
+	"*राजाला"
+"<ही>"
+	"हा" det prox f sg
+"<नेऊन>"
+	"*नेऊन"
+"<दे>"
+	"देणे" vblex imp sg
+"<!>"
+	"!" sent
+
+"
+"<राजपुत्राने>"
+	"*राजपुत्राने"
+"<ताऱ्याप्रमाणे>"
+	"*ताऱ्याप्रमाणे"
+"<चमकणारी>"
+	"चमकणारा" gpr inf
+		"री" gen f sg
+	"चमकणारा" gpr inf
+		"री" gen nt pl
+"<फुले>"
+	"फुल" n nt pl nom
+"<राजाला>"
+	"*राजाला"
+"<नेऊन>"
+	"*नेऊन"
+"<दिली>"
+	"देणे" vblex perf p3 f sg
+	"देणे" vblex perf p3 nt pl
+"<.>"
+	"." sent
+
+"<निरोप>"
+	"निरोप" n m sg nom
+	"निरोप" n m pl nom
+"<घेऊन>"
+	"घेणे" adv compl
+"<तो>"
+	"तो" det dist m sg
+	"तो" prn p3 m sg nom
+	"तो" prn corel m sg nom
+"<परत>"
+	"परतणे" vblex imp p2 sg
+"<घरी>"
+	"घरी" adv
+"<आला>"
+	"येणे" vblex perf p2 m sg
+	"येणे" vblex perf p2 m pl
+	"येणे" vblex perf p2 f pl
+	"येणे" vblex perf p3 m sg
+"<.>"
+	"." sent
+
+"<राजा>"
+	"राजा" n nt sg nom
+"<खुशमस्कऱ्याला>"
+	"*खुशमस्कऱ्याला"
+"<म्हणाला>"
+	"म्हणणे" vblex perf p2 m sg
+	"म्हणणे" vblex perf p2 m pl
+	"म्हणणे" vblex perf p2 f pl
+	"म्हणणे" vblex perf p3 m sg
+"<,>"
+	"," cm
+
+"
+"<आता>"
+	"आता" adv
+"<कोणता>"
+	"कोणता" adj m sg
+"<उपाय>"
+	"उपाय" n m sg nom
+	"उपाय" n m pl nom
+"<?>"
+	"?" sent
+
+"
+"
+"<त्याला>"
+	"तो" prn p3 m sg acc
+	"तो" prn p3 m sg dat
+	"तो" prn p3 nt sg acc
+	"तो" prn p3 nt sg dat
+	"तो" prn corel m sg obl
+	"तो" det dist m sg obl
+		"ला" acc
+	"तो" det dist m sg obl
+		"ला" dat
+	"तो" det dist nt sg obl
+		"ला" acc
+	"तो" det dist nt sg obl
+		"ला" dat
+"<सांगा>"
+	"*सांगा"
+"<की>"
+	"की" n f sg nom
+"<,>"
+	"," cm
+"<बहीण>"
+	"बहीण" n f sg nom
+"<तरी>"
+	"तरी" corel
+"<दे>"
+	"देणे" vblex imp sg
+"<किंवा>"
+	"किंवा" cnjcoo
+"<मागील>"
+	"मागील" gna
+"<राणीची>"
+	"राणी" n f sg obl
+		"ची" gen f sg
+	"राणी" n f sg obl
+		"ची" gen nt pl
+"<समुद्रात>"
+	"समुद्र" n m sg obl
+		"त" loc
+	"समुद्र" n m sg obl
+		"त" gna
+"<पडलेली>"
+	"पडलेला" gpr perf
+		"चा" f sg
+	"पडलेला" gpr perf
+		"चा" nt pl
+	"पडणे" vblex past perf p1 f sg
+	"पडणे" vblex past perf p2 f sg
+	"पडणे" vblex past perf p2 nt pl
+"<नथ>"
+	"नथ" n f sg nom
+"<आणून>"
+	"आणणे" adv compl
+"<दे>"
+	"देणे" vblex imp sg
+"<,>"
+	"," cm
+"<नाही>"
+	"नाही" part
+"<तर>"
+	"तरणे" vblex imp p2 sg
+"<डोके>"
+	"डोके" n nt sg nom
+"<उडवीन>"
+	"उडवणे" vblex fut p1 mfn sg
+"<!>"
+	"!" sent
+
+"
+"<खुशमस्कऱ्याने>"
+	"*खुशमस्कऱ्याने"
+"<सुचविले>"
+	"*सुचविले"
+"<.>"
+	"." sent
+
+"<राजपुत्राला>"
+	"*राजपुत्राला"
+"<ती>"
+	"तो" det dist f sg
+	"तो" det dist nt pl
+	"तो" prn p3 f sg nom
+	"तो" prn p3 nt pl nom
+	"तो" prn corel f sg nom
+	"तो" prn corel nt pl nom
+"<गोष्ट>"
+	"गोष्ट" n f sg nom
+"<कळविण्यात>"
+	"*कळविण्यात"
+"<आली>"
+	"आले" n nt pl nom
+	"येणे" vblex perf p2 f sg
+	"येणे" vblex perf p3 f sg
+	"येणे" vblex perf p3 nt pl
+"<.>"
+	"." sent
+
+"<राजपुत्र>"
+	"*राजपुत्र"
+"<रडत>"
+	"रडणे" adv impf
+	"रडणे" vblex impf
+"<बसला>"
+	"बस" n m sg obl
+		"ला" acc
+	"बस" n m sg obl
+		"ला" dat
+	"बसणे" vblex perf p2 m sg
+	"बसणे" vblex perf p2 mf pl
+	"बसणे" vblex perf p3 m sg
+"<.>"
+	"." sent
+
+"<एक>"
+	"एक" part
+	"एक" num
+	"एक" det indef mfn sg
+"<भाऊ>"
+	"भाऊ" n m sg nom
+	"भाऊ" n m pl obl
+"<येऊन>"
+	"येणे" adv compl
+"<म्हणाला>"
+	"म्हणणे" vblex perf p2 m sg
+	"म्हणणे" vblex perf p2 m pl
+	"म्हणणे" vblex perf p2 f pl
+	"म्हणणे" vblex perf p3 m sg
+"<,>"
+	"," cm
+
+"
+"<दादा>"
+	"दादा" n m sg nom
+	"दादा" n m pl nom
+"<,>"
+	"," cm
+"<का>"
+	"का" adv interr
+"<रडतोस>"
+	"रडणे" vblex impf p2 m sg
+"<?>"
+	"?" sent
+
+"
+"<राजपुत्राने>"
+	"*राजपुत्राने"
+"<वृत्तान्त>"
+	"*वृत्तान्त"
+"<निवेदिला>"
+	"*निवेदिला"
+"<.>"
+	"." sent
+
+
+"
+"<रडू>"
+	"रडणे" vblex incp
+	"रडणे" vblex imp p1 sg
+	"रडणे" vblex imp p1 pl
+	"रडणे" vblex fut p1 mfn pl
+"<नकोस>"
+	"*नकोस"
+"<,>"
+	"," cm
+"<दादा>"
+	"दादा" n m sg nom
+	"दादा" n m pl nom
+"<.>"
+	"." sent
+
+"<शहराबाहेर>"
+	"शहर" n nt sg obl
+		"बाहेर" post adv
+"<जाऊन>"
+	"जाणे" adv compl
+"<बस>"
+	"बस" n m sg nom
+	"बस" n m pl nom
+	"बसणे" vblex imp p2 sg
+"<.>"
+	"." sent
+
+"<चिंता>"
+	"चिंता" n f sg nom
+	"चिंता" n f pl nom
+	"चिंतणे" vblex imp p2 pl
+"<नको>"
+	"*नको"
+"<करूस>"
+	"*करूस"
+"<!>"
+	"!" sent
+
+"
+"<राजपुत्र>"
+	"*राजपुत्र"
+"<शहराबाहेर>"
+	"शहर" n nt sg obl
+		"बाहेर" post adv
+"<जाऊन>"
+	"जाणे" adv compl
+"<बसला>"
+	"बस" n m sg obl
+		"ला" acc
+	"बस" n m sg obl
+		"ला" dat
+	"बसणे" vblex perf p2 m sg
+	"बसणे" vblex perf p2 mf pl
+	"बसणे" vblex perf p3 m sg
+"<.>"
+	"." sent
+
+"<तो>"
+	"तो" det dist m sg
+	"तो" prn p3 m sg nom
+	"तो" prn corel m sg nom
+"<भाऊही>"
+	"*भाऊही"
+"<बाहेर>"
+	"बाहेर" post adv
+"<गेला>"
+	"जाणे" vblex perf p2 m sg
+	"जाणे" vblex perf p2 m pl
+	"जाणे" vblex perf p2 f pl
+	"जाणे" vblex perf p3 m sg
+"<नि>"
+	"*नि"
+"<तो>"
+	"तो" det dist m sg
+	"तो" prn p3 m sg nom
+	"तो" prn corel m sg nom
+"<बेडूक>"
+	"*बेडूक"
+"<बनला>"
+	"बनणे" vblex perf p2 m sg
+	"बनणे" vblex perf p2 mf pl
+	"बनणे" vblex perf p3 m sg
+"<.>"
+	"." sent
+
+"<डराव>"
+	"*डराव"
+"<,>"
+	"," cm
+"<डराव>"
+	"*डराव"
+"<करून>"
+	"करणे" adv compl
+"<त्याने>"
+	"तो" det dist m sg obl
+		"ने" erg
+	"तो" det dist nt sg obl
+		"ने" erg
+"<बेडकांना>"
+	"*बेडकांना"
+"<हाका>"
+	"हाक" n f pl obl
+	"हाका" n m sg nom
+	"हाकणे" vblex imp p2 pl
+"<मारल्या>"
+	"मारणे" vblex perf p2 f pl
+	"मारणे" vblex perf p3 f pl
+"<.>"
+	"." sent
+
+"<लाखो>"
+	"लाखो" n m sg nom
+	"लाखो" n m pl nom
+"<बेडूक>"
+	"*बेडूक"
+"<जमा>"
+	"जमणे" vblex imp p2 pl
+"<झाले>"
+	"हो" vaux past p1 f sg
+	"हो" vaux past p3 m pl
+	"हो" vaux past p3 nt sg
+	"होणे" vblex perf p1 f sg
+	"होणे" vblex perf p2 m pl
+	"होणे" vblex perf p3 m pl
+	"होणे" vblex perf p3 nt sg
+"<.>"
+	"." sent
+
+"<तो>"
+	"तो" det dist m sg
+	"तो" prn p3 m sg nom
+	"तो" prn corel m sg nom
+"<त्यांना>"
+	"तो" prn p3 m pl acc
+	"तो" prn p3 m pl dat
+	"तो" prn p3 f pl acc
+	"तो" prn p3 f pl dat
+	"तो" prn p3 nt pl acc
+	"तो" prn p3 nt pl dat
+	"तो" prn corel m pl obl
+	"तो" prn corel f pl obl
+	"तो" prn corel nt pl obl
+	"तो" det dist mfn pl obl
+		"ना" acc
+	"तो" det dist mfn pl obl
+		"ना" dat
+"<म्हणाला>"
+	"म्हणणे" vblex perf p2 m sg
+	"म्हणणे" vblex perf p2 m pl
+	"म्हणणे" vblex perf p2 f pl
+	"म्हणणे" vblex perf p3 m sg
+"<,>"
+	"," cm
+ "
+"<त्या>"
+	"तो" det dist f pl
+	"तो" prn p3 f pl nom
+	"तो" prn corel f pl nom
+	"तो" prn corel nt sg obl
+"<राजपुत्राने>"
+	"*राजपुत्राने"
+"<माझा>"
+	"माझा" adj m sg
+	"मी" prn p1 mf sg
+		"ा" gen m sg
+"<प्राण>"
+	"*प्राण"
+"<वाचविला>"
+	"*वाचविला"
+"<आहे>"
+	"आहे" vaux pres p1 mf sg
+	"आहे" vaux pres p3 mfn sg
+"<.>"
+	"." sent
+
+"<आपण>"
+	"आपण" prn refl mfn sp nom
+	"मी" prn p1 mf pl incl nom
+	"मी" prn p2 mf sg hon2 nom
+"<त्याच्यासाठी>"
+	"तो" prn p3 m sg obl
+		"च्या" clit
+			"साठी" post adv
+	"तो" prn p3 nt sg obl
+		"च्या" clit
+			"साठी" post adv
+	"तो" det dist m sg obl
+		"च्या" clit
+			"साठी" post adv
+	"तो" det dist nt sg obl
+		"च्या" clit
+			"साठी" post adv
+"<काही>"
+	"काही" adv
+	"काही" n m sg nom
+	"काही" n m pl nom
+"<करू>"
+	"करणे" vblex fut p1 mfn pl
+"<या>"
+	"हा" det prox f pl
+	"हा" det prox nt pl
+	"येणे" vblex imp pl
+"<.>"
+	"." sent
+
+"<आपण>"
+	"आपण" prn refl mfn sp nom
+	"मी" prn p1 mf pl incl nom
+	"मी" prn p2 mf sg hon2 nom
+"<समुद्रात>"
+	"समुद्र" n m sg obl
+		"त" loc
+	"समुद्र" n m sg obl
+		"त" gna
+"<रात्रभर>"
+	"*रात्रभर"
+"<पुन>"
+	"*पुन"
+"<:>"
+	":" sent
+
+"<पुन्हा>"
+	"पुन्हा" adv
+"<बुड्या>"
+	"बुडी" n f pl nom
+"<मारू>"
+	"मारणे" vblex incp
+	"मारणे" vblex imp p1 sg
+	"मारणे" vblex imp p1 pl
+	"मारणे" vblex fut p1 mfn pl
+"<.>"
+	"." sent
+
+"<मिळतील>"
+	"मिळणे" vblex fut p3 mfn pl
+"<ते>"
+	"तो" det dist m pl
+	"तो" det dist nt sg
+	"तो" prn p3 m pl nom
+	"तो" prn p3 nt sg nom
+	"तो" prn corel m pl nom
+	"तो" prn corel nt sg nom
+"<मोती>"
+	"मोती" n f sg nom
+"<तोंडात>"
+	"तोंड" n nt sg obl
+		"त" loc
+	"तोंड" n nt sg obl
+		"त" gna
+"<धरून>"
+	"धरणे" adv compl
+"<आणू>"
+	"आणणे" vblex incp
+	"आणणे" vblex imp p1 sg
+	"आणणे" vblex imp p1 pl
+	"आणणे" vblex fut p1 mfn pl
+"<,>"
+	"," cm
+"<राजाच्या>"
+	"*राजाच्या"
+"<अंगणात>"
+	"अंगण" n nt sg obl
+		"त" loc
+	"अंगण" n nt sg obl
+		"त" gna
+"<ढीग>"
+	"ढीग" n m sg nom
+	"ढीग" n m pl nom
+"<घालू>"
+	"*घालू"
+"<!>"
+	"!" sent
+
+"
+"<साऱ्या>"
+	"*साऱ्या"
+"<बेडकांनी>"
+	"*बेडकांनी"
+"<ऐकले>"
+	"ऐकणे" vblex perf p1 f sg
+	"ऐकणे" vblex perf p2 m pl
+	"ऐकणे" vblex perf p3 m pl
+	"ऐकणे" vblex perf p3 nt sg
+"<आणि>"
+	"आणि" cnjcoo
+"<त्याप्रमाणे>"
+	"*त्याप्रमाणे"
+"<त्यांनी>"
+	"तो" det dist mfn pl obl
+		"नी" erg
+"<केले>"
+	"करणे" vblex perf p1 nt sg
+	"करणे" vblex perf p2 nt sg
+	"करणे" vblex perf p3 nt sg
+"<.>"
+	"." sent
+
+"<राजाच्या>"
+	"*राजाच्या"
+"<दारात>"
+	"दार" n nt sg obl
+		"त" loc
+	"दार" n nt sg obl
+		"त" gna
+"<झळाळणाऱ्या>"
+	"*झळाळणाऱ्या"
+"<मोत्यांचे>"
+	"मोती" n f pl obl
+		"चे" gen m pl
+	"मोती" n f pl obl
+		"चे" gen nt sg
+"<ढीग>"
+	"ढीग" n m sg nom
+	"ढीग" n m pl nom
+"<पडले>"
+	"पडणे" vblex perf p1 f sg
+	"पडणे" vblex perf p2 m pl
+	"पडणे" vblex perf p3 m pl
+	"पडणे" vblex perf p3 nt sg
+"<.>"
+	"." sent
+
+"<भाऊ>"
+	"भाऊ" n m sg nom
+	"भाऊ" n m pl obl
+"<राजपुत्राकडे>"
+	"*राजपुत्राकडे"
+"<येऊन>"
+	"येणे" adv compl
+"<म्हणाला>"
+	"म्हणणे" vblex perf p2 m sg
+	"म्हणणे" vblex perf p2 m pl
+	"म्हणणे" vblex perf p2 f pl
+	"म्हणणे" vblex perf p3 m sg
+"<,>"
+	"," cm
+
+"
+"<राजाला>"
+	"*राजाला"
+"<अंगणातील>"
+	"अंगण" n nt sg obl
+		"तील" post adv
+	"अंगण" n nt sg obl
+		"तील" post attr mfn pl
+"<मोत्यांपैकी>"
+	"मोती" n f pl obl
+		"पैकी" post adv
+"<राणीच्या>"
+	"राणी" n f sg obl
+		"च्या" gen f pl
+	"राणी" n f sg obl
+		"च्या" gen obl mfn sp
+"<नथीचे>"
+	"नथ" n f sg obl
+		"चे" gen m pl
+	"नथ" n f sg obl
+		"चे" gen nt sg
+"<मोती>"
+	"मोती" n f sg nom
+"<निवडून>"
+	"निवडणे" adv compl
+"<घ्यायला>"
+	"*घ्यायला"
+"<सांग>"
+	"*सांग"
+"<.>"
+	"." sent
+
+"<लाटांनी>"
+	"लाट" n f pl obl
+		"नी" erg
+"<नथ>"
+	"नथ" n f sg nom
+"<मोडली>"
+	"मोडणे" vblex perf p2 f sg
+	"मोडणे" vblex perf p3 f sg
+	"मोडणे" vblex perf p3 nt pl
+"<.>"
+	"." sent
+
+"<मोती>"
+	"मोती" n f sg nom
+"<अलग>"
+	"*अलग"
+"<झाले>"
+	"हो" vaux past p1 f sg
+	"हो" vaux past p3 m pl
+	"हो" vaux past p3 nt sg
+	"होणे" vblex perf p1 f sg
+	"होणे" vblex perf p2 m pl
+	"होणे" vblex perf p3 m pl
+	"होणे" vblex perf p3 nt sg
+"<.>"
+	"." sent
+
+"<घ्या>"
+	"घेणे" vblex imp pl
+"<म्हणावे>"
+	"म्हणणे" vblex subj p1 m pl
+	"म्हणणे" vblex subj p2 m pl
+	"म्हणणे" vblex subj p3 m pl
+	"म्हणणे" vblex subj p3 nt sg
+"<ओळखून>"
+	"ओळखणे" adv compl
+"<!>"
+	"!" sent
+
+"
+"<राजपुत्र>"
+	"*राजपुत्र"
+"<राजाला>"
+	"*राजाला"
+"<तसे>"
+	"तसा" adj m pl
+	"तसा" adj nt sg
+"<सांगून>"
+	"*सांगून"
+"<आपल्या>"
+	"आपला" adj f pl
+	"आपला" adj mfn sp obl
+	"आपण" prn refl mfn sp
+		"्या" gen f pl
+	"मी" prn p1 mf pl incl
+		"्या" gen f pl
+	"मी" prn p2 mf sg hon2
+		"्या" gen f pl
+"<राजवाड्यात>"
+	"राजवाडा" n m sg obl
+		"त" loc
+	"राजवाडा" n m sg obl
+		"त" gna
+"<परत>"
+	"परतणे" vblex imp p2 sg
+"<आला>"
+	"येणे" vblex perf p2 m sg
+	"येणे" vblex perf p2 m pl
+	"येणे" vblex perf p2 f pl
+	"येणे" vblex perf p3 m sg
+"<.>"
+	"." sent
+
+"<राजाने>"
+	"*राजाने"
+"<खुशमस्कऱ्याला>"
+	"*खुशमस्कऱ्याला"
+"<विचारले>"
+	"विचारणे" vblex perf p1 f sg
+	"विचारणे" vblex perf p2 m pl
+	"विचारणे" vblex perf p3 m pl
+	"विचारणे" vblex perf p3 nt sg
+"<,>"
+	"," cm
+ "
+"<आता>"
+	"आता" adv
+"<काय>"
+	"काय" prn interr mfn sp nom
+"<?>"
+	"?" sent
+
+"
+"
+"<त्या>"
+	"तो" det dist f pl
+	"तो" prn p3 f pl nom
+	"तो" prn corel f pl nom
+	"तो" prn corel nt sg obl
+"<राजपुत्राला>"
+	"*राजपुत्राला"
+"<म्हणावे>"
+	"म्हणणे" vblex subj p1 m pl
+	"म्हणणे" vblex subj p2 m pl
+	"म्हणणे" vblex subj p3 m pl
+	"म्हणणे" vblex subj p3 nt sg
+"<,>"
+	"," cm
+"<बहीण>"
+	"बहीण" n f sg nom
+"<दे>"
+	"देणे" vblex imp sg
+"<,>"
+	"," cm
+"<नाहीतर>"
+	"*नाहीतर"
+"<स्वर्गात>"
+	"*स्वर्गात"
+"<जाऊन>"
+	"जाणे" adv compl
+"<तेथे>"
+	"तेथे" adv
+"<आमच्या>"
+	"आमचा" adj f pl
+	"आमचा" adj mfn sp obl
+	"मी" prn p1 mf pl
+		"्या" gen f pl
+"<वडिलांची>"
+	"*वडिलांची"
+"<करमणूक>"
+	"करमणूक" n f sg nom
+"<करावयाला>"
+	"*करावयाला"
+"<कोणी>"
+	"कोण" prn interr mfn sp erg
+"<आहे>"
+	"आहे" vaux pres p1 mf sg
+	"आहे" vaux pres p3 mfn sg
+"<की>"
+	"की" n f sg nom
+"<नाही>"
+	"नाही" part
+"<ते>"
+	"तो" det dist m pl
+	"तो" det dist nt sg
+	"तो" prn p3 m pl nom
+	"तो" prn p3 nt sg nom
+	"तो" prn corel m pl nom
+	"तो" prn corel nt sg nom
+"<विचारून>"
+	"विचारणे" adv compl
+"<ये>"
+	"येणे" vblex imp sg
+"<.>"
+	"." sent
+
+" 
+"<खुशमस्कऱ्याने>"
+	"*खुशमस्कऱ्याने"
+"<सुचविले>"
+	"*सुचविले"
+"<.>"
+	"." sent
+
+
+"
+"<तो>"
+	"तो" det dist m sg
+	"तो" prn p3 m sg nom
+	"तो" prn corel m sg nom
+"<स्वर्गात>"
+	"*स्वर्गात"
+"<कसा>"
+	"कसा" adj m sg
+	"कसणे" vblex imp p2 pl
+	"काय" prn interr mfn sp obl
+"<जाणार>"
+	"जाणे" vblex pros p1 mfn sp
+	"जाणे" vblex pros p2 mfn sp
+	"जाणे" vblex pros p3 mfn sp
+"<?>"
+	"?" sent
+
+"
+"
+"<तुमच्या>"
+	"तू" prn p2 mf pl excl
+		"्या" gen f pl
+"<वडिलांना>"
+	"*वडिलांना"
+"<मेल्यावर>"
+	"*मेल्यावर"
+"<सरणावर>"
+	"सरण" n nt sg obl
+		"वरती" post adv
+"<घालून>"
+	"घालून" adv
+"<स्वर्गात>"
+	"*स्वर्गात"
+"<पाठविले>"
+	"*पाठविले"
+"<.>"
+	"." sent
+
+"<त्याच>"
+	"तो" det dist f pl
+		"च" emph
+	"तो" prn p3 f pl nom
+		"च" emph
+	"तो" prn corel f pl nom
+		"च" emph
+	"तो" prn corel nt sg obl
+		"च" emph
+"<रस्त्याने>"
+	"रस्ता" n m sg obl
+		"ने" erg
+"<राजपुत्राला>"
+	"*राजपुत्राला"
+"<पाठवू>"
+	"पाठवणे" vblex incp
+	"पाठवणे" vblex imp p1 sg
+	"पाठवणे" vblex imp p1 pl
+	"पाठवणे" vblex fut p1 mfn pl
+"<!>"
+	"!" sent
+
+" 
+"<राजपुत्राला>"
+	"*राजपुत्राला"
+"<ती>"
+	"तो" det dist f sg
+	"तो" det dist nt pl
+	"तो" prn p3 f sg nom
+	"तो" prn p3 nt pl nom
+	"तो" prn corel f sg nom
+	"तो" prn corel nt pl nom
+"<गोष्ट>"
+	"गोष्ट" n f sg nom
+"<कळविण्यात>"
+	"*कळविण्यात"
+"<आली>"
+	"आले" n nt pl nom
+	"येणे" vblex perf p2 f sg
+	"येणे" vblex perf p3 f sg
+	"येणे" vblex perf p3 nt pl
+"<.>"
+	"." sent
+
+"<राजपुत्र>"
+	"*राजपुत्र"
+"<सचिंत>"
+	"*सचिंत"
+"<होऊन>"
+	"हो" adv compl
+	"होणे" adv compl
+"<बसला>"
+	"बस" n m sg obl
+		"ला" acc
+	"बस" n m sg obl
+		"ला" dat
+	"बसणे" vblex perf p2 m sg
+	"बसणे" vblex perf p2 mf pl
+	"बसणे" vblex perf p3 m sg
+"<.>"
+	"." sent
+
+"<तो>"
+	"तो" det dist m sg
+	"तो" prn p3 m sg nom
+	"तो" prn corel m sg nom
+"<दुसरा>"
+	"दुसरा" adj m sg
+	"दोन" num ord
+		"चा" m sg
+	"दुसरा" n m sg nom
+"<भाऊ>"
+	"भाऊ" n m sg nom
+	"भाऊ" n m pl obl
+"<येऊन>"
+	"येणे" adv compl
+"<म्हणाला>"
+	"म्हणणे" vblex perf p2 m sg
+	"म्हणणे" vblex perf p2 m pl
+	"म्हणणे" vblex perf p2 f pl
+	"म्हणणे" vblex perf p3 m sg
+"<,>"
+	"," cm
+ "
+"<दादा>"
+	"दादा" n m sg nom
+	"दादा" n m pl nom
+"<,>"
+	"," cm
+"<का>"
+	"का" adv interr
+"<दु>"
+	"दु" n m sg nom
+	"दु" n m pl nom
+"<:>"
+	":" sent
+
+"<खी>"
+	"*खी"
+"<?>"
+	"?" sent
+
+" 
+"<राजपुत्राने>"
+	"*राजपुत्राने"
+"<सारी>"
+	"*सारी"
+"<कथा>"
+	"कथा" n f sg nom
+	"कथा" n f pl nom
+"<सांगितली>"
+	"*सांगितली"
+"<.>"
+	"." sent
+
+
+"
+"<रडू>"
+	"रडणे" vblex incp
+	"रडणे" vblex imp p1 sg
+	"रडणे" vblex imp p1 pl
+	"रडणे" vblex fut p1 mfn pl
+"<नका>"
+	"*नका"
+"<.>"
+	"." sent
+
+"<मी>"
+	"मी" prn p1 mf sg nom
+"<देतो>"
+	"देणे" vblex impf p1 m sg
+	"देणे" vblex impf p1 mf pl
+	"देणे" vblex impf p3 m sg
+"<तो>"
+	"तो" det dist m sg
+	"तो" prn p3 m sg nom
+	"तो" prn corel m sg nom
+"<रस>"
+	"रस" n m sg nom
+	"रस" n m pl nom
+"<अंगाला>"
+	"अंग" n nt sg obl
+		"ला" acc
+	"अंग" n nt sg obl
+		"ला" dat
+"<लावा>"
+	"लावणे" vblex imp p2 pl
+"<नि>"
+	"*नि"
+"<चितेवर>"
+	"*चितेवर"
+"<निजा>"
+	"निजणे" vblex imp p2 pl
+"<.>"
+	"." sent
+
+"<तुम्हांला>"
+	"*तुम्हांला"
+"<वेदना>"
+	"*वेदना"
+"<होणार>"
+	"हो" vaux pros p1 mfn sp
+	"हो" vaux pros p2 mfn sp
+	"हो" vaux pros p3 mfn sp
+	"होणे" vblex pros p1 mfn sp
+	"होणे" vblex pros p2 mfn sp
+	"होणे" vblex pros p3 mfn sp
+	"होणारे" n nt sg nom
+"<नाहीत>"
+	"नाही" adj
+		"आहे" vaux pres p3 mfn pl
+"<;>"
+	";" sent
+
+"<परंतु>"
+	"परंतु" cnjcoo
+"<जळून>"
+	"जळणे" adv compl
+"<तर>"
+	"तरणे" vblex imp p2 sg
+"<जाल>"
+	"जाणे" vblex fut p2 mfn pl
+"<.>"
+	"." sent
+
+"<राजाला>"
+	"*राजाला"
+"<सांगून>"
+	"*सांगून"
+"<ठेवा>"
+	"ठेवा" n m sg nom
+	"ठेवणे" vblex imp p2 pl
+"<,>"
+	"," cm
+"<की>"
+	"की" n f sg nom
+"<माझी>"
+	"माझा" adj f sg
+	"माझा" adj nt pl
+	"मी" prn p1 mf sg
+		"ी" gen f sg
+	"मी" prn p1 mf sg
+		"ी" gen nt pl
+	"माझी" n f sg nom
+"<राख>"
+	"राखणे" vblex imp p2 sg
+"<मात्र>"
+	"मात्र" part
+	"मात्र" ads
+"<माझ्या>"
+	"माझा" adj f pl
+	"माझा" adj mfn sp obl
+	"माझी" n f pl nom
+	"मी" prn p1 mf sg
+		"्या" gen f pl
+"<घरी>"
+	"घरी" adv
+"<पाठवा>"
+	"पाठवणे" vblex imp p2 pl
+"<!>"
+	"!" sent
+
+" 
+"<राजपुत्र>"
+	"*राजपुत्र"
+"<तो>"
+	"तो" det dist m sg
+	"तो" prn p3 m sg nom
+	"तो" prn corel m sg nom
+"<रस>"
+	"रस" n m sg nom
+	"रस" n m pl nom
+"<अंगाला>"
+	"अंग" n nt sg obl
+		"ला" acc
+	"अंग" n nt sg obl
+		"ला" dat
+"<लावून>"
+	"लावणे" adv compl
+"<राजाकडे>"
+	"*राजाकडे"
+"<गेला>"
+	"जाणे" vblex perf p2 m sg
+	"जाणे" vblex perf p2 m pl
+	"जाणे" vblex perf p2 f pl
+	"जाणे" vblex perf p3 m sg
+"<.>"
+	"." sent
+
+"<माझी>"
+	"माझा" adj f sg
+	"माझा" adj nt pl
+	"मी" prn p1 mf sg
+		"ी" gen f sg
+	"मी" prn p1 mf sg
+		"ी" gen nt pl
+	"माझी" n f sg nom
+"<राख>"
+	"राखणे" vblex imp p2 sg
+"<माझ्याघरी>"
+	"*माझ्याघरी"
+"<पाठवा>"
+	"पाठवणे" vblex imp p2 pl
+"<असे>"
+	"असे" cnjsub
+	"असा" adj m pl
+	"असा" adj nt sg
+	"अस" vaux past p1 mf sg
+	"अस" vaux past p2 mf sg
+	"अस" vaux past p3 mfn sg
+
+"<त्याने>"
+	"तो" det dist m sg obl
+		"ने" erg
+	"तो" det dist nt sg obl
+		"ने" erg
+"<सांगितले>"
+	"*सांगितले"
+"<.>"
+	"." sent
+
+"<हजारो>"
+	"हजारो" n m sg nom
+	"हजारो" n m pl nom
+"<लोक>"
+	"लोक" n m sg nom
+	"लोक" n m pl nom
+"<तो>"
+	"तो" det dist m sg
+	"तो" prn p3 m sg nom
+	"तो" prn corel m sg nom
+"<प्रकार>"
+	"प्रकार" n m sg nom
+	"प्रकार" n m pl nom
+	"प्रकार" n nt sg nom
+"<पाहत>"
+	"पहाणे" adv impf
+	"पहाणे" vblex impf
+"<होते>"
+	"हो" vaux pres p1 f sg
+	"हो" vaux pres p3 f sg
+	"हो" vaux pres p3 n sg
+	"आहे" vaux past p1 f sg
+	"आहे" vaux past p3 m pl
+	"आहे" vaux past p3 nt sg
+	"होणे" vblex impf p1 f sg
+	"होणे" vblex impf p3 f sg
+	"होणे" vblex impf p3 nt sg
+"<.>"
+	"." sent
+
+"<चितेवर>"
+	"*चितेवर"
+"<राजपुत्र>"
+	"*राजपुत्र"
+"<निजला>"
+	"निजणे" vblex perf p2 m sg
+	"निजणे" vblex perf p2 mf pl
+	"निजणे" vblex perf p3 m sg
+"<.>"
+	"." sent
+
+"<अग्नी>"
+	"अग्नी" n m sg nom
+	"अग्नी" n m pl nom
+"<देण्यात>"
+	"देणे" vblex inf loc
+	"देणे" vblex inf obl
+		"त" gna
+	"देणे" vblex ger inf
+		"त" loc
+	"देणे" vblex ger inf
+		"त" gna
+"<आला>"
+	"येणे" vblex perf p2 m sg
+	"येणे" vblex perf p2 m pl
+	"येणे" vblex perf p2 f pl
+	"येणे" vblex perf p3 m sg
+"<.>"
+	"." sent
+
+"<गहरी>"
+	"*गहरी"
+"<पेटली>"
+	"पेटणे" vblex perf p2 f sg
+	"पेटणे" vblex perf p3 f sg
+	"पेटणे" vblex perf p3 nt pl
+"<चिता>"
+	"चितणे" vblex imp p2 pl
+"<.>"
+	"." sent
+
+"<राजपुत्र>"
+	"*राजपुत्र"
+"<जणू>"
+	"*जणू"
+"<शांत>"
+	"*शांत"
+"<झोपला>"
+	"झोपणे" vblex perf p2 m sg
+	"झोपणे" vblex perf p2 mf pl
+	"झोपणे" vblex perf p3 m sg
+"<होता>"
+	"हो" vaux pres p2 mf pl
+	"हो" vaux pres p3 m sg
+	"आहे" vaux past p2 m sg
+	"आहे" vaux past p2 mf pl
+	"आहे" vaux past p3 m sg
+	"होणे" vblex impf p2 mf pl
+"<.>"
+	"." sent
+
+"<त्याच्या>"
+	"त्याचा" adj f pl
+	"त्याचा" adj mfn sp obl
+	"तो" det dist m sg obl
+		"च्या" gen f pl
+	"तो" det dist nt sg obl
+		"च्या" gen f pl
+	"तो" prn p3 m sg
+		"्या" gen f pl
+	"तो" prn p3 nt sg
+		"्या" gen f pl
+	"तो" det dist m sg obl
+		"च्या" gen obl mfn sp
+	"तो" det dist nt sg obl
+		"च्या" gen obl mfn sp
+"<द>"
+	"द" barb
+"<ेहाची>"
+	"*ेहाची"
+"<राख>"
+	"राखणे" vblex imp p2 sg
+"<त्याच्या>"
+	"त्याचा" adj f pl
+	"त्याचा" adj mfn sp obl
+	"तो" det dist m sg obl
+		"च्या" gen f pl
+	"तो" det dist nt sg obl
+		"च्या" gen f pl
+	"तो" prn p3 m sg
+		"्या" gen f pl
+	"तो" prn p3 nt sg
+		"्या" gen f pl
+	"तो" det dist m sg obl
+		"च्या" gen obl mfn sp
+	"तो" det dist nt sg obl
+		"च्या" gen obl mfn sp
+"<घरी>"
+	"घरी" adv
+"<पाठविण्यात>"
+	"*पाठविण्यात"
+"<आली>"
+	"आले" n nt pl nom
+	"येणे" vblex perf p2 f sg
+	"येणे" vblex perf p3 f sg
+	"येणे" vblex perf p3 nt pl
+"<.>"
+	"." sent
+
+"<रात्रीच्या>"
+	"रात्र" n f sg obl
+		"च्या" gen f pl
+	"रात्र" n f sg obl
+		"च्या" gen obl mfn sp
+"<वेळेस>"
+	"वेळ" n f sg obl
+		"स" gna
+"<तो>"
+	"तो" det dist m sg
+	"तो" prn p3 m sg nom
+	"तो" prn corel m sg nom
+"<एक>"
+	"एक" part
+	"एक" num
+	"एक" det indef mfn sg
+"<भाऊ>"
+	"भाऊ" n m sg nom
+	"भाऊ" n m pl obl
+"<ती>"
+	"तो" det dist f sg
+	"तो" det dist nt pl
+	"तो" prn p3 f sg nom
+	"तो" prn p3 nt pl nom
+	"तो" prn corel f sg nom
+	"तो" prn corel nt pl nom
+"<राख>"
+	"राखणे" vblex imp p2 sg
+"<घेऊन>"
+	"घेणे" adv compl
+"<बाहेर>"
+	"बाहेर" post adv
+"<पडला>"
+	"पडणे" vblex perf p2 m sg
+	"पडणे" vblex perf p2 mf pl
+	"पडणे" vblex perf p3 m sg
+"<.>"
+	"." sent
+
+"<तो>"
+	"तो" det dist m sg
+	"तो" prn p3 m sg nom
+	"तो" prn corel m sg nom
+"<सर्प>"
+	"*सर्प"
+"<बनला>"
+	"बनणे" vblex perf p2 m sg
+	"बनणे" vblex perf p2 mf pl
+	"बनणे" vblex perf p3 m sg
+"<.>"
+	"." sent
+
+"<राखेचे>"
+	"*राखेचे"
+"<भांडे>"
+	"भांडे" n nt sg nom
+"<तोंडात>"
+	"तोंड" n nt sg obl
+		"त" loc
+	"तोंड" n nt sg obl
+		"त" gna
+"<धरून>"
+	"धरणे" adv compl
+"<तो>"
+	"तो" det dist m sg
+	"तो" prn p3 m sg nom
+	"तो" prn corel m sg nom
+"<पाताळात>"
+	"पाताळ" n m sg obl
+		"त" loc
+	"पाताळ" n m sg obl
+		"त" gna
+"<गेला>"
+	"जाणे" vblex perf p2 m sg
+	"जाणे" vblex perf p2 m pl
+	"जाणे" vblex perf p2 f pl
+	"जाणे" vblex perf p3 m sg
+"<.>"
+	"." sent
+
+"<त्याने>"
+	"तो" det dist m sg obl
+		"ने" erg
+	"तो" det dist nt sg obl
+		"ने" erg
+"<शेषाला>"
+	"शेष" n m sg obl
+		"ला" acc
+	"शेष" n m sg obl
+		"ला" dat
+"<सारा>"
+	"सारा" n m sg nom
+	"सारणे" vblex imp p2 pl
+"<वृत्तान्त>"
+	"*वृत्तान्त"
+"<निवेदला>"
+	"*निवेदला"
+"<.>"
+	"." sent
+
+
+"
+"<महाराज>"
+	"महाराज" n m sg nom
+	"महाराज" n m pl nom
+"<,>"
+	"," cm
+"<या>"
+	"हा" det prox f pl
+	"हा" det prox nt pl
+	"येणे" vblex imp pl
+"<राखेवर>"
+	"*राखेवर"
+"<शिंपायला>"
+	"शिंपणे" vblex incp
+"<अमृताचे>"
+	"*अमृताचे"
+"<चार>"
+	"चार" num
+	"चारणे" vblex imp p2 sg
+"<बिंदू>"
+	"बिंदू" n m sg nom
+	"बिंदू" n m pl nom
+"<द्या>"
+	"देणे" vblex imp pl
+"<.>"
+	"." sent
+
+" 
+"<सर्प>"
+	"*सर्प"
+"<म्हणाला>"
+	"म्हणणे" vblex perf p2 m sg
+	"म्हणणे" vblex perf p2 m pl
+	"म्हणणे" vblex perf p2 f pl
+	"म्हणणे" vblex perf p3 m sg
+"<.>"
+	"." sent
+
+
+"
+"<हा>"
+	"हा" det prox m sg
+"<साप>"
+	"साप" n m sg nom
+	"साप" n m pl nom
+"<तुझ्याबरोबर>"
+	"*तुझ्याबरोबर"
+"<अमृतबिंदू>"
+	"*अमृतबिंदू"
+"<घेऊन>"
+	"घेणे" adv compl
+"<पृथ्वीपर्यंत>"
+	"*पृथ्वीपर्यंत"
+"<येईल>"
+	"येणे" vblex fut p3 mfn sg
+"<.>"
+	"." sent
+
+" 
+"<शेष>"
+	"शेष" n m sg nom
+	"शेष" n m pl nom
+"<म्हणाला>"
+	"म्हणणे" vblex perf p2 m sg
+	"म्हणणे" vblex perf p2 m pl
+	"म्हणणे" vblex perf p2 f pl
+	"म्हणणे" vblex perf p3 m sg
+"<.>"
+	"." sent
+
+"<एक>"
+	"एक" part
+	"एक" num
+	"एक" det indef mfn sg
+"<सर्प>"
+	"*सर्प"
+"<या>"
+	"हा" det prox f pl
+	"हा" det prox nt pl
+	"येणे" vblex imp pl
+"<सर्पाबरोबर>"
+	"*सर्पाबरोबर"
+"<निघाला>"
+	"*निघाला"
+"<.>"
+	"." sent
+
+"<द>"
+	"द" barb
+"<ोघे>"
+	"*ोघे"
+"<पृथ्वीवर>"
+	"*पृथ्वीवर"
+"<आले>"
+	"आले" n nt sg nom
+	"येणे" vblex perf p1 f sg
+	"येणे" vblex perf p2 m pl
+	"येणे" vblex perf p3 m pl
+	"येणे" vblex perf p3 nt sg
+"<.>"
+	"." sent
+
+"<पाताळातील>"
+	"पाताळ" n m sg obl
+		"तील" post adv
+	"पाताळ" n m sg obl
+		"तील" post attr mfn pl
+"<सर्पाने>"
+	"*सर्पाने"
+"<राखेवर>"
+	"*राखेवर"
+"<अमृत>"
+	"अमृत" np ant m sg nom
+"<शिंपले>"
+	"शिंपणे" vblex perf p1 f sg
+	"शिंपणे" vblex perf p2 m pl
+	"शिंपणे" vblex perf p3 m pl
+	"शिंपणे" vblex perf p3 nt sg
+"<नि>"
+	"*नि"
+"<तो>"
+	"तो" det dist m sg
+	"तो" prn p3 m sg nom
+	"तो" prn corel m sg nom
+"<निघून>"
+	"निघून" adv
+"<गेला>"
+	"जाणे" vblex perf p2 m sg
+	"जाणे" vblex perf p2 m pl
+	"जाणे" vblex perf p2 f pl
+	"जाणे" vblex perf p3 m sg
+"<.>"
+	"." sent
+
+"<राखेतून>"
+	"*राखेतून"
+"<राजपुत्र>"
+	"*राजपुत्र"
+"<उभा>"
+	"उभा" adj m sg
+"<राहिला>"
+	"रहाणे" vblex perf p2 m sg
+	"रहाणे" vblex perf p2 mf pl
+	"रहाणे" vblex perf p3 m sg
+"<.>"
+	"." sent
+
+"<जवळ>"
+	"जवळ" adj mfn sp
+	"जवळ" adj mfn sp obl
+"<भाऊही>"
+	"*भाऊही"
+"<होता>"
+	"हो" vaux pres p2 mf pl
+	"हो" vaux pres p3 m sg
+	"आहे" vaux past p2 m sg
+	"आहे" vaux past p2 mf pl
+	"आहे" vaux past p3 m sg
+	"होणे" vblex impf p2 mf pl
+"<.>"
+	"." sent
+
+"<तो>"
+	"तो" det dist m sg
+	"तो" prn p3 m sg nom
+	"तो" prn corel m sg nom
+"<म्हणाला>"
+	"म्हणणे" vblex perf p2 m sg
+	"म्हणणे" vblex perf p2 m pl
+	"म्हणणे" vblex perf p2 f pl
+	"म्हणणे" vblex perf p3 m sg
+"<,>"
+	"," cm
+ "
+"<दादा>"
+	"दादा" n m sg nom
+	"दादा" n m pl nom
+"<,>"
+	"," cm
+"<जा>"
+	"जाणे" vblex imp
+"<व>"
+	"व" cnjcoo
+	"वणे" vblex imp p2 sg
+"<राजाला>"
+	"*राजाला"
+"<सांगा>"
+	"*सांगा"
+"<की>"
+	"की" n f sg nom
+"<,>"
+	"," cm
+"<त्याच्या>"
+	"त्याचा" adj f pl
+	"त्याचा" adj mfn sp obl
+	"तो" det dist m sg obl
+		"च्या" gen f pl
+	"तो" det dist nt sg obl
+		"च्या" gen f pl
+	"तो" prn p3 m sg
+		"्या" gen f pl
+	"तो" prn p3 nt sg
+		"्या" gen f pl
+	"तो" det dist m sg obl
+		"च्या" gen obl mfn sp
+	"तो" det dist nt sg obl
+		"च्या" gen obl mfn sp
+"<वडिलांना>"
+	"*वडिलांना"
+"<स्वर्गात>"
+	"*स्वर्गात"
+"<करमत>"
+	"करमणे" adv impf
+	"करमणे" vblex impf
+"<नाही>"
+	"नाही" part
+"<.>"
+	"." sent
+
+"<खुशमस्कऱ्याची>"
+	"*खुशमस्कऱ्याची"
+"<आठवण>"
+	"आठवण" n f sg nom
+"<येते>"
+	"येणे" vblex impf p1 f sg
+	"येणे" vblex impf p3 f sg
+	"येणे" vblex impf p3 nt sg
+"<.>"
+	"." sent
+
+"<त्याला>"
+	"तो" prn p3 m sg acc
+	"तो" prn p3 m sg dat
+	"तो" prn p3 nt sg acc
+	"तो" prn p3 nt sg dat
+	"तो" prn corel m sg obl
+	"तो" det dist m sg obl
+		"ला" acc
+	"तो" det dist m sg obl
+		"ला" dat
+	"तो" det dist nt sg obl
+		"ला" acc
+	"तो" det dist nt sg obl
+		"ला" dat
+"<लवकर>"
+	"लवकर" adv
+"<पाठवून>"
+	"पाठवणे" adv compl
+"<द्या>"
+	"देणे" vblex imp pl
+"<!>"
+	"!" sent
+
+" 
+"<राजपुत्र>"
+	"*राजपुत्र"
+"<परत>"
+	"परतणे" vblex imp p2 sg
+"<आलेला>"
+	"आलेला" gpr perf
+		"चा" m sg
+"<पाहून>"
+	"पहाणे" adv compl
+"<सारे>"
+	"सार" n nt pl nom
+	"सारा" n m pl nom
+"<आश्चर्यचकित>"
+	"*आश्चर्यचकित"
+"<झाले>"
+	"हो" vaux past p1 f sg
+	"हो" vaux past p3 m pl
+	"हो" vaux past p3 nt sg
+	"होणे" vblex perf p1 f sg
+	"होणे" vblex perf p2 m pl
+	"होणे" vblex perf p3 m pl
+	"होणे" vblex perf p3 nt sg
+"<.>"
+	"." sent
+
+"<राजवाड्यासमोर>"
+	"राजवाडा" n m sg obl
+		"समोर" post adv
+"<ही>"
+	"हा" det prox f sg
+"<गर्दी>"
+	"गर्दी" n m sg nom
+	"गर्दी" n m pl nom
+"<!>"
+	"!" sent
+
+"<राजपुत्राने>"
+	"*राजपुत्राने"
+"<राजाला>"
+	"*राजाला"
+"<त्याच्या>"
+	"त्याचा" adj f pl
+	"त्याचा" adj mfn sp obl
+	"तो" det dist m sg obl
+		"च्या" gen f pl
+	"तो" det dist nt sg obl
+		"च्या" gen f pl
+	"तो" prn p3 m sg
+		"्या" gen f pl
+	"तो" prn p3 nt sg
+		"्या" gen f pl
+	"तो" det dist m sg obl
+		"च्या" gen obl mfn sp
+	"तो" det dist nt sg obl
+		"च्या" gen obl mfn sp
+"<वडिलांचा>"
+	"*वडिलांचा"
+"<निरोप>"
+	"निरोप" n m sg nom
+	"निरोप" n m pl nom
+"<सांगितला>"
+	"*सांगितला"
+"<.>"
+	"." sent
+
+"<राजाने>"
+	"*राजाने"
+"<खुशमस्कऱ्यास>"
+	"*खुशमस्कऱ्यास"
+"<बोलावले>"
+	"बोलावणे" vblex perf p1 f sg
+	"बोलावणे" vblex perf p2 m pl
+	"बोलावणे" vblex perf p3 m pl
+	"बोलावणे" vblex perf p3 nt sg
+"<व>"
+	"व" cnjcoo
+	"वणे" vblex imp p2 sg
+"<सांगितले>"
+	"*सांगितले"
+"<,>"
+	"," cm
+
+"
+"<अरे>"
+	"*अरे"
+"<,>"
+	"," cm
+"<माझे>"
+	"माझा" adj m pl
+	"माझा" adj nt sg
+	"मी" prn p1 mf sg
+		"े" gen m pl
+	"मी" prn p1 mf sg
+		"े" gen nt sg
+"<बाबा>"
+	"बाबा" n m sg nom
+	"बाबा" n m pl nom
+"<तुझी>"
+	"तुझा" adj f sg
+	"तुझा" adj nt pl
+	"तू" prn p2 mf sg
+		"ी" gen f sg
+	"तू" prn p2 mf sg
+		"ी" gen nt pl
+"<आठवण>"
+	"आठवण" n f sg nom
+"<काढीत>"
+	"*काढीत"
+"<आहेत>"
+	"आहे" vaux pres p3 mfn pl
+"<.>"
+	"." sent
+
+"<जा>"
+	"जाणे" vblex imp
+"<तू>"
+	"तू" prn p2 mf sg nom
+"<त्यांच्याकडे>"
+	"तो" prn p3 m pl obl
+		"च्या" clit
+			"कडे" post adv
+	"तो" prn p3 f pl obl
+		"च्या" clit
+			"कडे" post adv
+	"तो" prn p3 nt pl obl
+		"च्या" clit
+			"कडे" post adv
+	"तो" det dist mfn pl obl
+		"च्या" clit
+			"कडे" post adv
+"<!>"
+	"!" sent
+
+"
+"
+"<मी>"
+	"मी" prn p1 mf sg nom
+"<कसा>"
+	"कसा" adj m sg
+	"कसणे" vblex imp p2 pl
+	"काय" prn interr mfn sp obl
+"<जाऊ>"
+	"जाणे" vblex incp
+	"जाणे" vblex fut p1 mfn pl
+"<?>"
+	"?" sent
+
+"
+"
+"<या>"
+	"हा" det prox f pl
+	"हा" det prox nt pl
+	"येणे" vblex imp pl
+"<राजपुत्रास>"
+	"*राजपुत्रास"
+"<पाठविले>"
+	"*पाठविले"
+"<त्याच>"
+	"तो" det dist f pl
+		"च" emph
+	"तो" prn p3 f pl nom
+		"च" emph
+	"तो" prn corel f pl nom
+		"च" emph
+	"तो" prn corel nt sg obl
+		"च" emph
+"<मार्गाने>"
+	"मार्ग" n m sg obl
+		"ने" erg
+"<तूही>"
+	"*तूही"
+"<जा>"
+	"जाणे" vblex imp
+"<!>"
+	"!" sent
+
+"
+"<लोकांनी>"
+	"लोक" n m pl obl
+		"नी" erg
+"<टाळ्या>"
+	"टाळी" n f pl nom
+"<पिटल्या>"
+	"पिटणे" vblex perf p2 f pl
+	"पिटणे" vblex perf p3 f pl
+"<.>"
+	"." sent
+
+ "
+"<द>"
+	"द" barb
+"<ुष्टाची>"
+	"*ुष्टाची"
+"<बरी>"
+	"बरा" adj f sg
+	"बरा" adj nt pl
+	"बर" n f pl nom
+"<जिरली>"
+	"जिरणे" vblex perf p2 f sg
+	"जिरणे" vblex perf p3 f sg
+	"जिरणे" vblex perf p3 nt pl
+"<!>"
+	"!" sent
+
+" 
+"<कोणी>"
+	"कोण" prn interr mfn sp erg
+"<म्हणाले>"
+	"म्हणणे" vblex perf p1 f sg
+	"म्हणणे" vblex perf p2 m pl
+	"म्हणणे" vblex perf p3 m pl
+	"म्हणणे" vblex perf p3 nt sg
+"<.>"
+	"." sent
+
+"<राजपुत्र>"
+	"*राजपुत्र"
+"<लगबगीने>"
+	"लगबग" n f sg obl
+		"ने" erg
+"<आपल्या>"
+	"आपला" adj f pl
+	"आपला" adj mfn sp obl
+	"आपण" prn refl mfn sp
+		"्या" gen f pl
+	"मी" prn p1 mf pl incl
+		"्या" gen f pl
+	"मी" prn p2 mf sg hon2
+		"्या" gen f pl
+"<राजवाड्यात>"
+	"राजवाडा" n m sg obl
+		"त" loc
+	"राजवाडा" n m sg obl
+		"त" gna
+"<आला>"
+	"येणे" vblex perf p2 m sg
+	"येणे" vblex perf p2 m pl
+	"येणे" vblex perf p2 f pl
+	"येणे" vblex perf p3 m sg
+"<व>"
+	"व" cnjcoo
+	"वणे" vblex imp p2 sg
+"<भावंडांना>"
+	"भावंड" n nt pl obl
+		"ना" acc
+	"भावंड" n nt pl obl
+		"ना" dat
+"<म्हणाला>"
+	"म्हणणे" vblex perf p2 m sg
+	"म्हणणे" vblex perf p2 m pl
+	"म्हणणे" vblex perf p2 f pl
+	"म्हणणे" vblex perf p3 m sg
+"<,>"
+	"," cm
+ "
+"<हा>"
+	"हा" det prox m sg
+"<राजा>"
+	"राजा" n nt sg nom
+"<लहरी>"
+	"लहर" n f pl nom
+"<दिसतो>"
+	"दिसणे" vblex impf p1 m sg
+	"दिसणे" vblex impf p1 mf pl
+	"दिसणे" vblex impf p3 m sg
+"<.>"
+	"." sent
+
+"<वेडपट>"
+	"वेडपट" n m sg nom
+	"वेडपट" n m pl nom
+"<दिसतो>"
+	"दिसणे" vblex impf p1 m sg
+	"दिसणे" vblex impf p1 mf pl
+	"दिसणे" vblex impf p3 m sg
+"<,>"
+	"," cm
+"<येथे>"
+	"येथे" adv
+"<राहण्यात>"
+	"*राहण्यात"
+"<अर्थ>"
+	"अर्थ" n m sg nom
+	"अर्थ" n m pl nom
+"<नाही>"
+	"नाही" part
+"<चला>"
+	"चलणे" vblex imp p2 pl
+"<आपण>"
+	"आपण" prn refl mfn sp nom
+	"मी" prn p1 mf pl incl nom
+	"मी" prn p2 mf sg hon2 nom
+"<जाऊ>"
+	"जाणे" vblex incp
+	"जाणे" vblex fut p1 mfn pl
+"<.>"
+	"." sent
+
+"
+"<रात्री>"
+	"रात्री" adv
+	"रात्र" n f pl nom
+"<चौघे>"
+	"चौघे" n m sg nom
+	"चौघे" n m pl nom
+"<भावंडे>"
+	"भावंड" n nt pl nom
+	"भावंडे" n nt sg nom
+"<निघाली>"
+	"*निघाली"
+"<.>"
+	"." sent
+
+"<रात्रभर>"
+	"*रात्रभर"
+"<चालत>"
+	"चालत" adv
+"<होती>"
+	"आहे" vaux past p2 f sg
+	"आहे" vaux past p3 f sg
+	"आहे" vaux past p3 nt pl
+"<.>"
+	"." sent
+
+"<बरोबर>"
+	"बरोबर" adj mfn sp
+	"बरोबर" adj mfn sp obl
+"<फराळाचे>"
+	"फराळ" n m sg obl
+		"चे" gen m pl
+	"फराळ" n m sg obl
+		"चे" gen nt sg
+"<होते>"
+	"हो" vaux pres p1 f sg
+	"हो" vaux pres p3 f sg
+	"हो" vaux pres p3 n sg
+	"आहे" vaux past p1 f sg
+	"आहे" vaux past p3 m pl
+	"आहे" vaux past p3 nt sg
+	"होणे" vblex impf p1 f sg
+	"होणे" vblex impf p3 f sg
+	"होणे" vblex impf p3 nt sg
+"<.>"
+	"." sent
+
+"<सकाळी>"
+	"सकाळी" adv
+"<प्रातर्विधी>"
+	"प्रातर्विधी" n m sg nom
+	"प्रातर्विधी" n m pl nom
+"<करून>"
+	"करणे" adv compl
+"<सर्वांनी>"
+	"सर्व" n m pl obl
+		"नी" erg
+"<फराळ>"
+	"फराळ" n m sg nom
+	"फराळ" n m pl nom
+"<केला>"
+	"के" n m sg obl
+		"ला" acc
+	"के" n m sg obl
+		"ला" dat
+	"करणे" vblex perf p1 m sg
+	"करणे" vblex perf p2 m sg
+	"करणे" vblex perf p3 m sg
+"<.>"
+	"." sent
+
+"<ती>"
+	"तो" det dist f sg
+	"तो" det dist nt pl
+	"तो" prn p3 f sg nom
+	"तो" prn p3 nt pl nom
+	"तो" prn corel f sg nom
+	"तो" prn corel nt pl nom
+"<पुन्हा>"
+	"पुन्हा" adv
+"<चालू>"
+	"चालू" adv
+"<लागली>"
+	"लागणे" vblex perf p2 f sg
+	"लागणे" vblex perf p3 f sg
+	"लागणे" vblex perf p3 nt pl
+"<.>"
+	"." sent
+
+"<तो>"
+	"तो" det dist m sg
+	"तो" prn p3 m sg nom
+	"तो" prn corel m sg nom
+"<एक>"
+	"एक" part
+	"एक" num
+	"एक" det indef mfn sg
+"<भाऊ>"
+	"भाऊ" n m sg nom
+	"भाऊ" n m pl obl
+"<म्हणाला>"
+	"म्हणणे" vblex perf p2 m sg
+	"म्हणणे" vblex perf p2 m pl
+	"म्हणणे" vblex perf p2 f pl
+	"म्हणणे" vblex perf p3 m sg
+"<,>"
+	"," cm
+
+"
+"<दादा>"
+	"दादा" n m sg nom
+	"दादा" n m pl nom
+"<,>"
+	"," cm
+"<मला>"
+	"म" n m sg obl
+		"ला" acc
+	"म" n m sg obl
+		"ला" dat
+	"मी" prn p1 mf sg acc
+	"मी" prn p1 mf sg dat
+"<निरोप>"
+	"निरोप" n m sg nom
+	"निरोप" n m pl nom
+"<दे>"
+	"देणे" vblex imp sg
+"<!>"
+	"!" sent
+
+"<मी>"
+	"मी" prn p1 mf sg nom
+"<जातो>"
+	"जाणे" vblex impf p1 m sg
+	"जाणे" vblex impf p1 mf pl
+	"जाणे" vblex impf p3 m sg
+"<!>"
+	"!" sent
+
+"
+"
+"<मला>"
+	"म" n m sg obl
+		"ला" acc
+	"म" n m sg obl
+		"ला" dat
+	"मी" prn p1 mf sg acc
+	"मी" prn p1 mf sg dat
+"<कंटाळलास>"
+	"कंटाळणे" vblex perf p2 m sg
+"<?>"
+	"?" sent
+
+"
+"
+"<दादा>"
+	"दादा" n m sg nom
+	"दादा" n m pl nom
+"<,>"
+	"," cm
+"<मी>"
+	"मी" prn p1 mf sg nom
+"<साप>"
+	"साप" n m sg nom
+	"साप" n m pl nom
+"<होतो>"
+	"हो" vaux pres p1 m sg
+	"हो" vaux pres p1 mf pl
+	"आहे" vaux past p1 m sg
+	"आहे" vaux past p1 mf pl
+	"होणे" vblex impf p1 m sg
+	"होणे" vblex impf p1 mf pl
+	"होणे" vblex impf p3 m sg
+"<.>"
+	"." sent
+
+"<तुम्ही>"
+	"तू" prn p2 mf pl excl nom
+"<माझी>"
+	"माझा" adj f sg
+	"माझा" adj nt pl
+	"मी" prn p1 mf sg
+		"ी" gen f sg
+	"मी" prn p1 mf sg
+		"ी" gen nt pl
+	"माझी" n f sg nom
+"<भूक>"
+	"*भूक"
+"<शमविण्यासाठी>"
+	"*शमविण्यासाठी"
+"<मांडीचा>"
+	"मांडी" n f sg obl
+		"चा" gen m sg
+"<तुकडा>"
+	"तुकडा" n m sg nom
+"<कापून>"
+	"कापणे" adv compl
+"<फेकलात>"
+	"फेकणे" vblex perf p2 mf pl
+"<.>"
+	"." sent
+
+"<तुमचे>"
+	"तू" prn p2 mf pl excl
+		"े" gen m pl
+	"तू" prn p2 mf pl excl
+		"े" gen nt sg
+"<उपकार>"
+	"*उपकार"
+"<फेडावे>"
+	"फेडणे" vblex subj p1 m pl
+	"फेडणे" vblex subj p2 m pl
+	"फेडणे" vblex subj p3 m pl
+	"फेडणे" vblex subj p3 nt sg
+"<म्हणून>"
+	"म्हणून" cnjcoo
+	"म्हणून" cnjsub
+	"म्हणणे" adv compl
+"<तुमचा>"
+	"तू" prn p2 mf pl excl
+		"ा" gen m sg
+"<काही>"
+	"काही" adv
+	"काही" n m sg nom
+	"काही" n m pl nom
+"<दिवस>"
+	"दिवस" n m sg nom
+	"दिवस" n m pl nom
+"<मी>"
+	"मी" prn p1 mf sg nom
+"<भाऊ>"
+	"भाऊ" n m sg nom
+	"भाऊ" n m pl obl
+"<झालो>"
+	"हो" vaux past p1 m sg
+	"हो" vaux past p1 mf pl
+	"होणे" vblex perf p1 m sg
+	"होणे" vblex perf p1 mf pl
+"<.>"
+	"." sent
+
+"<आम्ही>"
+	"मी" prn p1 mf pl nom
+"<सापही>"
+	"*सापही"
+"<केलेले>"
+	"केलेला" gpr perf
+		"चा" m pl
+	"केलेला" gpr perf
+		"चा" nt sg
+"<उपकार>"
+	"*उपकार"
+"<स्मरतो>"
+	"*स्मरतो"
+"<.>"
+	"." sent
+
+"<येतो>"
+	"येणे" vblex impf p1 m sg
+	"येणे" vblex impf p1 mf pl
+	"येणे" vblex impf p3 m sg
+"<दादा>"
+	"दादा" n m sg nom
+	"दादा" n m pl nom
+"<,>"
+	"," cm
+"<सुखी>"
+	"*सुखी"
+"<व्हा>"
+	"हो" vaux imp
+"<!>"
+	"!" sent
+
+" 
+"<असे>"
+	"असे" cnjsub
+	"असा" adj m pl
+	"असा" adj nt sg
+	"अस" vaux past p1 mf sg
+	"अस" vaux past p2 mf sg
+	"अस" vaux past p3 mfn sg
+"<म्हणून>"
+	"म्हणून" cnjcoo
+	"म्हणून" cnjsub
+	"म्हणणे" adv compl
+"<तो>"
+	"तो" det dist m sg
+	"तो" prn p3 m sg nom
+	"तो" prn corel m sg nom
+"<भाऊ>"
+	"भाऊ" n m sg nom
+	"भाऊ" n m pl obl
+"<साप>"
+	"साप" n m sg nom
+	"साप" n m pl nom
+"<बनला>"
+	"बनणे" vblex perf p2 m sg
+	"बनणे" vblex perf p2 mf pl
+	"बनणे" vblex perf p3 m sg
+"<व>"
+	"व" cnjcoo
+	"वणे" vblex imp p2 sg
+"<थोड्या>"
+	"थोडा" adj f pl
+	"थोडा" adj mfn sp obl
+"<अंतरावर>"
+	"अंतरावर" adv
+	"अंतर" n nt sg obl
+		"वरती" post adv
+"<फण्>"
+	"*फण्"
+"<फण्>"
+	"*फण्"
+"<करीत>"
+	"करणे" vblex impf
+"<निघून>"
+	"निघून" adv
+"<गेला>"
+	"जाणे" vblex perf p2 m sg
+	"जाणे" vblex perf p2 m pl
+	"जाणे" vblex perf p2 f pl
+	"जाणे" vblex perf p3 m sg
+"<.>"
+	"." sent
+
+"<थोड्या>"
+	"थोडा" adj f pl
+	"थोडा" adj mfn sp obl
+"<अंतरावर>"
+	"अंतरावर" adv
+	"अंतर" n nt sg obl
+		"वरती" post adv
+"<दुसरा>"
+	"दुसरा" adj m sg
+	"दोन" num ord
+		"चा" m sg
+	"दुसरा" n m sg nom
+"<भाऊ>"
+	"भाऊ" n m sg nom
+	"भाऊ" n m pl obl
+"<म्हणाला>"
+	"म्हणणे" vblex perf p2 m sg
+	"म्हणणे" vblex perf p2 m pl
+	"म्हणणे" vblex perf p2 f pl
+	"म्हणणे" vblex perf p3 m sg
+"<,>"
+	"," cm
+
+"
+"<दादा>"
+	"दादा" n m sg nom
+	"दादा" n m pl nom
+"<,>"
+	"," cm
+"<मलाही>"
+	"*मलाही"
+"<निरोप>"
+	"निरोप" n m sg nom
+	"निरोप" n m pl nom
+"<दे>"
+	"देणे" vblex imp sg
+"<!>"
+	"!" sent
+
+"
+"
+"<का>"
+	"का" adv interr
+"<रे>"
+	"रे" inj
+"<जातोस>"
+	"जाणे" vblex impf p2 m sg
+"<?>"
+	"?" sent
+
+"
+"
+"<दादा>"
+	"दादा" n m sg nom
+	"दादा" n m pl nom
+"<,>"
+	"," cm
+"<मी>"
+	"मी" prn p1 mf sg nom
+"<तो>"
+	"तो" det dist m sg
+	"तो" prn p3 m sg nom
+	"तो" prn corel m sg nom
+"<बेडूक>"
+	"*बेडूक"
+"<.>"
+	"." sent
+
+"<सापाला>"
+	"साप" n m sg obl
+		"ला" acc
+	"साप" n m sg obl
+		"ला" dat
+"<मांडीचा>"
+	"मांडी" n f sg obl
+		"चा" gen m sg
+"<तुकडा>"
+	"तुकडा" n m sg nom
+"<कापून>"
+	"कापणे" adv compl
+"<देऊन>"
+	"देणे" adv compl
+"<माझे>"
+	"माझा" adj m pl
+	"माझा" adj nt sg
+	"मी" prn p1 mf sg
+		"े" gen m pl
+	"मी" prn p1 mf sg
+		"े" gen nt sg
+"<प्राण>"
+	"*प्राण"
+"<तुम्ही>"
+	"तू" prn p2 mf pl excl nom
+"<वाचविले>"
+	"*वाचविले"
+"<.>"
+	"." sent
+
+"<तुमचे>"
+	"तू" prn p2 mf pl excl
+		"े" gen m pl
+	"तू" prn p2 mf pl excl
+		"े" gen nt sg
+"<उपकार>"
+	"*उपकार"
+"<फेडण्यासाठी>"
+	"फेडणे" vblex inf obl
+		"साठी" gna
+	"फेडणे" vblex ger inf
+		"साठी" gna
+"<मी>"
+	"मी" prn p1 mf sg nom
+"<तुमचा>"
+	"तू" prn p2 mf pl excl
+		"ा" gen m sg
+"<भाऊ>"
+	"भाऊ" n m sg nom
+	"भाऊ" n m pl obl
+"<बनलो>"
+	"बनणे" vblex perf p1 m sg
+	"बनणे" vblex perf p1 mf pl
+"<.>"
+	"." sent
+
+"<आम्ही>"
+	"मी" prn p1 mf pl nom
+"<य>"
+	"*य"
+"<:>"
+	":" sent
+
+"<कश्चित>"
+	"*कश्चित"
+"<बेडूक>"
+	"*बेडूक"
+"<परंतु>"
+	"परंतु" cnjcoo
+"<केलेले>"
+	"केलेला" gpr perf
+		"चा" m pl
+	"केलेला" gpr perf
+		"चा" nt sg
+"<उपकार>"
+	"*उपकार"
+"<आम्ही>"
+	"मी" prn p1 mf pl nom
+"<स्मरतो>"
+	"*स्मरतो"
+"<!>"
+	"!" sent
+
+" 
+"<असे>"
+	"असे" cnjsub
+	"असा" adj m pl
+	"असा" adj nt sg
+	"अस" vaux past p1 mf sg
+	"अस" vaux past p2 mf sg
+	"अस" vaux past p3 mfn sg
+"<म्हणून>"
+	"म्हणून" cnjcoo
+	"म्हणून" cnjsub
+	"म्हणणे" adv compl
+"<तो>"
+	"तो" det dist m sg
+	"तो" prn p3 m sg nom
+	"तो" prn corel m sg nom
+"<भाऊ>"
+	"भाऊ" n m sg nom
+	"भाऊ" n m pl obl
+"<बेडूक>"
+	"*बेडूक"
+"<बनला>"
+	"बनणे" vblex perf p2 m sg
+	"बनणे" vblex perf p2 mf pl
+	"बनणे" vblex perf p3 m sg
+"<व>"
+	"व" cnjcoo
+	"वणे" vblex imp p2 sg
+"<टुणटुण>"
+	"*टुणटुण"
+"<उड्या>"
+	"उडी" n f pl nom
+"<मारीत>"
+	"*मारीत"
+"<निघून>"
+	"निघून" adv
+"<गेला>"
+	"जाणे" vblex perf p2 m sg
+	"जाणे" vblex perf p2 m pl
+	"जाणे" vblex perf p2 f pl
+	"जाणे" vblex perf p3 m sg
+"<.>"
+	"." sent
+
+
+"<पुन्हा>"
+	"पुन्हा" adv
+"<थोड्या>"
+	"थोडा" adj f pl
+	"थोडा" adj mfn sp obl
+"<अंतरावर>"
+	"अंतरावर" adv
+	"अंतर" n nt sg obl
+		"वरती" post adv
+"<बहीण>"
+	"बहीण" n f sg nom
+"<म्हणाली>"
+	"म्हणणे" vblex perf p2 f sg
+	"म्हणणे" vblex perf p3 f sg
+	"म्हणणे" vblex perf p3 nt pl
+"<,>"
+	"," cm
+
+"
+"<दादा>"
+	"दादा" n m sg nom
+	"दादा" n m pl nom
+"<,>"
+	"," cm
+"<मलाही>"
+	"*मलाही"
+"<निरोप>"
+	"निरोप" n m sg nom
+	"निरोप" n m pl nom
+"<दे>"
+	"देणे" vblex imp sg
+"<!>"
+	"!" sent
+
+"
+"
+"<तूही>"
+	"*तूही"
+"<चाललीस>"
+	"*चाललीस"
+"<?>"
+	"?" sent
+
+"
+"
+"<होय>"
+	"होय" part
+"<दादा>"
+	"दादा" n m sg nom
+	"दादा" n m pl nom
+"<.>"
+	"." sent
+
+"<पाडसे>"
+	"पाडस" n nt pl nom
+"<वाट>"
+	"वाट" n f sg nom
+	"वाटणे" vblex imp p2 sg
+"<पाहत>"
+	"पहाणे" adv impf
+	"पहाणे" vblex impf
+"<असतील>"
+	"अस" vaux fut p3 mfn pl
+	"आहे" vaux fut p3 mfn pl
+"<.>"
+	"." sent
+
+"<मी>"
+	"मी" prn p1 mf sg nom
+"<ती>"
+	"तो" det dist f sg
+	"तो" det dist nt pl
+	"तो" prn p3 f sg nom
+	"तो" prn p3 nt pl nom
+	"तो" prn corel f sg nom
+	"तो" prn corel nt pl nom
+"<हरिणी>"
+	"हरिणी" n m sg nom
+	"हरिणी" n m pl nom
+"<.>"
+	"." sent
+
+"<तू>"
+	"तू" prn p2 mf sg nom
+"<माझ्यावर>"
+	"मी" prn p1 mf sg obl
+		"वरती" post adv
+"<बाण>"
+	"बाण" n m sg nom
+	"बाण" n m pl nom
+	"बाणणे" vblex imp p2 sg
+"<सोडणार>"
+	"सोडणे" vblex pros mfn sp
+"<होतास>"
+	"आहे" vaux past p2 m sg
+"<;>"
+	";" sent
+
+"<परंतु>"
+	"परंतु" cnjcoo
+"<तुझे>"
+	"तुझा" adj m pl
+	"तुझा" adj nt sg
+	"तू" prn p2 mf sg
+		"े" gen m pl
+	"तू" prn p2 mf sg
+		"े" gen nt sg
+"<मातृप्रेम>"
+	"*मातृप्रेम"
+"<जागे>"
+	"जागा" adj m pl
+	"जागा" adj nt sg
+"<झाले>"
+	"हो" vaux past p1 f sg
+	"हो" vaux past p3 m pl
+	"हो" vaux past p3 nt sg
+	"होणे" vblex perf p1 f sg
+	"होणे" vblex perf p2 m pl
+	"होणे" vblex perf p3 m pl
+	"होणे" vblex perf p3 nt sg
+"<.>"
+	"." sent
+
+"<तू>"
+	"तू" prn p2 mf sg nom
+"<मला>"
+	"म" n m sg obl
+		"ला" acc
+	"म" n m sg obl
+		"ला" dat
+	"मी" prn p1 mf sg acc
+	"मी" prn p1 mf sg dat
+"<मारले>"
+	"मारणे" vblex perf p1 f sg
+	"मारणे" vblex perf p2 m pl
+	"मारणे" vblex perf p3 m pl
+	"मारणे" vblex perf p3 nt sg
+"<नाहीस>"
+	"*नाहीस"
+"<.>"
+	"." sent
+
+"<तुझे>"
+	"तुझा" adj m pl
+	"तुझा" adj nt sg
+	"तू" prn p2 mf sg
+		"े" gen m pl
+	"तू" prn p2 mf sg
+		"े" gen nt sg
+"<उपकार>"
+	"*उपकार"
+"<फेडायला>"
+	"फेडणे" vblex incp
+"<मी>"
+	"मी" prn p1 mf sg nom
+"<बहीण>"
+	"बहीण" n f sg nom
+"<झाले>"
+	"हो" vaux past p1 f sg
+	"हो" vaux past p3 m pl
+	"हो" vaux past p3 nt sg
+	"होणे" vblex perf p1 f sg
+	"होणे" vblex perf p2 m pl
+	"होणे" vblex perf p3 m pl
+	"होणे" vblex perf p3 nt sg
+"<.>"
+	"." sent
+
+"<आता>"
+	"आता" adv
+"<जाते>"
+	"जाते" n nt sg nom
+	"जाणे" vblex impf p1 f sg
+	"जाणे" vblex impf p3 f sg
+	"जाणे" vblex impf p3 nt sg
+"<.>"
+	"." sent
+
+"<सुखी>"
+	"*सुखी"
+"<हो>"
+	"हो" part
+	"होणे" vblex imp
+"<.>"
+	"." sent
+
+"<असाच>"
+	"असा" adj m sg
+		"च" emph
+	"अस" vaux past p2 mf pl
+		"च" emph
+"<दयाळू>"
+	"दयाळू" n m sg nom
+	"दयाळू" n m pl nom
+"<->"
+	"-" guio
+"<मायाळू>"
+	"*मायाळू"
+"<हो>"
+	"हो" part
+	"होणे" vblex imp
+"<!>"
+	"!" sent
+
+"
+"<बहीण>"
+	"बहीण" n f sg nom
+"<हरिणी>"
+	"हरिणी" n m sg nom
+	"हरिणी" n m pl nom
+"<बनून>"
+	"बनणे" adv compl
+"<कृतज्ञतेने>"
+	"*कृतज्ञतेने"
+"<मधून>"
+	"मधून" adv
+	"मधून" post adv
+"<मधून>"
+	"मधून" adv
+	"मधून" post adv
+"<मागे>"
+	"मागे" post adv
+"<बघत>"
+	"*बघत"
+"<वाऱ्याप्रमाणे>"
+	"*वाऱ्याप्रमाणे"
+"<पाडसांकडे>"
+	"पाडस" n nt pl obl
+		"कडे" post adv
+"<पळत>"
+	"पळणे" adv impf
+	"पळणे" vblex impf
+"<गेली>"
+	"जाणे" vblex perf p2 f sg
+	"जाणे" vblex perf p3 f sg
+	"जाणे" vblex perf p3 nt pl
+"<.>"
+	"." sent
+
+"<राजपुत्र>"
+	"*राजपुत्र"
+"<आता>"
+	"आता" adv
+"<एकटाच>"
+	"एकटा" adj m sg
+		"च" emph
+"<राहिला>"
+	"रहाणे" vblex perf p2 m sg
+	"रहाणे" vblex perf p2 mf pl
+	"रहाणे" vblex perf p3 m sg
+"<.>"
+	"." sent
+
+"<विचार>"
+	"विचार" n m sg nom
+	"विचार" n m pl nom
+	"विचारणे" vblex imp p2 sg
+"<करीत>"
+	"करणे" vblex impf
+"<तो>"
+	"तो" det dist m sg
+	"तो" prn p3 m sg nom
+	"तो" prn corel m sg nom
+"<निघाला>"
+	"*निघाला"
+"<.>"
+	"." sent
+
+"<पशु>"
+	"*पशु"
+"<->"
+	"-" guio
+"<पक्ष्यांतही>"
+	"*पक्ष्यांतही"
+"<केवढी>"
+	"केवढा" adj f sg
+	"केवढा" adj nt pl
+"<कृतज्ञताबुद्धी>"
+	"*कृतज्ञताबुद्धी"
+"<!>"
+	"!" sent
+
+"<असे>"
+	"असे" cnjsub
+	"असा" adj m pl
+	"असा" adj nt sg
+	"अस" vaux past p1 mf sg
+	"अस" vaux past p2 mf sg
+	"अस" vaux past p3 mfn sg
+"<त्याच्या>"
+	"त्याचा" adj f pl
+	"त्याचा" adj mfn sp obl
+	"तो" det dist m sg obl
+		"च्या" gen f pl
+	"तो" det dist nt sg obl
+		"च्या" gen f pl
+	"तो" prn p3 m sg
+		"्या" gen f pl
+	"तो" prn p3 nt sg
+		"्या" gen f pl
+	"तो" det dist m sg obl
+		"च्या" gen obl mfn sp
+	"तो" det dist nt sg obl
+		"च्या" gen obl mfn sp
+"<मनात>"
+	"मन" n nt sg obl
+		"त" loc
+	"मन" n nt sg obl
+		"त" gna
+"<येत>"
+	"येणे" adv impf
+	"येणे" vblex impf
+"<होते>"
+	"हो" vaux pres p1 f sg
+	"हो" vaux pres p3 f sg
+	"हो" vaux pres p3 n sg
+	"आहे" vaux past p1 f sg
+	"आहे" vaux past p3 m pl
+	"आहे" vaux past p3 nt sg
+	"होणे" vblex impf p1 f sg
+	"होणे" vblex impf p3 f sg
+	"होणे" vblex impf p3 nt sg
+"<.>"
+	"." sent
+
+"<मग>"
+	"मग" adv
+"<माणसाने>"
+	"माणूस" n m sg obl
+		"ने" erg
+"<किती>"
+	"किती" adj mfn sp
+	"किती" adj mfn sp obl
+"<चांगले>"
+	"चांगला" adj m pl
+	"चांगला" adj nt sg
+"<असले>"
+	"आहे" vblex perf p1 f sg
+	"आहे" vblex perf p2 m pl
+	"आहे" vblex perf p3 m pl
+	"आहे" vblex perf p3 nt sg
+"<पाहिजे>"
+	"*पाहिजे"
+"<,>"
+	"," cm
+"<असा>"
+	"असा" adj m sg
+	"अस" vaux past p2 mf pl
+"<विचार>"
+	"विचार" n m sg nom
+	"विचार" n m pl nom
+	"विचारणे" vblex imp p2 sg
+"<त्याच्या>"
+	"त्याचा" adj f pl
+	"त्याचा" adj mfn sp obl
+	"तो" det dist m sg obl
+		"च्या" gen f pl
+	"तो" det dist nt sg obl
+		"च्या" gen f pl
+	"तो" prn p3 m sg
+		"्या" gen f pl
+	"तो" prn p3 nt sg
+		"्या" gen f pl
+	"तो" det dist m sg obl
+		"च्या" gen obl mfn sp
+	"तो" det dist nt sg obl
+		"च्या" gen obl mfn sp
+
+"<मनात>"
+	"मन" n nt sg obl
+		"त" loc
+	"मन" n nt sg obl
+		"त" gna
+"<आला>"
+	"येणे" vblex perf p2 m sg
+	"येणे" vblex perf p2 m pl
+	"येणे" vblex perf p2 f pl
+	"येणे" vblex perf p3 m sg
+"<आणि>"
+	"आणि" cnjcoo
+"<या>"
+	"हा" det prox f pl
+	"हा" det prox nt pl
+	"येणे" vblex imp pl
+"<विचारात>"
+	"विचार" n m sg obl
+		"त" loc
+	"विचार" n m sg obl
+		"त" gna
+"<तो>"
+	"तो" det dist m sg
+	"तो" prn p3 m sg nom
+	"तो" prn corel m sg nom
+"<आपल्या>"
+	"आपला" adj f pl
+	"आपला" adj mfn sp obl
+	"आपण" prn refl mfn sp
+		"्या" gen f pl
+	"मी" prn p1 mf pl incl
+		"्या" gen f pl
+	"मी" prn p2 mf sg hon2
+		"्या" gen f pl
+"<घरी>"
+	"घरी" adv
+"<आला>"
+	"येणे" vblex perf p2 m sg
+	"येणे" vblex perf p2 m pl
+	"येणे" vblex perf p2 f pl
+	"येणे" vblex perf p3 m sg
+"<.>"
+	"." sent
+
+"<पहाटेची>"
+	"*पहाटेची"
+"<वेळ>"
+	"वेळ" n f sg nom
+"<होती>"
+	"आहे" vaux past p2 f sg
+	"आहे" vaux past p3 f sg
+	"आहे" vaux past p3 nt pl
+"<.>"
+	"." sent
+
+"<मुलगा>"
+	"मुलगा" n m sg nom
+"<गेल्यापासून>"
+	"*गेल्यापासून"
+"<राणीला>"
+	"राणी" n f sg obl
+		"ला" acc
+	"राणी" n f sg obl
+		"ला" dat
+"<झोप>"
+	"झोप" n f sg nom
+	"झोपणे" vblex imp p2 sg
+"<येत>"
+	"येणे" adv impf
+	"येणे" vblex impf
+"<नसे>"
+	"*नसे"
+"<.>"
+	"." sent
+
+"<ती>"
+	"तो" det dist f sg
+	"तो" det dist nt pl
+	"तो" prn p3 f sg nom
+	"तो" prn p3 nt pl nom
+	"तो" prn corel f sg nom
+	"तो" prn corel nt pl nom
+"<गच्चीत>"
+	"गच्ची" n f sg obl
+		"त" loc
+	"गच्ची" n f sg obl
+		"त" gna
+"<उभी>"
+	"उभा" adj f sg
+	"उभा" adj nt pl
+"<होती>"
+	"आहे" vaux past p2 f sg
+	"आहे" vaux past p3 f sg
+	"आहे" vaux past p3 nt pl
+"<.>"
+	"." sent
+
+"<देवाला>"
+	"देव" n m sg obl
+		"ला" acc
+	"देव" n m sg obl
+		"ला" dat
+"<प्रार्थना>"
+	"*प्रार्थना"
+"<करत>"
+	"करणे" adv impf
+	"करणे" vblex impf
+"<होती>"
+	"आहे" vaux past p2 f sg
+	"आहे" vaux past p3 f sg
+	"आहे" vaux past p3 nt pl
+"<.>"
+	"." sent
+
+
+"
+"<कोण>"
+	"कोण" prn interr mfn sp nom
+"<आहे>"
+	"आहे" vaux pres p1 mf sg
+	"आहे" vaux pres p3 mfn sg
+"<?>"
+	"?" sent
+
+" 
+"<पहारेकऱ्यांनी>"
+	"*पहारेकऱ्यांनी"
+"<दरडावले>"
+	"दरडावणे" vblex perf p1 f sg
+	"दरडावणे" vblex perf p2 m pl
+	"दरडावणे" vblex perf p3 m pl
+	"दरडावणे" vblex perf p3 nt sg
+"<.>"
+	"." sent
+
+
+"
+"<मी>"
+	"मी" prn p1 mf sg nom
+"<राजपुत्र>"
+	"*राजपुत्र"
+"<.>"
+	"." sent
+
+"
+"
+"<माझा>"
+	"माझा" adj m sg
+	"मी" prn p1 mf sg
+		"ा" gen m sg
+"<बाळ>"
+	"बाळ" n nt sg nom
+"<!>"
+	"!" sent
+
+"<माझा>"
+	"माझा" adj m sg
+	"मी" prn p1 mf sg
+		"ा" gen m sg
+"<बाळ>"
+	"बाळ" n nt sg nom
+"<!>"
+	"!" sent
+
+" 
+"<म्हणत>"
+	"म्हणणे" adv impf
+	"म्हणणे" vblex impf
+"<राणी>"
+	"राणी" n f sg nom
+"<धावतच>"
+	"धावणे" adv impf
+		"च" emph
+	"धावणे" vblex impf
+		"च" emph
+"<खाली>"
+	"खाली" post adv
+"<आली>"
+	"आले" n nt pl nom
+	"येणे" vblex perf p2 f sg
+	"येणे" vblex perf p3 f sg
+	"येणे" vblex perf p3 nt pl
+"<.>"
+	"." sent
+
+"<तिने>"
+	"तो" det dist f sg obl
+		"ने" erg
+"<राजपुत्राला>"
+	"*राजपुत्राला"
+"<हृदयाशी>"
+	"*हृदयाशी"
+"<धरले>"
+	"धरणे" vblex perf p1 f sg
+	"धरणे" vblex perf p2 m pl
+	"धरणे" vblex perf p3 m pl
+	"धरणे" vblex perf p3 nt sg
+"<.>"
+	"." sent
+
+"<राजाही>"
+	"*राजाही"
+"<आला>"
+	"येणे" vblex perf p2 m sg
+	"येणे" vblex perf p2 m pl
+	"येणे" vblex perf p2 f pl
+	"येणे" vblex perf p3 m sg
+"<.>"
+	"." sent
+
+"<पुत्र>"
+	"पुत्र" n m sg nom
+	"पुत्र" n m pl nom
+"<पित्याच्या>"
+	"*पित्याच्या"
+"<पाया>"
+	"पाया" n m sg nom
+"<पडला>"
+	"पडणे" vblex perf p2 m sg
+	"पडणे" vblex perf p2 mf pl
+	"पडणे" vblex perf p3 m sg
+"<.>"
+	"." sent
+
+
+"
+"<शहाणा>"
+	"शहाणा" adj m sg
+"<होऊन>"
+	"हो" adv compl
+	"होणे" adv compl
+"<आलास>"
+	"येणे" vblex perf p2 m sg
+"<?>"
+	"?" sent
+
+" 
+"<राजाने>"
+	"*राजाने"
+"<विचारले>"
+	"विचारणे" vblex perf p1 f sg
+	"विचारणे" vblex perf p2 m pl
+	"विचारणे" vblex perf p3 m pl
+	"विचारणे" vblex perf p3 nt sg
+"<.>"
+	"." sent
+
+
+"
+"<होय>"
+	"होय" part
+"<तात>"
+	"तात" n m sg nom
+	"तात" n m pl nom
+"<!>"
+	"!" sent
+
+" 
+"<तो>"
+	"तो" det dist m sg
+	"तो" prn p3 m sg nom
+	"तो" prn corel m sg nom
+"<नम्रतेने>"
+	"नम्रते" n f sg obl
+		"ने" erg
+"<म्हणाला>"
+	"म्हणणे" vblex perf p2 m sg
+	"म्हणणे" vblex perf p2 m pl
+	"म्हणणे" vblex perf p2 f pl
+	"म्हणणे" vblex perf p3 m sg
+"<.>"
+	"." sent
+
+"<राजाने>"
+	"*राजाने"
+"<राजपुत्राला>"
+	"*राजपुत्राला"
+"<गादीवर>"
+	"गादी" n f sg obl
+		"वरती" post adv
+"<बसविले>"
+	"*बसविले"
+"<.>"
+	"." sent
+
+"<त्याचे>"
+	"त्याचा" adj m pl
+	"त्याचा" adj nt sg
+	"तो" det dist m sg obl
+		"चे" gen m pl
+	"तो" det dist m sg obl
+		"चे" gen nt sg
+	"तो" det dist nt sg obl
+		"चे" gen m pl
+	"तो" det dist nt sg obl
+		"चे" gen nt sg
+	"तो" prn p3 m sg
+		"े" gen m pl
+	"तो" prn p3 m sg
+		"े" gen nt sg
+	"तो" prn p3 nt sg
+		"े" gen m pl
+	"तो" prn p3 nt sg
+		"े" gen nt sg
+"<लग्नही>"
+	"*लग्नही"
+"<करून>"
+	"करणे" adv compl
+"<दिले>"
+	"देणे" vblex perf p3 m pl
+	"देणे" vblex perf p3 nt sg
+"<.>"
+	"." sent
+
+"<राजा>"
+	"राजा" n nt sg nom
+"<->"
+	"-" guio
+"<राणी>"
+	"राणी" n f sg nom
+"<मुलाला>"
+	"मुल" n nt sg obl
+		"ला" acc
+	"मुल" n nt sg obl
+		"ला" dat
+	"मुलगा" n m sg obl
+		"ला" acc
+	"मुलगा" n m sg obl
+		"ला" dat
+"<व>"
+	"व" cnjcoo
+	"वणे" vblex imp p2 sg
+"<सुनेला>"
+	"*सुनेला"
+"<आशीर्वाद>"
+	"आशीर्वाद" n m sg nom
+	"आशीर्वाद" n m pl nom
+"<देऊन>"
+	"देणे" adv compl
+"<तपश्चर्येसाठी>"
+	"तपश्चर्ये" n f sg obl
+		"साठी" post adv
+"<वनात>"
+	"वन" n nt sg obl
+		"त" loc
+	"वन" n nt sg obl
+		"त" gna
+"<निघून>"
+	"निघून" adv
+"<गेली>"
+	"जाणे" vblex perf p2 f sg
+	"जाणे" vblex perf p3 f sg
+	"जाणे" vblex perf p3 nt pl
+"<.>"
+	"." sent
+
+"<नवीन>"
+	"नवीन" adj mfn sp
+	"नवीन" adj mfn sp obl
+"<राजा>"
+	"राजा" n nt sg nom
+"<->"
+	"-" guio
+"<राणी>"
+	"राणी" n f sg nom
+"<उत्कृष्ठ>"
+	"*उत्कृष्ठ"
+"<राज्यकारभार>"
+	"राज्यकारभार" n m sg nom
+	"राज्यकारभार" n m pl nom
+"<चालवू>"
+	"चालवणे" vblex incp
+	"चालवणे" vblex imp p1 sg
+	"चालवणे" vblex imp p1 pl
+	"चालवणे" vblex fut p1 mfn pl
+"<लागली>"
+	"लागणे" vblex perf p2 f sg
+	"लागणे" vblex perf p3 f sg
+	"लागणे" vblex perf p3 nt pl
+"<.>"
+	"." sent
+
+"<सारी>"
+	"*सारी"
+"<प्रजा>"
+	"प्रजा" n f sg nom
+	"प्रजा" n f pl nom
+"<सुखी>"
+	"*सुखी"
+"<झाली>"
+	"हो" vaux past p2 f sg
+	"हो" vaux past p3 f sg
+	"हो" vaux past p3 nt pl
+	"होणे" vblex perf p2 f sg
+	"होणे" vblex perf p3 f sg
+	"होणे" vblex perf p3 nt pl
+"<.>"
+	"." sent
+
+"<तुम्ही>"
+	"तू" prn p2 mf pl excl nom
+"<आम्ही>"
+	"मी" prn p1 mf pl nom
+"<होऊया>"
+	"होणे" vblex hort
+"<.>"
+	"." sent
+
+"<गोष्ट>"
+	"गोष्ट" n f sg nom
+"<आमची>"
+	"आमचा" adj f sg
+	"आमचा" adj nt pl
+	"मी" prn p1 mf pl
+		"ी" gen f sg
+	"मी" prn p1 mf pl
+		"ी" gen nt pl
+"<संपली>"
+	"संपणे" vblex perf p2 f sg
+	"संपणे" vblex perf p3 f sg
+	"संपणे" vblex perf p3 nt pl
+"<.>"
+	"." sent
+
+"<शेरभर>"
+	"*शेरभर"
+"<साखर>"
+	"साखर" n f sg nom
+"<वाटली>"
+	"वाटणे" vblex perf p2 f sg
+	"वाटणे" vblex perf p3 f sg
+	"वाटणे" vblex perf p3 nt pl
+
