@@ -21,7 +21,7 @@
 "<एकुलता>"
 	"एकुलता" adj m sg @amod #1->3
 "<एक>"
-	"एक" det indef mfn sg @nummod #2->3
+	"एक" det indef mfn sg @det #2->3
 "<मुलगा>"
 	"मुलगा" n m sg nom @root #3->0
 "<म्हणून>"
@@ -68,11 +68,11 @@
 "<">"
 	"," qt @punct #5->8
 "<याला>"
-	"हा" det prox m sg dat @obj #6->8
+	"हा" pron m sg dat @obj #6->7
 "<घालवून>"
-	"घालवणे" vblex trans perf @compound:svc #7->8
+	"घालवणे" vblex trans perf @ccomp #7->3
 "<द्यावे>"
-	"देणे" vblex subj p3 nt sg @ccomp #8->3 !
+	"देणे" vblex subj p3 nt sg @compound:svc #8->7
 "<.>"
 	"." sent @punct #9->8
 "<">"
@@ -126,9 +126,9 @@
 "<">"
 	"""	qt @punct #1->3
 "<नका>"
-	"नका" adv imp p2 pl @advmod #2->3 !
+	"नका" vaux neg imp p2 pl @advmod #2->3 !
 "<घालवू>"
-	"घालवणे" vblex incp @root #3->0
+	"घालवणे" vblex imp neg p2 pl @root #3->0
 "<त्याला>"
 	"तो" prn p3 m sg acc @obj #4->3
 "<दूर>"
@@ -155,22 +155,22 @@
 "<कळत>"
 	"कळणे" vblex pprs @root #4->0
 "<नाही>"
-	"नाही" adv p3 mfn sg @neg #5->4
+	"नाही" vaux neg p3 sg @advmod #5->4
 "<.>"
 	"." sent @punct #6->4
 "<">"
 	""" qt @punct #7->4
 	
 "<">"
-	""" qt @punct #1->5
+	""" qt @punct #1->4
 "<आज>"
-	"आज" adv @advmod #2->5
+	"आज" adv @advmod #2->4
 "<त्याला>"
 	"तो" prn p3 m sg dat @obj #3->4
 "<हाकलून>"
-	"हाकलणे" vblex trans perf @compound:svc #4->5
+	"हाकलणे" vblex trans perf @xcomp #4->9
 "<देणे>"
-	"देणे" vblex inf @xcomp #5->9
+	"देणे" vblex inf @compound:svc #5->4
 "<तुला>"
 	"तू" prn p2 mf sg dat @obj #6->9
 "<कठोरपणाचे>"
@@ -224,7 +224,7 @@
 "<आली>"
 	"येणे" vblex perf p3 f sg @root #5->0
 "<नाही>"
-	"नाही" adv sp @advmod #6->5
+	"नाही" vaux neg p3 sg @advmod #6->5
 "<.>"
 	"." sent @punct #7->5
 
@@ -239,14 +239,14 @@
 "<,>"
 	"," cm @punct #5->4
 "<राज्यातून>"
-	"राज्य" n nt sg obl @obl #6->9
+	"राज्य" n nt sg obl @obl #6->8
 	"तून" post adv @case #7->6
 "<चालता>"
-	"चालणे" vblex pprs dup @compound:svc #8->9
+	"चालणे" vblex pprs dup @parataxis #8->4
 "<हो>"
-	"होणे" vblex imp @ccomp #9->4
+	"होणे" vblex imp @compound:svc #9->8
 "<.>"
-	"." sent @punct #10->9
+	"." sent @punct #10->8
 
 "<आपण>"
 	"आपण" prn refl mfn sp nom @nsubj #1->4
@@ -307,7 +307,7 @@
 	"तो" prn p3 m sg nom @nsubj #1->5
 "<आईच्या>"
 	"आई" n f sg obl @nmod:poss #2->4
-	"चा" gen obl mfn sp @case #3->2
+	"चा" gen mfn sp obl @case #3->2
 "<पाया>"
 	"पाय" n m sg loc @nmod #4->5 !
 "<पडला>"
@@ -327,7 +327,7 @@
 	"." sent @punct #5->4
 
 "<हे>"
-	"हा" det prox nt sg @obj #1->2
+	"हा" prn prox p3 nt sg @obj #1->2
 "<घे>"
 	"घेणे" vblex imp p2 sg @root #2->0
 "<चार>"
@@ -536,18 +536,18 @@
 "<मनात>"
 	"मन" n nt sg loc @obl #5->6
 "<येऊन>"
-	"येणे" vblex trans perf @advcl #6->11
+	"येणे" vblex trans perf @advcl #6->10
 "<त्याचे>"
 	"तो" prn p3 m sg @nmod:poss #7->9
 	"चा" gen m pl @case #8->7
 "<डोळे>"
-	"डोळा" n m pl nom @nsubj #9->11
+	"डोळा" n m pl nom @nsubj #9->10
 "<भरून>"
-	"भरणे" vblex trans perf @compound:svc #10->11
+	"भरणे" vblex trans perf @root #10->0
 "<आले>"
-	"येणे" vblex perf p3 m pl @root #11->0
+	"येणे" vblex perf p3 m pl @compound:svc #11->10
 "<.>"
-	"." sent @punct #12->11
+	"." sent @punct #12->10
 
 "<लाडू>"
 	"लाडू" n m pl nom @nsubj #1->2
@@ -610,7 +610,7 @@
 "<तो>"
 	"तो" prn p3 m sg nom @nsubj #1->4
 "<त्या>"
-	"तो" prn p3 f sg obl @det #2->3
+	"तो" det dist obl @det #2->3
 "<हरिणीला>"
 	"हरिणी" n f sg dat @obj #3->4
 "<मारणार>"
@@ -666,7 +666,7 @@
 	"." sent @punct #5->4
 
 "<त्याने>"
-	"तो" det dist m sg erg @nsubj #1->5
+	"तो" prn p3 m sg erg @nsubj #1->5
 "<बाण>"
 	"बाण" n m sg nom @obj #2->5
 "<परत>"
@@ -751,7 +751,7 @@
 	"." sent @punct #3->2
 
 "<ती>"
-	"तो" prn p3 f sg nom @det #1->2
+	"तो" det dist p3 f sg nom @det #1->2
 "<स्त्री>"
 	"स्त्री" n f sg nom @nsubj #2->4
 "<जवळ>"
@@ -806,9 +806,9 @@
 "<नाही>"
 	"नाही" ij @obj #2->3
 "<म्हणू>"
-	"म्हणणे" vblex incp @root #3->0
+	"म्हणणे" vblex imp neg p2 pl @root #3->0
 "<नकोस>"
-	"नकोस" adv p2 mf sg @advmod #4->3
+	"नकोस" vaux neg p2 sg @advmod #4->3
 "<,>" 
 	"," cm @punct #5->3
 "<ती>"
@@ -1005,15 +1005,15 @@
 	"." sent @punct #10->9
 
 "<बेडूक>"
-	"बेडूक" n m sg nom @nsubj #1->5
+	"बेडूक" n m sg nom @nsubj #1->4
 "<टुणटुण>"
-	"टुणटुण" adv @advmod #2->5
+	"टुणटुण" adv @advmod #2->4
 "<उड्या>"
 	"उडी" n f pl nom @compound:lvc #3->4
 "<मारत>"
-	"मारणे" vblex pprs @compound:svc #4->5
+	"मारणे" vblex pprs @root #4->0
 "<गेला>"
-	"जाणे" vblex perf p3 m sg @root #5->0
+	"जाणे" vblex perf p3 m sg @compound:svc #5->4
 "<.>"
 	"." sent @punct #6->5
 
@@ -1029,7 +1029,7 @@
 "<बेडकाचेही>"
 	"बेडूक" n m sg obl @nmod:poss #6->9
 	"चा" gen nt sg @case #7->6
-	"ही" part @discourse #8->6
+	"ही" clit @discourse #8->6
 "<प्राण>"
 	"प्राण" n nt sg nom @nsubj #9->10
 "<वाचले>"
@@ -1047,18 +1047,18 @@
 "<मांडी>"
 	"मांडी" n f sg nom @nsubj #5->6
 "<पाहून>"
-	"पहाणे" vblex trans perf @advmod #6->11
+	"पहाणे" vblex trans perf @advmod #6->10
 "<बहिणीचे>"
 	"बहिण" n f sg obl @nmod:poss #7->9
 	"चा" gen m pl @case #8->7
 "<डोळे>"
-	"डोळा" n m pl nom @nsubj #9->11
+	"डोळा" n m pl nom @nsubj #9->10
 "<भरून>"
-	"भरणे" vblex trans perf @compound:svc #10->11
+	"भरणे" vblex trans perf @root #10->0
 "<आले>"
-	"येणे" vblex perf p3 m pl @root #11->0
+	"येणे" vblex perf p3 m pl @compound:svc #11->10
 "<.>"
-	"." sent @punct #12->11
+	"." sent @punct #12->10
 
 "<ती>"
 	"तो" prn p3 f sg nom @nsubj #1->4
@@ -1082,7 +1082,7 @@
 "<तिने>"
 	"तो" prn p3 f sg erg @nsubj #1->6
 "<त्या>"
-	"तो" prn p3 mfn sp obl @det #2->3
+	"तो" det prox obl @det #2->3
 "<पाल्याचा>"
 	"पाला" n m sg obl @obj #3->6 !
 	"चा" gen m sg @case #4->3
@@ -1091,7 +1091,7 @@
 "<करून>"
 	"करणे" vblex trans perf 
 "<तो>"
-	"तो" prn p3 m sg nom @det #7->8
+	"तो" det prox p3 m sg nom @det #7->8
 "<पाला>"
 	"पाला" n m sg nom @obj #8->15
 "<आपला>"
@@ -1110,18 +1110,18 @@
 	"." sent @punct #16->15
 
 "<दोघे>"
-	"दोघे" prn p3 pl nom @nsubj #1->4
+	"दोघे" prn p3 pl nom @nsubj #1->3
 "<पुढे>"
-	"पुढे" adv @advmod #2->4
+	"पुढे" adv @advmod #2->3
 "<जाऊ>"
-	"जाणे" vblex incp @compound:svc #3->4
+	"जाणे" vblex incp @root #3->0
 "<लागली>"
-	"लागणे" vblex perf p3 nt pl @root #4->0
+	"लागणे" vblex perf p3 nt pl @compound:svc #4->3
 "<.>"
-	"." sent @punct #5->4
+	"." sent @punct #5->3
 
 "<तो>"
-	"तो" prn p3 m sg nom @det #1->3
+	"तो" det prox p3 m sg nom @det #1->3
 "<पाठीमागून>"
 	"पाठीमागून" adv @advmod #2->4
 "<कोणी>"
@@ -1188,22 +1188,22 @@
 	"." sent @punct #8->7
 
 "<मला>"
-	"मी" prn p1 mf sg dat @nsubj #1->6
+	"मी" prn p1 mf sg dat @nsubj #1->5
 "<तुमचा>"
 	"तू" prn p2 mf pl excl @nmod:poss #2->4
 	"चा" gen m sg @case #3->2
 "<भाऊ>"
-	"भाऊ" n m sg nom @obj #4->6
+	"भाऊ" n m sg nom @obj #4->5
 "<होऊ>"
-	"होणे" vblex incp @compound:svc #5->6
+	"होणे" vblex incp @root #5->0
 "<दे>"
-	"देणे" vblex imp p2 sg @root #6->0
+	"देणे" vblex imp p2 sg @compound:svc #6->5
 "<,>"
-	"," cm @punct #7->9
+	"," cm @punct #7->5
 "<तो>"
 	"तो" prn p3 m sg nom @nsubj #8->9
 "<म्हणाला>"
-	"म्हणणे" vblex perf p3 m sg @parataxis #9->6
+	"म्हणणे" vblex perf p3 m sg @parataxis #9->5
 "<.>"
 	"." sent @punct #10->9
 
@@ -1214,7 +1214,7 @@
 "<हरकत>"
 	"हरकत" n f sg nom @root #3->0
 "<नाही>"
-	"नाही" adv p3 sg @advmod #4->3
+	"नाही" vaux neg p3 sg @advmod #4->3
 "<,>"
 	"," sent @punct #5->3
 "<राजपुत्र>"
@@ -1225,16 +1225,16 @@
 	"." sent @punct #8->7
 
 "<तिघे>"
-	"तिघे" prn p3 pl nom @nsubj #1->3
+	"तिघे" prn p3 pl nom @nsubj #1->2
 "<चालू>"
-	"चालणे" vblex incp @compound:svc #2->3
+	"चालणे" vblex incp @root #2->0
 "<लागली>"
-	"लागणे" vblex perf p3 nt pl @root #3->0
+	"लागणे" vblex perf p3 nt pl @compound:svc #3->2
 "<.>"
-	"." sent @punct #4->3
+	"." sent @punct #4->2
 
 "<तो>"
-	"तो" prn p3 m sg nom @det #1->4
+	"तो" det prox p3 m sg nom @det #1->4
 "<आणखी>"
 	"आणखी" adj mfn sp @amod #2->3
 "<एक>"
@@ -1280,9 +1280,9 @@
 "<नाही>"
 	"नाही" inj @obj #1->2
 "<म्हणू>"
-	"म्हणणे" vblex incp @root #2->0
+	"म्हणणे" vblex imp neg p2 pl @root #2->0
 "<नका>"
-	"नका" adv p2 mfn pl @advmod #3->2
+	"नका" vaux neg p2 pl @advmod #3->2
 "<.>"
 	"." sent @punct #4->2
 
@@ -1308,7 +1308,7 @@
 	"." sent @punct #7->6
 
 "<ती>"
-	"तो" prn p3 nt pl nom @det #1->2
+	"तो" det prox p3 nt pl nom @det #1->2
 "<चौघे>"
 	"चौघे" prn p3 pl nom @nsubj #2->3
 "<जात>"
@@ -1409,21 +1409,20 @@
 "<,>"
 	"," cm @punct #6->5
 "<त्याने>"
-	"तो" det dist m sg obl @nsubj #7->11
-	"ने"	post instr @case #8->7
+	"तो" prn p3 m sg inst @nsubj #7->10
 "<नाही>"
-	"नाही" adv @advmod #9->11
+	"नाही" vaux neg p3 sg @advmod #8->10
 "<तृप्ती>"
-	"तृप्ती" n f sg acc @obj #10->11
+	"तृप्ती" n f sg acc @obj #9->11
 "<व्हावयाची>"
-	"होणे" vblex caus pred p3 f sg @root #11->0
+	"होणे" vblex caus pred p3 f sg @root #10->0
 "<तर>"
-	"तर" cnjadv @mark #12->13
+	"तर" cnjadv @mark #11->12
 "<कशाने>"
-	"काय" prn interr mfn sp @advcl #13->11
-	"ने"	post instr @case #14->13
+	"काय" prn interr mfn sp @advcl #12->10
+	"ने"	post instr @case #13->12
 "<?>"
-	"?" sent @punct #15->13
+	"?" sent @punct #14->12
 
 "<जवळच>"
 	"जवळ" adj mfn sp @amod #1->4
@@ -1523,14 +1522,14 @@
 	"." sent @punct #4->3
 
 "<मला>"
-	"मी" prn p1 mf sg acc @obj #1->5
+	"मी" prn p1 mf sg acc @obj #1->4
 "<सन्मानाने>"
-	"सन्मान" n m sg obl @obl #2->5
+	"सन्मान" n m sg obl @obl #2->4
 	"ने" post instr @case #3->2
 "<मिरवत>"
-	"मिरवणे" vblex pprs @compound:svc #4->5
+	"मिरवणे" vblex pprs @advcl #4->7
 "<नेण्यासाठी>"
-	"नेणे" vblex ger obl @advcl #5->7
+	"नेणे" vblex ger obl @compound:svc #5->4
 	"साठी" post adv @case #6->5
 "<या>"
 	"येणे" vblex imp p2 pl @root #7->0
@@ -1538,11 +1537,11 @@
 	"!" sent @punct #8->7
 
 "<दोघे>"
-	"दोघे" prn p3 pl nom @det #1->2
+	"दोघे" det p3 pl nom @det #1->2
 "<भाऊ>"
 	"भाऊ" n m pl obl @nsubj #2->5
 "<त्या>"
-	"तो" prn p3 mfn sp obl @det #3->4
+	"तो" det prox obl @det #3->4
 "<नगरीत>"
 	"नगर" n nt sg loc @obl #4->5
 "<गेले>"
@@ -1580,13 +1579,13 @@
 "<दोन>"
 	"दोन" num @obj #2->3
 "<विकावी>"
-	"विकणे" vblex subj p3 nt pl @compound:svc #3->4
+	"विकणे" vblex subj p3 nt pl @root #3->0
 "<लागली>"
-	"लागणे" vblex perf p3 nt pl @root #4->0
+	"लागणे" vblex perf p3 nt pl @compound:svc #4->3
 "<नाहीत>"
-	"नाही" adv p3 pl @advmod #5->4
+	"नाही" vaux neg p3 pl @aux #5->4
 "<.>"
-	"." sent @punct #6->4
+	"." sent @punct #6->3
 
 "<त्यांनी>"
 	"तो" prn p3 nt pl erg @nsubj #1->4
@@ -1631,7 +1630,7 @@
 "<त्या>"
 	"तो" det dist f pl @det #1->2
 "<दोघा>"
-	"दोघे" prn p3 pl obl @det #2->3
+	"दोघे" det p3 pl obl @det #2->3
 "<भावांनी>"
 	"भाऊ" n m pl erg @nsubj #3->7
 "<घोडेस्वार>"
@@ -1651,17 +1650,17 @@
 	"." sent @punct #11->10
 
 "<त्याच्यावर>"
-	"तो" prn p3 nt sg @nmod #1->6
+	"तो" prn p3 nt sg @nmod #1->5
 	"च्या" clit @case #2->1
 	"वर" post adv @case #3->1
 "<अंबारी>"
-	"अंबारी" n f sg nom @nsubj #4->6
+	"अंबारी" n f sg nom @nsubj #4->5
 "<ठेवण्यात>"
-	"ठेवणे" vblex ger loc @compound:svc #5->6
+	"ठेवणे" vblex ger loc @root #5->0
 "<आली>"
-	"येणे" vblex perf p3 f sg @root #6->0
+	"येणे" vblex perf p3 f sg @compound:svc #6->5
 "<.>"
-	"." sent @punct #7->6
+	"." sent @punct #7->5
 
 "<राजपुत्राला>"
 	"राजपुत्र" n m sg dat @obj #1->2
@@ -1678,7 +1677,7 @@
 	"हत्ती" n m sg obl @obl #7->12
 	"सह" post adv @case #8->7
 "<ते>"
-	"तो" prn p3 m pl nom @det #9->11
+	"तो" det prox p3 m pl nom @det #9->11
 "<दोघे>"
 	"दोघे" prn p3 pl nom @nummod #10->11
 "<भाऊ>"
@@ -1790,7 +1789,7 @@
 "<जीवन>"
 	"जीवन" n nt sg nom @nsubj #2->4
 "<सुरू>"
-	सुरू ! @compound:lvc #3->4
+	"सुरू" adv @compound:lvc #3->4
 "<झाले>"
 	"होणे" vblex perf p3 nt sg @root #4->0
 "<.>"
@@ -1841,19 +1840,19 @@
 	"?" sent @punct #9->6
 
 "<मी>"
-	"मी" prn p1 mf sg nom @nsubj #1->4
+	"मी" prn p1 mf sg nom @nsubj #1->3
 "<बातमी>"
-	"बातमी" n f sg acc @obj #2->4
+	"बातमी" n f sg acc @obj #2->3
 "<काढून>"
-	"काढणे" vblex trans perf @compound:svc #3->4
+	"काढणे" vblex trans perf @root #3->0
 "<आणतो>"
-	"आणणे" vblex pres impf p1 m sg @root #4->0
+	"आणणे" vblex pres impf p1 m sg @compound:svc #4->3
 "<,>"
 	"," cm @punct #5->7
 "<तो>"
 	"तो" prn p3 m sg nom @nsubj #6->7
 "<म्हणाला>"
-	"म्हणणे" vblex perf p3 m sg @parataxis #7->4
+	"म्हणणे" vblex perf p3 m sg @parataxis #7->3
 "<.>"
 	"." sent @punct #8->7
 
@@ -1890,11 +1889,11 @@
 	"राजा" n m sg obl @nmod:poss #6->8
 	"चा" gen f sg @case #7->6
 "<करमणूक>"
-	"करमणूक" n f sg nom @
+	"करमणूक" n f sg nom @obj #8->9
 "<करणारा>"
-	"करणे" vblex pprs impf m sg
+	"करणे" vblex pprs impf m sg @root #9->0
 "<.>"
-	"." sent
+	"." sent @punct #10->9
 
 "<तुमच्या>"
 	"तू" prn p2 mf pl @nmod:poss #1->3
@@ -1948,18 +1947,18 @@
 	"राजपुत्र" n m sg obl @nmod:poss #1->4
 	"चा" gen f sg @case #2->1
 "<तो>"
-	"तो" prn p3 m sg nom @nsubj #3->6
+	"तो" prn p3 m sg nom @nsubj #3->5
 "<करमणूक>"
-	"करमणूक" n f sg nom @obj #4->6
+	"करमणूक" n f sg nom @obj #4->5
 "<करू>"
-	"करणे" vblex incp @compound:svc #5->6
+	"करणे" vblex incp @root #5->0
 "<लागला>"
-	"लागणे" vblex perf p3 m sg @root #6->0
+	"लागणे" vblex perf p3 m sg @compound:svc #6->5
 "<.>"
-	"." sent @punct #7-6
+	"." sent @punct #7->5
 
 "<तो>"
-	"तो" prn p3 m sg nom @det #1->3
+	"तो" det prox p3 m sg nom @det #1->3
 "<तेथील>"
 	"तेथे" adj @amod #2->3
 "<हास्यविनोद>"
@@ -1980,39 +1979,39 @@
 "<थोड्या>"
 	"थोडा" adj mfn sp obl @amod #1->2
 "<वेळाने>"
-	"वेळ" n f sg instr @obl #2->5
+	"वेळ" n f sg instr @obl #2->4
 "<खुशमस्कऱ्या>"
-	"खुशमस्कऱ्या" n m sg nom @nsubj #3->5
+	"खुशमस्कऱ्या" n m sg nom @nsubj #3->4
 "<जायला>"
-	"जाणे" vblex sup @compound:svc #4->5
+	"जाणे" vblex sup @root #4->0
 "<निघाला>"
-	"निघाला" vblex perf p3 m sg @root #5->0
+	"निघाला" vblex perf p3 m sg @compound:svc #5->4
 "<.>"
-	"." sent @punct #6->5
+	"." sent @punct #6->4
 
 "<येत>"
-	"येणे" vblex pprs @compound:svc #1->2
+	"येणे" vblex pprs @root #1->0
 "<जा>"
-	"जाणे" vblex imp p2 sg @root #2->0
+	"जाणे" vblex imp p2 sg @compound:svc #2->1
 "<!>"
-	"!" sent @punct #3->2
+	"!" sent @punct #3->1
 "<राजपुत्र>"
 	"राजपुत्र" n m sg nom @nsubj #4->5
 "<म्हणाला>"
-	"म्हणणे" vblex perf p3 m sg @parataxis #5->2
+	"म्हणणे" vblex perf p3 m sg @parataxis #5->1
 "<.>"
 	"." sent @punct #6->5
 
 "<राजाने>"
-	"राजा" n m sg erg @nsubj #1->3
+	"राजा" n m sg erg @nsubj #1->2
 "<येऊ>"
-	"येणे" vblex incp @compound:svc #2->3
+	"येणे" vblex incp @root #2->0
 "<दिले>"
-	"देणे" vblex perf p3 nt sg @root #3->0
+	"देणे" vblex perf p3 nt sg @compound:svc #3->2
 "<तर>"
-	"तर" cnjcoo @mark #4->3 !
+	"तर" cnjcoo @mark #4->2 !
 "<!>"
-	"!" sent @punct #5->3
+	"!" sent @punct #5->2
 "<तो>"
 	"तो" prn p3 m sg nom @nsubj #6->7
 "<म्हणाला>"
@@ -2042,7 +2041,7 @@
 "<,>"
 	"," cm @punct #11->10
 "<त्या>"
-	"तो" prn p3 f pl nom @det #12->13
+	"तो" det prox p3 f pl nom @det #12->13
 "<राजपुत्राची>"
 	"राजपुत्र" n m sg obl @nmod:poss #13->15
 	"ची" gen f sg @case #14->13
@@ -2070,7 +2069,7 @@
 "<तुम्ही>"
 	"तू" prn p2 mf pl nom @nsubj #1->6
 "<तिच्यासाठी>"
-	"ती" det dist f sg obl @obl #2->6
+	"ती" prn p3 f sg obl @obl #2->6
 	"च्या" clit @case #3->2
 	"साठी" post adv @case #4->2
 "<मागणी>"
@@ -2096,17 +2095,17 @@
 "<दुसऱ्या>"
 	"दुसरा" adj mfn sp obl @amod #1->2
 "<दिवशी>"
-	"दिवशी" adv @advcl #2->6
+	"दिवशी" adv @advcl #2->5
 "<राजाने>"
-	"राजा" n m sg erg @nsubj #3->6
+	"राजा" n m sg erg @nsubj #3->5
 "<राजपुत्राला>"
-	"राजपुत्र" n m sg dat @obl #4->6
+	"राजपुत्र" n m sg dat @obl #4->5
 "<बोलावणे>"
-	"बोलावणे" vblex inf @compound:svc #5->6
+	"बोलावणे" vblex inf @root #5->0
 "<धाडले>"
-	"धाडणे" vblex perf p3 nt sg @root #6->0
+	"धाडणे" vblex perf p3 nt sg @compound:svc #6->5
 "<.>"
-	"." sent @punct #7->6
+	"." sent @punct #7->5
 
 "<राजपुत्र>"
 	"राजपुत्र" n m sg nom @nsubj #1->2
@@ -2248,9 +2247,9 @@
 "<होऊ>"
 	"होणे" vblex incp @xcomp #5->6
 "<शकत>"
-	"शकणे" vblex pprs @root #6->0
+	"शकणे" vaux pprs @root #6->0
 "<नाही>"
-	"नाही" adv p1 sg @advmod #7->6
+	"नाही" vaux neg p1 sg @advmod #7->6
 "<!>"
 	"!" sent @punct #8->6
 
@@ -2275,20 +2274,20 @@
 	"." sent @punct #10->9
 
 "<राजा>"
-	"राजा" n m sg nom @nsubj #1->4
+	"राजा" n m sg nom @nsubj #1->3
 "<विचार>"
-	"विचार" n m sg nom @obj #2->4
+	"विचार" n m sg nom @obj #2->3
 "<करू>"
-	"करणे" vblex incp @compound:svc #3->4 !
+	"करणे" vblex incp @root #3->0 !
 "<लागला>"
-	"लागणे" vblex perf p3 m sg @root #4->0
+	"लागणे" vblex perf p3 m sg @compound:svc #4->3
 "<.>"
-	"." sent @punct #5->4
+	"." sent @punct #5->3
 
 "<इतक्यात>"
 	"इतक्यात" adv @advmod #1->4
 "<तो>"
-	"तो" prn p3 m sg nom @det #2->3
+	"तो" det prox p3 m sg nom @det #2->3
 "<खुशमस्कऱ्या>"
 	"खुशमस्कऱ्या" n m sg nom @nsubj #3->4
 "<आला>"
@@ -2327,19 +2326,19 @@
 "<,>"
 	"," cm @punct #9->8
 "<नाहीतर>"
-	"नाहीतर" cnjcoo @cc #10->16
+	"नाहीतर" cnjcoo @cc #10->15
 "<रात्री>"
-	"रात्री" adv @advmod #11->16
+	"रात्री" adv @advmod #11->15
 "<पायी>"
-	"पायी" adv @advmod #12->16
+	"पायी" adv @advmod #12->15
 "<चाळीस>"
 	"चाळीस" num @nummod #13->14
 "<कोस>"
-	"कोस" n m pl nom @obl #14->16
+	"कोस" n m pl nom @obl #14->15
 "<चालत>"
-	"चालणे" vblex pprs @compound:svc #15->16
+	"चालणे" vblex pprs @conj #15->8
 "<जा>"
-	"जाणे" vblex imp p2 sg @conj #16->8
+	"जाणे" vblex imp p2 sg @compound:svc #16->15
 "<व>"
 	"व" cnjcoo @cc #17->27
 "<त्या>"
@@ -2364,15 +2363,15 @@
 "<,>"
 	"," cm @punct #28->27
 "<नाहीतर>"
-	"नाहीतर" cnjcoo @cc #29->32
+	"नाहीतर" cnjcoo @cc #29->31
 "<डोके>"
-	"डोके" n nt sg nom @nsubj #30->32
+	"डोके" n nt sg nom @nsubj #30->31
 "<उडवण्यात>"
-	"उडवणे" vblex ger loc @compound:svc #31->32 !
+	"उडवणे" vblex ger loc @conj #31->8 !
 "<येईल>"
-	"येणे" vblex fut p3 mfn sg @conj #32->8
+	"येणे" vblex fut p3 mfn sg @compound:svc #32->31
 "<!>"
-	"!" sent @punct #33->32
+	"!" sent @punct #33->31
 
 "<राजपुत्राला>"
 	"राजपुत्र" n m sg dat @nsubj #1->4
@@ -2386,13 +2385,13 @@
 	"." sent @punct #5->4
 
 "<तो>"
-	"तो" prn p3 m sg nom @nsubj #1->3
+	"तो" prn p3 m sg nom @nsubj #1->2
 "<रडत>"
-	"रडणे" vblex pprs @compound:svc #2->3
+	"रडणे" vblex pprs @root #2->0
 "<बसला>"
-	"बसणे" vblex perf p3 m sg @root #3->0
+	"बसणे" vblex perf p3 m sg @compound:svc #3->2
 "<.>"
-	"." sent @punct #4->3
+	"." sent @punct #4->2
 
 "<बहीण>"
 	"बहीण" n f sg nom @nsubj #1->3
@@ -2416,7 +2415,7 @@
 "<त्याने>"
 	"तो" prn p3 m sg erg @nsubj #1->4
 "<तो>"
-	"तो" prn p3 m sg nom @det #2->3
+	"तो" det prox p3 m sg nom @det #2->3
 "<वृत्तान्त>"
 	"वृत्तान्त" n m sg nom @obj #3->4
 "<सांगितला>"
@@ -2429,35 +2428,35 @@
 "<म्हणाली>"
 	"म्हणणे" vblex perf p3 f sg @root #2->0
 "<,>"
-	"," cm @punct #3->
+	"," cm @punct #3->2
 "<गावाबाहेर>"
 	"गाव" n m sg obl @obl #4->6
 	"बाहेर" post adv @case #5->4
 "<जाऊन>"
-	"जाणे" vblex trans perf @advcl #6->11
+	"जाणे" vblex trans perf @advcl #6->10
 "<दोन>"
 	"दोन" num @nummod #7->8
 "<कोसांवर>"
-	"कोस" n m pl obl @obl #8->11
+	"कोस" n m pl obl @obl #8->10
 	"वरती" post adv @case #9->8
 "<बसून>"
-	"बसणे" vblex trans perf @compound:svc #10->11
+	"बसणे" vblex trans perf @parataxis #10->2
 "<राहा>"
-	"राहाणे" vblex imp @parataxis #11->2
+	"राहाणे" vblex imp @compound:svc #11->10
 "<.>"
-	"." sent @punct #12->11
+	"." sent @punct #12->10
 
 "<चिंता>"
 	"चिंता" n f sg nom @obj #1->3
 "<नको>"
-	"नको" adv p2 mfn sg @advmod #2->3
+	"नको" vaux neg p2 sg @advmod #2->3
 "<करूस>"
 	"करूस" vblex imp p2 sg @root #3->0 !
 "<!>"
 	"!" sent @punct #4->3
 
 "<राजपुत्र>"
-	"राजपुत्र" n m sg nom @nsubj #1->3
+	"राजपुत्र" n m sg nom @nsubj #1->6
 "<पायी>"
 	"पायी" adv @advmod #2->3
 "<निघाला>"
@@ -2465,7 +2464,7 @@
 "<व>"
 	"व" cnjcoo @cc #4->6
 "<जाऊन>"
-	"जाणे" vblex trans perf @compound:svc #5->6
+	"जाणे" vblex trans perf @advcl #5->6
 "<बसला>"
 	"बसणे" vblex perf p3 m sg @conj #6->3
 "<.>"
@@ -2496,16 +2495,16 @@
 	"." sent @punct #13->12
 
 "<वाऱ्याप्रमाणे>"
-	"वारा" n m sg obl @advcl #1->5
+	"वारा" n m sg obl @advcl #1->4
 	"प्रमाणे" post adv @case #2->1
 "<ती>"
-	"तो" prn p3 f sg nom @nsubj #3->5
+	"तो" prn p3 f sg nom @nsubj #3->4
 "<पळत>"
-	"पळणे" vblex pprs @compound:svc #4->5
+	"पळणे" vblex pprs @root #4->0
 "<सुटली>"
-	"सुटणे" vblex perf p3 f sg @root #5->0
+	"सुटणे" vblex perf p3 f sg @compoun:svc #5->4
 "<.>"
-	"." sent @punct #6->5
+	"." sent @punct #6->4
 
 "<अंधाऱ्या>"
 	"अंधाऱ्या" adj mfn sp obl @amod #1->2
@@ -2524,7 +2523,7 @@
 	"." sent @punct #8->7
 
 "<ती>"
-	"तो" prn p3 nt pl nom @det #1->2
+	"तो" det prox p3 nt pl nom @det #1->2
 "<फुले>"
 	"फुल" n nt pl nom @obj #2->4
 "<दातात>"
@@ -2553,7 +2552,7 @@
 	"राजपुत्र" n m sg obl @obl #4->8
 	"जवळ" post adv @case #5->4
 "<ती>"
-	"तो" prn p3 nt pl nom @det #6->7
+	"तो" det prox p3 nt pl nom @det #6->7
 "<फुले>"
 	"फुल" n nt pl nom @obj #7->8
 "<देऊन>"
@@ -2580,22 +2579,22 @@
 	"!" sent @punct #18->17
 
 "<राजपुत्राने>"
-	"राजपुत्र" n m sg erg @nsubj #1->8
+	"राजपुत्र" n m sg erg @nsubj #1->7
 "<ताऱ्याप्रमाणे>"
 	"तारा" n m sg obl @advcl #2->4
 	"प्रमाणे" post adv @case #3->2
 "<चमकणारी>"
 	"चमकणे" vblex pprs impf nt pl @amod #4->5
 "<फुले>"
-	"फुल" n nt pl nom @obj #5->8
+	"फुल" n nt pl nom @obj #5->7
 "<राजाला>"
-	"राजा" n m sg dat @iobj #6->8
+	"राजा" n m sg dat @iobj #6->7
 "<नेऊन>"
-	"नेणे" vblex trans perf @compound:svc #7->8
+	"नेणे" vblex trans perf @root #7->0
 "<दिली>"
-	"देणे" vblex perf p3 nt pl @root #8->0
+	"देणे" vblex perf p3 nt pl @compound:svc #8->7
 "<.>"
-	"." sent @punct #9->8
+	"." sent @punct #9->7
 
 "<निरोप>"
 	"निरोप" n m sg nom @obj #1->2
@@ -2644,7 +2643,7 @@
 "<दे>"
 	"देणे" vblex imp p2 sg @xcomp #7->2
 "<किंवा>"
-	"किंवा" cnjcoo @cc #8->16
+	"किंवा" cnjcoo @cc #8->15
 "<मागील>"
 	"मागील" adj mfn sp obl @amod #9->10
 "<राणीची>"
@@ -2655,13 +2654,13 @@
 "<पडलेली>"
 	"पडणे" vblex pprs perf p3 f sg @acl:relcl #13->14
 "<नथ>"
-	"नथ" n f sg nom @obj #14->16
+	"नथ" n f sg nom @obj #14->15
 "<आणून>"
-	"आणणे" vblex trans perf @compound:svc #15->16
+	"आणणे" vblex trans perf @compound:svc #15->7
 "<दे>"
-	"देणे" vblex imp p2 sg @conj #16->7
+	"देणे" vblex imp p2 sg @compound:svc #16->15
 "<,>"
-	"," cm @punct #17->16
+	"," cm @punct #17->15
 "<नाहीतर>"
 	"नाहीतर" adv @cc #18->20
 "<डोके>"
@@ -2680,7 +2679,7 @@
 "<राजपुत्राला>"
 	"राजपुत्र" n m sg dat @nsubj #1->5
 "<ती>" 
-	"तो" prn p3 f sg nom @det #2->3
+	"तो" det prox p3 f sg nom @det #2->3
 "<गोष्ट>"
 	"गोष्ट" n f sg nom @obj #3->5
 "<कळविण्यात>"
@@ -2691,11 +2690,11 @@
 	"." sent @punct #6->5
 
 "<राजपुत्र>"
-	"राजपुत्र" n m sg nom @nsubj #1->3
+	"राजपुत्र" n m sg nom @nsubj #1->2
 "<रडत>"
-	"रडणे" vblex pprs @compound:svc #2->3
+	"रडणे" vblex pprs @root #2->0
 "<बसला>"
-	"बसणे" vblex perf p3 m sg @root #3->0
+	"बसणे" vblex perf p3 m sg @compound:svc #3->2
 "<.>"
 	"." sent @punct #4->3
 
@@ -2721,9 +2720,9 @@
 	"?" sent @punct #10->9
 
 "<रडू>"
-	"रडणे" vblex incp @root #1->0
+	"रडणे" vblex imp neg @root #1->0
 "<नकोस>"
-	"नकोस" adv p2 mf sg @advmod #2->1
+	"नकोस" vaux neg p2 sg @advmod #2->1
 "<,>"
 	"," cm @punct #3->1
 "<दादा>"
@@ -2744,7 +2743,7 @@
 "<चिंता>"
 	"चिंता" n f sg nom @compound:lvc #1->3
 "<नको>"
-	"नको" adv @advmod #2->3
+	"नको" vaux neg p3 sg @advmod #2->3
 "<करूस>"
 	"करूस" vblex p2 imp sg @root #3->0
 "<!>"
@@ -2791,7 +2790,7 @@
 "<करून>"
 	"करणे" vblex trans perf @advcl #4->8
 "<त्याने>"
-	"तो" det dist m sg erg @nsubj #5->8
+	"तो" prn p3 m sg erg @nsubj #5->8
 "<बेडकांना>"
 	"बेडूक" n m pl dat @obj #6->8
 "<हाका>"
@@ -2839,7 +2838,7 @@
 "<आपण>"
 	"आपण" prn refl mfn sp nom @nsubj #1->6
 "<त्याच्यासाठी>"
-	"तो"	prn p3 m sg obl @obl #2->6
+	"तो" prn p3 m sg obl @obl #2->6
 	"च्या" clit @case #3->2
 	"साठी" post adv @case #4->2
 "<काही>"
@@ -2868,7 +2867,7 @@
 "<मिळतील>"
 	"मिळणे" vblex fut p3 mfn pl @acl:relcl #1->3 !
 "<ते>"
-	"तो" prn corel m pl nom @det #2->3
+	"तो" det prox corel m pl nom @det #2->3
 "<मोती>"
 	"मोती" n m pl nom @nsubj #3->5
 "<तोंडात>"
@@ -2947,16 +2946,16 @@
 	"पैकी" post attr mfn sp @case #11->10
 "<राणीच्या>"
 	"राणी" n f sg obl @nmod:poss #12->14
-	"चा" gen obl mfn sp @case #13->12
+	"चा" gen mfn sp obl @case #13->12
 "<नथीचे>"
 	"नथ" n f sg obl @nmod:poss #14->16
 		"चा" gen m pl @case #15->14
 "<मोती>"
-	"मोती" n m pl nom @obj #16->18
+	"मोती" n m pl nom @obj #16->17
 "<निवडून>"
-	"निवडणे" vblex trans perf @compound:svc #17->18
+	"निवडणे" vblex trans perf @advcl #17->19
 "<घ्यायला>"
-	"घेणे" vblex sup @advcl #18->19
+	"घेणे" vblex sup @compound:svc #18->17
 "<सांग>"
 	"सांगसांगणे" vblex imp p2 sg @parataxis #19->5
 "<.>"
@@ -2981,11 +2980,11 @@
 	"." sent @punct #4->3
 
 "<घ्या>"
-	"घेणे" vblex imp p2 pl @ccomp #1->2
+	"घेणे" vblex imp p2 pl @compound:svc #1->3
 "<म्हणावे>"
 	"म्हणणे" vblex subj p3 nt sg @root #2->0
 "<ओळखून>"
-	"ओळखणे" vblex trans perf @compound:svc #3->1
+	"ओळखणे" vblex trans perf @ccomp #3->2
 "<!>"
 	"!" sent @punct #4->2
 
@@ -3059,11 +3058,11 @@
 "<कोणी>"
 	"कोण" prn interr mfn sp erg @nsubj #18->19
 "<आहे>"
-	"असणे" vaux pres p3 mfn sg !
+	"असणे" vaux pres p3 mfn sg 
 "<की>"
 	"की" cnjcoo @cc #20->21
 "<नाही>"
-	"नाही" adv p3 sg @conj #21->19
+	"नाही" vaux neg p3 sg @conj #21->19
 "<ते>"
 	"तो" prn p3 nt sg nom @mark #22->24
 "<विचारून>"
@@ -3181,7 +3180,7 @@
 	"." sent @punct #5->4
 
 "<रडू>"
-	"रडणे" vblex incp @root #1->0
+	"रडणे" vblex imp neg p2 pl @root #1->0
 "<नका>"
 	"नको" vaux imp neg p2 pl @aux #2->1
 "<.>"
@@ -3216,19 +3215,19 @@
 "<होणार>"
 	"होणे" vblex pros p3 mfn sp @root #3->0
 "<नाहीत>"
-	"नाही" vaux p3 pl @aux #4->3
+	"नाही" vaux neg p3 pl @aux #4->3
 "<;>"
 	";" sent @punct #5->3
 "<परंतु>"
-	"परंतु" cnjcoo @cc #6->9
+	"परंतु" cnjcoo @cc #6->7
 "<जळून>"
-	"जळणे" vblex trans perf @compound:svc #7->9
+	"जळणे" vblex trans perf @conj #7->3
 "<तर>"
-	"तर" adv @advmod #8->9
+	"तर" adv @advmod #8->7
 "<जाल>"
-	"जाणे" vblex fut p2 mfn pl @conj #9->3
+	"जाणे" vblex fut p2 mfn pl @compound:svc #9->7
 "<.>"
-	"." sent @punct #10->9
+	"." sent @punct #10->7
 
 "<राजाला>"
 	"राजा" n m sg dat @iobj #1->2
@@ -3239,7 +3238,7 @@
 "<,>"
 	"," cm @punct #4->3
 "<की>"
-	"की" cnjsub @mark #5->
+	"की" cnjsub @mark #5->13
 "<माझी>"
 	"मी" prn p1 mf sg @nmod:poss #6->8
 	"चा" gen f sg @case #7->6
@@ -3362,7 +3361,7 @@
 	"राख" n f sg nom @nsubj #5->10
 "<त्याच्या>"
 	"तो" prn p3 m sg @nmod:poss #6->8
-	"चा" gen obl mfn sp @case #7->6
+	"चा" gen mfn sp obl @case #7->6
 "<घरी>"
 	"घरी" adv @obl #8->10
 "<पाठविण्यात>"
@@ -3374,7 +3373,7 @@
 
 "<रात्रीच्या>"
 	"रात्र" n f sg obl @nmod:poss #1->3
-	"चा" gen obl mfn sp @case #2->1
+	"चा" gen mfn sp obl @case #2->1
 "<वेळेस>"
 	"वेळ" n f sg loc @obl #3->11
 "<तो>"
@@ -3424,7 +3423,7 @@
 	"." sent @punct #9->8
 
 "<त्याने>"
-	"तो" det dist m sg erg @nsubj #1->5
+	"तो" prn p3 m sg erg @nsubj #1->5
 "<शेषाला>"
 	"शेष" n m sg dat @iobj #2->5
 "<सारा>"
@@ -3528,15 +3527,15 @@
 "<शिंपले>"
 	"शिंपणे" vblex perf p3 nt sg @root #7->0
 "<आणि>"
-	"आणि" cnjcoo @cc #8->11
+	"आणि" cnjcoo @cc #8->10
 "<तो>"
-	"तो" prn p3 m sg nom @nsubj #9->11
+	"तो" prn p3 m sg nom @nsubj #9->10
 "<निघून>"
-	"निघणे" vblex trans perf @compound:svc #10->11
+	"निघणे" vblex trans perf @conj #10->7
 "<गेला>"
-	"जाणे" vblex perf p3 m sg @conj #11->7
+	"जाणे" vblex perf p3 m sg @compound:svc #11->10
 "<.>"
-	"." sent @punct #12->11
+	"." sent @punct #12->10
 
 "<राखेतून>"
 	"राख" n f sg abl @obl #1->4
@@ -3591,7 +3590,7 @@
 "<करमत>"
 	"करमणे" vblex pprs @ccomp #16->6
 "<नाही>"
-	"नाही" vaux p3 sg @aux #17->16
+	"नाही" vaux neg p3 sg @aux #17->16
 "<.>"
 	"." sent @punct #18->16
 
@@ -3606,15 +3605,15 @@
 	"." sent @punct #5->4
 
 "<त्याला>"
-	"तो" prn p3 nt sg dat @obj #1->4
+	"तो" prn p3 nt sg dat @obj #1->3
 "<लवकर>"
-	"लवकर" adv @advmod #2->4
+	"लवकर" adv @advmod #2->3
 "<पाठवून>"
-	"पाठवणे" vblex trans perf @compound:svc #3->4
+	"पाठवणे" vblex trans perf @root #3->0
 "<द्या>"
-	"देणे" vblex imp p2 pl @root #4->0
+	"देणे" vblex imp p2 pl @compound:svc #4->3
 "<!>"
-	"!" sent @punct #5->4
+	"!" sent @punct #5->3
 
 "<राजपुत्र>"
 	"राजपुत्र" n m sg nom @nsubj #1->3
@@ -3800,7 +3799,7 @@
 "<अर्थ>"
 	"अर्थ" n m sg nom @conj #6->2
 "<नाही>"
-	"नाही" vaux p3 sg @aux #7->6
+	"नाही" vaux neg p3 sg @aux #7->6
 "<.>"
 	"." sent @punct #8->6
 	
@@ -3860,15 +3859,15 @@
 	"." sent @punct #7->6
 
 "<ती>"
-	"तो" prn p3 nt pl nom @nsubj #1->4
+	"तो" prn p3 nt pl nom @nsubj #1->3
 "<पुन्हा>"
-	"पुन्हा" adv @advmod #2->4
+	"पुन्हा" adv @advmod #2->3
 "<चालू>"
-	"चालणे" vblex incp @compound:svc #3->4
+	"चालणे" vblex incp @root #3->0
 "<लागली>"
-	"लागणे" vblex perf p3 nt pl @root #4->0
+	"लागणे" vblex perf p3 nt pl @compound:svc #4->3
 "<.>"
-	"." sent @punct #5->4
+	"." sent @punct #5->3
 
 "<तो>"
 	"तो" det dist m sg @det #1->3
@@ -3968,7 +3967,7 @@
 	"." sent @punct #13->12
 
 "<आम्ही>"
-	"मी" prn p1 mf pl nom @det #1->2
+	"मी" det prox p1 mf pl nom @det #1->2
 "<सापही>"
 	"साप" n m pl nom @nsubj #2->6
 		"ही" emph @discourse #3->2
@@ -4006,24 +4005,24 @@
 "<बनला>"
 	"बनणे" vblex perf p3 m sg @parataxis #12->1
 "<व>"
-	"व" cnjcoo @cc #13->21
+	"व" cnjcoo @cc #13->20
 "<थोड्या>"
 	"थोडा" adj mfn sp obl @amod #14->15
 "<अंतरावर>"
-	"अंतर" n nt sg obl @obl #15->21
+	"अंतर" n nt sg obl @obl #15->20
 		"वर" post adv @case #16->15
 "<फण्>"
 	"फण्" ij @advmod #17->19
 "<फण्>"
 	"फण्" ij @goeswith #18->17
 "<करीत>"
-	"करणे" vblex pprs @advcl #19->21
+	"करणे" vblex pprs @advcl #19->20
 "<निघून>"
-	"निघणे" vblex trans perf @compound:svc #20->21
+	"निघणे" vblex trans perf @conj #20->12
 "<गेला>"
-	"जाणे" vblex perf p3 m sg @conj #21->12
+	"जाणे" vblex perf p3 m sg @compound:svc #21->20
 "<.>"
-	"." sent @punct #22->21
+	"." sent @punct #22->20
 
 "<थोड्या>"
 	"थोडा" adj mfn sp obl @amod #1->2
@@ -4160,19 +4159,19 @@
 "<बनला>"
 	"बनणे" vblex perf p3 m sg @root #6->0
 "<व>"
-	"व" cnjcoo @cc #7->12
+	"व" cnjcoo @cc #7->11
 "<टुणटुण>"
 	"टुणटुण" adv @advmod #8->10
 "<उड्या>"
 	"उडी" n f pl nom @compound:lvc #9->10
 "<मारीत>"
-	"मारणे" vblex pprs @advcl #10->12
+	"मारणे" vblex pprs @advcl #10->11
 "<निघून>"
-	"निघणे" vblex trans perf @compound:svc #11->12
+	"निघणे" vblex trans perf @conj #11->6
 "<गेला>"
-	"जाणे" vblex perf p3 m sg @conj #12->6
+	"जाणे" vblex perf p3 m sg @compound:svc #12->11
 "<.>"
-	"." sent @punct #13->12
+	"." sent @punct #13->11
 
 "<पुन्हा>"
 	"पुन्हा" adv @advmod #1->6
@@ -4270,7 +4269,7 @@
 "<मारले>"
 	"मारणे" vblex perf p3 nt sg @root #3->0
 "<नाहीस>"
-	"नाही" vaux p2 sg @aux #4->3
+	"नाही" vaux neg p2 sg @aux #4->3
 "<.>"
 	"." sent @punct #5->3
 
@@ -4323,9 +4322,9 @@
 "<हरिणी>"
 	"हरिणी" n f sg acc @obj #2->3
 "<बनून>"
-	"बनणे" vblex trans perf @advcl #3->14
+	"बनणे" vblex trans perf @advcl #3->13
 "<कृतज्ञतेने>"
-	"कृतज्ञता" n f sg erg @obl #4->14
+	"कृतज्ञता" n f sg erg @obl #4->13
 "<मधून>"
 	"मधून" adv @advmod #5->8
 "<मधून>"
@@ -4333,19 +4332,19 @@
 "<मागे>"
 	"मागे" adv @advmod #7->8
 "<बघत>"
-	"बघणे" vblex pprs @advcl #8->14
+	"बघणे" vblex pprs @advcl #8->13
 "<वाऱ्याप्रमाणे>"
-	"वारा" n m sg obl @obl #9->14
+	"वारा" n m sg obl @obl #9->13
 	"प्रमाणे" post adv @case #10->9
 "<पाडसांकडे>"
-	"पाडस" n nt pl obl @obl #11->14
+	"पाडस" n nt pl obl @obl #11->13
 		"कडे" post adv @case #12->11
 "<पळत>"
-	"पळणे" vblex pprs @compound:svc #13->14
+	"पळणे" vblex pprs @root #13->0
 "<गेली>"
-	"जाणे" vblex perf p3 f sg @root #14->0
+	"जाणे" vblex perf p3 f sg @compound:svc #14->13
 "<.>"
-	"." sent @punct #15->14
+	"." sent @punct #15->13
 
 "<राजपुत्र>"
 	"राजपुत्र" n m sg nom @nsubj #1->5
@@ -4360,7 +4359,7 @@
 	"." sent @punct #6->5
 
 "<विचार>"
-	"विचार" n m sg nom @compound:svc #1->2
+	"विचार" n m sg nom @compound:lvc #1->2
 "<करीत>"
 	"करणे" vblex pprs @advcl #2->4
 "<तो>"
@@ -4398,7 +4397,7 @@
 	"." sent @punct #14->12
 
 "<मग>"
-	"मग" adv @advmod #1->
+	"मग" adv @advmod #1->4
 "<माणसाने>"
 	"माणूस" n m sg erg @nsubj #2->4
 "<किती>"
@@ -4451,370 +4450,264 @@
 	"." sent @punct #5->3
 
 "<मुलगा>"
-	"मुलगा" n m sg nom
+	"मुलगा" n m sg nom @nsubj #1->2
 "<गेल्यापासून>"
-	"*गेल्यापासून"
+	"जाणे" vblex perf obl @advcl #2->6
+	"पासून" post adv @case #3->2
 "<राणीला>"
-	"राणी" n f sg obl
-		"" acc
-	"राणी" n f sg obl
-		"" dat
+	"राणी" n f sg dat @nsubj #4->6
 "<झोप>"
-	"झोप" vblex tv stem
-	"झोप" n f sg nom
-	"झोपणे" vblex imp p2 sg
+	"झोप" n f sg nom @obj #5->6
 "<येत>"
-	"येणे" vblex pprs
+	"येणे" vblex pprs @root #6->0
 "<नसे>"
-	"नसणे" vaux past hab p1 mf sg
-	"नसणे" vaux past hab p3 mfn sg
+	"नसणे" vaux neg past hab @aux #7->6
 "<.>"
-	"." sent
+	"." sent @punct #8->6
 
 "<ती>"
-	"तो" det dist f sg
-	"तो" det dist nt pl
-	"तो" prn p3 f sg nom
-	"तो" prn p3 nt pl nom
-	"तो" prn corel f sg nom
-	"तो" prn corel nt pl nom
+	"तो" prn p3 f sg nom @nsubj #1->3
 "<गच्चीत>"
-	"गच्ची" n f sg obl
-		"" loc
-	"गच्ची" n f sg obl
-		"त" gna
+	"गच्ची" n f sg loc @obl #2->3
 "<उभी>"
-	"उभा" adj m pl
-	"उभा" adj f sg
-	"उभा" adj nt pl
+	"उभा" adj f sg @root #3->0
 "<होती>"
-	"असणे" vaux past p2 f sg
-	"असणे" vaux past p3 f sg
-	"असणे" vaux past p3 nt pl
+	"असणे" vaux past p3 f sg @aux #4->3
 "<.>"
-	"." sent
+	"." sent @punct #5->4
 
 "<देवाला>"
-	"देव" n m sg obl
-		"" acc
-	"देव" n m sg obl
-		"" dat
+	"देव" n m sg dat @obl #1->3
 "<प्रार्थना>"
-	"*प्रार्थना"
+	"प्रार्थना" n f sg nom @obj #2->3
 "<करत>"
-	"करणे" vblex pprs
+	"करणे" vblex pprs @root #3->0
 "<होती>"
-	"असणे" vaux past p2 f sg
-	"असणे" vaux past p3 f sg
-	"असणे" vaux past p3 nt pl
+	"असणे" vaux past p3 f sg @aux #4->3
 "<.>"
-	"." sent
+	"." sent @punct #5->3
 
 "<कोण>"
-	"कोण" prn interr mfn sp nom
+	"कोण" prn interr mfn sp nom @root #1->0
 "<आहे>"
-	"असणे" vaux pres p1 mf sg
-	"असणे" vaux pres p2 mf sg
-	"असणे" vaux pres p3 mfn sg
+	"असणे" vaux pres p3 mfn sg @aux #2->1
 "<?>"
-	"?" sent
+	"?" sent @punct #3->1
 
 "<पहारेकऱ्यांनी>"
-	"*पहारेकऱ्यांनी"
+	"पहारेकऱ्या" n m sg erg @nsubj #1->2
 "<दरडावले>"
-	"दरडावणे" vblex perf p2 m pl
-	"दरडावणे" vblex perf p3 m pl
-	"दरडावणे" vblex perf p3 nt sg
-	"दरडावणे" vblex perf p1 f sg
+	"दरडावणे" vblex perf p3 nt sg @root #2->0
 "<.>"
-	"." sent
+	"." sent @punct #3->2
 
 "<मी>"
-	"मी" prn p1 mf sg nom
+	"मी" prn p1 mf sg nom @nusbj #1->2
 "<राजपुत्र>"
-	"*राजपुत्र"
+	"राजपुत्र" n m sg nom @root #2->0
 "<.>"
-	"." sent
+	"." sent @punct #3->2
 
 "<माझा>"
-	"माझा" adj m sg
-	"मी" prn p1 mf sg
-		"ा" gen m sg
+	"मी" prn p1 mf sg @nmod:poss #1->3
+	"चा" gen m sg @case #2->1
 "<बाळ>"
-	"बाळ" n nt sg nom
+	"बाळ" n m sg nom @root #3->0
 "<!>"
-	"!" sent
+	"!" sent @punct #4->3
 
 "<माझा>"
-	"माझा" adj m sg
-	"मी" prn p1 mf sg
-		"ा" gen m sg
+	"मी" prn p1 mf sg @nmod:poss #1->3
+	"चा" gen m sg @case #2->1
 "<बाळ>"
-	"बाळ" n nt sg nom
+	"बाळ" n m sg nom @root #3->0
 "<!>"
-	"!" sent
+	"!" sent @punct #4->3
 
 "<म्हणत>"
-	"म्हणणे" vblex pprs
+	"म्हणणे" vblex pprs @advcl #1->6
 "<राणी>"
-	"राणी" n f sg nom
+	"राणी" n f sg nom @nsubj #2->6
 "<धावतच>"
-	"धावणे" vblex
-		"च" emph
+	"धावणे" vblex pprs @advcl #3->6
+	"च" emph @discourse #4->3
 "<खाली>"
-	"खाली" post adv
+	"खाली" adv @advcl #5->6
 "<आली>"
-	"येणे" vblex perf p2 f sg
-	"येणे" vblex perf p3 f sg
-	"येणे" vblex perf p3 nt pl
-	"आले" n nt pl nom
+	"येणे" vblex perf p3 f sg @root #6->0
 "<.>"
-	"." sent
+	"." sent @punct #7->6
 
 "<तिने>"
-	"तो" det dist f sg obl
-		"" erg
+	"तो" prn p3 f sg erg @nsubj #1->4
 "<राजपुत्राला>"
-	"*राजपुत्राला"
+	"राजपुत्र" n m sg dat @obj #2->4
 "<हृदयाशी>"
-	"*हृदयाशी"
+	"हृदय" n m sg soc @obl #3->4
 "<धरले>"
-	"धरणे" vblex perf p2 m pl
-	"धरणे" vblex perf p3 m pl
-	"धरणे" vblex perf p3 nt sg
-	"धरणे" vblex perf p1 f sg
+	"धरणे" vblex perf p3 nt sg @root #4->0
 "<.>"
-	"." sent
+	"." sent @punct #5->4
 
 "<राजाही>"
-	"राजा" n nt sg nom
-		"ही" emph
+	"राजा" n nt sg nom @nsubj #1->3
+		"ही" emph @discourse #2->1
 "<आला>"
-	"येणे" vblex perf p2 m sg
-	"येणे" vblex perf p2 mf pl
-	"येणे" vblex perf p3 m sg
+	"येणे" vblex perf p3 m sg @root #3->0
 "<.>"
-	"." sent
+	"." sent @punct #4->3
 
 "<पुत्र>"
-	"पुत्र" n m sg nom
-	"पुत्र" n m pl nom
+	"पुत्र" n m sg nom @nsubj #1->5
 "<पित्याच्या>"
-	"*पित्याच्या"
+	"पिता" n m sg obl @nmod:poss #2->4
+	"चा" gen mfn sp obl @case #3->2
 "<पाया>"
-	"पाया" n m sg nom
+	"पाय" n m sg dat @obl #4->5
 "<पडला>"
-	"पडणे" vblex perf p2 m sg
-	"पडणे" vblex perf p2 mf pl
-	"पडणे" vblex perf p3 m sg
+	"पडणे" vblex perf p3 m sg @root #5->0
 "<.>"
-	"." sent
+	"." sent @punct #6->5
 
 "<शहाणा>"
-	"शहाणा" adj m sg
+	"शहाणा" adj m sg @obj #1->2
 "<होऊन>"
-	"होणे" adv compl
-	"होणे" vblex trans perf
+	"होणे" vblex trans perf @advcl #2->3
 "<आलास>"
-	"येणे" vblex perf p2 m sg
+	"येणे" vblex perf p2 m sg @root #3->0
 "<?>"
-	"?" sent
-
+	"?" sent @punct #4->3
 "<राजाने>"
-	"*राजाने"
+	"राजा" n m sg erg @nsubj #5->6
 "<विचारले>"
-	"विचारणे" vblex perf p2 m pl
-	"विचारणे" vblex perf p3 m pl
-	"विचारणे" vblex perf p3 nt sg
-	"विचारणे" vblex perf p1 f sg
+	"विचारणे" vblex perf p3 nt sg @parataxis #6->3
 "<.>"
-	"." sent
+	"." sent @punct #7->6
 
 "<होय>"
-	"होय" part
+	"होय" ij @vocative #1->2
 "<तात>"
-	"तात" n m sg nom
-	"तात" n m pl nom
+	"तात" n m sg nom @root #2->0
 "<!>"
-	"!" sent
+	"!" sent @punct #3->2
 
 "<तो>"
-	"तो" det dist m sg
-	"तो" prn p3 m sg nom
-	"तो" prn corel m sg nom
+	"तो" prn p3 m sg nom @nsubj #1->3
 "<नम्रतेने>"
-	"नम्रते" n f sg obl
-		"" erg
+	"नम्रते" n f sg inst @obl #2->3
 "<म्हणाला>"
-	"म्हणणे" vblex perf p2 m sg
-	"म्हणणे" vblex perf p2 mf pl
-	"म्हणणे" vblex perf p3 m sg
+	"म्हणणे" vblex perf p3 m sg @root #3->0
 "<.>"
-	"." sent
+	"." sent @punct #4->3
 
 "<राजाने>"
-	"*राजाने"
+	"राजा" n m sg erg @nsubj #1->5
 "<राजपुत्राला>"
-	"*राजपुत्राला"
+	"राजपुत्र" n m sg dat @obj #2->5
 "<गादीवर>"
-	"गादी" n f sg obl
-		"वरती" post adv
+	"गादी" n f sg obl @obl #3->5
+		"वर" post adv @case #4->3
 "<बसविले>"
-	"*बसविले"
+	"बसविले" vblex caus perf p3 nt sg @root #5->0
 "<.>"
-	"." sent
+	"." sent @punct #6->5
 
 "<त्याचे>"
-	"तो" det dist m sg obl
-		"चा" gen nt sg
-	"तो" det dist m sg obl
-		"चा" gen m pl
-	"तो" det dist nt sg obl
-		"चा" gen nt sg
-	"तो" det dist nt sg obl
-		"चा" gen m pl
-	"त्याचा" adj m pl
-	"त्याचा" adj nt sg
-	"तो" prn p3 m sg
-		"े" gen m pl
-	"तो" prn p3 m sg
-		"े" gen nt sg
-	"तो" prn p3 nt sg
-		"े" gen m pl
-	"तो" prn p3 nt sg
-		"े" gen nt sg
+	"तो" prn p3 m sg @nmod:poss #1->3
+	"चा" gen nt sg @case #2->1
 "<लग्नही>"
-	"लग्न" n nt sg nom
-		"ही" emph
+	"लग्न" n nt sg nom @obj #3->5
+	"ही" emph @discourse #4->3
 "<करून>"
-	"करणे" vblex trans perf
+	"करणे" vblex trans perf @root #5->0
 "<दिले>"
-	"देणे" vblex perf p2 m pl
-	"देणे" vblex perf p3 m pl
-	"देणे" vblex perf p3 nt sg
-	"देणे" vblex perf p1 f sg
+	"देणे" vblex perf p3 nt sg @compound:svc #6->5
 "<.>"
-	"." sent
+	"." sent @punct #7->5
 
 "<राजा>"
-	"राजा" n nt sg nom
+	"राजा" n nt sg nom @nsubj #1->12
 "<->"
-	"-" guio
+	"-" guio @punct #2->3
 "<राणी>"
-	"राणी" n f sg nom
+	"राणी" n f sg nom @flat #3->1
 "<मुलाला>"
-	"मुल" n nt sg obl
-		"" acc
-	"मुल" n nt sg obl
-		"" dat
-	"मुलगा" n m sg obl
-		"" acc
-	"मुलगा" n m sg obl
-		"" dat
+	"मुलगा" n m sg dat @iobj #4->8
 "<व>"
-	"व" cnjcoo
-	"व" vblex tv stem
-	"वणे" vblex imp p2 sg
+	"व" cnjcoo @cc #5->6
 "<सुनेला>"
-	"*सुनेला"
+	"सुन" n f sg dat @conj #6->4
 "<आशीर्वाद>"
-	"आशीर्वाद" n m sg nom
-	"आशीर्वाद" n m pl nom
+	"आशीर्वाद" n m pl nom @obj #7->8
 "<देऊन>"
-	"देणे" vblex trans perf
+	"देणे" vblex trans perf @advcl #8->12
 "<तपश्चर्येसाठी>"
-	"तपश्चर्ये" n f sg obl
-		"साठी" post adv
+	"तपश्चर्ये" n f sg obl @obl #9->12
+	"साठी" post adv @case #10->9
 "<वनात>"
-	"वन" n nt sg obl
-		"" loc
-	"वन" n nt sg obl
-		"त" gna
+	"वन" n nt sg loc @obl #11->12
 "<निघून>"
-	"निघून" adv
+	"निघणे" vblex trans perf @root #12->0
 "<गेली>"
-	"जाणे" vblex perf p2 f sg
-	"जाणे" vblex perf p3 f sg
-	"जाणे" vblex perf p3 nt pl
+	"जाणे" vblex perf p3 nt pl @compound:svc #13->12
 "<.>"
-	"." sent
+	"." sent @punct #14->12
 
 "<नवीन>"
-	"नवीन" adj mfn sp
-	"नवीन" adj mfn sp obl
+	"नवीन" adj mfn sp @amod #1->2
 "<राजा>"
-	"राजा" n nt sg nom
+	"राजा" n nt sg nom @nsubj #2->7
 "<->"
-	"-" guio
+	"-" guio @punct #3->4
 "<राणी>"
-	"राणी" n f sg nom
+	"राणी" n f sg nom @flat #4->2
 "<उत्कृष्ठ>"
-	"*उत्कृष्ठ"
+	"उत्कृष्ठ" adv @advmod #5->7
 "<राज्यकारभार>"
-	"राज्यकारभार" n m sg nom
-	"राज्यकारभार" n m pl nom
+	"राज्यकारभार" n m sg nom @obl #6->7
 "<चालवू>"
-	"चालवणे" vblex incp
-	"चालवणे" vblex fut p1 mfn pl
-	"चालवणे" vblex imp p1 sg
-	"चालवणे" vblex imp p1 pl
+	"चालवणे" vblex incp @root #7->0
 "<लागली>"
-	"लागणे" vblex perf p2 f sg
-	"लागणे" vblex perf p3 f sg
-	"लागणे" vblex perf p3 nt pl
+	"लागणे" vblex perf p3 nt pl @compound:svc #8->7
 "<.>"
-	"." sent
+	"." sent @punct #9->7
 
 "<सारी>"
-	"*सारी"
+	"सारी" adj f sg @amod #1->2
 "<प्रजा>"
-	"प्रजा" n f sg nom
-	"प्रजा" n f pl nom
+	"प्रजा" n f sg nom @nsubj #2->4
 "<सुखी>"
-	"*सुखी"
+	"सुखी" adj mfn sp @xcomp #3->4
 "<झाली>"
-	"होणे" vaux perf p2 f sg
-	"होणे" vaux perf p3 f sg
-	"होणे" vaux perf p3 nt pl
-	"होणे" vblex perf p2 f sg
-	"होणे" vblex perf p3 f sg
-	"होणे" vblex perf p3 nt pl
+	"होणे" vblex perf p3 f sg @root #4->0
 "<.>"
-	"." sent
+	"." sent @punct #5->4
 
 "<तुम्ही>"
-	"तू" prn p2 mf pl excl nom
+	"तू" prn p2 mf pl excl nom @nsubj #1->3
 "<आम्ही>"
-	"मी" prn p1 mf pl nom
+	"मी" prn p1 mf pl nom @obj #2->3
 "<होऊया>"
-	"होणे" vblex hort
+	"होणे" vblex hort @root #3->0
 "<.>"
-	"." sent
+	"." sent @punct #4->3
 
 "<गोष्ट>"
-	"गोष्ट" n f sg nom
+	"गोष्ट" n f sg nom @nsubj #1->4
 "<आमची>"
-	"आमचा" adj m pl
-	"आमचा" adj f sg
-	"आमचा" adj nt pl
-	"मी" prn p1 mf pl
-		"ी" gen f sg
-	"मी" prn p1 mf pl
-		"ी" gen nt pl
+	"मी" prn p1 mf pl @nmod:poss #2->1
+	"चा" gen f sg @case #3->2
 "<संपली>"
-	"संपणे" vblex perf p2 f sg
-	"संपणे" vblex perf p3 f sg
-	"संपणे" vblex perf p3 nt pl
+	"संपणे" vblex perf p3 f sg @root #4->0
 "<.>"
-	"." sent
+	"." sent @punct #5->4
 
 "<शेरभर>"
-	"*शेरभर"
+	"शेर" n m sg nom @obl #1->4
+	"भर" post adv @case #2->1
 "<साखर>"
-	"साखर" n f sg nom
+	"साखर" n f sg nom @obl #3->4
 "<वाटली>"
-	"वाटणे" vblex perf p2 f sg
-	"वाटणे" vblex perf p3 f sg
-	"वाटणे" vblex perf p3 nt pl
+	"वाटणे" vblex perf p3 f sg @root #4->0
 
  

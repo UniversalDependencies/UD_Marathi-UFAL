@@ -1,0 +1,6342 @@
+"<महाराष्ट्र>"
+	"महाराष्ट्र" np top sg nom @nsubj #1->8
+"<हे>"
+	"हा" det prox nt sg @det #2->1
+"<भारतातील>"
+	"भारत" n m sg obl @amod #3->6
+	"तील" post attr mfn pl @case #4->3
+"<पश्चिम>"
+	"पश्चिम" adj mfn sp @amod #5->6
+"<भागातले>"
+	"भाग" n m sg obl @acl #6->8
+	"तील" post attr nt sg @case #7->6
+"<राज्य>"
+	"राज्य" n nt sg nom @root #8->0
+"<आहे>"
+	"असणे" vaux pres p3 mfn sg @cop #9->8
+"<.>"
+	"." sent @punct #10->8
+	
+"<क्षेत्रफळाच्या>"
+	"क्षेत्रफळ" n nt sg obl @nmod:poss #1->3
+		"चा" gen obl mfn sp @case #2->1
+"<दृष्टीने>"
+	"दृष्ट" n f sg inst @obl #3->14
+"<महाराष्ट्र>"
+	"महाराष्ट्र" np top sg nom @nsubj #4->14
+"<भारतातील>"
+	"भारत" n m sg obl @amod #5->14
+	"तील" post attr mfn pl @case #6->5
+"<तिसरे>"
+	"तीन" num ord nt sg @advmod #7->13
+"<व>"
+	"व" cnjcoo @cc #8->12
+"<लोकसंख्येच्या>"
+	"लोकसंख्ये" n f sg obl @nmod:poss #9->11
+	"चा" gen obl mfn sp @case #10->9
+"<बाबतीत>"
+	"बाबत" n f sg loc @obl #11->14
+"<दुसरे>"
+	"दोन" num ord nt sg @advmod #12->13
+"<मोठे>"
+	"मोठा" adj nt sg @amod #13->14
+"<राज्य>"
+	"राज्य" n nt sg nom @root #14->0
+"<आहे>"
+	"असणे" vaux pres p3 mfn sg @cop #15->14
+"<.>"
+	"." sent @punct #16->15
+	
+"<महाराष्ट्र>"
+	"महाराष्ट्र" np top sg nom @nsubj #1->9
+"<हे>"
+	"हा" det prox nt sg @det #2->1
+"<भारतातील>"
+	"भारत" n m sg obl @amod #3->7
+		"तील" post attr mfn pl @case #4->3
+"<सर्वांत>"
+	"सर्वांत" adv @advmod #5->6
+"<विकसनशिल>"
+	"विकसनशिल" adj mfn sp @amod #6->7
+"<राज्यांपैकी>"
+	"राज्य" n nt pl obl @obl #7->9
+	"पैकी" post adv @case #8->7
+"<एक>"
+	"एक" num @root #9->0
+"<आहे>"
+	"असणे" vaux pres p3 mfn sg @cop #10->9
+"<.>"
+	"." sent @punct #11->9
+	
+"<महाराष्ट्र>"
+	"महाराष्ट्र" np top sg nom @nmod:poss #1->4
+"<राज्याची>"
+	"राज्य" n nt sg obl @flat #2->1
+		"चा" gen f sg @case #3->2
+"<सीमा>"
+	"सीमा" n f sg nom @nsubj #4->
+"<गुजरात>"
+	"गुजरात" np top sg nom @obl #5->26
+"<,>"
+	"," cm @punct #6->7
+"<मध्य>"
+	"मध्य" adj mfn sp @conj #7->5
+"<प्रदेश>"
+	"प्रदेश" n m sg nom @flat #8->7
+"<,>"
+	"," cm @punct #9->10
+"<छत्तीसगढ>"
+	"छत्तीसगढ" np top sg nom @conj #10->5
+"<,>"
+	"," cm @punct #11->12
+"<तेलंगणा>"
+	"तेलंगणा" np top sg nom @conj #12->5
+"<,>"
+	"," cm @punct #13->14
+"<कर्नाटक>"
+	"कर्नाटक" np top sg nom @conj #14->5
+"<,>"
+	"," cm @punct #15->16
+"<गोवा>"
+	"गोवा" np top sg nom @conj #16->5
+"<आणि>"
+	"आणि" cnjcoo @cc #17->18
+"<दादरा>"
+	"दादरा" np top sg nom @conj #18->5
+"<आणि>"
+	"आणि" cnjcoo @flat #19->18
+"<नगर>"
+	"नगर" n nt sg nom @flat #20->18
+"<->"
+	"-" guio @flat #21->18
+"<हवेली>"
+	"हवेली" n f sg nom @flat #22->18
+"<या>"
+	"हा" det prox mfn sp obl @det #23->5
+"<केंद्रशासित>"
+	"केंद्रशासित" adj mfn sp @amod #24->25
+"<प्रदेशांशी>"
+	"प्रदेश" n m pl soc @dislocated #25->5
+"<जोडलेली>"
+	"जोडणे" vblex pprs perf p3 f sg @root #26->0
+"<आहे>"
+	"असणे" vaux pres p3 mfn sg @aux #27->26
+"<.>"
+	"." sent @punct #28->26
+	
+"<राज्याच्या>"
+	"राज्य" n nt sg obl @nmod:poss #1->3
+		"चा" gen obl mfn sp @case #2->1
+"<पश्चिमेला>"
+	"पश्चिम" n m sg dat @obl #3->7
+"<अरबी>"
+	"अरबी" adj mfn sp obl @nmod:poss #4->7
+"<समुद्राची>"
+	"समुद्र" n m sg obl @compound #5->4
+	"चा" gen f sg @case #6->5
+"<किनारपट्टी>"
+	"किनारपट्टी" n f sg nom @root #7->0
+"<आहे>"
+	"असणे" vaux pres p3 mfn sg @cop #8->7
+"<.>"
+	"." sent @punct #9->8
+	
+"<जवळपास>"
+	"जवळपास" adj mfn sp @amod #1->2
+"<११>"
+	"११" num @nummod #2->3
+"<कोटी>"
+	"कोटी" n f sg nom @nummod #3->4
+"<लोकसंख्या>"
+	"लोकसंख्या" n f sg nom @nsubj #4->5
+"<असलेल्या>"
+	"असणे" vblex pprs perf p3 mfn sp @acl #5->6
+"<महाराष्ट्राची>"
+	"महाराष्ट्र" n m sg obl @nmod:poss #6->8
+	"चा" gen f sg @case #7->6
+"<राजधानी>"
+	"राजधानी" n f sg nom @nsubj #8->9
+"<मुंबई>"
+	"मुंबई" np top sg nom @root #9->0
+"<आहे>"
+	"असणे" vaux pres p3 mfn sg @cop #10->9
+"<.>"
+	"." sent @punct #11->9
+	
+"<मुंबईत>"
+	"मुंबई" np top sg obl loc @obl #1->6
+"<साधारण>"
+	"साधारण" adj mfn sp @amod #2->3
+"<१.८>"
+	"१.८" num @nummod #3->4
+"<कोटी>"
+	"कोटी" n f sg nom @nummod #4->5
+"<लोक>"
+	"लोक" n m pl nom @nsubj #5->6
+"<राहतात>"
+	"रहाणे" vblex pres impf p3 mfn pl @root #6->0
+"<.>"
+	"." sent @punct #7->6
+	
+"<नागपूर>"
+	"नागपूर" np top sg nom @nsubj #1->5
+"<शहर>"
+	"शहर" n nt sg nom @compound #2->1
+"<महाराष्ट्राची>"
+	"महाराष्ट्र" np top sg obl @nmod:poss #3->5
+	"चा" gen f sg @case #4->3
+"<उपराजधानी>"
+	"उपराजधानी" n f sg nom @root #5->0
+"<आहे>"
+	"असणे" vaux pres p3 mfn sg @cop #6->5
+"<.>"
+	"." sent @punct #7->5
+	
+"<आर्थिक>"
+	"आर्थिक" adj mfn sp obl @amod #1->4
+"<व>"
+	"व" cnjcoo @cc #2->3
+"<शैक्षणिक>"
+	"शैक्षणिक" adj mfn sp obl @conj #3->1
+"<दृष्ट्या>"
+	"दृष्टी" n f sg inst @obl #4->11
+"<महाराष्ट्र>"
+	"महाराष्ट्र" np top sg nom @nsubj #5->11
+"<भारताचे>"
+	"भारत" np top sg obl @nmod:poss #6->9
+		"चा" gen nt sg @case #7->6
+"<अग्रणी>"
+	"अग्रणी" adj mfn sp obl @amod #8->9
+"<राज्यांपैकी>"
+	"राज्य" n nt pl obl @obl #9->11
+		"पैकी" post adv @case #10->9
+"<एक>"
+	"एक" num @root #11->0
+"<आहे>"
+	"असणे" vaux pres p3 mfn sg @cop #12->11
+"<.>"
+	"." sent @punct #13->11
+	
+"<प्राचीन>"
+	"प्राचीन" adj mfn sp @amod #1->4
+"<व>"
+	"व" cnjcoo @cc #2->3
+"<मध्ययुगीन>"
+	"मध्ययुगीन" adj mfn sp @conj #3->1
+"<महाराष्ट्र>"
+	"महाराष्ट्र" np top sg nom @nsubj #4->20
+"<सातवाहन>"
+	"सातवाहन" np cog sg nom @nmod:poss #5->18
+"<राजवंश>"
+	"राजवंश" n m sg nom @compound #6->5
+"<,>"
+	"," cm @punct #7->8
+"<राष्ट्रकूट>"
+	"राष्ट्रकूट" np cog sg nom @conj #8->5
+"<राजवंश>"
+	"राजवंश" n m sg nom @compound #9->8
+"<,>"
+	"," cm @punct #10->9
+"<पश्चिम>"
+	"पश्चिम" adj mfn sp @conj #11->5
+"<चालुक्य>"
+	"चालुक्य" np cog sg nom @compound #12->11
+"<,>"
+	"," cm @punct #13->9
+"<मुघल>"
+	"मुघल" np cog sg nom @conj #14->5
+"<आणि>"
+	"आणि" cnjcoo @cc #15->16
+"<मराठ्यांच्या>"
+	"मराठा" np cog pl obl @conj #16->5
+	"चा" gen mfn sp obl @case #17->16
+"<साम्राज्याचा>"
+	"साम्राज्य" n nt sg obl @nmod:poss #18->20
+	"चा" gen m sg @case #19->18
+"<समावेश>"
+	"समावेश" n m sg nom @root #20->0
+"<आहे>"
+	"असणे" vaux pres p3 mfn sg @cop #21->20
+"<.>"
+	"." sent @punct #22->20
+	
+"<महाराष्ट्राला>"
+	"महाराष्ट्र" np top sg obl
+"<ऋग्वेदामध्ये>"
+	"ऋग्वेद" np top sg obl
+	"मध्ये" post adv
+"<">"
+	""" qt
+"<राष्ट्र>"
+	"राष्ट्र" n nt sg nom
+"<">"
+	""" qt
+"<या>"
+	"हा" det prox mfn sp
+"<नावाने>"
+	"नाव" n nt sg inst
+"<संबोधले>"
+	"संबोधणे" vblex perf p3 nt sg
+"<गेले>"
+	"जाणे" vblex perf p3 nt sg
+"<आहे>"
+	"असणे" vaux pres p3 mfn sg
+"<.>"
+	"." sent
+	
+"<अशोकाच्या>"
+	"अशोक" np cog sg obl @nmod:poss #1->3
+		"चा" gen obl mfn sp @case #2->1
+"<काळात>"
+	"काळ" n m sg loc
+"<">"
+	""" qt @punct #4->5
+"<राष्ट्रिक>"
+	"राष्ट्रिक" np top sg nom
+"<">"
+	""" qt @punct #6->5
+"<आणि>"
+	"आणि" cnjcoo
+"<नंतर>"
+	"नंतर" post adv
+"<">"
+	"""
+"<महा>"
+	"महा" adj mfn sp
+"<राष्ट्र>"
+	"राष्ट्र" n nt sg nom
+"<">"
+	"""
+"<या>"
+	"हा" det prox mfn sp
+"<नावाने>"
+	"नाव" n nt sg inst
+"<ओळखले>"
+	"ओळखणे" vblex perf p3 nt sg
+"<जावू>"
+	"जाणे" vblex incp !
+"<लागले>"
+	"लागणे" vblex perf p3 nt sg
+"<असे>"
+	"असे" cnjsub
+"<चिनी>"
+	"चिनी" adj mfn sp
+"<प्रवाशी>"
+	"प्रवाशी" n m sg nom
+"<ह्युएन>"
+	"ह्युएन" np cog sg nom
+"<->"
+	"-" guio
+"<त्सांग>"
+	"त्सांग" np cog sg nom
+"<व>"
+	"व" cnjcoo
+"<इतर>"
+	"इतर" adj mfn sp obl
+"<प्रवाशांच्या>"
+	"प्रवाशी" n m pl obl
+	"चा" gen mfn sp obl
+"<नोंदींवरून>"
+	"नोंद" n f pl obl
+	"वरून" post adv
+"<दिसून>"
+	"दिसणे" vblex trans perf
+"<येते>"
+	"येणे" vblex pres impf p3 nt sg
+"<.>"
+	"." sent
+	
+"<हे>"
+	"हा" det prox nt sg @det #1->2
+"<नाव>"
+	"नाव" n nt sg nom @nsubj #2->
+"<प्राकृत>"
+	"प्राकृत" np cog sg nom @amod #3->7
+"<भाषेतील>"
+	"भाषा" n f sg obl @compound #4->3
+	"तील" post attr mfn pl @case #5->4
+"<">"
+	""" qt @punct #6->7
+"<महाराष्ट्री>"
+	"महाराष्ट्री" np cog sg nom @amod #7->10
+"<">"
+	""" qt @punct #8->7
+"<या>"
+	"हा" det prox mfn sp obl 
+"<शब्दावरून>"
+	"शब्द" n m sg obl
+	"वरून" post adv
+"<पडले>"
+	"पडणे" vblex perf p3 nt sg
+"<असण्याची>"
+	"असणे" vblex ger 
+	"चा" gen f sg
+"<शक्यता>"
+	"शक्यता" n f sg nom
+"<आहे>"
+	"असणे" vaux pres p3 mfn sg
+"<.>"
+	"." sent
+	
+"<काही>"
+	"काही" adj mfn sp
+"<जण>"
+	"जण" n m pl nom
+"<महाराष्ट्र>"
+	"महाराष्ट्र" np top sg nom
+"<या>"
+	"हा" det prox mfn sp
+"<शब्दाचा>"
+	"शब्द" n m sg obl
+	"चा" gen m sg
+"<अर्थ>"
+	"अर्थ" n m sg nom
+"<महार>"
+	"महार" np cog sg nom
+"<व>"
+	"व" cnjcoo
+"<रट्टा>"
+	"रट्टा" n m sg nom
+"<यांच्याशी>"
+	"हा" det prox mfn pl soc
+	"च्या" clit
+"<लावतात>"
+	"लावणे" vblex pres impf p3 mfn pl
+"<परंतु>"
+	"परंतु" cnjcoo
+"<काहींच्या>"
+	"काही" prn mf pl
+	"चा" gen obl mfn sp
+"<मते>"
+	"मत" n nt sg inst !
+"<हे>"
+	"हा" det prox nt sg
+"<नाव>"
+	"नाव" n nt sg nom
+"<महाकांतार>"
+	"महाकांतार" np top sg nom
+"<या>"
+	"हा" det prox mfn sp
+"<शब्दाचा>"
+	"शब्द" n m sg obl
+	"चा" gen m sg
+"<अपभ्रंश>"
+	"अपभ्रंश" n m sg nom
+"<आहे>"
+	"असणे" vaux pres p3 mfn sg
+"<.>"
+	"." sent
+	
+"<महाराष्ट्रातील>"
+	"महाराष्ट्र" np top sg obl @amod #1->4
+	"तील" post attr mfn pl @case #2->1
+"<विविध>"
+	"विविध" adj mfn sp obl @amod #3->4
+"<स्थळांचा>"
+	"स्थळ" n nt pl obl @nmod:poss #4->20
+	"चा" gen m sg @case #5->4
+"<->"
+	"-" guio @punct #6->7
+"<नदी>"
+	"नदी" n f sg nom @parataxis #7->4
+"<,>"
+	"," cm @punct #8->9
+"<पर्वत>"
+	"पर्वत" n m sg nom @conj #9->7
+"<,>"
+	"," cm @punct #10->11
+"<स्थळ>"
+	"स्थळ" n nt sg nom @conj #11->7
+"<इ.>"
+	"इ." abbr @conj #12->7
+"<->"
+	"-" guio @punct #13->7
+"<रामायण>"
+	"रामायण" np al sg nom @obl #14->21
+"<महाभारत>"
+	"महाभारत" np al sg nom @conj #15->14
+"<इत्यादी>"
+	"इत्यादी" adj mfn sp obl @amod #16->18
+"<प्राचीन>"
+	"प्राचीन" adj mfn sp obl @amod #17->18
+"<ग्रंथामध्ये>"
+	"ग्रंथ" n m sg obl @conj #18->14
+	"मधे" post adv @case #19->14
+"<उल्लेख>"
+	"उल्लेख" n m sg nom @compound:lvc #20->21
+"<आढळतो>"
+	"आढळणे" vblex pres impf p3 m sg @root #21->0
+"<.>"
+	"." sent @punct #22->21
+	
+"<उपलब्ध>"
+	"उपलब्ध" adj mfn sp obl @amod #1->3
+"<ऐतिहासिक>"
+	"ऐतिहासिक" adj mfn sp obl @amod #2->3
+"<साधनातून>"
+	"साधन" n nt sg abl @obl #3->15
+"<इ>"
+	"इ." abbr @advmod #4->9 !
+"<.>"
+	"." sent @punct #5->4
+"<स>"
+	"स" abbr @flat #6->4
+"<.>"
+	"." sent @punct #7->6
+"<पूर्व>"
+	"पूर्व" n f sg nom @flat #8->4
+"<तिसऱ्या>"
+	"तिसरा" adj mfn sp obl @amod #9->10
+"<शतकापासून>"
+	"शतक" n nt sg obl @obl #10->15
+	"पासून" post adv @case #11->10
+"<महाराष्ट्राबद्दल>"
+	"महाराष्ट्र" np top sg obl @obl #12->15
+	"बद्दल" post adv @case #13->12
+"<माहिती>"
+	"माहिती" n f sg nom @obl #14->15
+"<मिळते>"
+	"मिळणे" vblex pres impf p3 f sg @root #15->0
+"<.>"
+	"." sent @punct #16->15
+	
+"<महाराष्ट्राच्या>"
+	"महाराष्ट्र" n m sg obl
+	"चा" gen obl mfn sp
+"<प्रत्येक>"
+	"प्रत्येक" adj mfn sp obl
+"<विभागाचा>"
+	"विभाग" n m sg obl
+	"चा" gen m sg
+"<राजकीय>"
+	"राजकीय" n m sg nom
+"<कालखंडानुसार>"
+	"कालखंडानुसार"
+"<इतिहास>"
+	"इतिहास" n m sg nom
+	"इतिहास" n m pl nom
+"<वेगळा>"
+	"वेगळा" adj m sg
+"<असला>"
+	"असणे" vaux perf p2 m sg
+	"असणे" vaux perf p2 mf pl
+	"असणे" vaux perf p3 m sg
+"<तरी>"
+	"तरी" corel
+"<सांस्कृतिक>"
+	"सांस्कृतिक" adj mfn sp
+	"सांस्कृतिक" adj mfn sp obl
+"<व>"
+	"व" cnjcoo
+	"व" vblex tv stem
+	"वणे" vblex imp p2 sg
+"<सामाजिक>"
+	"सामाजिक" adj mfn sp
+	"सामाजिक" adj mfn sp obl
+"<इतिहास>"
+	"इतिहास" n m sg nom
+	"इतिहास" n m pl nom
+"<बराचसा>"
+	"बराचसा" adj m sg
+"<समान>"
+	"समान" adv
+"<आहे>"
+	"असणे" vaux pres p1 mf sg
+	"असणे" vaux pres p2 mf sg
+	"असणे" vaux pres p3 mfn sg
+"<.>"
+	"." sent
+	
+"<जनपद>"
+	"*जनपद"
+"<,>"
+	"," cm
+"<मगध>"
+	"मगध" np top sg nom
+"<,>"
+	"," cm
+"<मौर्य>"
+	"मौर्य" np cog sg
+"<,>"
+	"," cm
+"<सातवाहन>"
+	"*सातवाहन"
+"<,>"
+	"," cm
+"<वाकाटक>"
+	"*वाकाटक"
+"<,>"
+	"," cm
+"<चालुक्य>"
+	"*चालुक्य"
+"<,>"
+	"," cm
+"<राष्ट्रकुट>"
+	"*राष्ट्रकुट"
+"<,>"
+	"," cm
+"<देवगिरीचे>"
+	"*देवगिरीचे"
+"<यादव>"
+	"यादव" np cog sg
+"<,>"
+	"," cm
+"<अल्लाउद्दीन>"
+	"*अल्लाउद्दीन"
+"<खिलजी>"
+	"*खिलजी"
+"<,>"
+	"," cm
+"<मुहम्मद>"
+	"मुहम्मद" np ant m sg nom
+"<बिन>"
+	"*बिन"
+"<तुघलक>"
+	"*तुघलक"
+"<,>"
+	"," cm
+"<पोर्तुगीज>"
+	"पोर्तुगीज" adj mfn sp
+	"पोर्तुगीज" adj mfn sp obl
+"<,>"
+	"," cm
+"<विजापूर>"
+	"*विजापूर"
+"<,>"
+	"," cm
+"<मुघल>"
+	"मुघल" adj mfn sp
+	"मुघल" adj mfn sp obl
+"<,>"
+	"," cm
+"<मराठा>"
+	"मराठा" adj mfn sp
+	"मराठा" np al sg
+	"मराठा" adj mfn sp obl
+"<,>"
+	"," cm
+"<हैदराबादचा>"
+	"हैदराबाद" np top sg obl चाgen m sg
+"<निजाम>"
+	"*निजाम"
+"<,>"
+	"," cm
+"<इंग्लिश>"
+	"इंग्लिश" adj mfn sp
+	"इंग्लिश" np al sg
+	"इंग्लिश" adj mfn sp obl
+"<लोक>"
+	"लोक" n m sg nom
+	"लोक" n m pl nom
+"<,>"
+	"," cm
+"<इत्यादी>"
+	"इत्यादी" n m sg nom
+	"इत्यादी" n m pl nom
+"<राज्यकर्त्यांनी>"
+	"राज्यकर्ता" n m pl obl
+		"" erg
+"<महाराष्ट्राचे>"
+	"महाराष्ट्र" n m sg obl
+		"चा" gen m pl
+	"महाराष्ट्र" n m sg obl
+		"चा" gen nt sg
+"<विविध>"
+	"विविध" adj mfn sp
+	"विविध" adj mfn sp obl
+"<भाग>"
+	"भाग" vblex tv stem
+	"भाग" n m sg nom
+	"भाग" n m pl nom
+	"भागणे" vblex imp p2 sg
+"<वेगवेगळ्या>"
+	"वेगवेगळी" n f pl nom
+"<कालखंडात>"
+	"कालखंड" n m sg obl
+		"" loc
+"<व्यापले>"
+	"व्यापणे" vblex perf p2 m pl
+	"व्यापणे" vblex perf p3 m pl
+	"व्यापणे" vblex perf p3 nt sg
+	"व्यापणे" vblex perf p1 f sg
+"<होते>"
+	"होणे" vaux pres pres impf p1 f sg
+	"होणे" vaux pres pres impf p3 f sg
+	"होणे" vaux pres pres impf p3 nt sg
+	"होणे" vblex impf p1 f sg
+	"होणे" vblex impf p3 f sg
+	"होणे" vblex impf p3 nt sg
+	"असणे" vaux past p1 f sg
+	"असणे" vaux past p3 m pl
+	"असणे" vaux past p3 nt sg
+"<.>"
+	"." sent
+"<महाराष्ट्री>"
+	"*महाराष्ट्री"
+"<भाषेच्या>"
+	"भाषे" n f sg obl
+		"च्या" clit
+	"भाषे" n f sg obl
+		"चा" gen f pl
+	"भाषे" n f sg obl
+		"चा" gen obl mfn sp
+"<वापराच्या>"
+	"वापर" n m sg obl
+		"च्या" clit
+	"वापर" n m sg obl
+		"चा" gen f pl
+	"वापर" n m sg obl
+		"चा" gen obl mfn sp
+"<संदर्भात>"
+	"संदर्भ" n m sg obl
+		"" loc
+"<महाराष्ट्राचा>"
+	"महाराष्ट्र" n m sg obl
+		"चा" gen m sg
+"<इतिहास>"
+	"इतिहास" n m sg nom
+	"इतिहास" n m pl nom
+"<तिसऱ्या>"
+	"तिसरा" adj f pl
+	"तिसरा" adj mfn sp obl
+"<शतकापासून>"
+	"शतक" n nt sg obl
+		"पासून" post adv
+"<नोंदवला>"
+	"नोंदवणे" vblex perf p2 m sg
+	"नोंदवणे" vblex perf p2 mf pl
+	"नोंदवणे" vblex perf p3 m sg
+"<गेला>"
+	"जाणे" vblex perf p2 m sg
+	"जाणे" vblex perf p2 mf pl
+	"जाणे" vblex perf p3 m sg
+"<आहे>"
+	"असणे" vaux pres p1 mf sg
+	"असणे" vaux pres p2 mf sg
+	"असणे" vaux pres p3 mfn sg
+"<.>"
+	"." sent
+"<त्या>"
+	"तो" det dist f pl
+	"तो" prn p3 f pl nom
+	"तो" prn corel f pl nom
+	"तो" prn corel nt sg obl
+"<आधीच्या>"
+	"आधी" post attr f pl
+	"आधीचा" adj f pl
+	"आधी" post attr mfn sp obl
+	"आधी" n m sg obl
+		"च्या" clit
+	"आधी" n m sg obl
+		"चा" gen f pl
+	"आधीचा" adj mfn sp obl
+	"आधी" n m sg obl
+		"चा" gen obl mfn sp
+"<कालखंडाबद्दल>"
+	"कालखंड" n m sg obl
+		"बद्दल" post adv
+"<विशेष>"
+	"विशेष" n m sg nom
+	"विशेष" n m pl nom
+"<माहिती>"
+	"माहिती" n m sg nom
+	"माहिती" n m pl nom
+"<उपलब्ध>"
+	"उपलब्ध" adj mfn sp
+	"उपलब्ध" adj mfn sp obl
+"<नाही>"
+	"नाही" inj
+	"" acc
+		"ही" emph
+	"" dat
+		"ही" emph
+	"नाही" vaux neg sp
+	"नाही" vaux neg p1 sg
+	"नाही" vaux neg p3 sg
+"<.>"
+	"." sent
+"<त्या>"
+	"तो" det dist f pl
+	"तो" prn p3 f pl nom
+	"तो" prn corel f pl nom
+	"तो" prn corel nt sg obl
+"<काळात>"
+	"काळ" n m sg obl
+		"" loc
+"<हा>"
+	"हा" det prox m sg
+ '
+"<दंडकारण्याचा>"
+	"*दंडकारण्याचा"
+' 
+"<भाग>"
+	"भाग" vblex tv stem
+	"भाग" n m sg nom
+	"भाग" n m pl nom
+	"भागणे" vblex imp p2 sg
+"<होता>"
+	"होणे" vblex pprs
+	"होणे" vaux pres pres impf p2 mf pl
+	"होणे" vblex impf p2 mf pl
+	"असणे" vaux past p2 m sg
+	"असणे" vaux past p2 mf pl
+	"असणे" vaux past p3 m sg
+"<.>"
+	"." sent
+"<मगध>"
+	"मगध" np top sg nom
+"<,>"
+	"," cm
+"<चालुक्य>"
+	"*चालुक्य"
+"<,>"
+	"," cm
+"<वाकाटक>"
+	"*वाकाटक"
+"<,>"
+	"," cm
+"<राष्ट्रकुट>"
+	"*राष्ट्रकुट"
+"<यांचे>"
+	"हा" det prox mfn pl obl
+		"चा" gen m pl
+	"हा" det prox mfn pl obl
+		"चा" gen nt sg
+"<राज्य>"
+	"राज्य" n m sg nom
+	"राज्य" n m pl nom
+	"राज्य" n nt sg nom
+"<महाराष्ट्रावर>"
+	"महाराष्ट्र" n m sg obl
+		"वरती" post adv
+"<वेगवेगळ्या>"
+	"वेगवेगळी" n f pl nom
+"<मध्ययुगीन>"
+	"*मध्ययुगीन"
+"<कालखंडात>"
+	"कालखंड" n m sg obl
+		"" loc
+"<होते>"
+	"होणे" vaux pres pres impf p1 f sg
+	"होणे" vaux pres pres impf p3 f sg
+	"होणे" vaux pres pres impf p3 nt sg
+	"होणे" vblex impf p1 f sg
+	"होणे" vblex impf p3 f sg
+	"होणे" vblex impf p3 nt sg
+	"असणे" vaux past p1 f sg
+	"असणे" vaux past p3 m pl
+	"असणे" vaux past p3 nt sg
+"<,>"
+	"," cm
+"<परंतु>"
+	"परंतु" cnjcoo
+"<सातवाहन>"
+	"*सातवाहन"
+"<राजा>"
+	"राजा" n nt sg nom
+"<शालिवाहन>"
+	"*शालिवाहन"
+"<आणि>"
+	"आणि" cnjcoo
+"<देवगिरीचे>"
+	"*देवगिरीचे"
+"<यादव>"
+	"यादव" np cog sg
+"<यांच्या>"
+	"हा" det prox mfn pl obl
+		"च्या" clit
+	"हा" det prox mfn pl obl
+		"चा" gen f pl
+	"हा" det prox mfn pl obl
+		"चा" gen obl mfn sp
+"<कालखंडात>"
+	"कालखंड" n m sg obl
+		"" loc
+"<मराठी>"
+	"मराठी" n m sg nom
+	"मराठी" n m pl nom
+"<भाषा>"
+	"भाषा" n f sg nom
+	"भाषा" n f pl nom
+"<->"
+	"-" guio
+"<संस्कृतीचा>"
+	"संस्कृती" n f sg obl
+		"चा" gen m sg
+"<विकास>"
+	"विकास" n m sg nom
+	"विकास" n m pl nom
+"<झाला>"
+	"होणे" vaux perf p2 m sg
+	"होणे" vaux perf p2 mf pl
+	"होणे" vaux perf p3 m sg
+	"होणे" vblex perf p2 m sg
+	"होणे" vblex perf p2 m pl
+	"होणे" vblex perf p2 f pl
+	"होणे" vblex perf p3 m sg
+"<.>"
+	"." sent
+"<मौर्य>"
+	"मौर्य" np cog sg
+"<साम्राज्याच्या>"
+	"साम्राज्य" n nt sg obl
+		"च्या" clit
+	"साम्राज्य" n nt sg obl
+		"चा" gen f pl
+	"साम्राज्य" n nt sg obl
+		"चा" gen obl mfn sp
+"<विघटनानंतर>"
+	"*विघटनानंतर"
+"<सातवाहन>"
+	"*सातवाहन"
+"<यांनी>"
+	"हा" det prox mfn pl obl
+		"" erg
+	"तो" prn p3 mfn pl nom
+"<इ>"
+	"इ." abbr
+"<.>"
+	"." sent
+"<स>"
+	"स" n f sg nom
+"<.>"
+	"." sent
+"<पू>"
+	"*पू"
+"<२३०>"
+	"२३०" num
+"<->"
+	"-" guio
+"<२२५>"
+	"२२५" num
+"<पर्यंत>"
+	"पर्यंत" post adv
+"<महाराष्ट्रावर>"
+	"महाराष्ट्र" n m sg obl
+		"वरती" post adv
+"<राज्य>"
+	"राज्य" n m sg nom
+	"राज्य" n m pl nom
+	"राज्य" n nt sg nom
+"<केले>"
+	"करणे" vblex perf p2 m pl
+	"करणे" vblex perf p3 m pl
+	"करणे" vblex perf p3 nt sg
+	"करणे" vblex perf p1 f sg
+"<.>"
+	"." sent
+"<सातवाहनांच्या>"
+	"*सातवाहनांच्या"
+"<राज्यात>"
+	"राजे" n nt sg obl
+		"" loc
+	"राज्य" n m sg obl
+		"" loc
+	"राज्य" n nt sg obl
+		"" loc
+"<मोठ्या>"
+	"मोठा" adj f pl
+	"मोठा" adj mfn sp obl
+"<प्रमाणात>"
+	"प्रमाण" n nt sg obl
+		"" loc
+"<सांस्कृतिक>"
+	"सांस्कृतिक" adj mfn sp
+	"सांस्कृतिक" adj mfn sp obl
+"<सुधारणा>"
+	"सुधारणा" n f sg nom
+	"सुधारणा" n f pl nom
+"<झाली>"
+	"होणे" vaux perf p2 f sg
+	"होणे" vaux perf p3 f sg
+	"होणे" vaux perf p3 nt pl
+	"होणे" vblex perf p2 f sg
+	"होणे" vblex perf p3 f sg
+	"होणे" vblex perf p3 nt pl
+"<.>"
+	"." sent
+"<महाराष्ट्री>"
+	"*महाराष्ट्री"
+"<प्राकृत>"
+	"*प्राकृत"
+"<भाषा>"
+	"भाषा" n f sg nom
+	"भाषा" n f pl nom
+"<,>"
+	"," cm
+"<(>"
+	"(" lpar
+"<जी>"
+	"जो" prn rel f sg nom
+	"जो" prn rel nt pl nom
+"<नंतर>"
+	"नंतर" post adv
+"<आधुनिक>"
+	"आधुनिक" adj mfn sp
+	"आधुनिक" adj mfn sp obl
+"<मराठी>"
+	"मराठी" n m sg nom
+	"मराठी" n m pl nom
+"<भाषेत>"
+	"भाषे" n f sg obl
+		"" loc
+"<रुपांतरीत>"
+	"*रुपांतरीत"
+"<झाली>"
+	"होणे" vaux perf p2 f sg
+	"होणे" vaux perf p3 f sg
+	"होणे" vaux perf p3 nt pl
+	"होणे" vblex perf p2 f sg
+	"होणे" vblex perf p3 f sg
+	"होणे" vblex perf p3 nt pl
+"<)>"
+	")" rpar
+"<सातवाहनांची>"
+	"*सातवाहनांची"
+"<राजभाषा>"
+	"*राजभाषा"
+"<होती>"
+	"असणे" vaux past p2 f sg
+	"असणे" vaux past p3 f sg
+	"असणे" vaux past p3 nt pl
+"<.>"
+	"." sent
+"<इ>"
+	"इ." abbr
+"<.>"
+	"." sent
+"<स>"
+	"स" n f sg nom
+"<.>"
+	"." sent
+"<७८>"
+	"७८" num
+"<मध्ये>"
+	"मधे" post adv
+"<महाराष्ट्राचा>"
+	"महाराष्ट्र" n m sg obl
+		"चा" gen m sg
+"<राज्यकर्ता>"
+	"राज्यकर्ता" n m sg nom
+"<गौतमीपुत्र>"
+	"*गौतमीपुत्र"
+"<सातकर्णी>"
+	"*सातकर्णी"
+"<किंवा>"
+	"किंवा" cnjcoo
+"<शातकारणी>"
+	"*शातकारणी"
+"<(>"
+	"(" lpar
+"<शालिवाहन>"
+	"*शालिवाहन"
+"<)>"
+	")" rpar
+"<हा>"
+	"हा" det prox m sg
+"<होता>"
+	"होणे" vblex pprs
+	"होणे" vaux pres pres impf p2 mf pl
+	"होणे" vblex impf p2 mf pl
+	"असणे" vaux past p2 m sg
+	"असणे" vaux past p2 mf pl
+	"असणे" vaux past p3 m sg
+"<.>"
+	"." sent
+"<त्याने>"
+	"तो" det dist m sg obl
+		"" erg
+	"तो" det dist nt sg obl
+		"" erg
+"<सुरू केलेले>"
+	"सुरू करणे" vblex past perf p1 m pl
+	"सुरू करणे" vblex past perf p1 f sg
+	"सुरू करणे" vblex past perf p2 nt sg
+	"सुरू करणे" vblex past perf p2 m pl
+	"सुरू करणे" vblex pprs perf p2 m pl
+	"सुरू करणे" vblex pprs perf p3 m pl
+	"सुरू करणे" vblex pprs perf p3 nt sg
+"<शालिवाहन>"
+	"*शालिवाहन"
+"<शक>"
+	"शक" vblex tv stem
+	"शक" n m sg nom
+	"शक" n m pl nom
+	"शकणे" vblex imp p2 sg
+"<पंचांग>"
+	"पंचांग" n nt sg nom
+"<आजही>"
+	"आजही" adv
+	"आज" adv
+		"ही" emph
+	"आज" n m sg nom
+		"ही" emph
+	"आज" n m pl nom
+		"ही" emph
+"<रूढ>"
+	"*रूढ"
+"<आहे>"
+	"असणे" vaux pres p1 mf sg
+	"असणे" vaux pres p2 mf sg
+	"असणे" vaux pres p3 mfn sg
+"<.>"
+	"." sent
+"<त्यानंतर>"
+	"तो" prn p3 m sg obl
+		"नंतर" post adv
+	"तो" prn p3 nt sg obl
+		"नंतर" post adv
+	"तो" det dist m sg obl
+		"नंतर" post adv
+	"तो" det dist nt sg obl
+		"नंतर" post adv
+"<देवगिरीच्या>"
+	"*देवगिरीच्या"
+"<यादवांनी>"
+	"*यादवांनी"
+"<महाराष्ट्रावर>"
+	"महाराष्ट्र" n m sg obl
+		"वरती" post adv
+"<राज्य>"
+	"राज्य" n m sg nom
+	"राज्य" n m pl nom
+	"राज्य" n nt sg nom
+"<प्रस्थापित>"
+	"प्रस्थापित" adj mfn sp
+	"प्रस्थापित" adj mfn sp obl
+"<केले>"
+	"करणे" vblex perf p2 m pl
+	"करणे" vblex perf p3 m pl
+	"करणे" vblex perf p3 nt sg
+	"करणे" vblex perf p1 f sg
+"<.>"
+	"." sent
+"<१३>"
+	"१३" num
+"<व्या>"
+	"व्या" ord
+"<शतकात>"
+	"शतक" n nt sg obl
+		"" loc
+"<महाराष्ट्र>"
+	"महाराष्ट्र" np top sg nom
+	"महाराष्ट्र" n m sg nom
+	"महाराष्ट्र" n m pl nom
+"<प्रथमच>"
+	"प्रथम" n m sg nom
+		"च" emph
+	"प्रथम" n m pl nom
+		"च" emph
+"<इस्लामी>"
+	"*इस्लामी"
+"<सत्तेखाली>"
+	"सत्ते" n f sg obl
+		"खाली" post adv
+"<आला>"
+	"येणे" vblex perf p2 m sg
+	"येणे" vblex perf p2 mf pl
+	"येणे" vblex perf p3 m sg
+"<जेव्हा>"
+	"जेव्हा" adv
+"<दिल्लीचे>"
+	"दिल्ली" np top sg obl चाgen m pl
+	"दिल्ली" np top sg obl चाgen nt sg
+"<अल्लाउद्दीन>"
+	"*अल्लाउद्दीन"
+"<खिलजी>"
+	"*खिलजी"
+"<व>"
+	"व" cnjcoo
+	"व" vblex tv stem
+	"वणे" vblex imp p2 sg
+"<नंतर>"
+	"नंतर" post adv
+"<मुहम्मद>"
+	"मुहम्मद" np ant m sg nom
+"<बिन>"
+	"*बिन"
+"<तुघलक>"
+	"*तुघलक"
+"<यांनी>"
+	"हा" det prox mfn pl obl
+		"" erg
+	"तो" prn p3 mfn pl nom
+"<दख्खनचे>"
+	"*दख्खनचे"
+"<काही>"
+	"काही" adv
+	"काही" n m sg nom
+	"काही" n m pl nom
+"<भाग>"
+	"भाग" vblex tv stem
+	"भाग" n m sg nom
+	"भाग" n m pl nom
+	"भागणे" vblex imp p2 sg
+"<काबीज>"
+	"*काबीज"
+"<केले>"
+	"करणे" vblex perf p2 m pl
+	"करणे" vblex perf p3 m pl
+	"करणे" vblex perf p3 nt sg
+	"करणे" vblex perf p1 f sg
+"<.>"
+	"." sent
+"<इ>"
+	"इ." abbr
+"<.>"
+	"." sent
+"<स>"
+	"स" n f sg nom
+"<.>"
+	"." sent
+"<१३४७>"
+	"१३४७" num
+"<मध्ये>"
+	"मधे" post adv
+"<तुघलकांच्या>"
+	"*तुघलकांच्या"
+"<पडावानंतर>"
+	"पडाव" n m sg obl
+		"नंतर" post adv
+"<विजापूरच्या>"
+	"*विजापूरच्या"
+"<बहामनी>"
+	"*बहामनी"
+"<सुलतानांनी>"
+	"*सुलतानांनी"
+"<सुमारे>"
+	"सुमारे" adv
+
+"<१५०>"
+	"१५०" num
+"<वर्षे>"
+	"वर्ष" n nt pl nom
+"<राज्य>"
+	"राज्य" n m sg nom
+	"राज्य" n m pl nom
+	"राज्य" n nt sg nom
+"<केले>"
+	"करणे" vblex perf p2 m pl
+	"करणे" vblex perf p3 m pl
+	"करणे" vblex perf p3 nt sg
+	"करणे" vblex perf p1 f sg
+"<.>"
+	"." sent
+"<१७>"
+	"१७" num
+"<व्या>"
+	"व्या" ord
+"<शतकाच्या>"
+	"शतक" n nt sg obl
+		"च्या" clit
+	"शतक" n nt sg obl
+		"चा" gen f pl
+	"शतक" n nt sg obl
+		"चा" gen obl mfn sp
+"<सुरुवातीस>"
+	"सुरुवात" n f sg obl
+		"स" post adv
+"<(>"
+	"(" lpar
+"<पश्चिम>"
+	"पश्चिम" np al sg
+"<महाराष्ट्रातील>"
+	"महाराष्ट्र" n m sg obl
+		"तील" post adv
+	"महाराष्ट्र" n m sg obl
+		"तील" post attr mfn pl
+"<)>"
+	")" rpar
+"<मराठा>"
+	"मराठा" adj mfn sp
+	"मराठा" np al sg
+	"मराठा" adj mfn sp obl
+"<->"
+	"-" guio
+"<साम्राज्याची>"
+	"साम्राज्य" n nt sg obl
+		"चा" gen f sg
+	"साम्राज्य" n nt sg obl
+		"चा" gen nt pl
+"<मुहूर्तमेढ>"
+	"*मुहूर्तमेढ"
+"<रोवली>"
+	"रोवणे" vblex perf p2 f sg
+	"रोवणे" vblex perf p3 f sg
+	"रोवणे" vblex perf p3 nt pl
+"<गेली>"
+	"जाणे" vblex perf p2 f sg
+	"जाणे" vblex perf p3 f sg
+	"जाणे" vblex perf p3 nt pl
+"<.>"
+	"." sent
+"<शिवाजी>"
+	"शिवाजी" np ant m sg nom
+"<महाराजांनी>"
+	"महाराज" n m pl obl
+		"" erg
+"<मराठा>"
+	"मराठा" adj mfn sp
+	"मराठा" np al sg
+	"मराठा" adj mfn sp obl
+"<साम्राज्य>"
+	"साम्राज्य" n nt sg nom
+"<स्थापन केले>"
+	"स्थापन करणे" vblex perf p2 m pl
+	"स्थापन करणे" vblex perf p3 m pl
+	"स्थापन करणे" vblex perf p3 nt sg
+	"स्थापन करणे" vblex perf p1 f sg
+"<.>"
+	"." sent
+"<छत्रपती>"
+	"*छत्रपती"
+"<शिवाजीराजे>"
+	"शिवाजीराजे" n m sg nom
+	"शिवाजीराजे" n m pl nom
+"<भोसले>"
+	"भोसले" np cog sg
+"<यांच्या>"
+	"हा" det prox mfn pl obl
+		"च्या" clit
+	"हा" det prox mfn pl obl
+		"चा" gen f pl
+	"हा" det prox mfn pl obl
+		"चा" gen obl mfn sp
+"<नेतृत्त्वाखाली>"
+	"*नेतृत्त्वाखाली"
+"<मराठ्यांनी>"
+	"*मराठ्यांनी"
+"<आपले>"
+	"आपला" adj m pl
+	"आपला" adj nt sg
+	"आपण" prn refl mfn sp
+		"चा" gen m pl
+	"आपण" prn refl mfn sp
+		"चा" gen nt sg
+	"मी" prn p1 mf pl incl
+		"चा" gen m pl
+	"मी" prn p1 mf pl incl
+		"चा" gen nt sg
+	"मी" prn p2 mf sg hon2
+		"चा" gen m pl
+	"मी" prn p2 mf sg hon2
+		"चा" gen nt sg
+"<स्वतंत्र>"
+	"स्वतंत्र" adj mfn sp
+	"स्वतंत्र" adj mfn sp obl
+"<राष्ट्र>"
+	"राष्ट्र" n nt sg nom
+"<निर्माण>"
+	"निर्माण" adv
+"<करणे>"
+	"करणे" vblex ger nom
+	"करणे" vblex ger acc
+	"करणे" vblex inf
+"<सुरू केले>"
+	"सुरू करणे" vblex perf p2 m pl
+	"सुरू करणे" vblex perf p3 m pl
+	"सुरू करणे" vblex perf p3 nt sg
+	"सुरू करणे" vblex perf p1 f sg
+"<.>"
+	"." sent
+"<इ>"
+	"इ." abbr
+"<.>"
+	"." sent
+"<स>"
+	"स" n f sg nom
+"<.>"
+	"." sent
+"<१६७४>"
+	"१६७४" num
+"<साली>"
+	"साली" adv
+	"साल" n f pl nom
+"<राज्याभिषेकानंतर>"
+	"*राज्याभिषेकानंतर"
+"<शिवाजी>"
+	"शिवाजी" np ant m sg nom
+"<महाराजांच्या>"
+	"महाराज" n m pl obl
+		"च्या" clit
+	"महाराज" n m pl obl
+		"चा" gen f pl
+	"महाराज" n m pl obl
+		"चा" gen obl mfn sp
+"<राज्याची>"
+	"राजे" n nt sg obl
+		"चा" gen f sg
+	"राजे" n nt sg obl
+		"चा" gen nt pl
+	"राज्य" n m sg obl
+		"चा" gen f sg
+	"राज्य" n m sg obl
+		"चा" gen nt pl
+	"राज्य" n nt sg obl
+		"चा" gen f sg
+	"राज्य" n nt sg obl
+		"चा" gen nt pl
+ '
+"<अधिकृत>"
+	"अधिकृत" adj mfn sp
+	"अधिकृत" adj mfn sp obl
+' 
+"<सुरुवात>"
+	"सुरुवात" n f sg nom
+"<झाली>"
+	"होणे" vaux perf p2 f sg
+	"होणे" vaux perf p3 f sg
+	"होणे" vaux perf p3 nt pl
+	"होणे" vblex perf p2 f sg
+	"होणे" vblex perf p3 f sg
+	"होणे" vblex perf p3 nt pl
+"<.>"
+	"." sent
+"<शिवाजीराजांचे>"
+	"*शिवाजीराजांचे"
+"<पुत्र>"
+	"पुत्र" n m sg nom
+	"पुत्र" n m pl nom
+"<संभाजी>"
+	"संभाजी" np ant m sg nom
+"<राजे>"
+	"राजे" n nt sg nom
+"<भोसल्यांना>"
+	"*भोसल्यांना"
+"<मोगल>"
+	"*मोगल"
+"<बादशहा>"
+	"बादशहा" n m sg nom
+	"बादशहा" n m pl nom
+"<औरंगझेब>"
+	"*औरंगझेब"
+"<यांनी>"
+	"हा" det prox mfn pl obl
+		"" erg
+	"तो" prn p3 mfn pl nom
+"<पकडले>"
+	"पकडणे" vblex perf p2 m pl
+	"पकडणे" vblex perf p3 m pl
+	"पकडणे" vblex perf p3 nt sg
+	"पकडणे" vblex perf p1 f sg
+"<व>"
+	"व" cnjcoo
+	"व" vblex tv stem
+	"वणे" vblex imp p2 sg
+"<त्यांची>"
+	"तो" det dist mfn pl obl
+		"चा" gen f sg
+	"तो" det dist mfn pl obl
+		"चा" gen nt pl
+	"तो" prn p3 nt pl
+		"चा" gen nt pl
+	"तो" prn p3 m pl
+		"चा" gen nt pl
+	"तो" prn p3 f pl
+		"चा" gen nt pl
+	"तो" prn p3 nt pl
+		"चाs n="gen"/" f sg
+	"तो" prn p3 m pl
+		"चाs n="gen"/" f sg
+	"तो" prn p3 f pl
+		"चाs n="gen"/" f sg
+"<हत्या>"
+	"*हत्या"
+"<घडवून>"
+	"घडवणे" vblex trans perf
+"<आणली>"
+	"आणणे" vblex perf p2 f sg
+	"आणणे" vblex perf p3 f sg
+	"आणणे" vblex perf p3 nt pl
+"<.>"
+	"." sent
+"<पुढील>"
+	"पुढील" adj mfn sp
+	"पुढील" adj mfn sp obl
+"<चार>"
+	"चार" num
+	"चार" vblex tv stem
+	"चारणे" vblex imp p2 sg
+"<दशकात>"
+	"दशक" n nt sg obl
+		"" loc
+"<मराठा>"
+	"मराठा" adj mfn sp
+	"मराठा" np al sg
+	"मराठा" adj mfn sp obl
+"<साम्राज्याची>"
+	"साम्राज्य" n nt sg obl
+		"चा" gen f sg
+	"साम्राज्य" n nt sg obl
+		"चा" gen nt pl
+"<सूत्रे>"
+	"सूत्र" n nt pl nom
+"<छ्त्रपतींचे>"
+	"*छ्त्रपतींचे"
+"<प्रतिनिधी>"
+	"*प्रतिनिधी"
+"<म्हणजेच>"
+	"म्हणजे" vblex mfn sp
+		"च" emph
+"<पेशव्यांच्या>"
+	"*पेशव्यांच्या"
+"<हातात>"
+	"हात" n m sg obl
+		"" loc
+"<गेली>"
+	"जाणे" vblex perf p2 f sg
+	"जाणे" vblex perf p3 f sg
+	"जाणे" vblex perf p3 nt pl
+"<.>"
+	"." sent
+"<भोसले>"
+	"भोसले" np cog sg
+"<हे>"
+	"हा" det prox m pl
+	"हा" det prox nt sg
+"<केवळ>"
+	"केवळ" part
+"<नाममात्र>"
+	"*नाममात्र"
+"<राज्यकर्ते>"
+	"राज्यकर्ता" n m pl nom
+"<राहिले>"
+	"रहाणे" vblex perf p2 m pl
+	"रहाणे" vblex perf p3 m pl
+	"रहाणे" vblex perf p3 nt sg
+	"रहाणे" vblex perf p1 f sg
+"<.>"
+	"." sent
+"<मोगलांना>"
+	"*मोगलांना"
+"<हरवून>"
+	"हरवणे" vblex trans perf
+"<पेशवे>"
+	"पेशवे" adj mfn sp
+	"पेशवे" adj mfn sp obl
+"<भारताचे>"
+	"भारत" n m sg obl
+		"चा" gen m pl
+	"भारत" n m sg obl
+		"चा" gen nt sg
+"<नवे>"
+	"नवा" adj m pl
+	"नवा" adj nt sg
+	"नवे" n nt sg nom
+"<राज्यकर्ते>"
+	"राज्यकर्ता" n m pl nom
+"<म्हणून>"
+	"म्हणून" cnjcoo
+	"म्हणून" cnjsub
+	"म्हणणे" vblex trans perf
+"<उदयास>"
+	"*उदयास"
+"<आले>"
+	"येणे" vblex perf p2 m pl
+	"येणे" vblex perf p3 m pl
+	"येणे" vblex perf p3 nt sg
+	"येणे" vblex perf p1 f sg
+	"आले" n nt sg nom
+"<.>"
+	"." sent
+"<बाळाजी>"
+	"बाळाजी" n m sg nom
+	"बाळाजी" n m pl nom
+"<विश्वनाथ>"
+	"विश्वनाथ" np ant m sg nom
+"<पेशवे>"
+	"पेशवे" adj mfn sp
+	"पेशवे" adj mfn sp obl
+"<व>"
+	"व" cnjcoo
+	"व" vblex tv stem
+	"वणे" vblex imp p2 sg
+"<त्यांचे>"
+	"तो" det dist mfn pl obl
+		"चा" gen m pl
+	"तो" det dist mfn pl obl
+		"चा" gen nt sg
+	"तो" prn p3 nt pl
+		"चा" gen m pl
+	"तो" prn p3 nt pl
+		"चा" gen nt sg
+	"तो" prn p3 m pl
+		"चा" gen m pl
+	"तो" prn p3 m pl
+		"चा" gen nt sg
+	"तो" prn p3 f pl
+		"चा" gen m pl
+	"तो" prn p3 f pl
+		"चा" gen nt sg
+"<पुत्र>"
+	"पुत्र" n m sg nom
+	"पुत्र" n m pl nom
+"<बाजीराव>"
+	"बाजीराव" n m sg nom
+	"बाजीराव" n m pl nom
+"<पहिले>"
+	"एक" num ord
+		"" nt sg
+	"एक" num ord
+		"" m pl
+	"पहिला" adj m pl
+	"पहिला" adj nt sg
+"<यांनी>"
+	"हा" det prox mfn pl obl
+		"" erg
+	"तो" prn p3 mfn pl nom
+"<मराठा>"
+	"मराठा" adj mfn sp
+	"मराठा" np al sg
+	"मराठा" adj mfn sp obl
+"<राज्य>"
+	"राज्य" n m sg nom
+	"राज्य" n m pl nom
+	"राज्य" n nt sg nom
+"<वाढवले>"
+	"वाढवणे" vblex perf p2 m pl
+	"वाढवणे" vblex perf p3 m pl
+	"वाढवणे" vblex perf p3 nt sg
+	"वाढवणे" vblex perf p1 f sg
+"<व>"
+	"व" cnjcoo
+	"व" vblex tv stem
+	"वणे" vblex imp p2 sg
+"<सध्याच्या>"
+	"सध्या" n m sg obl
+		"च्या" clit
+	"सध्या" n m sg obl
+		"चा" gen f pl
+	"सध्या" n m sg obl
+		"चा" gen obl mfn sp
+"<भारताच्याही>"
+	"भारत" n m sg obl
+		"च्या" clit
+			"ही" emph
+	"भारत" n m sg obl
+		"चा" gen f pl
+			"ही" emph
+	"भारत" n m sg obl
+		"चा" gen obl mfn sp
+			"ही" emph
+"<सीमेपार>"
+	"*सीमेपार"
+"<आपले>"
+	"आपला" adj m pl
+	"आपला" adj nt sg
+	"आपण" prn refl mfn sp
+		"चा" gen m pl
+	"आपण" prn refl mfn sp
+		"चा" gen nt sg
+	"मी" prn p1 mf pl incl
+		"चा" gen m pl
+	"मी" prn p1 mf pl incl
+		"चा" gen nt sg
+	"मी" prn p2 mf sg hon2
+		"चा" gen m pl
+	"मी" prn p2 mf sg hon2
+		"चा" gen nt sg
+"<वर्चस्व>"
+	"वर्चस्व" n nt sg nom
+"<प्रस्थापित>"
+	"प्रस्थापित" adj mfn sp
+	"प्रस्थापित" adj mfn sp obl
+"<केले>"
+	"करणे" vblex perf p2 m pl
+	"करणे" vblex perf p3 m pl
+	"करणे" vblex perf p3 nt sg
+	"करणे" vblex perf p1 f sg
+"<.>"
+	"." sent
+"<इ>"
+	"इ." abbr
+"<.>"
+	"." sent
+"<स>"
+	"स" n f sg nom
+"<.>"
+	"." sent
+"<१७६१>"
+	"१७६१" num
+"<साली>"
+	"साली" adv
+	"साल" n f pl nom
+"<पानिपतच्या>"
+	"*पानिपतच्या"
+"<तिसर्>"
+	"*तिसर्"
+‍
+"<या>"
+	"हा" det prox f pl
+	"हा" det prox nt pl
+"<लढाईत>"
+	"लढाई" n f sg obl
+		"" loc
+"<अफगाण>"
+	"*अफगाण"
+"<सेनानी>"
+	"*सेनानी"
+"<अहमदशाह>"
+	"*अहमदशाह"
+"<अब्दालीने>"
+	"*अब्दालीने"
+"<पेशव्यांचा>"
+	"*पेशव्यांचा"
+"<व>"
+	"व" cnjcoo
+	"व" vblex tv stem
+	"वणे" vblex imp p2 sg
+"<पर्यायाने>"
+	"पर्याय" n m sg obl
+		"" erg
+"<मराठी>"
+	"मराठी" n m sg nom
+	"मराठी" n m pl nom
+"<साम्राज्याचा>"
+	"साम्राज्य" n nt sg obl
+		"चा" gen m sg
+"<मोठा>"
+	"मोठा" adj m sg
+	"मोठा" n m sg nom
+"<पराभव>"
+	"पराभव" n m sg nom
+	"पराभव" n m pl nom
+"<केला>"
+	"के" n m sg obl
+		"" acc
+	"के" n m sg obl
+		"" dat
+	"करणे" vblex perf p2 m sg
+	"करणे" vblex perf p2 mf pl
+	"करणे" vblex perf p3 m sg
+"<.>"
+	"." sent
+"<या>"
+	"हा" det prox f pl
+	"हा" det prox nt pl
+"<पराभवानंतर>"
+	"पराभव" n m sg obl
+		"नंतर" post adv
+"<मराठा>"
+	"मराठा" adj mfn sp
+	"मराठा" np al sg
+	"मराठा" adj mfn sp obl
+"<साम्राज्याची>"
+	"साम्राज्य" n nt sg obl
+		"चा" gen f sg
+	"साम्राज्य" n nt sg obl
+		"चा" gen nt pl
+"<एकसंधता>"
+	"*एकसंधता"
+"<नष्ट झाली>"
+	"नष्ट होणे" vblex perf p2 f sg
+	"नष्ट होणे" vblex perf p3 f sg
+	"नष्ट होणे" vblex perf p3 nt pl
+"<व>"
+	"व" cnjcoo
+	"व" vblex tv stem
+	"वणे" vblex imp p2 sg
+"<महाराष्ट्रातील>"
+	"महाराष्ट्र" n m sg obl
+		"तील" post adv
+	"महाराष्ट्र" n m sg obl
+		"तील" post attr mfn pl
+"<सत्ता>"
+	"सत्ता" n m sg nom
+	"सत्ता" n f sg nom
+	"सत्ता" n f pl nom
+"<पेशव्यांकडे>"
+	"*पेशव्यांकडे"
+"<राहिली>"
+	"रहाणे" vblex perf p2 f sg
+	"रहाणे" vblex perf p3 f sg
+	"रहाणे" vblex perf p3 nt pl
+"<असली>"
+	"असणे" vaux perf p2 f sg
+	"असणे" vaux perf p3 f sg
+	"असणे" vaux perf p3 nt pl
+"<तरी>"
+	"तरी" corel
+"<महाराष्ट्राबाहेरचे>"
+	"महाराष्ट्र" n m sg obl
+		"बाहेर" post attr m pl
+	"महाराष्ट्र" n m sg obl
+		"बाहेर" post attr nt sg
+"<साम्राज्य>"
+	"साम्राज्य" n nt sg nom
+"<अनेक>"
+	"अनेक" n m sg nom
+	"अनेक" n m pl nom
+"<सरदारांनी>"
+	"सरदार" n m pl obl
+		"" erg
+"<आपापल्यात>"
+	"*आपापल्यात"
+"<वाटून>"
+	"वाटणे" vblex trans perf
+"<घेतले>"
+	"घेणे" vblex perf p2 m pl
+	"घेणे" vblex perf p3 m pl
+	"घेणे" vblex perf p3 nt sg
+	"घेणे" vblex perf p1 f sg
+"<.>"
+	"." sent
+"<ब्रिटिश>"
+	"ब्रिटिश" n m sg nom
+	"ब्रिटिश" n m pl nom
+"<ईस्ट>"
+	"ईस्ट" np al sg
+"<इंडिया>"
+	"इंडिया" np top sg nom
+"<कंपनीने>"
+	"*कंपनीने"
+"<भारतात>"
+	"भारत" n m sg obl
+		"" loc
+	"भारणे" vblex pres impf p3 mfn pl
+"<बस्तान>"
+	"बस्तान" n nt sg nom
+"<बसवल्यावर>"
+	"*बसवल्यावर"
+"<मराठे>"
+	"*मराठे"
+"<व>"
+	"व" cnjcoo
+	"व" vblex tv stem
+	"वणे" vblex imp p2 sg
+"<ब्रिटिश>"
+	"ब्रिटिश" n m sg nom
+	"ब्रिटिश" n m pl nom
+"<यांच्यात>"
+	"*यांच्यात"
+"<इ>"
+	"इ." abbr
+"<.>"
+	"." sent
+"<स>"
+	"स" n f sg nom
+"<.>"
+	"." sent
+"<१७७७>"
+	"१७७७" num
+"<->"
+	"-" guio
+"<१८१८>"
+	"१८१८" num
+"<च्या>"
+	"च्या" clit
+	"चा" gen f pl
+	"चा" gen obl mfn sp
+"<दरम्यान>"
+	"दरम्यान" adv
+"<तीन>"
+	"तीन" num
+"<युद्धे>"
+	"युद्ध" n nt pl nom
+"<झाली>"
+	"होणे" vaux perf p2 f sg
+	"होणे" vaux perf p3 f sg
+	"होणे" vaux perf p3 nt pl
+	"होणे" vblex perf p2 f sg
+	"होणे" vblex perf p3 f sg
+	"होणे" vblex perf p3 nt pl
+"<.>"
+	"." sent
+"<इ>"
+	"इ." abbr
+"<.>"
+	"." sent
+"<स>"
+	"स" n f sg nom
+"<.>"
+	"." sent
+"<१८१९>"
+	"१८१९" num
+"<मध्ये>"
+	"मधे" post adv
+"<ब्रिटिशांनी>"
+	"ब्रिटिश" n m pl obl
+		"" erg
+"<पेशव्यांना>"
+	"*पेशव्यांना"
+"<पदच्युत>"
+	"*पदच्युत"
+"<करून>"
+	"करणे" vblex trans perf
+"<मराठ्यांचे>"
+	"*मराठ्यांचे"
+"<राज्य>"
+	"राज्य" n m sg nom
+	"राज्य" n m pl nom
+	"राज्य" n nt sg nom
+"<काबीज>"
+	"*काबीज"
+"<केले>"
+	"करणे" vblex perf p2 m pl
+	"करणे" vblex perf p3 m pl
+	"करणे" vblex perf p3 nt sg
+	"करणे" vblex perf p1 f sg
+"<.>"
+	"." sent
+"<महाराष्ट्र>"
+	"महाराष्ट्र" np top sg nom
+	"महाराष्ट्र" n m sg nom
+	"महाराष्ट्र" n m pl nom
+"<ब्रिटिशांच्या>"
+	"ब्रिटिश" n m pl obl
+		"च्या" clit
+	"ब्रिटिश" n m pl obl
+		"चा" gen f pl
+	"ब्रिटिश" n m pl obl
+		"चा" gen obl mfn sp
+"<बॉम्बे>"
+	"बॉम्बे" np top sg nom
+"<राज्याचा>"
+	"राजे" n nt sg obl
+		"चा" gen m sg
+	"राज्य" n m sg obl
+		"चा" gen m sg
+	"राज्य" n nt sg obl
+		"चा" gen m sg
+"<एक>"
+	"एक" part
+	"एक" num
+	"एक" det indef mfn sg
+"<भाग>"
+	"भाग" vblex tv stem
+	"भाग" n m sg nom
+	"भाग" n m pl nom
+	"भागणे" vblex imp p2 sg
+"<होता>"
+	"होणे" vblex pprs
+	"होणे" vaux pres pres impf p2 mf pl
+	"होणे" vblex impf p2 mf pl
+	"असणे" vaux past p2 m sg
+	"असणे" vaux past p2 mf pl
+	"असणे" vaux past p3 m sg
+"<.>"
+	"." sent
+"<बॉम्बे>"
+	"बॉम्बे" np top sg nom
+"<राज्यात>"
+	"राजे" n nt sg obl
+		"" loc
+	"राज्य" n m sg obl
+		"" loc
+	"राज्य" n nt sg obl
+		"" loc
+"<कराची>"
+	"कराची" np top sg nom
+"<ते>"
+	"तो" det dist m pl
+	"तो" det dist nt sg
+	"तो" prn p3 m pl nom
+	"तो" prn p3 nt sg nom
+	"तो" prn corel m pl nom
+	"तो" prn corel nt sg nom
+"<उत्तर>"
+	"उत्तर" np al sg
+	"उत्तर" vblex tv stem
+	"उत्तर" n f sg nom
+	"उत्तर" n nt sg nom
+	"उत्तरणे" vblex imp p2 sg
+"<दख्खन>"
+	"*दख्खन"
+"<भाग>"
+	"भाग" vblex tv stem
+	"भाग" n m sg nom
+	"भाग" n m pl nom
+	"भागणे" vblex imp p2 sg
+"<समाविष्ट>"
+	"समाविष्ट" adj mfn sp
+	"समाविष्ट" adj mfn sp obl
+"<होते>"
+	"होणे" vaux pres pres impf p1 f sg
+	"होणे" vaux pres pres impf p3 f sg
+	"होणे" vaux pres pres impf p3 nt sg
+	"होणे" vblex impf p1 f sg
+	"होणे" vblex impf p3 f sg
+	"होणे" vblex impf p3 nt sg
+	"असणे" vaux past p1 f sg
+	"असणे" vaux past p3 m pl
+	"असणे" vaux past p3 nt sg
+"<.>"
+	"." sent
+"<अनेक>"
+	"अनेक" n m sg nom
+	"अनेक" n m pl nom
+"<राज्यकर्ते>"
+	"राज्यकर्ता" n m pl nom
+"<ब्रिटिशांचे>"
+	"ब्रिटिश" n m pl obl
+		"चा" gen m pl
+	"ब्रिटिश" n m pl obl
+		"चा" gen nt sg
+"<वर्चस्व>"
+	"वर्चस्व" n nt sg nom
+"<मानून>"
+	"मानणे" vblex trans perf
+"<आपापले>"
+	"आपापला" adj m pl
+	"आपापला" adj nt sg
+"<राज्य>"
+	"राज्य" n m sg nom
+	"राज्य" n m pl nom
+	"राज्य" n nt sg nom
+"<सांभाळीत>"
+	"*सांभाळीत"
+"<होते>"
+	"होणे" vaux pres pres impf p1 f sg
+	"होणे" vaux pres pres impf p3 f sg
+	"होणे" vaux pres pres impf p3 nt sg
+	"होणे" vblex impf p1 f sg
+	"होणे" vblex impf p3 f sg
+	"होणे" vblex impf p3 nt sg
+	"असणे" vaux past p1 f sg
+	"असणे" vaux past p3 m pl
+	"असणे" vaux past p3 nt sg
+"<.>"
+	"." sent
+"<मराठवाडा>"
+	"मराठवाडा" np top sg nom
+"<निजामाच्या>"
+	"*निजामाच्या"
+"<अंमालाखाली>"
+	"*अंमालाखाली"
+"<राहिला>"
+	"रहाणे" vblex perf p2 m sg
+	"रहाणे" vblex perf p2 mf pl
+	"रहाणे" vblex perf p3 m sg
+"<.>"
+	"." sent
+"<ब्रिटिशांनी>"
+	"ब्रिटिश" n m pl obl
+		"" erg
+"<सामाजिक>"
+	"सामाजिक" adj mfn sp
+	"सामाजिक" adj mfn sp obl
+"<सुधारणा>"
+	"सुधारणा" n f sg nom
+	"सुधारणा" n f pl nom
+"<तसेच>"
+	"तसा" adj m pl
+		"च" emph
+	"तसा" adj nt sg
+		"च" emph
+"<अनेक>"
+	"अनेक" n m sg nom
+	"अनेक" n m pl nom
+"<नागरी>"
+	"नागरी" adj mfn sp
+	"नागरी" adj mfn sp obl
+"<सोयी>"
+	"*सोयी"
+"<->"
+	"-" guio
+"<सुविधा>"
+	"सुविधा" np ant f sg nom
+	"सुविधा" np ant f sg obl
+"<आणल्या>"
+	"आणणे" vblex perf p2 f pl
+	"आणणे" vblex perf p3 f pl
+"<.>"
+	"." sent
+"<परंतु>"
+	"परंतु" cnjcoo
+"<त्यांच्या>"
+	"तो" prn p3 nt pl obl
+		"च्या" clit
+	"तो" prn p3 m pl obl
+		"च्या" clit
+	"तो" prn p3 f pl obl
+		"च्या" clit
+	"तो" det dist mfn pl obl
+		"च्या" clit
+	"तो" det dist mfn pl obl
+		"चा" gen f pl
+	"तो" det dist mfn pl obl
+		"चा" gen obl mfn sp
+	"तो" prn p3 nt pl
+		"चा" gen f pl
+	"तो" prn p3 m pl
+		"चा" gen f pl
+	"तो" prn p3 f pl
+		"चा" gen f pl
+"<पक्षपाती>"
+	"*पक्षपाती"
+"<निर्णयांमुळे>"
+	"निर्णय" n m pl obl
+		"मुळे" post adv
+"<व>"
+	"व" cnjcoo
+	"व" vblex tv stem
+	"वणे" vblex imp p2 sg
+"<पारतंत्र्याच्या>"
+	"*पारतंत्र्याच्या"
+"<जाणिवेमुळे>"
+	"*जाणिवेमुळे"
+"<भारतीयांमध्ये>"
+	"भारतीय" n m pl obl
+		"मधे" post adv
+"<असंतोष>"
+	"असंतोष" n m sg nom
+	"असंतोष" n m pl nom
+"<निर्माण>"
+	"निर्माण" adv
+"<झाला>"
+	"होणे" vaux perf p2 m sg
+	"होणे" vaux perf p2 mf pl
+	"होणे" vaux perf p3 m sg
+	"होणे" vblex perf p2 m sg
+	"होणे" vblex perf p2 m pl
+	"होणे" vblex perf p2 f pl
+	"होणे" vblex perf p3 m sg
+"<.>"
+	"." sent
+"<विसाव्या>"
+	"वीस" num ord
+		"" f pl
+"<शतकाच्या>"
+	"शतक" n nt sg obl
+		"च्या" clit
+	"शतक" n nt sg obl
+		"चा" gen f pl
+	"शतक" n nt sg obl
+		"चा" gen obl mfn sp
+"<सुरुवातीस>"
+	"सुरुवात" n f sg obl
+		"स" post adv
+"<लोकमान्य>"
+	"लोकमान्य" adj mfn sp
+	"लोकमान्य" adj mfn sp obl
+"<टिळक>"
+	"टिळक" np cog sg
+"<यांनी>"
+	"हा" det prox mfn pl obl
+		"" erg
+	"तो" prn p3 mfn pl nom
+"<ब्रिटिशांविरुद्ध>"
+	"*ब्रिटिशांविरुद्ध"
+"<लढा>"
+	"लढा" n m sg nom
+	"लढणे" vblex imp p2 pl
+"<उभारला>"
+	"उभारणे" vblex perf p2 m sg
+	"उभारणे" vblex perf p2 mf pl
+	"उभारणे" vblex perf p3 m sg
+"<जो>"
+	"जो" prn rel m sg nom
+"<पुढे>"
+	"पुढे" post adv
+"<महात्मा>"
+	"महात्मा" np ant m sg nom
+"<गांधी>"
+	"गांधी" np cog sg
+	"गांध" n f pl nom
+	"गांधी" n m sg nom
+	"गांधी" n m pl nom
+"<यांनी>"
+	"हा" det prox mfn pl obl
+		"" erg
+	"तो" prn p3 mfn pl nom
+"<चालवला>"
+	"चालवणे" vblex perf p2 m sg
+	"चालवणे" vblex perf p2 mf pl
+	"चालवणे" vblex perf p3 m sg
+"<.>"
+	"." sent
+"<मुंबई>"
+	"मुंबई" np top sg nom
+"<हे>"
+	"हा" det prox m pl
+	"हा" det prox nt sg
+"<भारतीय>"
+	"भारतीय" n m sg nom
+	"भारतीय" n m pl nom
+"<स्वातंत्र्यलढ्याचे>"
+	"*स्वातंत्र्यलढ्याचे"
+"<एक>"
+	"एक" part
+	"एक" num
+	"एक" det indef mfn sg
+"<महत्त्वाचे>"
+	"महत्त्व" n m sg obl
+		"चा" gen m pl
+	"महत्त्व" n m sg obl
+		"चा" gen nt sg
+"<केंद्र>"
+	"केंद्र" n nt sg nom
+"<होते>"
+	"होणे" vaux pres pres impf p1 f sg
+	"होणे" vaux pres pres impf p3 f sg
+	"होणे" vaux pres pres impf p3 nt sg
+	"होणे" vblex impf p1 f sg
+	"होणे" vblex impf p3 f sg
+	"होणे" vblex impf p3 nt sg
+	"असणे" vaux past p1 f sg
+	"असणे" vaux past p3 m pl
+	"असणे" vaux past p3 nt sg
+"<.>"
+	"." sent
+"<ऑगस्ट>"
+	"ऑगस्ट" np top sg nom
+"<१५>"
+	"१५" num
+"<,>"
+	"," cm
+"<इ>"
+	"इ." abbr
+"<.>"
+	"." sent
+"<स>"
+	"स" n f sg nom
+"<.>"
+	"." sent
+"<१९४७>"
+	"१९४७" num
+"<रोजी>"
+	"रोजी" adv
+"<भारताला>"
+	"भारत" n m sg obl
+		"" acc
+	"भारत" n m sg obl
+		"" dat
+"<स्वातंत्र्य>"
+	"स्वातंत्र्य" n nt sg nom
+"<मिळाल्यावर>"
+	"मिळणे" vblex perf obl
+		"वर" post adv
+"<प्रांत>"
+	"प्रा" n m pl obl
+		"" loc
+	"प्रांत" n m sg nom
+	"प्रांत" n m pl nom
+"<व>"
+	"व" cnjcoo
+	"व" vblex tv stem
+	"वणे" vblex imp p2 sg
+"<राज्यांची>"
+	"राजे" n nt sg obl
+		"चा" gen f sg
+	"राजे" n nt sg obl
+		"चा" gen nt pl
+	"राज्य" n nt pl obl
+		"चा" gen f sg
+	"राज्य" n nt pl obl
+		"चा" gen nt pl
+	"राज्य" n m pl obl
+		"चा" gen f sg
+	"राज्य" n m pl obl
+		"चा" gen nt pl
+"<पुनर्रचना>"
+	"पुनर्रचना" n f sg nom
+	"पुनर्रचना" n f pl nom
+"<प्रक्रियेत>"
+	"प्रक्रिये" n f sg obl
+		"" loc
+"<भाषावार>"
+	"*भाषावार"
+"<प्रांतरचनेच्या>"
+	"*प्रांतरचनेच्या"
+"<विचाराचे>"
+	"विचार" n m sg obl
+		"चा" gen m pl
+	"विचार" n m sg obl
+		"चा" gen nt sg
+"<वर्चस्व>"
+	"वर्चस्व" n nt sg nom
+"<होते>"
+	"होणे" vaux pres pres impf p1 f sg
+	"होणे" vaux pres pres impf p3 f sg
+	"होणे" vaux pres pres impf p3 nt sg
+	"होणे" vblex impf p1 f sg
+	"होणे" vblex impf p3 f sg
+	"होणे" vblex impf p3 nt sg
+	"असणे" vaux past p1 f sg
+	"असणे" vaux past p3 m pl
+	"असणे" vaux past p3 nt sg
+"<.>"
+	"." sent
+"<तरीही>"
+	"तरी" corel
+"<भारत>"
+	"भारणे" vblex pprs
+	"भारत" np top sg nom
+	"भारत" n m sg nom
+	"भारत" n m pl nom
+"<सरकारने>"
+	"सरकार" n m sg obl
+		"" erg
+"<मुंबईसह>"
+	"*मुंबईसह"
+"<महाराष्ट्र>"
+	"महाराष्ट्र" np top sg nom
+	"महाराष्ट्र" n m sg nom
+	"महाराष्ट्र" n m pl nom
+"<राज्य>"
+	"राज्य" n m sg nom
+	"राज्य" n m pl nom
+	"राज्य" n nt sg nom
+"<निर्मितीस>"
+	"निर्मिती" n m sg obl
+		"स" post adv
+"<नकार>"
+	"नकार" n m sg nom
+	"नकार" n m pl nom
+"<दिला>"
+	"देणे" vblex perf p2 m sg
+	"देणे" vblex perf p2 mf pl
+	"देणे" vblex perf p3 m sg
+"<.>"
+	"." sent
+"<केंद्राच्या>"
+	"केंद्र" n nt sg obl
+		"च्या" clit
+	"केंद्र" n nt sg obl
+		"चा" gen f pl
+	"केंद्र" n nt sg obl
+		"चा" gen obl mfn sp
+"<या>"
+	"हा" det prox f pl
+	"हा" det prox nt pl
+"<पावित्र्याच्या>"
+	"*पावित्र्याच्या"
+"<विरोधात>"
+	"विरोध" n m sg obl
+		"" loc
+"<महाराष्ट्रातील>"
+	"महाराष्ट्र" n m sg obl
+		"तील" post adv
+	"महाराष्ट्र" n m sg obl
+		"तील" post attr mfn pl
+"<जनतेने>"
+	"जनते" n f sg obl
+		"" erg
+"<प्रखर>"
+	"*प्रखर"
+"<आंदोलन>"
+	"आंदोलन" n nt sg nom
+"<केले>"
+	"करणे" vblex perf p2 m pl
+	"करणे" vblex perf p3 m pl
+	"करणे" vblex perf p3 nt sg
+	"करणे" vblex perf p1 f sg
+"<.>"
+	"." sent
+"<यात>"
+	"हा" det prox m sg obl
+		"" loc
+	"हा" det prox nt sg obl
+		"" loc
+"<१०५>"
+	"१०५" num
+"<व्यक्तींनी>"
+	"व्यक्ती" n m pl obl
+		"" erg
+"<आपल्या>"
+	"आपला" adj f pl
+	"आपला" adj mfn sp obl
+	"आपण" prn refl mfn sp
+		"चा" gen f pl
+	"मी" prn p1 mf pl incl
+		"चा" gen f pl
+	"मी" prn p2 mf sg hon2
+		"चा" gen f pl
+"<प्राणाचे>"
+	"*प्राणाचे"
+"<बलिदान>"
+	"बलिदान" n nt sg nom
+"<दिले>"
+	"देणे" vblex perf p2 m pl
+	"देणे" vblex perf p3 m pl
+	"देणे" vblex perf p3 nt sg
+	"देणे" vblex perf p1 f sg
+"<.>"
+	"." sent
+"<केंद्र>"
+	"केंद्र" n nt sg nom
+"<सरकार>"
+	"सरकार" n m sg nom
+	"सरकार" n m pl nom
+"<मुंबई>"
+	"मुंबई" np top sg nom
+"<महाराष्ट्रात>"
+	"महाराष्ट्र" n m sg obl
+		"" loc
+"<समाविष्ट>"
+	"समाविष्ट" adj mfn sp
+	"समाविष्ट" adj mfn sp obl
+"<करण्याच्या>"
+	"करणे" vblex ger चाgen f pl
+	"करणे" vblex ger obl
+		"च्या" clit
+	"करणे" vblex ger चाgen obl mfn sp
+"<विरोधात>"
+	"विरोध" n m sg obl
+		"" loc
+"<होते>"
+	"होणे" vaux pres pres impf p1 f sg
+	"होणे" vaux pres pres impf p3 f sg
+	"होणे" vaux pres pres impf p3 nt sg
+	"होणे" vblex impf p1 f sg
+	"होणे" vblex impf p3 f sg
+	"होणे" vblex impf p3 nt sg
+	"असणे" vaux past p1 f sg
+	"असणे" vaux past p3 m pl
+	"असणे" vaux past p3 nt sg
+"<.>"
+	"." sent
+"<आचार्य>"
+	"आचार्य" n m sg nom
+	"आचार्य" n m pl nom
+"<अत्रे>"
+	"*अत्रे"
+"<,>"
+	"," cm
+"<शाहीर>"
+	"शाहीर" n m sg nom
+	"शाहीर" n m pl nom
+"<साबळे>"
+	"*साबळे"
+"<,>"
+	"," cm
+"<सेनापती>"
+	"*सेनापती"
+"<बापट>"
+	"बापट" np cog sg
+"<,>"
+	"," cm
+"<डांगे>"
+	"*डांगे"
+"<इत्यादी>"
+	"इत्यादी" n m sg nom
+	"इत्यादी" n m pl nom
+"<प्रभृतींनी>"
+	"*प्रभृतींनी"
+"<संयुक्त>"
+	"संयुक्त" n m sg nom
+	"संयुक्त" n m pl nom
+"<महाराष्ट्र>"
+	"महाराष्ट्र" np top sg nom
+	"महाराष्ट्र" n m sg nom
+	"महाराष्ट्र" n m pl nom
+"<चळवळीला>"
+	"चळवळ" n f sg obl
+		"" acc
+	"चळवळ" n f sg obl
+		"" dat
+"<बळ>"
+	"बळ" n nt sg nom
+"<दिले>"
+	"देणे" vblex perf p2 m pl
+	"देणे" vblex perf p3 m pl
+	"देणे" vblex perf p3 nt sg
+	"देणे" vblex perf p1 f sg
+"<.>"
+	"." sent
+"<आचार्य>"
+	"आचार्य" n m sg nom
+	"आचार्य" n m pl nom
+"<अत्र्यांनी>"
+	"*अत्र्यांनी"
+"<मराठा>"
+	"मराठा" adj mfn sp
+	"मराठा" np al sg
+	"मराठा" adj mfn sp obl
+"<या>"
+	"हा" det prox f pl
+	"हा" det prox nt pl
+"<पत्रात>"
+	"पत्र" n nt sg obl
+		"" loc
+"<आपली>"
+	"आपला" adj m pl
+	"आपला" adj f sg
+	"आपला" adj nt pl
+	"आपण" prn refl mfn sp
+		"चा" gen nt pl
+	"मी" prn p1 mf pl incl
+		"चा" gen nt pl
+	"मी" prn p2 mf sg hon2
+		"चा" gen nt pl
+	"आपण" prn refl mfn sp
+		"चाs n="gen"/" f sg
+	"मी" prn p1 mf pl incl
+		"चाs n="gen"/" f sg
+	"मी" prn p2 mf sg hon2
+		"चाs n="gen"/" f sg
+"<आग्रही>"
+	"*आग्रही"
+"<भूमिका>"
+	"भूमिका" n f sg nom
+	"भूमिका" n f pl nom
+"<मांडली>"
+	"मांडणे" vblex perf p2 f sg
+	"मांडणे" vblex perf p3 f sg
+	"मांडणे" vblex perf p3 nt pl
+"<.>"
+	"." sent
+"<अखेर>"
+	"अखेर" n m sg nom
+	"अखेर" n m pl nom
+	"अखेर" n f sg nom
+"<१>"
+	"१" num
+"<मे>"
+	"मे" np top sg nom
+	"मे" n m sg nom
+	"मे" n m pl nom
+"<,>"
+	"," cm
+"<१९६०>"
+	"१९६०" num
+"<ला>"
+	"" acc
+	"" dat
+"<महाराष्ट्राचे>"
+	"महाराष्ट्र" n m sg obl
+		"चा" gen m pl
+	"महाराष्ट्र" n m sg obl
+		"चा" gen nt sg
+"<सध्याचे>"
+	"सध्या" n m sg obl
+		"चा" gen m pl
+	"सध्या" n m sg obl
+		"चा" gen nt sg
+"<प्रमुख>"
+	"प्रमुख" n m sg nom
+	"प्रमुख" n m pl nom
+"<भौगोलिक>"
+	"भौगोलिक" n m sg nom
+	"भौगोलिक" n m pl nom
+"<विभाग>"
+	"विभाग" vblex tv stem
+	"विभाग" n m sg nom
+	"विभाग" n m pl nom
+	"विभागणे" vblex imp p2 sg
+"<कोकण>"
+	"कोकण" np top sg nom
+"<,>"
+	"," cm
+"<मराठवाडा>"
+	"मराठवाडा" np top sg nom
+"<,>"
+	"," cm
+"<पश्चिम>"
+	"पश्चिम" np al sg
+"<महाराष्ट्र>"
+	"महाराष्ट्र" np top sg nom
+	"महाराष्ट्र" n m sg nom
+	"महाराष्ट्र" n m pl nom
+"<,>"
+	"," cm
+"<दक्षिण>"
+	"दक्षिण" np al sg
+"<महाराष्ट्र>"
+	"महाराष्ट्र" np top sg nom
+	"महाराष्ट्र" n m sg nom
+	"महाराष्ट्र" n m pl nom
+"<,>"
+	"," cm
+"<उत्तर>"
+	"उत्तर" np al sg
+	"उत्तर" vblex tv stem
+	"उत्तर" n f sg nom
+	"उत्तर" n nt sg nom
+	"उत्तरणे" vblex imp p2 sg
+"<महाराष्ट्र>"
+	"महाराष्ट्र" np top sg nom
+	"महाराष्ट्र" n m sg nom
+	"महाराष्ट्र" n m pl nom
+"<,>"
+	"," cm
+"<विदर्भ>"
+	"विदर्भ" np top sg nom
+"<एकत्र>"
+	"एकत्र" adv
+"<करून>"
+	"करणे" vblex trans perf
+"<सध्याच्या>"
+	"सध्या" n m sg obl
+		"च्या" clit
+	"सध्या" n m sg obl
+		"चा" gen f pl
+	"सध्या" n m sg obl
+		"चा" gen obl mfn sp
+"<मराठी>"
+	"मराठी" n m sg nom
+	"मराठी" n m pl nom
+"<भाषिक>"
+	"भाषिक" adj mfn sp
+	"भाषिक" adj mfn sp obl
+"<महाराष्ट्राची>"
+	"महाराष्ट्र" n m sg obl
+		"चा" gen f sg
+	"महाराष्ट्र" n m sg obl
+		"चा" gen nt pl
+"<रचना>"
+	"रचना" n f sg nom
+	"रचना" n f pl nom
+"<करण्यात>"
+	"करणे" vblex ger loc
+"<आली>"
+	"येणे" vblex perf p2 f sg
+	"येणे" vblex perf p3 f sg
+	"येणे" vblex perf p3 nt pl
+	"आले" n nt pl nom
+"<.>"
+	"." sent
+"<१९६०>"
+	"१९६०" num
+"<च्या>"
+	"च्या" clit
+	"चा" gen f pl
+	"चा" gen obl mfn sp
+"<दशकातील>"
+	"दशक" n nt sg obl
+		"तील" post adv
+	"दशक" n nt sg obl
+		"तील" post attr mfn pl
+"<संयुक्त>"
+	"संयुक्त" n m sg nom
+	"संयुक्त" n m pl nom
+"<महाराष्ट्र>"
+	"महाराष्ट्र" np top sg nom
+	"महाराष्ट्र" n m sg nom
+	"महाराष्ट्र" n m pl nom
+"<चळवळीने>"
+	"चळवळ" n f sg obl
+		"" erg
+"<महाराष्ट्राच्या>"
+	"महाराष्ट्र" n m sg obl
+		"च्या" clit
+	"महाराष्ट्र" n m sg obl
+		"चा" gen f pl
+	"महाराष्ट्र" n m sg obl
+		"चा" gen obl mfn sp
+"<विविध>"
+	"विविध" adj mfn sp
+	"विविध" adj mfn sp obl
+"<भौगोलिक>"
+	"भौगोलिक" n m sg nom
+	"भौगोलिक" n m pl nom
+"<भागांस>"
+	"भाग" n m pl obl
+		"स" post adv
+"<एकत्र>"
+	"एकत्र" adv
+"<आणले>"
+	"आणणे" vblex perf p2 m pl
+	"आणणे" vblex perf p3 m pl
+	"आणणे" vblex perf p3 nt sg
+	"आणणे" vblex perf p1 f sg
+"<.>"
+	"." sent
+"<परंतु>"
+	"परंतु" cnjcoo
+"<बेळगांव>"
+	"*बेळगांव"
+"<आणि>"
+	"आणि" cnjcoo
+"<आसपासचा>"
+	"आसपास" n m sg obl
+		"चा" gen m sg
+"<परिसर>"
+	"परिसर" n m sg nom
+	"परिसर" n m pl nom
+"<व>"
+	"व" cnjcoo
+	"व" vblex tv stem
+	"वणे" vblex imp p2 sg
+"<गुजरातेतील>"
+	"*गुजरातेतील"
+"<डांगी>"
+	"*डांगी"
+"<बोली>"
+	"बोली" n f sg nom
+"<बोलणारा>"
+	"बोलणे" vblex pprs impf m sg
+"<प्रदेश>"
+	"प्रदेश" n m sg nom
+	"प्रदेश" n m pl nom
+"<महाराष्ट्रात>"
+	"महाराष्ट्र" n m sg obl
+		"" loc
+"<समाविष्ट>"
+	"समाविष्ट" adj mfn sp
+	"समाविष्ट" adj mfn sp obl
+"<केला>"
+	"के" n m sg obl
+		"" acc
+	"के" n m sg obl
+		"" dat
+	"करणे" vblex perf p2 m sg
+	"करणे" vblex perf p2 mf pl
+	"करणे" vblex perf p3 m sg
+"<गेला>"
+	"जाणे" vblex perf p2 m sg
+	"जाणे" vblex perf p2 mf pl
+	"जाणे" vblex perf p3 m sg
+"<नाही>"
+	"नाही" inj
+	"" acc
+		"ही" emph
+	"" dat
+		"ही" emph
+	"नाही" vaux neg sp
+	"नाही" vaux neg p1 sg
+	"नाही" vaux neg p3 sg
+"<.>"
+	"." sent
+"<बेळगांवासह>"
+	"*बेळगांवासह"
+"<८६५>"
+	"८६५" num
+"<गावे>"
+	"*गावे"
+"<महाराष्ट्रात>"
+	"महाराष्ट्र" n m sg obl
+		"" loc
+"<सामील>"
+	"*सामील"
+"<करण्यासाठी>"
+	"करणे" vblex ger obl
+		"साठी" post adv
+"<आजही>"
+	"आजही" adv
+	"आज" adv
+		"ही" emph
+	"आज" n m sg nom
+		"ही" emph
+	"आज" n m pl nom
+		"ही" emph
+"<प्रयत्न>"
+	"प्रयत्न" n m sg nom
+	"प्रयत्न" n m pl nom
+"<सुरू आहेत>"
+	"सुरू असणे" vaux pres p3 mfn pl
+"<.>"
+	"." sent
+"<महाराष्ट्र>"
+	"महाराष्ट्र" np top sg nom
+	"महाराष्ट्र" n m sg nom
+	"महाराष्ट्र" n m pl nom
+"<राज्य>"
+	"राज्य" n m sg nom
+	"राज्य" n m pl nom
+	"राज्य" n nt sg nom
+"<हे>"
+	"हा" det prox m pl
+	"हा" det prox nt sg
+"<भारतीय>"
+	"भारतीय" n m sg nom
+	"भारतीय" n m pl nom
+"<उपखंडाच्या>"
+	"*उपखंडाच्या"
+"<साधारण>"
+	"साधारण" adj mfn sp
+	"साधारण" adj mfn sp obl
+"<पश्चिम>"
+	"पश्चिम" np al sg
+"<->"
+	"-" guio
+"<मध्य>"
+	"मध्य" adj mfn sp
+	"मध्य" adj mfn sp obl
+"<दिशेला>"
+	"दिशे" n f sg obl
+		"" acc
+	"दिशे" n f sg obl
+		"" dat
+"<स्थित>"
+	"स्थित" n m sg nom
+	"स्थित" n m pl nom
+"<आहे>"
+	"असणे" vaux pres p1 mf sg
+	"असणे" vaux pres p2 mf sg
+	"असणे" vaux pres p3 mfn sg
+"<.>"
+	"." sent
+"<महाराष्ट्राची>"
+	"महाराष्ट्र" n m sg obl
+		"चा" gen f sg
+	"महाराष्ट्र" n m sg obl
+		"चा" gen nt pl
+"<जमीन>"
+	"जमणे" vblex fut p1 mfn sg
+	"जमीन" n f sg nom
+"<प्राकृतिकदृष्ट्या>"
+	"*प्राकृतिकदृष्ट्या"
+"<एकसारखी>"
+	"एकसारखा" adj m pl
+	"एकसारखा" adj f sg
+	"एकसारखा" adj nt pl
+"<(>"
+	"(" lpar
+"<homogeneous>"
+	"homogeneous" barb
+"<)>"
+	")" rpar
+"<आहे>"
+	"असणे" vaux pres p1 mf sg
+	"असणे" vaux pres p2 mf sg
+	"असणे" vaux pres p3 mfn sg
+"<व>"
+	"व" cnjcoo
+	"व" vblex tv stem
+	"वणे" vblex imp p2 sg
+"<खूप>"
+	"खूप" adj mfn sp
+	"खूप" adj mfn sp obl
+"<मोठे>"
+	"मोठा" adj m pl
+	"मोठा" adj nt sg
+	"मोठा" n m pl nom
+"<क्षेत्र>"
+	"क्षेत्र" n nt sg nom
+"<(>"
+	"(" lpar
+"<महाराष्ट्र>"
+	"महाराष्ट्र" np top sg nom
+	"महाराष्ट्र" n m sg nom
+	"महाराष्ट्र" n m pl nom
+"<देश>"
+	"देश" n m sg nom
+	"देश" n m pl nom
+"<)>"
+	")" rpar
+"<पठारी>"
+	"पठारी" n m sg nom
+	"पठारी" n m pl nom
+"<आहे>"
+	"असणे" vaux pres p1 mf sg
+	"असणे" vaux pres p2 mf sg
+	"असणे" vaux pres p3 mfn sg
+"<.>"
+	"." sent
+"<डेक्कन>"
+	"डेक्कन" np top sg nom
+"<वा>"
+	"वा" cnjcoo
+	"वणे" vblex imp p2 pl
+"<दख्खन>"
+	"*दख्खन"
+"<असे>"
+	"असे" cnjsub
+	"असा" adj m pl
+	"असा" adj nt sg
+	"असणे" vaux past hab p1 mf sg
+	"असणे" vaux past hab p3 mfn sg
+"<या>"
+	"हा" det prox f pl
+	"हा" det prox nt pl
+"<पठारांना>"
+	"पठार" n nt pl obl
+		"" acc
+	"पठार" n nt pl obl
+		"" dat
+"<संबोधले>"
+	"संबोधणे" vblex perf p2 m pl
+	"संबोधणे" vblex perf p3 m pl
+	"संबोधणे" vblex perf p3 nt sg
+	"संबोधणे" vblex perf p1 f sg
+"<जाते>"
+	"जाणे" vblex pres impf p1 f sg
+	"जाणे" vblex pres impf p3 f sg
+	"जाणे" vblex pres impf p3 nt sg
+	"जाते" n nt sg nom
+"<.>"
+	"." sent
+"<दख्खनचा>"
+	"*दख्खनचा"
+"<पठारी>"
+	"पठारी" n m sg nom
+	"पठारी" n m pl nom
+"<प्रदेश>"
+	"प्रदेश" n m sg nom
+	"प्रदेश" n m pl nom
+"<विविध>"
+	"विविध" adj mfn sp
+	"विविध" adj mfn sp obl
+"<नद्यांनी>"
+	"नदी" n f pl obl
+		"" erg
+"<व्यापलेला>"
+	"व्यापणे" vblex past perf p1 m sg
+	"व्यापणे" vblex past perf p2 m sg
+	"व्यापणे" vblex past perf p2 mf pl
+	"व्यापणे" vblex pprs perf p2 m sg
+	"व्यापणे" vblex pprs perf p2 mf pl
+	"व्यापणे" vblex pprs perf p3 m sg
+"<आहे>"
+	"असणे" vaux pres p1 mf sg
+	"असणे" vaux pres p2 mf sg
+	"असणे" vaux pres p3 mfn sg
+"<.>"
+	"." sent
+"<महाराष्ट्राच्या>"
+	"महाराष्ट्र" n m sg obl
+		"च्या" clit
+	"महाराष्ट्र" n m sg obl
+		"चा" gen f pl
+	"महाराष्ट्र" n m sg obl
+		"चा" gen obl mfn sp
+"<पश्चिमेस>"
+	"पश्चिमेस" adv
+"<व>"
+	"व" cnjcoo
+	"व" vblex tv stem
+	"वणे" vblex imp p2 sg
+"<अरबी>"
+	"अरबी" adj mfn sp
+	"अरबी" adj mfn sp obl
+
+"<समुद्राला>"
+	"समुद्र" n m sg obl
+		"" acc
+	"समुद्र" n m sg obl
+		"" dat
+"<समांतर>"
+	"*समांतर"
+"<अशा>"
+	"असा" adj f pl
+	"असा" adj mfn sp obl
+"<सह्याद्री>"
+	"*सह्याद्री"
+"<पर्वतरांगा>"
+	"*पर्वतरांगा"
+"<(>"
+	"(" lpar
+"<किंवा>"
+	"किंवा" cnjcoo
+"<पश्चिम>"
+	"पश्चिम" np al sg
+"<घाट>"
+	"घाट" vblex tv stem
+	"घाट" n m sg nom
+	"घाट" n m pl nom
+	"घाटणे" vblex imp p2 sg
+"<)>"
+	")" rpar
+"<आहेत>"
+	"असणे" vaux pres p3 mfn pl
+"<ज्यांची>"
+	"*ज्यांची"
+"<उंची>"
+	"उंची" n f sg nom
+"<सुमारे>"
+	"सुमारे" adv
+"<२१३४>"
+	"२१३४" num
+"<मी>"
+	"मी" prn p1 mf sg nom
+"<.>"
+	"." sent
+"<(>"
+	"(" lpar
+"<अंदाजे>"
+	"अंदाजे" adv
+"<७,०००>"
+	"७,०००" num
+"<फूट>"
+	"फूट" n m sg nom
+	"फूट" n m pl nom
+	"फूट" n f sg nom
+"<)>"
+	")" rpar
+"<आहे>"
+	"असणे" vaux pres p1 mf sg
+	"असणे" vaux pres p2 mf sg
+	"असणे" vaux pres p3 mfn sg
+"<.>"
+	"." sent
+"<या>"
+	"हा" det prox f pl
+	"हा" det prox nt pl
+"<पर्वतरांगांमधून>"
+	"*पर्वतरांगांमधून"
+"<गोदावरी>"
+	"गोदावरी" n f sg nom
+"<,>"
+	"," cm
+"<नर्मदा>"
+	"*नर्मदा"
+"<आणि>"
+	"आणि" cnjcoo
+"<कृष्णेसह>"
+	"*कृष्णेसह"
+"<इतरही>"
+	"इतर" n m sg nom
+		"ही" emph
+	"इतर" n m pl nom
+		"ही" emph
+"<अनेक>"
+	"अनेक" n m sg nom
+	"अनेक" n m pl nom
+"<नद्या>"
+	"नदी" n f pl nom
+"<उगम>"
+	"उगम" n m sg nom
+	"उगम" n m pl nom
+"<पावतात>"
+	"पावणे" vblex pres impf p3 mfn pl
+"<.>"
+	"." sent
+"<अरबी>"
+	"अरबी" adj mfn sp
+	"अरबी" adj mfn sp obl
+"<समुद्राच्या>"
+	"समुद्र" n m sg obl
+		"च्या" clit
+	"समुद्र" n m sg obl
+		"चा" gen f pl
+	"समुद्र" n m sg obl
+		"चा" gen obl mfn sp
+"<व>"
+	"व" cnjcoo
+	"व" vblex tv stem
+	"वणे" vblex imp p2 sg
+"<सह्याद्री>"
+	"*सह्याद्री"
+"<पर्वतरांगाच्या>"
+	"*पर्वतरांगाच्या"
+"<मध्ये>"
+	"मधे" post adv
+"<असलेल्या>"
+	"असणे" vblex pprs perf p2 f pl
+	"असणे" vblex pprs perf p3 f pl
+"<भागास>"
+	"भाग" n m sg obl
+		"स" post adv
+"<कोकण>"
+	"कोकण" np top sg nom
+"<म्हणतात>"
+	"म्हणणे" vblex pres impf p3 mfn pl
+"<.>"
+	"." sent
+"<कोकण>"
+	"कोकण" np top sg nom
+"<भागाची>"
+	"भाग" n m sg obl
+		"चा" gen f sg
+	"भाग" n m sg obl
+		"चा" gen nt pl
+"<रुंदी>"
+	"रुंदी" n f sg nom
+"<५०>"
+	"५०" num
+"<->"
+	"-" guio
+"<८०>"
+	"८०" num
+"<कि>"
+	"कि" cnjsub
+"<.>"
+	"." sent
+"<मी>"
+	"मी" prn p1 mf sg nom
+"<आहे>"
+	"असणे" vaux pres p1 mf sg
+	"असणे" vaux pres p2 mf sg
+	"असणे" vaux pres p3 mfn sg
+"<.>"
+	"." sent
+"<राज्याच्या>"
+	"राजे" n nt sg obl
+		"च्या" clit
+	"राजे" n nt sg obl
+		"चा" gen f pl
+	"राज्य" n m sg obl
+		"च्या" clit
+	"राज्य" n m sg obl
+		"चा" gen f pl
+	"राज्य" n nt sg obl
+		"च्या" clit
+	"राज्य" n nt sg obl
+		"चा" gen f pl
+	"राजे" n nt sg obl
+		"चा" gen obl mfn sp
+	"राज्य" n m sg obl
+		"चा" gen obl mfn sp
+	"राज्य" n nt sg obl
+		"चा" gen obl mfn sp
+"<उत्तरेस>"
+	"उत्तरेस" adv
+	"उत्तर" n f sg obl
+		"स" post adv
+"<सातपुडा>"
+	"*सातपुडा"
+"<तर>"
+	"तर" vblex tv stem
+	"तरणे" vblex imp p2 sg
+"<पूर्वेस>"
+	"पूर्व" n f sg obl
+		"स" post adv
+"<भामरागड>"
+	"*भामरागड"
+"<->"
+	"-" guio
+"<चिरोळी>"
+	"*चिरोळी"
+"<->"
+	"-" guio
+"<गायखुरी>"
+	"*गायखुरी"
+"<पर्वतरांगा>"
+	"*पर्वतरांगा"
+"<आहेत>"
+	"असणे" vaux pres p3 mfn pl
+"<.>"
+	"." sent
+"<राज्यात>"
+	"राजे" n nt sg obl
+		"" loc
+	"राज्य" n m sg obl
+		"" loc
+	"राज्य" n nt sg obl
+		"" loc
+"<मौसमी>"
+	"*मौसमी"
+"<पाऊस>"
+	"पाूस" n m sg nom
+"<पडतो>"
+	"पडणे" vblex pres impf p1 m sg
+	"पडणे" vblex pres impf p1 mf pl
+	"पडणे" vblex pres impf p3 m sg
+"<.>"
+	"." sent
+"<महाराष्ट्रातील>"
+	"महाराष्ट्र" n m sg obl
+		"तील" post adv
+	"महाराष्ट्र" n m sg obl
+		"तील" post attr mfn pl
+"<काळी>"
+	"काळा" adj m pl
+	"काळा" adj f sg
+	"काळा" adj nt pl
+"<बेसाल्ट>"
+	"*बेसाल्ट"
+"<मृदा>"
+	"*मृदा"
+"<कापसाच्या>"
+	"*कापसाच्या"
+"<लागवडीसाठी>"
+	"लागवड" n f sg obl
+		"साठी" post adv
+"<उपयुक्त>"
+	"*उपयुक्त"
+"<आहे>"
+	"असणे" vaux pres p1 mf sg
+	"असणे" vaux pres p2 mf sg
+	"असणे" vaux pres p3 mfn sg
+"<.>"
+	"." sent
+"<भारतातील>"
+	"भारत" n m sg obl
+		"तील" post adv
+	"भारत" n m sg obl
+		"तील" post attr mfn pl
+"<इतर>"
+	"इतर" n m sg nom
+	"इतर" n m pl nom
+"<राज्यांप्रमाणेच>"
+	"*राज्यांप्रमाणेच"
+"<,>"
+	"," cm
+"<राज्यपाल>"
+	"*राज्यपाल"
+"<राज्याचा>"
+	"राजे" n nt sg obl
+		"चा" gen m sg
+	"राज्य" n m sg obl
+		"चा" gen m sg
+	"राज्य" n nt sg obl
+		"चा" gen m sg
+"<प्रमुख>"
+	"प्रमुख" n m sg nom
+	"प्रमुख" n m pl nom
+"<व्यक्ती>"
+	"व्यक्ती" n m sg nom
+	"व्यक्ती" n m pl nom
+"<असते>"
+	"असणे" vaux pres pres impf p1 f sg
+	"असणे" vaux pres pres impf p3 f sg
+	"असणे" vaux pres pres impf p3 nt sg
+"<.>"
+	"." sent
+"<राष्ट्रपती>"
+	"*राष्ट्रपती"
+"<केंद्र>"
+	"केंद्र" n nt sg nom
+"<सरकारच्या>"
+	"सरकार" n m sg obl
+		"च्या" clit
+	"सरकार" n m sg obl
+		"चा" gen f pl
+	"सरकार" n m sg obl
+		"चा" gen obl mfn sp
+"<सल्ल्याने>"
+	"सल्ला" n m sg obl
+		"" erg
+"<राज्यपालांची>"
+	"*राज्यपालांची"
+"<नेमणूक>"
+	"नेमणूक" n f sg nom
+"<करतात>"
+	"करणे" vblex pres impf p3 mfn pl
+"<.>"
+	"." sent
+"<राज्यपाल>"
+	"*राज्यपाल"
+"<हे>"
+	"हा" det prox m pl
+	"हा" det prox nt sg
+"<पद>"
+	"पद" n nt sg nom
+"<केवळ>"
+	"केवळ" part
+"<नाममात्र>"
+	"*नाममात्र"
+"<असते>"
+	"असणे" vaux pres pres impf p1 f sg
+	"असणे" vaux pres pres impf p3 f sg
+	"असणे" vaux pres pres impf p3 nt sg
+"<.>"
+	"." sent
+"<राज्याचे>"
+	"राजे" n nt sg obl
+		"चा" gen m pl
+	"राजे" n nt sg obl
+		"चा" gen nt sg
+	"राज्य" n m sg obl
+		"चा" gen m pl
+	"राज्य" n m sg obl
+		"चा" gen nt sg
+	"राज्य" n nt sg obl
+		"चा" gen m pl
+	"राज्य" n nt sg obl
+		"चा" gen nt sg
+"<शासन>"
+	"शासन" n nt sg nom
+"<मुख्यमंत्री>"
+	"मुख्यमंत्र" n m sg nom
+	"मुख्यमंत्र" n m pl nom
+"<,>"
+	"," cm
+"<चालवतात>"
+	"चालवणे" vblex pres impf p3 mfn pl
+"<.>"
+	"." sent
+"<या>"
+	"हा" det prox f pl
+	"हा" det prox nt pl
+"<व्यक्तीकडे>"
+	"व्यक्ती" n m sg obl
+		"कडे" post adv
+"<शासनाचे>"
+	"शासन" n nt sg obl
+		"चा" gen m pl
+	"शासन" n nt sg obl
+		"चा" gen nt sg
+"<सर्वाधिक>"
+	"सर्वाधिक" adj mfn sp
+	"सर्वाधिक" adj mfn sp obl
+"<अधिकार>"
+	"अधिकार" n m sg nom
+	"अधिकार" n m pl nom
+"<असतात>"
+	"असणे" vaux pres pres impf p3 mfn pl
+"<.>"
+	"." sent
+"<महाराष्ट्र>"
+	"महाराष्ट्र" np top sg nom
+	"महाराष्ट्र" n m sg nom
+	"महाराष्ट्र" n m pl nom
+"<विधानसभा>"
+	"विधानसभा" np org sg
+"<व>"
+	"व" cnjcoo
+	"व" vblex tv stem
+	"वणे" vblex imp p2 sg
+"<मंत्रालय>"
+	"*मंत्रालय"
+"<राजधानी>"
+	"राजधानी" n f sg nom
+"<मुंबई>"
+	"मुंबई" np top sg nom
+"<येथे>"
+	"येथे" adv
+"<आहे>"
+	"असणे" vaux pres p1 mf sg
+	"असणे" vaux pres p2 mf sg
+	"असणे" vaux pres p3 mfn sg
+"<.>"
+	"." sent
+"<मंत्रालयात>"
+	"*मंत्रालयात"
+"<राज्य>"
+	"राज्य" n m sg nom
+	"राज्य" n m pl nom
+	"राज्य" n nt sg nom
+"<सरकारची>"
+	"सरकार" n m sg obl
+		"चा" gen f sg
+	"सरकार" n m sg obl
+		"चा" gen nt pl
+"<प्रशासकीय>"
+	"प्रशासकीय" adj mfn sp
+	"प्रशासकीय" adj mfn sp obl
+"<कार्यालये>"
+	"कार्यालय" n nt pl nom
+"<आहेत>"
+	"असणे" vaux pres p3 mfn pl
+"<.>"
+	"." sent
+"<मुंबई>"
+	"मुंबई" np top sg nom
+"<उच्च>"
+	"उच्च" adj mfn sp
+	"उच्च" adj mfn sp obl
+"<न्यायालय>"
+	"*न्यायालय"
+"<याच>"
+	"हा" det prox f pl
+		"च" emph
+	"हा" det prox nt pl
+		"च" emph
+"<शहरात>"
+	"शहर" n nt sg obl
+		"" loc
+"<आहे>"
+	"असणे" vaux pres p1 mf sg
+	"असणे" vaux pres p2 mf sg
+	"असणे" vaux pres p3 mfn sg
+"<.>"
+	"." sent
+"<राज्य>"
+	"राज्य" n m sg nom
+	"राज्य" n m pl nom
+	"राज्य" n nt sg nom
+"<सरकारचे>"
+	"सरकार" n m sg obl
+		"चा" gen m pl
+	"सरकार" n m sg obl
+		"चा" gen nt sg
+"<पावसाळी>"
+	"*पावसाळी"
+"<अधिवेशन>"
+	"अधिवेशन" n nt sg nom
+"<मुंबई>"
+	"मुंबई" np top sg nom
+"<येथे>"
+	"येथे" adv
+"<तर>"
+	"तर" vblex tv stem
+	"तरणे" vblex imp p2 sg
+"<हिवाळी>"
+	"*हिवाळी"
+"<अधिवेशन>"
+	"अधिवेशन" n nt sg nom
+"<नागपूर>"
+	"नागपूर" np top sg nom
+"<(>"
+	"(" lpar
+"<महाराष्ट्राची>"
+	"महाराष्ट्र" n m sg obl
+		"चा" gen f sg
+	"महाराष्ट्र" n m sg obl
+		"चा" gen nt pl
+"<उपराजधानी>"
+	"*उपराजधानी"
+"<)>"
+	")" rpar
+"<येथे>"
+	"येथे" adv
+"<होते>"
+	"होणे" vaux pres pres impf p1 f sg
+	"होणे" vaux pres pres impf p3 f sg
+	"होणे" vaux pres pres impf p3 nt sg
+	"होणे" vblex impf p1 f sg
+	"होणे" vblex impf p3 f sg
+	"होणे" vblex impf p3 nt sg
+	"असणे" vaux past p1 f sg
+	"असणे" vaux past p3 m pl
+	"असणे" vaux past p3 nt sg
+"<.>"
+	"." sent
+"<महाराष्ट्रात>"
+	"महाराष्ट्र" n m sg obl
+		"" loc
+"<दोन>"
+	"दोन" num
+"<विधान>"
+	"विधान" n nt sg nom
+"<->"
+	"-" guio
+"<सदने>"
+	"*सदने"
+"<(>"
+	"(" lpar
+"<bicamel>"
+	"bicamel" barb
+"<)>"
+	")" rpar
+"<आहेत>"
+	"असणे" vaux pres p3 mfn pl
+"<.>"
+	"." sent
+"<विधान>"
+	"विधान" n nt sg nom
+"<सभेत>"
+	"सभे" n f sg obl
+		"" loc
+"<लोकांनी>"
+	"लोक" n m pl obl
+		"" erg
+"<प्रत्यक्षपणे>"
+	"*प्रत्यक्षपणे"
+"<निवडून>"
+	"निवडणे" vblex trans perf
+"<दिलेले>"
+	"देणे" vblex past perf p1 m pl
+	"देणे" vblex past perf p1 f sg
+	"देणे" vblex past perf p2 nt sg
+	"देणे" vblex past perf p2 m pl
+	"देणे" vblex pprs perf p2 m pl
+	"देणे" vblex pprs perf p3 m pl
+	"देणे" vblex pprs perf p3 nt sg
+"<प्रतिनिधी>"
+	"*प्रतिनिधी"
+"<असतात>"
+	"असणे" vaux pres pres impf p3 mfn pl
+"<तर>"
+	"तर" vblex tv stem
+	"तरणे" vblex imp p2 sg
+"<विधान>"
+	"विधान" n nt sg nom
+"<परिषदेत>"
+	"परिषद" n f sg obl
+		"" loc
+"<अप्रत्यक्षरीत्या>"
+	"*अप्रत्यक्षरीत्या"
+"<नियुक्त>"
+	"नियुक्त" n m sg nom
+	"नियुक्त" n m pl nom
+"<प्रतिनिधी>"
+	"*प्रतिनिधी"
+"<असतात>"
+	"असणे" vaux pres pres impf p3 mfn pl
+"<.>"
+	"." sent
+"<महाराष्ट्राचे>"
+	"महाराष्ट्र" n m sg obl
+		"चा" gen m pl
+	"महाराष्ट्र" n m sg obl
+		"चा" gen nt sg
+"<संसदेत>"
+	"संसद" n f sg obl
+		"" loc
+"<६७>"
+	"६७" num
+"<प्रतिनिधी>"
+	"*प्रतिनिधी"
+"<असतात>"
+	"असणे" vaux pres pres impf p3 mfn pl
+"<,>"
+	"," cm
+"<पैकी>"
+	"पैकी" post adv
+"<राज्यसभेत>"
+	"*राज्यसभेत"
+"<१९>"
+	"१९" num
+"<प्रतिनिधी>"
+	"*प्रतिनिधी"
+"<तर>"
+	"तर" vblex tv stem
+	"तरणे" vblex imp p2 sg
+"<लोकसभेत>"
+	"*लोकसभेत"
+"<४८>"
+	"४८" num
+"<प्रतिनिधी>"
+	"*प्रतिनिधी"
+"<असतात>"
+	"असणे" vaux pres pres impf p3 mfn pl
+"<.>"
+	"." sent
+"<भारताच्या>"
+	"भारत" n m sg obl
+		"च्या" clit
+	"भारत" n m sg obl
+		"चा" gen f pl
+	"भारत" n m sg obl
+		"चा" gen obl mfn sp
+"<स्वातंत्र्यानंतर>"
+	"स्वातंत्र्य" n nt sg obl
+		"नंतर" post adv
+"<महाराष्ट्रातील>"
+	"महाराष्ट्र" n m sg obl
+		"तील" post adv
+	"महाराष्ट्र" n m sg obl
+		"तील" post attr mfn pl
+"<राज्य>"
+	"राज्य" n m sg nom
+	"राज्य" n m pl nom
+	"राज्य" n nt sg nom
+"<मुख्यत>"
+	"*मुख्यत"
+"<:>"
+	":" sent
+"<कॉँग्रेस>"
+	"*कॉँग्रेस"
+"<पक्षाकडे>"
+	"पक्ष" n m sg obl
+		"कडे" post adv
+"<आहे>"
+	"असणे" vaux pres p1 mf sg
+	"असणे" vaux pres p2 mf sg
+	"असणे" vaux pres p3 mfn sg
+"<.>"
+	"." sent
+"<यशवंतराव>"
+	"यशवंतराव" np ant m sg nom
+"<चव्हाण>"
+	"चव्हाण" n m sg nom
+	"चव्हाण" n m pl nom
+"<,>"
+	"," cm
+"<वसंतदादा>"
+	"*वसंतदादा"
+"<पाटील>"
+	"पाटील" n m sg nom
+	"पाटील" n m pl nom
+"<,>"
+	"," cm
+"<शरद>"
+	"शरद" n m sg nom
+	"शरद" n m pl nom
+"<पवार>"
+	"पवार" np org sg
+"<या>"
+	"हा" det prox f pl
+	"हा" det prox nt pl
+"<काही>"
+	"काही" adv
+	"काही" n m sg nom
+	"काही" n m pl nom
+"<महत्त्वाच्या>"
+	"महत्त्व" n m sg obl
+		"च्या" clit
+	"महत्त्व" n m sg obl
+		"चा" gen f pl
+	"महत्त्व" n m sg obl
+		"चा" gen obl mfn sp
+"<काँग्रेस>"
+	"काँग्रेस" np org sg
+"<नेत्यांनी>"
+	"नेता" n m pl obl
+		"" erg
+"<महाराष्ट्राचे>"
+	"महाराष्ट्र" n m sg obl
+		"चा" gen m pl
+	"महाराष्ट्र" n m sg obl
+		"चा" gen nt sg
+"<मुख्यमंत्रीपद>"
+	"*मुख्यमंत्रीपद"
+"<भूषविलेले>"
+	"*भूषविलेले"
+"<आहे>"
+	"असणे" vaux pres p1 mf sg
+	"असणे" vaux pres p2 mf sg
+	"असणे" vaux pres p3 mfn sg
+"<.>"
+	"." sent
+"<१९९५>"
+	"१९९५" num
+"<साली>"
+	"साली" adv
+	"साल" n f pl nom
+"<शिवसेना>"
+	"*शिवसेना"
+"<->"
+	"-" guio
+"<भाजपा>"
+	"*भाजपा"
+"<युती>"
+	"*युती"
+"<सत्तेवर>"
+	"सत्ते" n f sg obl
+		"वरती" post adv
+"<आली>"
+	"येणे" vblex perf p2 f sg
+	"येणे" vblex perf p3 f sg
+	"येणे" vblex perf p3 nt pl
+	"आले" n nt pl nom
+"<.>"
+	"." sent
+"<कॉँग्रेस>"
+	"*कॉँग्रेस"
+"<पक्षातील>"
+	"पक्ष" n m sg obl
+		"तील" post adv
+	"पक्ष" n m sg obl
+		"तील" post attr mfn pl
+"<फुटीनंतर>"
+	"*फुटीनंतर"
+"<शरद>"
+	"शरद" n m sg nom
+	"शरद" n m pl nom
+"<पवारांनी>"
+	"*पवारांनी"
+"<राष्ट्रवादी>"
+	"*राष्ट्रवादी"
+"<कॉँग्रेस>"
+	"*कॉँग्रेस"
+"<हा>"
+	"हा" det prox m sg
+"<नवा>"
+	"नवा" adj m sg
+"<पक्ष>"
+	"पक्ष" n m sg nom
+	"पक्ष" n m pl nom
+"<स्थापन केला>"
+	"स्थापन करणे" vblex perf p2 m sg
+	"स्थापन करणे" vblex perf p2 mf pl
+	"स्थापन करणे" vblex perf p3 m sg
+"<.>"
+	"." sent
+"<१९९९>"
+	"१९९९" num
+"<नंतर>"
+	"नंतर" post adv
+"<१५>"
+	"१५" num
+"<वर्षे>"
+	"वर्ष" n nt pl nom
+"<राज्यात>"
+	"राजे" n nt sg obl
+		"" loc
+	"राज्य" n m sg obl
+		"" loc
+	"राज्य" n nt sg obl
+		"" loc
+"<काँग्रेस>"
+	"काँग्रेस" np org sg
+"<->"
+	"-" guio
+"<राष्ट्रवादी>"
+	"*राष्ट्रवादी"
+"<काँग्रेस>"
+	"काँग्रेस" np org sg
+"<आघाडीची>"
+	"आघाडी" n f sg obl
+		"चा" gen f sg
+	"आघाडी" n f sg obl
+		"चा" gen nt pl
+"<सत्ता>"
+	"सत्ता" n m sg nom
+	"सत्ता" n f sg nom
+	"सत्ता" n f pl nom
+"<राहिली>"
+	"रहाणे" vblex perf p2 f sg
+	"रहाणे" vblex perf p3 f sg
+	"रहाणे" vblex perf p3 nt pl
+"<.>"
+	"." sent
+"<२०१४>"
+	"२०१४" num
+"<च्या>"
+	"च्या" clit
+	"चा" gen f pl
+	"चा" gen obl mfn sp
+"<विधानसभा>"
+	"विधानसभा" np org sg
+"<निवडणुकांनंतर>"
+	"*निवडणुकांनंतर"
+"<राज्यात>"
+	"राजे" n nt sg obl
+		"" loc
+	"राज्य" n m sg obl
+		"" loc
+	"राज्य" n nt sg obl
+		"" loc
+"<भाजपा>"
+	"*भाजपा"
+"<शिवसेना>"
+	"*शिवसेना"
+"<युतीची>"
+	"*युतीची"
+"<सत्ता>"
+	"सत्ता" n m sg nom
+	"सत्ता" n f sg nom
+	"सत्ता" n f pl nom
+"<पुन्हा>"
+	"पुन्हा" adv
+"<प्रस्थापित>"
+	"प्रस्थापित" adj mfn sp
+	"प्रस्थापित" adj mfn sp obl
+"<झाली>"
+	"होणे" vaux perf p2 f sg
+	"होणे" vaux perf p3 f sg
+	"होणे" vaux perf p3 nt pl
+	"होणे" vblex perf p2 f sg
+	"होणे" vblex perf p3 f sg
+	"होणे" vblex perf p3 nt pl
+"<असून>"
+	"असणे" vblex trans perf
+"<राज्याचे>"
+	"राजे" n nt sg obl
+		"चा" gen m pl
+	"राजे" n nt sg obl
+		"चा" gen nt sg
+	"राज्य" n m sg obl
+		"चा" gen m pl
+	"राज्य" n m sg obl
+		"चा" gen nt sg
+	"राज्य" n nt sg obl
+		"चा" gen m pl
+	"राज्य" n nt sg obl
+		"चा" gen nt sg
+"<नवीन>"
+	"नवीन" adj mfn sp
+	"नवीन" adj mfn sp obl
+"<मुख्यमंत्री>"
+	"मुख्यमंत्र" n m sg nom
+	"मुख्यमंत्र" n m pl nom
+"<देवेंद्र>"
+	"*देवेंद्र"
+"<फडणवीस>"
+	"*फडणवीस"
+"<आहेत>"
+	"असणे" vaux pres p3 mfn pl
+"<.>"
+	"." sent
+"<महाराष्ट्र>"
+	"महाराष्ट्र" np top sg nom
+	"महाराष्ट्र" n m sg nom
+	"महाराष्ट्र" n m pl nom
+"<राज्य>"
+	"राज्य" n m sg nom
+	"राज्य" n m pl nom
+	"राज्य" n nt sg nom
+"<३६>"
+	"३६" num
+"<जिल्ह्यांत>"
+	"जिल्हा" n m pl obl
+		"" loc
+"<विभागले>"
+	"विभागणे" vblex perf p2 m pl
+	"विभागणे" vblex perf p3 m pl
+	"विभागणे" vblex perf p3 nt sg
+	"विभागणे" vblex perf p1 f sg
+"<गेले>"
+	"जाणे" vblex perf p2 m pl
+	"जाणे" vblex perf p3 m pl
+	"जाणे" vblex perf p3 nt sg
+	"जाणे" vblex perf p1 f sg
+"<आहे>"
+	"असणे" vaux pres p1 mf sg
+	"असणे" vaux pres p2 mf sg
+	"असणे" vaux pres p3 mfn sg
+"<.>"
+	"." sent
+"<या>"
+	"हा" det prox f pl
+	"हा" det prox nt pl
+"<जिल्ह्यांचे>"
+	"जिल्हा" n m pl obl
+		"चा" gen m pl
+	"जिल्हा" n m pl obl
+		"चा" gen nt sg
+"<६>"
+	"६" num
+"<समूह>"
+	"समूह" n m sg nom
+	"समूह" n m pl nom
+"<अथवा>"
+	"अथवा" cnjcoo
+"<महसुली>"
+	"*महसुली"
+"<विभाग>"
+	"विभाग" vblex tv stem
+	"विभाग" n m sg nom
+	"विभाग" n m pl nom
+	"विभागणे" vblex imp p2 sg
+"<आहेत>"
+	"असणे" vaux pres p3 mfn pl
+"<->"
+	"-" guio
+"<पुणे>"
+	"पुणे" np top sg nom
+	"पुणे" n nt sg nom
+"<,>"
+	"," cm
+"<नाशिक>"
+	"नाशिक" np top sg nom
+"<,>"
+	"," cm
+"<औरंगाबाद>"
+	"औरंगाबाद" np top sg nom
+"<,>"
+	"," cm
+"<कोकण>"
+	"कोकण" np top sg nom
+"<,>"
+	"," cm
+"<नागपूर>"
+	"नागपूर" np top sg nom
+"<व>"
+	"व" cnjcoo
+	"व" vblex tv stem
+	"वणे" vblex imp p2 sg
+"<अमरावती>"
+	"अमरावती" np top sg nom
+"<.>"
+	"." sent
+"<हे>"
+	"हा" det prox m pl
+	"हा" det prox nt sg
+"<महाराष्ट्र>"
+	"महाराष्ट्र" np top sg nom
+	"महाराष्ट्र" n m sg nom
+	"महाराष्ट्र" n m pl nom
+"<शासनाचे>"
+	"शासन" n nt sg obl
+		"चा" gen m pl
+	"शासन" n nt sg obl
+		"चा" gen nt sg
+"<अधिकृत>"
+	"अधिकृत" adj mfn sp
+	"अधिकृत" adj mfn sp obl
+"<राजस्व>"
+	"*राजस्व"
+"<विभाग>"
+	"विभाग" vblex tv stem
+	"विभाग" n m sg nom
+	"विभाग" n m pl nom
+	"विभागणे" vblex imp p2 sg
+"<आहेत>"
+	"असणे" vaux pres p3 mfn pl
+"<.>"
+	"." sent
+"<भौगोलिक>"
+	"भौगोलिक" n m sg nom
+	"भौगोलिक" n m pl nom
+"<,>"
+	"," cm
+"<ऐतिहासिक>"
+	"ऐतिहासिक" adj mfn sp
+	"ऐतिहासिक" adj mfn sp obl
+"<व>"
+	"व" cnjcoo
+	"व" vblex tv stem
+	"वणे" vblex imp p2 sg
+"<राजकीय>"
+	"राजकीय" adj mfn sp
+	"राजकीय" adj mfn sp obl
+"<->"
+	"-" guio
+"<मतांनुसार>"
+	"*मतांनुसार"
+"<महाराष्ट्रात>"
+	"महाराष्ट्र" n m sg obl
+		"" loc
+"<पाच>"
+	"पाच" num
+"<मुख्य>"
+	"मुख्य" adj mfn sp
+	"मुख्य" adj mfn sp obl
+"<विभाग>"
+	"विभाग" vblex tv stem
+	"विभाग" n m sg nom
+	"विभाग" n m pl nom
+	"विभागणे" vblex imp p2 sg
+"<आहेत>"
+	"असणे" vaux pres p3 mfn pl
+"<:>"
+	":" sent
+"<देश>"
+	"देश" n m sg nom
+	"देश" n m pl nom
+"<किंवा>"
+	"किंवा" cnjcoo
+"<पश्चिम>"
+	"पश्चिम" np al sg
+"<महाराष्ट्र>"
+	"महाराष्ट्र" np top sg nom
+	"महाराष्ट्र" n m sg nom
+	"महाराष्ट्र" n m pl nom
+"<विभाग>"
+	"विभाग" vblex tv stem
+	"विभाग" n m sg nom
+	"विभाग" n m pl nom
+	"विभागणे" vblex imp p2 sg
+"<(>"
+	"(" lpar
+"<पुणे>"
+	"पुणे" np top sg nom
+	"पुणे" n nt sg nom
+"<विभाग>"
+	"विभाग" vblex tv stem
+	"विभाग" n m sg nom
+	"विभाग" n m pl nom
+	"विभागणे" vblex imp p2 sg
+"<)>"
+	")" rpar
+"<,>"
+	"," cm
+"<उत्तर>"
+	"उत्तर" np al sg
+	"उत्तर" vblex tv stem
+	"उत्तर" n f sg nom
+	"उत्तर" n nt sg nom
+	"उत्तरणे" vblex imp p2 sg
+"<महाराष्ट्र>"
+	"महाराष्ट्र" np top sg nom
+	"महाराष्ट्र" n m sg nom
+	"महाराष्ट्र" n m pl nom
+"<विभाग>"
+	"विभाग" vblex tv stem
+	"विभाग" n m sg nom
+	"विभाग" n m pl nom
+	"विभागणे" vblex imp p2 sg
+"<(>"
+	"(" lpar
+"<नाशिक>"
+	"नाशिक" np top sg nom
+"<विभाग>"
+	"विभाग" vblex tv stem
+	"विभाग" n m sg nom
+	"विभाग" n m pl nom
+	"विभागणे" vblex imp p2 sg
+"<)>"
+	")" rpar
+"<,>"
+	"," cm
+"<मराठवाडा>"
+	"मराठवाडा" np top sg nom
+"<(>"
+	"(" lpar
+"<औरंगाबाद>"
+	"औरंगाबाद" np top sg nom
+"<विभाग>"
+	"विभाग" vblex tv stem
+	"विभाग" n m sg nom
+	"विभाग" n m pl nom
+	"विभागणे" vblex imp p2 sg
+"<)>"
+	")" rpar
+"<,>"
+	"," cm
+"<विदर्भ>"
+	"विदर्भ" np top sg nom
+"<किंवा>"
+	"किंवा" cnjcoo
+"<बेरार>"
+	"*बेरार"
+"<(>"
+	"(" lpar
+"<नागपूर>"
+	"नागपूर" np top sg nom
+"<आणि>"
+	"आणि" cnjcoo
+"<अमरावती>"
+	"अमरावती" np top sg nom
+"<विभाग>"
+	"विभाग" vblex tv stem
+	"विभाग" n m sg nom
+	"विभाग" n m pl nom
+	"विभागणे" vblex imp p2 sg
+"<)>"
+	")" rpar
+"<,>"
+	"," cm
+"<आणि>"
+	"आणि" cnjcoo
+"<कोकण>"
+	"कोकण" np top sg nom
+"<(>"
+	"(" lpar
+"<कोकण>"
+	"कोकण" np top sg nom
+"<विभाग>"
+	"विभाग" vblex tv stem
+	"विभाग" n m sg nom
+	"विभाग" n m pl nom
+	"विभागणे" vblex imp p2 sg
+"<)>"
+	")" rpar
+"<.>"
+	"." sent
+"<२०१४>"
+	"२०१४" num
+"<साली>"
+	"साली" adv
+	"साल" n f pl nom
+"<ठाणे>"
+	"ठाण" n nt pl nom
+	"ठाणे" np top sg nom
+	"ठाणा" n m pl nom
+"<जिल्ह्याचे>"
+	"जिल्हा" n m sg obl
+		"चा" gen m pl
+	"जिल्हा" n m sg obl
+		"चा" gen nt sg
+"<विभाजन>"
+	"*विभाजन"
+"<करुन>"
+	"करुन" adv
+"<पालघर>"
+	"*पालघर"
+"<या>"
+	"हा" det prox f pl
+	"हा" det prox nt pl
+"<नविन>"
+	"*नविन"
+"<जिल्ह्याची>"
+	"जिल्हा" n m sg obl
+		"चा" gen f sg
+	"जिल्हा" n m sg obl
+		"चा" gen nt pl
+"<निर्मीती>"
+	"*निर्मीती"
+"<करण्यात>"
+	"करणे" vblex ger loc
+"<आलेली>"
+	"येणे" vblex past perf p1 f sg
+	"येणे" vblex past perf p2 f sg
+	"येणे" vblex past perf p2 nt pl
+	"येणे" vblex pprs perf p1 f sg
+	"येणे" vblex pprs perf p2 f sg
+	"येणे" vblex pprs perf p3 f sg
+	"येणे" vblex pprs perf p3 nt pl
+"<आहे>"
+	"असणे" vaux pres p1 mf sg
+	"असणे" vaux pres p2 mf sg
+	"असणे" vaux pres p3 mfn sg
+"<,>"
+	"," cm
+"<त्यामुळे>"
+	"तो" prn p3 m sg obl
+		"मुळे" post adv
+	"तो" prn p3 nt sg obl
+		"मुळे" post adv
+	"तो" det dist m sg obl
+		"मुळे" post adv
+	"तो" det dist nt sg obl
+		"मुळे" post adv
+"<एकुण>"
+	"*एकुण"
+"<जिल्ह्यांची>"
+	"जिल्हा" n m pl obl
+		"चा" gen f sg
+	"जिल्हा" n m pl obl
+		"चा" gen nt pl
+"<संख्या>"
+	"संख्या" n f sg nom
+	"संख्या" n f pl nom
+"<वाढून>"
+	"वाढणे" vblex trans perf
+"<३६>"
+	"३६" num
+"<एवढी>"
+	"एवढा" adj m pl
+	"एवढा" adj f sg
+	"एवढा" adj nt pl
+"<झालेली>"
+	"झालेला" gpr perf
+		"" f sg
+	"झालेला" gpr perf
+		"" nt pl
+	"होणे" vblex pprs perf p1 f sg
+	"होणे" vblex pprs perf p2 f sg
+	"होणे" vblex pprs perf p3 f sg
+	"होणे" vblex pprs perf p3 nt pl
+"<आहे>"
+	"असणे" vaux pres p1 mf sg
+	"असणे" vaux pres p2 mf sg
+	"असणे" vaux pres p3 mfn sg
+"<.>"
+	"." sent
+"<सन>"
+	"सन" n m sg nom
+	"सन" n m pl nom
+"<१९७०>"
+	"१९७०" num
+"<नंतरच्या>"
+	"नंतर" post attr f pl
+	"नंतर" post attr mfn sp obl
+	"नंतरचा" adj f pl
+	"नंतरचा" adj mfn sp obl
+"<दशकातील>"
+	"दशक" n nt sg obl
+		"तील" post adv
+	"दशक" n nt sg obl
+		"तील" post attr mfn pl
+"<योग्य>"
+	"योग्य" adj mfn sp
+	"योग्य" adj mfn sp obl
+"<आर्थिक>"
+	"आर्थिक" adj mfn sp
+	"आर्थिक" adj mfn sp obl
+"<धोरणांमुळे>"
+	"धोरण" n nt pl obl
+		"मुळे" post adv
+"<महाराष्ट्र>"
+	"महाराष्ट्र" np top sg nom
+	"महाराष्ट्र" n m sg nom
+	"महाराष्ट्र" n m pl nom
+"<राज्य>"
+	"राज्य" n m sg nom
+	"राज्य" n m pl nom
+	"राज्य" n nt sg nom
+"<भारतातील>"
+	"भारत" n m sg obl
+		"तील" post adv
+	"भारत" n m sg obl
+		"तील" post attr mfn pl
+"<अग्रगण्य>"
+	"*अग्रगण्य"
+"<औद्योगिक>"
+	"औद्योगिक" adj mfn sp
+	"औद्योगिक" adj mfn sp obl
+"<राज्य>"
+	"राज्य" n m sg nom
+	"राज्य" n m pl nom
+	"राज्य" n nt sg nom
+"<बनले>"
+	"बनणे" vblex perf p2 m pl
+	"बनणे" vblex perf p3 m pl
+	"बनणे" vblex perf p3 nt sg
+	"बनणे" vblex perf p1 f sg
+"<.>"
+	"." sent
+"<आर्थिक>"
+	"आर्थिक" adj mfn sp
+	"आर्थिक" adj mfn sp obl
+"<क्षेत्रात>"
+	"क्षेत्र" n nt sg obl
+		"" loc
+"<पहिला>"
+	"एक" num ord
+		"" m sg
+	"पहिला" adj m sg
+"<क्रमांक>"
+	"क्रमांक" n m sg nom
+	"क्रमांक" n m pl nom
+"<मिळविण्याच्या>"
+	"*मिळविण्याच्या"
+"<प्रयत्न>"
+	"प्रयत्न" n m sg nom
+	"प्रयत्न" n m pl nom
+"<करणाऱ्या>"
+	"करणे" vblex pprs impf f pl
+"<आणि>"
+	"आणि" cnjcoo
+"<प्रगतिशील>"
+	"*प्रगतिशील"
+"<,>"
+	"," cm
+"<पुरोगामी>"
+	"*पुरोगामी"
+"<अशा>"
+	"असा" adj f pl
+	"असा" adj mfn sp obl
+"<राज्यांपैकी>"
+	"राजे" n nt sg obl
+		"पैकी" post adv
+	"राज्य" n nt pl obl
+		"पैकी" post adv
+	"राज्य" n m pl obl
+		"पैकी" post adv
+"<ते>"
+	"तो" det dist m pl
+	"तो" det dist nt sg
+	"तो" prn p3 m pl nom
+	"तो" prn p3 nt sg nom
+	"तो" prn corel m pl nom
+	"तो" prn corel nt sg nom
+"<एक>"
+	"एक" part
+	"एक" num
+	"एक" det indef mfn sg
+"<आहे>"
+	"असणे" vaux pres p1 mf sg
+	"असणे" vaux pres p2 mf sg
+	"असणे" vaux pres p3 mfn sg
+"<.>"
+	"." sent
+"<परंतु>"
+	"परंतु" cnjcoo
+"<महाराष्ट्रात>"
+	"महाराष्ट्र" n m sg obl
+		"" loc
+"<विकास>"
+	"विकास" n m sg nom
+	"विकास" n m pl nom
+"<सारख्या>"
+	"सारखा" adj f pl
+	"सारखा" adj mfn sp obl
+"<प्रमाणात>"
+	"प्रमाण" n nt sg obl
+		"" loc
+"<होऊ>"
+	"" vaux fut p1 mfn pl
+	"होणे" vblex incp
+	"होणे" vblex fut p1 mfn pl
+	"होणे" vaux fut p1 mf sp
+"<शकला>"
+	"शकणे" vblex perf p2 m sg
+	"शकणे" vblex perf p2 mf pl
+	"शकणे" vblex perf p3 m sg
+"<नाही>"
+	"नाही" inj
+	"" acc
+		"ही" emph
+	"" dat
+		"ही" emph
+	"नाही" vaux neg sp
+	"नाही" vaux neg p1 sg
+	"नाही" vaux neg p3 sg
+"<.>"
+	"." sent
+"<मुंबईसह>"
+	"*मुंबईसह"
+"<पश्चिम>"
+	"पश्चिम" np al sg
+"<महाराष्ट्राचा>"
+	"महाराष्ट्र" n m sg obl
+		"चा" gen m sg
+"<विकास>"
+	"विकास" n m sg nom
+	"विकास" n m pl nom
+"<झाला>"
+	"होणे" vaux perf p2 m sg
+	"होणे" vaux perf p2 mf pl
+	"होणे" vaux perf p3 m sg
+	"होणे" vblex perf p2 m sg
+	"होणे" vblex perf p2 m pl
+	"होणे" vblex perf p2 f pl
+	"होणे" vblex perf p3 m sg
+"<पण>"
+	"पण" part
+	"पण" cnjcoo
+	"पण" n m sg nom
+	"पण" n m pl nom
+"<विदर्भ>"
+	"विदर्भ" np top sg nom
+"<,>"
+	"," cm
+"<मराठवाडा>"
+	"मराठवाडा" np top sg nom
+"<व>"
+	"व" cnjcoo
+	"व" vblex tv stem
+	"वणे" vblex imp p2 sg
+"<कोकण>"
+	"कोकण" np top sg nom
+"<हे>"
+	"हा" det prox m pl
+	"हा" det prox nt sg
+"<भाग>"
+	"भाग" vblex tv stem
+	"भाग" n m sg nom
+	"भाग" n m pl nom
+	"भागणे" vblex imp p2 sg
+"<मागास>"
+	"माग" n m sg obl
+		"स" post adv
+"<राहिले>"
+	"रहाणे" vblex perf p2 m pl
+	"रहाणे" vblex perf p3 m pl
+	"रहाणे" vblex perf p3 nt sg
+	"रहाणे" vblex perf p1 f sg
+"<.>"
+	"." sent
+"<महाराष्ट्रातील>"
+	"महाराष्ट्र" n m sg obl
+		"तील" post adv
+	"महाराष्ट्र" n m sg obl
+		"तील" post attr mfn pl
+"<राजकारणात>"
+	"राजकारण" n nt sg obl
+		"" loc
+"<व>"
+	"व" cnjcoo
+	"व" vblex tv stem
+	"वणे" vblex imp p2 sg
+"<नोकरशाहीतही>"
+	"नोकरशाही" n f sg obl
+		"" loc
+			"ही" emph
+"<पश्चिम>"
+	"पश्चिम" np al sg
+"<महाराष्ट्राचा>"
+	"महाराष्ट्र" n m sg obl
+		"चा" gen m sg
+"<अधिक>"
+	"अधिक" adj mfn sp
+	"अधिक" adj mfn sp obl
+"<प्रभाव>"
+	"प्रभाव" n m sg nom
+	"प्रभाव" n m pl nom
+"<आहे>"
+	"असणे" vaux pres p1 mf sg
+	"असणे" vaux pres p2 mf sg
+	"असणे" vaux pres p3 mfn sg
+"<>"
+	"" lpar
+"<संदर्भ>"
+	"संदर्भ" n m sg nom
+	"संदर्भ" n m pl nom
+"<हवा>"
+	"हव" vbmod m sg
+	"हवा" n f sg nom
+	"हवा" n f pl nom
+"<>"
+	"" rpar
+"<.>"
+	"." sent
+"<राज्याचे>"
+	"राजे" n nt sg obl
+		"चा" gen m pl
+	"राजे" n nt sg obl
+		"चा" gen nt sg
+	"राज्य" n m sg obl
+		"चा" gen m pl
+	"राज्य" n m sg obl
+		"चा" gen nt sg
+	"राज्य" n nt sg obl
+		"चा" gen m pl
+	"राज्य" n nt sg obl
+		"चा" gen nt sg
+"<२००४>"
+	"२००४" num
+"<सालचे>"
+	"*सालचे"
+"<वार्षिक>"
+	"वार्षिक" adj mfn sp
+	"वार्षिक" adj mfn sp obl
+"<उत्पन्न>"
+	"उत्पन्न" n nt sg nom
+"<(>"
+	"(" lpar
+"<gross>"
+	"gross" barb
+"<state>"
+	"state" barb
+"<domestic>"
+	"domestic" barb
+"<product>"
+	"product" barb
+"<)>"
+	")" rpar
+"<१०६>"
+	"१०६" num
+"<अब्ज>"
+	"अब्ज" n m sg nom
+	"अब्ज" n m pl nom
+"<अमेरिकन>"
+	"अमेरिकन" adj mfn sp
+	"अमेरिकन" adj mfn sp obl
+"<डॉलर>"
+	"*डॉलर"
+"<इतके>"
+	"इतका" adj m pl
+	"इतका" adj nt sg
+"<आहे>"
+	"असणे" vaux pres p1 mf sg
+	"असणे" vaux pres p2 mf sg
+	"असणे" vaux pres p3 mfn sg
+"<.>"
+	"." sent
+"<महाराष्ट्र>"
+	"महाराष्ट्र" np top sg nom
+	"महाराष्ट्र" n m sg nom
+	"महाराष्ट्र" n m pl nom
+"<भारतातील>"
+	"भारत" n m sg obl
+		"तील" post adv
+	"भारत" n m sg obl
+		"तील" post attr mfn pl
+"<दुसरे>"
+	"दोन" num ord
+		"" nt sg
+	"दोन" num ord
+		"" m pl
+	"दुसरा" adj m pl
+	"दुसरा" adj nt sg
+	"दुसरा" n m pl nom
+"<सर्वांत>"
+	"सर्व" n m pl obl
+		"" loc
+"<जास्त>"
+	"जास्त" n f sg nom
+"<शहरीकरण>"
+	"*शहरीकरण"
+"<झालेले>"
+	"झालेला" gpr perf
+		"" nt sg
+	"झालेला" gpr perf
+		"" m pl
+	"होणे" vblex pprs perf p2 m pl
+	"होणे" vblex pprs perf p3 m pl
+	"होणे" vblex pprs perf p3 nt sg
+
+"<राज्य>"
+	"राज्य" n m sg nom
+	"राज्य" n m pl nom
+	"राज्य" n nt sg nom
+"<आहे>"
+	"असणे" vaux pres p1 mf sg
+	"असणे" vaux pres p2 mf sg
+	"असणे" vaux pres p3 mfn sg
+"<.>"
+	"." sent
+"<एकूण>"
+	"एकूण" adv
+"<राष्ट्रीय>"
+	"राष्ट्रीय" adj mfn sp
+	"राष्ट्रीय" adj mfn sp obl
+"<औद्योगिक>"
+	"औद्योगिक" adj mfn sp
+	"औद्योगिक" adj mfn sp obl
+"<उत्पन्नापैकी>"
+	"उत्पन्न" n nt sg obl
+		"पैकी" post adv
+"<१३%>"
+	"१३%" num percent
+"<महाराष्ट्राचे>"
+	"महाराष्ट्र" n m sg obl
+		"चा" gen m pl
+	"महाराष्ट्र" n m sg obl
+		"चा" gen nt sg
+"<योगदान>"
+	"*योगदान"
+"<आहे>"
+	"असणे" vaux pres p1 mf sg
+	"असणे" vaux pres p2 mf sg
+	"असणे" vaux pres p3 mfn sg
+"<.>"
+	"." sent
+"<६४.१४%>"
+	"६४.१४%" num percent
+"<लोक>"
+	"लोक" n m sg nom
+	"लोक" n m pl nom
+"<कृषी>"
+	"*कृषी"
+"<व>"
+	"व" cnjcoo
+	"व" vblex tv stem
+	"वणे" vblex imp p2 sg
+"<संबंधित>"
+	"संबंधित" adj mfn sp
+	"संबंधित" adj mfn sp obl
+"<उद्योगात>"
+	"उद्योग" n m sg obl
+		"" loc
+"<रोजगार>"
+	"रोजगार" n m sg nom
+	"रोजगार" n m pl nom
+"<मिळवतात>"
+	"मिळवणे" vblex pres impf p3 mfn pl
+"<.>"
+	"." sent
+"<एकूण>"
+	"एकूण" adv
+"<वार्षिक>"
+	"वार्षिक" adj mfn sp
+	"वार्षिक" adj mfn sp obl
+"<उत्पन्नापैकी>"
+	"उत्पन्न" n nt sg obl
+		"पैकी" post adv
+"<(>"
+	"(" lpar
+"<GSDP>"
+	"GSDP" barb
+"<)>"
+	")" rpar
+"<४६%>"
+	"४६%" num percent
+"<हिस्सा>"
+	"*हिस्सा"
+"<हा>"
+	"हा" det prox m sg
+"<कृषी>"
+	"*कृषी"
+"<व>"
+	"व" cnjcoo
+	"व" vblex tv stem
+	"वणे" vblex imp p2 sg
+"<संबंधित>"
+	"संबंधित" adj mfn sp
+	"संबंधित" adj mfn sp obl
+"<उद्योगातून>"
+	"उद्योग" n m sg obl
+		"तून" post adv
+"<मिळतो>"
+	"मिळणे" vblex pres impf p1 m sg
+	"मिळणे" vblex pres impf p1 mf pl
+	"मिळणे" vblex pres impf p3 m sg
+"<.>"
+	"." sent
+
+
+"<महाराष्ट्रातील>"
+	"महाराष्ट्र" n m sg obl
+		"तील" post adv
+	"महाराष्ट्र" n m sg obl
+		"तील" post attr mfn pl
+"<प्रमुख>"
+	"प्रमुख" n m sg nom
+	"प्रमुख" n m pl nom
+"<उद्योगधंदे>"
+	"*उद्योगधंदे"
+"<->"
+	"-" guio
+"<रासायनिक>"
+	"रासायनिक" adj mfn sp
+	"रासायनिक" adj mfn sp obl
+"<आणि>"
+	"आणि" cnjcoo
+"<संबंधित>"
+	"संबंधित" adj mfn sp
+	"संबंधित" adj mfn sp obl
+"<उत्पादने>"
+	"उत्पादन" n nt pl nom
+"<,>"
+	"," cm
+"<विद्युत>"
+	"विद्युत" n m sg nom
+	"विद्युत" n m pl nom
+"<आणि>"
+	"आणि" cnjcoo
+"<साधी>"
+	"*साधी"
+"<यंत्रे>"
+	"यंत्र" n nt pl nom
+"<,>"
+	"," cm
+"<कापड>"
+	"कापड" n nt sg nom
+"<,>"
+	"," cm
+"<पेट्रोलीयम>"
+	"*पेट्रोलीयम"
+"<आणि>"
+	"आणि" cnjcoo
+"<तत्सम>"
+	"*तत्सम"
+"<उद्योग>"
+	"उद्योग" n m sg nom
+	"उद्योग" n m pl nom
+"<हे>"
+	"हा" det prox m pl
+	"हा" det prox nt sg
+"<आहेत>"
+	"असणे" vaux pres p3 mfn pl
+"<.>"
+	"." sent
+
+
+"<इतर>"
+	"इतर" n m sg nom
+	"इतर" n m pl nom
+"<महत्त्वाचे>"
+	"महत्त्व" n m sg obl
+		"चा" gen m pl
+	"महत्त्व" n m sg obl
+		"चा" gen nt sg
+"<उद्योगधंदे>"
+	"*उद्योगधंदे"
+"<->"
+	"-" guio
+"<धातू>"
+	"धातू" n m sg nom
+	"धातू" n m pl nom
+"<उत्पादने>"
+	"उत्पादन" n nt pl nom
+"<,>"
+	"," cm
+"<वाईन>"
+	"*वाईन"
+"<(>"
+	"(" lpar
+"<द्राक्षापासून>"
+	"द्राक्ष" n nt sg obl
+		"पासून" post adv
+"<तयार केले>"
+	"तयार करणे" vblex perf p2 m pl
+	"तयार करणे" vblex perf p3 m pl
+	"तयार करणे" vblex perf p3 nt sg
+	"तयार करणे" vblex perf p1 f sg
+"<जाणारे>"
+	"जाणे" vblex pprs impf m pl
+	"जाणे" vblex pprs impf nt sg
+"<मद्य>"
+	"*मद्य"
+"<)>"
+	")" rpar
+"<,>"
+	"," cm
+"<दागिने>"
+	"दागिना" n m pl nom
+"<,>"
+	"," cm
+"<औषधे>"
+	"औषध" n nt pl nom
+"<,>"
+	"," cm
+"<अभियांत्रिकी>"
+	"*अभियांत्रिकी"
+"<सामान>"
+	"*सामान"
+"<,>"
+	"," cm
+"<यांत्रिक>"
+	"*यांत्रिक"
+"<सामान>"
+	"*सामान"
+"<,>"
+	"," cm
+"<पोलाद>"
+	"पोलाद" n nt sg nom
+"<व>"
+	"व" cnjcoo
+	"व" vblex tv stem
+	"वणे" vblex imp p2 sg
+"<लोह>"
+	"*लोह"
+"<उद्योग>"
+	"उद्योग" n m sg nom
+	"उद्योग" n m pl nom
+"<,>"
+	"," cm
+"<प्लास्टिक>"
+	"*प्लास्टिक"
+"<वायर्स>"
+	"*वायर्स"
+"<.>"
+	"." sent
+
+
+"<महत्त्वाची>"
+	"महत्त्व" n m sg obl
+		"चा" gen f sg
+	"महत्त्व" n m sg obl
+		"चा" gen nt pl
+"<पिके>"
+	"*पिके"
+"<->"
+	"-" guio
+"<आंबा>"
+	"आंबा" n m sg nom
+	"आंबणे" vblex imp p2 pl
+"<,>"
+	"," cm
+"<द्राक्षे>"
+	"द्राक्ष" n nt pl nom
+"<,>"
+	"," cm
+"<केळी>"
+	"केळे" n nt pl nom
+"<,>"
+	"," cm
+"<संत्री>"
+	"संत्री" n m sg nom
+	"संत्री" n m pl obl
+"<,>"
+	"," cm
+"<गहू>"
+	"*गहू"
+"<,>"
+	"," cm
+"<तांदूळ>"
+	"तांदूळ" n m sg nom
+	"तांदूळ" n m pl nom
+"<,>"
+	"," cm
+"<ज्वारी>"
+	"ज्वारी" n m sg nom
+	"ज्वारी" n m pl nom
+"<,>"
+	"," cm
+"<बाजरी>"
+	"बाजरी" n f sg nom
+	"बाजरी" n f pl obl
+"<आणि>"
+	"आणि" cnjcoo
+"<कडधान्ये>"
+	"कडधान्य" n nt pl nom
+"<.>"
+	"." sent
+
+
+"<महत्त्वाची>"
+	"महत्त्व" n m sg obl
+		"चा" gen f sg
+	"महत्त्व" n m sg obl
+		"चा" gen nt pl
+"<नगदी>"
+	"नगदी" n m sg nom
+	"नगदी" n m pl nom
+"<पिके>"
+	"*पिके"
+"<->"
+	"-" guio
+"<शेंगदाणे>"
+	"शेंगदाणा" n m pl nom
+"<,>"
+	"," cm
+"<कापूस>"
+	"*कापूस"
+"<,>"
+	"," cm
+"<ऊस>"
+	"ऊस" n m sg nom
+	"ऊस" n m pl nom
+"<,>"
+	"," cm
+"<हळकुंड>"
+	"हळकुंड" n nt sg nom
+"<व>"
+	"व" cnjcoo
+	"व" vblex tv stem
+	"वणे" vblex imp p2 sg
+"<तंबाखू>"
+	"तंबाखू" n m sg nom
+	"तंबाखू" n m pl nom
+"<.>"
+	"." sent
+"<माहाराष्ट्रातील>"
+	"*माहाराष्ट्रातील"
+"<सिंचनाखालील>"
+	"*सिंचनाखालील"
+"<जमीन>"
+	"जमणे" vblex fut p1 mfn sg
+	"जमीन" n f sg nom
+"<३३,५००>"
+	"३३,५००" num
+"<चौ>"
+	"*चौ"
+"<.>"
+	"." sent
+"<कि>"
+	"कि" cnjsub
+"<.>"
+	"." sent
+"<मी>"
+	"मी" prn p1 mf sg nom
+"<.>"
+	"." sent
+"<इतकी>"
+	"इतका" adj m pl
+	"इतका" adj f sg
+	"इतका" adj nt pl
+"<आहे>"
+	"असणे" vaux pres p1 mf sg
+	"असणे" vaux pres p2 mf sg
+	"असणे" vaux pres p3 mfn sg
+"<.>"
+	"." sent
+
+
+"<मुंबई>"
+	"मुंबई" np top sg nom
+"<,>"
+	"," cm
+"<महाराष्ट्राची>"
+	"महाराष्ट्र" n m sg obl
+		"चा" gen f sg
+	"महाराष्ट्र" n m sg obl
+		"चा" gen nt pl
+"<राजधानी>"
+	"राजधानी" n f sg nom
+"<,>"
+	"," cm
+"<भारताची>"
+	"भारत" n m sg obl
+		"चा" gen f sg
+	"भारत" n m sg obl
+		"चा" gen nt pl
+"<आर्थिक>"
+	"आर्थिक" adj mfn sp
+	"आर्थिक" adj mfn sp obl
+"<राजधानी>"
+	"राजधानी" n f sg nom
+"<म्हणून>"
+	"म्हणून" cnjcoo
+	"म्हणून" cnjsub
+	"म्हणणे" vblex trans perf
+"<ओळखली>"
+	"ओळखणे" vblex perf p2 f sg
+	"ओळखणे" vblex perf p3 f sg
+	"ओळखणे" vblex perf p3 nt pl
+"<जाते>"
+	"जाणे" vblex pres impf p1 f sg
+	"जाणे" vblex pres impf p3 f sg
+	"जाणे" vblex pres impf p3 nt sg
+	"जाते" n nt sg nom
+"<.>"
+	"." sent
+"<जवळजवळ>"
+	"जवळजवळ" adv
+"<सर्व>"
+	"सर्व" n m sg nom
+	"सर्व" n m pl nom
+"<प्रमुख>"
+	"प्रमुख" n m sg nom
+	"प्रमुख" n m pl nom
+"<बँका>"
+	"*बँका"
+"<,>"
+	"," cm
+"<आर्थिक>"
+	"आर्थिक" adj mfn sp
+	"आर्थिक" adj mfn sp obl
+"<संस्था>"
+	"संस्था" n f sg nom
+	"संस्था" n f pl nom
+"<,>"
+	"," cm
+"<विमा>"
+	"विमा" n m sg nom
+"<संस्था>"
+	"संस्था" n f sg nom
+	"संस्था" n f pl nom
+"<व>"
+	"व" cnjcoo
+	"व" vblex tv stem
+	"वणे" vblex imp p2 sg
+"<गुंतवणूक>"
+	"गुंतवणूक" n f sg nom
+"<संस्थांची>"
+	"संस्था" n f pl nom
+		"चा" gen f sg
+	"संस्था" n f pl nom
+		"चा" gen nt pl
+"<मुख्य>"
+	"मुख्य" adj mfn sp
+	"मुख्य" adj mfn sp obl
+"<कार्यालये>"
+	"कार्यालय" n nt pl nom
+"<येथे>"
+	"येथे" adv
+"<आहेत>"
+	"असणे" vaux pres p3 mfn pl
+"<.>"
+	"." sent
+"<भारतातील>"
+	"भारत" n m sg obl
+		"तील" post adv
+	"भारत" n m sg obl
+		"तील" post attr mfn pl
+"<चित्रपट>"
+	"चित्रपट" n m sg nom
+	"चित्रपट" n m pl nom
+"<आणि>"
+	"आणि" cnjcoo
+"<दूरचित्रवाणी>"
+	"*दूरचित्रवाणी"
+"<कार्यक्रमांचे>"
+	"कार्यक्रम" n m pl obl
+		"चा" gen m pl
+	"कार्यक्रम" n m pl obl
+		"चा" gen nt sg
+"<पहिल्या>"
+	"एक" num ord
+		"" f pl
+	"पहिला" adj f pl
+	"पहिला" adj mfn sp obl
+"<क्रमांकाचे>"
+	"क्रमांक" n m sg obl
+		"चा" gen m pl
+	"क्रमांक" n m sg obl
+		"चा" gen nt sg
+"<निर्मिती>"
+	"निर्मिती" n m sg nom
+	"निर्मिती" n m pl nom
+"<केंद्र>"
+	"केंद्र" n nt sg nom
+"<मुंबई>"
+	"मुंबई" np top sg nom
+"<आहे>"
+	"असणे" vaux pres p1 mf sg
+	"असणे" vaux pres p2 mf sg
+	"असणे" vaux pres p3 mfn sg
+"<.>"
+	"." sent
+"<मुंबई>"
+	"मुंबई" np top sg nom
+"<शेअर>"
+	"*शेअर"
+"<बाजार>"
+	"बाजार" n m sg nom
+	"बाजार" n m pl nom
+"<(>"
+	"(" lpar
+"<भारतातील>"
+	"भारत" n m sg obl
+		"तील" post adv
+	"भारत" n m sg obl
+		"तील" post attr mfn pl
+"<सर्वांत>"
+	"सर्व" n m pl obl
+		"" loc
+"<मोठा>"
+	"मोठा" adj m sg
+	"मोठा" n m sg nom
+"<व>"
+	"व" cnjcoo
+	"व" vblex tv stem
+	"वणे" vblex imp p2 sg
+"<आशियातील>"
+	"आशिया" n m sg obl
+		"तील" post adv
+	"आशिया" n m sg obl
+		"तील" post attr mfn pl
+"<सर्वांत>"
+	"सर्व" n m pl obl
+		"" loc
+"<जुना>"
+	"जुना" adj m sg
+"<)>"
+	")" rpar
+"<ही>"
+	"हा" det prox f sg
+"<महत्त्वाची>"
+	"महत्त्व" n m sg obl
+		"चा" gen f sg
+	"महत्त्व" n m sg obl
+		"चा" gen nt pl
+"<संस्था>"
+	"संस्था" n f sg nom
+	"संस्था" n f pl nom
+"<मुंबईत>"
+	"मुंबई" np top sg obl loc
+"<आहे>"
+	"असणे" vaux pres p1 mf sg
+	"असणे" vaux pres p2 mf sg
+	"असणे" vaux pres p3 mfn sg
+"<.>"
+	"." sent
+"<महाराष्ट्र>"
+	"महाराष्ट्र" np top sg nom
+	"महाराष्ट्र" n m sg nom
+	"महाराष्ट्र" n m pl nom
+"<सरकारने>"
+	"सरकार" n m sg obl
+		"" erg
+"<सॉफ्टवेर>"
+	"*सॉफ्टवेर"
+"<पार्क्स>"
+	"*पार्क्स"
+"<पुणे>"
+	"पुणे" np top sg nom
+	"पुणे" n nt sg nom
+"<,>"
+	"," cm
+"<मुंबई>"
+	"मुंबई" np top sg nom
+"<,>"
+	"," cm
+"<नाशिक>"
+	"नाशिक" np top sg nom
+"<,>"
+	"," cm
+"<नागपूर>"
+	"नागपूर" np top sg nom
+"<,>"
+	"," cm
+"<आणि>"
+	"आणि" cnjcoo
+"<औरंगाबाद>"
+	"औरंगाबाद" np top sg nom
+"<येथे>"
+	"येथे" adv
+"<स्थापन केली>"
+	"स्थापन करणे" vblex perf p2 f sg
+	"स्थापन करणे" vblex perf p3 f sg
+	"स्थापन करणे" vblex perf p3 nt pl
+"<आहेत>"
+	"असणे" vaux pres p3 mfn pl
+"<.>"
+	"." sent
+"<कोळसानिर्मित>"
+	"*कोळसानिर्मित"
+"<व>"
+	"व" cnjcoo
+	"व" vblex tv stem
+	"वणे" vblex imp p2 sg
+"<अणुनिर्मित>"
+	"*अणुनिर्मित"
+"<वीज>"
+	"*वीज"
+"<या>"
+	"हा" det prox f pl
+	"हा" det prox nt pl
+"<क्षेत्रात>"
+	"क्षेत्र" n nt sg obl
+		"" loc
+"<महाराष्ट्राचा>"
+	"महाराष्ट्र" n m sg obl
+		"चा" gen m sg
+"<प्रथम>"
+	"प्रथम" n m sg nom
+	"प्रथम" n m pl nom
+"<क्रमांक>"
+	"क्रमांक" n m sg nom
+	"क्रमांक" n m pl nom
+"<आहे>"
+	"असणे" vaux pres p1 mf sg
+	"असणे" vaux pres p2 mf sg
+	"असणे" vaux pres p3 mfn sg
+"<.>"
+	"." sent
+"<जट्रोफा>"
+	"*जट्रोफा"
+"<लागवडीसाठी>"
+	"लागवड" n f sg obl
+		"साठी" post adv
+"<महाराष्ट्राने>"
+	"महाराष्ट्र" n m sg obl
+		"" erg
+"<नवा>"
+	"नवा" adj m sg
+"<प्रयोग>"
+	"प्रयोग" n m sg nom
+	"प्रयोग" n m pl nom
+"<सुरू केला>"
+	"सुरू करणे" vblex perf p2 m sg
+	"सुरू करणे" vblex perf p2 mf pl
+	"सुरू करणे" vblex perf p3 m sg
+"<आहे>"
+	"असणे" vaux pres p1 mf sg
+	"असणे" vaux pres p2 mf sg
+	"असणे" vaux pres p3 mfn sg
+"<.>"
+	"." sent
+"<४१%>"
+	"४१%" num percent
+"<पेक्षा>"
+	"पेक्षा" post adv
+"<जास्त>"
+	"जास्त" n f sg nom
+"<S>"
+	"S" barb
+&
+"<P>"
+	"P" barb
+"<CNX>"
+	"CNX" barb
+"<500>"
+	"500" num
+"<कंपन्यांची>"
+	"*कंपन्यांची"
+"<महाराष्ट्रात>"
+	"महाराष्ट्र" n m sg obl
+		"" loc
+"<कार्यालये>"
+	"कार्यालय" n nt pl nom
+"<आहेत>"
+	"असणे" vaux pres p3 mfn pl
+"<.>"
+	"." sent
+"<महाराष्ट्रातील>"
+	"महाराष्ट्र" n m sg obl
+		"तील" post adv
+	"महाराष्ट्र" n m sg obl
+		"तील" post attr mfn pl
+"<काही>"
+	"काही" adv
+	"काही" n m sg nom
+	"काही" n m pl nom
+"<मंदिरे>"
+	"मंदिर" n nt pl nom
+"<अनेक>"
+	"अनेक" n m sg nom
+	"अनेक" n m pl nom
+"<शतके>"
+	"शतक" n nt pl nom
+"<जुनी>"
+	"जुना" adj m pl
+	"जुना" adj f sg
+	"जुना" adj nt pl
+"<आहेत>"
+	"असणे" vaux pres p3 mfn pl
+"<.>"
+	"." sent
+"<मंदिरांच्या>"
+	"मंदिर" n nt pl obl
+		"च्या" clit
+	"मंदिर" n nt pl obl
+		"चा" gen f pl
+	"मंदिर" n nt pl obl
+		"चा" gen obl mfn sp
+"<शिल्पशैलीत>"
+	"*शिल्पशैलीत"
+"<उत्तर>"
+	"उत्तर" np al sg
+	"उत्तर" vblex tv stem
+	"उत्तर" n f sg nom
+	"उत्तर" n nt sg nom
+	"उत्तरणे" vblex imp p2 sg
+"<व>"
+	"व" cnjcoo
+	"व" vblex tv stem
+	"वणे" vblex imp p2 sg
+"<दक्षिण>"
+	"दक्षिण" np al sg
+"<भारताचा>"
+	"भारत" n m sg obl
+		"चा" gen m sg
+"<मिलाप>"
+	"*मिलाप"
+"<आढळतो>"
+	"आढळणे" vblex pres impf p1 m sg
+	"आढळणे" vblex pres impf p1 mf pl
+	"आढळणे" vblex pres impf p3 m sg
+"<.>"
+	"." sent
+"<मंदिरांवर>"
+	"मंदिर" n nt pl obl
+		"वरती" post adv
+"<हिंदू>"
+	"हिंदू" n m sg nom
+	"हिंदू" n m pl nom
+"<,>"
+	"," cm
+"<बौद्ध>"
+	"बौद्ध" n m sg nom
+	"बौद्ध" n m pl nom
+"<व>"
+	"व" cnjcoo
+	"व" vblex tv stem
+	"वणे" vblex imp p2 sg
+"<जैन>"
+	"जैन" np cog sg
+"<संस्कृतींचा>"
+	"संस्कृती" n f pl obl
+		"चा" gen m sg
+"<ठसा>"
+	"ठसा" n m sg nom
+	"ठसणे" vblex imp p2 pl
+"<आहे>"
+	"असणे" vaux pres p1 mf sg
+	"असणे" vaux pres p2 mf sg
+	"असणे" vaux pres p3 mfn sg
+"<.>"
+	"." sent
+"<औरंगाबाद>"
+	"औरंगाबाद" np top sg nom
+"<जवळील>"
+	"जवळील" adj mfn sp
+	"जवळील" adj mfn sp obl
+"<अजिंठा>"
+	"*अजिंठा"
+"<व>"
+	"व" cnjcoo
+	"व" vblex tv stem
+	"वणे" vblex imp p2 sg
+"<वेरुळची>"
+	"*वेरुळची"
+"<लेणी>"
+	"लेणे" n nt pl nom
+"<जगप्रसिद्ध>"
+	"जगप्रसिद्ध" adj mfn sp
+	"जगप्रसिद्ध" adj mfn sp obl
+"<आहेत>"
+	"असणे" vaux pres p3 mfn pl
+"<.>"
+	"." sent
+"<मोगल>"
+	"*मोगल"
+"<शिल्पशैलीची>"
+	"*शिल्पशैलीची"
+"<झलक>"
+	"*झलक"
+"<औरंगाबाद>"
+	"औरंगाबाद" np top sg nom
+"<येथीलच>"
+	"येथे" adv mfn sp
+		"च" emph
+"<बीबी>"
+	"*बीबी"
+"<का>"
+	"का" adv interr
+"<मकबरा>"
+	"*मकबरा"
+"<येथे>"
+	"येथे" adv
+"<पहायला>"
+	"पहाणे" vblex sup
+"<मिळते>"
+	"मिळणे" vblex pres impf p1 f sg
+	"मिळणे" vblex pres impf p3 f sg
+	"मिळणे" vblex pres impf p3 nt sg
+"<.>"
+	"." sent
+"<महाराष्ट्रात>"
+	"महाराष्ट्र" n m sg obl
+		"" loc
+"<अनेक>"
+	"अनेक" n m sg nom
+	"अनेक" n m pl nom
+"<दुर्ग>"
+	"*दुर्ग"
+"<व>"
+	"व" cnjcoo
+	"व" vblex tv stem
+	"वणे" vblex imp p2 sg
+"<किल्ले>"
+	"किल्ला" n m pl nom
+"<आहेत>"
+	"असणे" vaux pres p3 mfn pl
+"<.>"
+	"." sent
+"<रायगड>"
+	"रायगड" np top sg nom
+"<,>"
+	"," cm
+"<प्रतापगड>"
+	"*प्रतापगड"
+"<व>"
+	"व" cnjcoo
+	"व" vblex tv stem
+	"वणे" vblex imp p2 sg
+"<सिंधुदुर्ग>"
+	"*सिंधुदुर्ग"
+"<ही>"
+	"हा" det prox f sg
+"<काही>"
+	"काही" adv
+	"काही" n m sg nom
+	"काही" n m pl nom
+"<उदाहरणे>"
+	"उदाहरण" n nt pl nom
+"<.>"
+	"." sent
+"<महाराष्ट्राचे>"
+	"महाराष्ट्र" n m sg obl
+		"चा" gen m pl
+	"महाराष्ट्र" n m sg obl
+		"चा" gen nt sg
+"<लोकसंगीत>"
+	"*लोकसंगीत"
+"<समृद्ध>"
+	"*समृद्ध"
+"<आहे>"
+	"असणे" vaux pres p1 mf sg
+	"असणे" vaux pres p2 mf sg
+	"असणे" vaux pres p3 mfn sg
+"<.>"
+	"." sent
+"<गोंधळ>"
+	"गोंधळ" vblex tv stem
+	"गोंधळ" n m sg nom
+	"गोंधळ" n m pl nom
+	"गोंधळणे" vblex imp p2 sg
+"<,>"
+	"," cm
+"<लावणी>"
+	"लावणी" n f sg nom
+"<,>"
+	"," cm
+"<भारुड>"
+	"भारुड" n nt sg nom
+"<अभंग>"
+	"अभंग" n m sg nom
+	"अभंग" n m pl nom
+"<आणि>"
+	"आणि" cnjcoo
+"<पोवाडा>"
+	"पोवाडा" n m sg nom
+"<हे>"
+	"हा" det prox m pl
+	"हा" det prox nt sg
+"<प्रकार>"
+	"प्रकार" n m sg nom
+	"प्रकार" n m pl nom
+	"प्रकार" n nt sg nom
+"<विशेष>"
+	"विशेष" n m sg nom
+	"विशेष" n m pl nom
+"<लोकप्रिय>"
+	"लोकप्रिय" adj mfn sp
+	"लोकप्रिय" adj mfn sp obl
+"<आहेत>"
+	"असणे" vaux pres p3 mfn pl
+"<.>"
+	"." sent
+"<मराठी>"
+	"मराठी" n m sg nom
+	"मराठी" n m pl nom
+"<साहित्य>"
+	"साहित्य" n nt sg nom
+"<भारतातील>"
+	"भारत" n m sg obl
+		"तील" post adv
+	"भारत" n m sg obl
+		"तील" post attr mfn pl
+"<अग्रगण्य>"
+	"*अग्रगण्य"
+"<असे>"
+	"असे" cnjsub
+	"असा" adj m pl
+	"असा" adj nt sg
+	"असणे" vaux past hab p1 mf sg
+	"असणे" vaux past hab p3 mfn sg
+"<असून>"
+	"असणे" vblex trans perf
+"<ज्ञानेश्वर>"
+	"ज्ञानेश्वर" np ant m sg nom
+"<(>"
+	"(" lpar
+"<भावार्थदीपिका>"
+	"*भावार्थदीपिका"
+"<अर्थात>"
+	"अर्थ" n m sg obl
+		"" loc
+ '
+"<ज्ञानेश्वरी>"
+	"*ज्ञानेश्वरी"
+'
+"<चे>"
+	"चा" gen m pl
+	"चा" gen nt sg
+"<रचयिते>"
+	"*रचयिते"
+"<)>"
+	")" rpar
+"<,>"
+	"," cm
+"<संत>"
+	"संत" n m sg nom
+	"संत" n m pl nom
+"<एकनाथ>"
+	"*एकनाथ"
+"<,>"
+	"," cm
+"<संत>"
+	"संत" n m sg nom
+	"संत" n m pl nom
+"<तुकाराम>"
+	"तुकाराम" np ant m sg nom
+"<,>"
+	"," cm
+"<पु>"
+	"पु" n m sg nom
+	"पु" n m pl nom
+"<.>"
+	"." sent
+"<ल>"
+	"*ल"
+"<.>"
+	"." sent
+"<देशपांडे>"
+	"देशपांडे" n nt sg nom
+"<,>"
+	"," cm
+"<प्र>"
+	"*प्र"
+"<.>"
+	"." sent
+"<के>"
+	"के" n m sg nom
+	"के" n m pl nom
+"<.>"
+	"." sent
+"<अत्रे>"
+	"*अत्रे"
+"<,>"
+	"," cm
+"<व्यंकटेश>"
+	"*व्यंकटेश"
+"<माडगूळकर>"
+	"*माडगूळकर"
+"<हे>"
+	"हा" det prox m pl
+	"हा" det prox nt sg
+"<काही>"
+	"काही" adv
+	"काही" n m sg nom
+	"काही" n m pl nom
+"<प्रमुख>"
+	"प्रमुख" n m sg nom
+	"प्रमुख" n m pl nom
+"<लेखक>"
+	"लेखक" n m sg nom
+	"लेखक" n m pl nom
+"<व>"
+	"व" cnjcoo
+	"व" vblex tv stem
+	"वणे" vblex imp p2 sg
+"<कवी>"
+	"कवी" n m sg nom
+	"कवी" n m pl nom
+"<आहेत>"
+	"असणे" vaux pres p3 mfn pl
+"<.>"
+	"." sent
+"<प्रत्येक>"
+	"प्रत्येक" n m sg nom
+	"प्रत्येक" n m pl nom
+"<वर्षी>"
+	"वर्षी" adv
+"<अनेक>"
+	"अनेक" n m sg nom
+	"अनेक" n m pl nom
+"<मराठी>"
+	"मराठी" n m sg nom
+	"मराठी" n m pl nom
+"<पुस्तके>"
+	"पुस्तक" n nt pl nom
+"<प्रकाशित>"
+	"प्रकाशित" adj mfn sp
+	"प्रकाशित" adj mfn sp obl
+"<होत>"
+	"होणे" adv impf
+	"होणे" vblex impf
+	"होणे" vblex pprs
+"<असतात>"
+	"असणे" vaux pres pres impf p3 mfn pl
+"<.>"
+	"." sent
+"<मराठी>"
+	"मराठी" n m sg nom
+	"मराठी" n m pl nom
+"<नाटक>"
+	"नाटक" n nt sg nom
+"<,>"
+	"," cm
+"<चित्रपट>"
+	"चित्रपट" n m sg nom
+	"चित्रपट" n m pl nom
+"<व>"
+	"व" cnjcoo
+	"व" vblex tv stem
+	"वणे" vblex imp p2 sg
+"<दूरचित्रवाणीचे>"
+	"*दूरचित्रवाणीचे"
+"<केंद्र>"
+	"केंद्र" n nt sg nom
+"<मुंबई>"
+	"मुंबई" np top sg nom
+"<येथे>"
+	"येथे" adv
+"<आहे>"
+	"असणे" vaux pres p1 mf sg
+	"असणे" vaux pres p2 mf sg
+	"असणे" vaux pres p3 mfn sg
+"<आणि>"
+	"आणि" cnjcoo
+"<बहुतेक>"
+	"बहुतेक" adv
+"<कलाकार>"
+	"*कलाकार"
+"<सर्व>"
+	"सर्व" n m sg nom
+	"सर्व" n m pl nom
+"<माध्यमातून>"
+	"माध्यम" n nt sg obl
+		"तून" post adv
+"<कामे>"
+	"काम" n nt pl nom
+"<करतात>"
+	"करणे" vblex pres impf p3 mfn pl
+"<.>"
+	"." sent
+"<मराठी>"
+	"मराठी" n m sg nom
+	"मराठी" n m pl nom
+"<चित्रपटसृष्टीतील>"
+	"*चित्रपटसृष्टीतील"
+"<काही>"
+	"काही" adv
+	"काही" n m sg nom
+	"काही" n m pl nom
+"<प्रसिद्ध>"
+	"प्रसिद्ध" adj mfn sp
+	"प्रसिद्ध" adj mfn sp obl
+"<व्यक्ति>"
+	"*व्यक्ति"
+"<->"
+	"-" guio
+"<पु>"
+	"पु" n m sg nom
+	"पु" n m pl nom
+"<.>"
+	"." sent
+"<ल>"
+	"*ल"
+"<.>"
+	"." sent
+"<देशपांडे>"
+	"देशपांडे" n nt sg nom
+"<,>"
+	"," cm
+"<अशोक>"
+	"अशोक" n m sg nom
+	"अशोक" n m pl nom
+	"अशोक" np ant m sg nom
+"<सराफ>"
+	"सराफ" n m sg nom
+	"सराफ" n m pl nom
+"<,>"
+	"," cm
+"<लक्ष्मीकांत>"
+	"*लक्ष्मीकांत"
+"<बेर्डे>"
+	"*बेर्डे"
+"<,>"
+	"," cm
+"<सचिन>"
+	"सचिन" np ant m sg nom
+"<पिळगांवकर>"
+	"*पिळगांवकर"
+"<,>"
+	"," cm
+"<महेश>"
+	"*महेश"
+"<कोठारे>"
+	"कोठार" n nt pl nom
+"<आणि>"
+	"आणि" cnjcoo
+"<व्ही>"
+	"*व्ही"
+"<.>"
+	"." sent
+"<शांताराम>"
+	"*शांताराम"
+"<.>"
+	"." sent
+"<मराठी>"
+	"मराठी" n m sg nom
+	"मराठी" n m pl nom
+"<नाटकांचा>"
+	"नाटक" n nt pl obl
+		"चा" gen m sg
+"<जुना>"
+	"जुना" adj m sg
+"<काळ>"
+	"काळ" n m sg nom
+	"काळ" n m pl nom
+"<हा>"
+	"हा" det prox m sg
+"<कोल्हटकर>"
+	"*कोल्हटकर"
+"<,>"
+	"," cm
+"<खाडिलकर>"
+	"*खाडिलकर"
+"<,>"
+	"," cm
+"<देवल>"
+	"*देवल"
+"<,>"
+	"," cm
+"<गडकरी>"
+	"*गडकरी"
+"<व>"
+	"व" cnjcoo
+	"व" vblex tv stem
+	"वणे" vblex imp p2 sg
+"<किर्लोस्कर>"
+	"किर्लोस्कर" np cog sg
+"<आदी>"
+	"इ." abbr
+"<लेखकांनी>"
+	"लेखक" n m pl obl
+		"" erg
+"<गाजवला>"
+	"गाजवणे" vblex perf p2 m sg
+	"गाजवणे" vblex perf p2 mf pl
+	"गाजवणे" vblex perf p3 m sg
+"<.>"
+	"." sent
+"<तो>"
+	"तो" det dist m sg
+	"तो" prn p3 m sg nom
+	"तो" prn corel m sg nom
+"<काळ>"
+	"काळ" n m sg nom
+	"काळ" n m pl nom
+"<संगीतनाटके>"
+	"*संगीतनाटके"
+"<आणि>"
+	"आणि" cnjcoo
+"<नाट्यसंगीताचा>"
+	"*नाट्यसंगीताचा"
+"<होता>"
+	"होणे" vblex pprs
+	"होणे" vaux pres pres impf p2 mf pl
+	"होणे" vblex impf p2 mf pl
+	"असणे" vaux past p2 m sg
+	"असणे" vaux past p2 mf pl
+	"असणे" vaux past p3 m sg
+"<.>"
+	"." sent
+"<याच>"
+	"हा" det prox f pl
+		"च" emph
+	"हा" det prox nt pl
+		"च" emph
+"<काळात>"
+	"काळ" n m sg obl
+		"" loc
+"<बालगंधर्व>"
+	"बालगंधर्व" n m sg nom
+	"बालगंधर्व" n m pl nom
+"<,>"
+	"," cm
+"<केशवराव>"
+	"*केशवराव"
+"<भोसले>"
+	"भोसले" np cog sg
+"<,>"
+	"," cm
+"<भाऊराव>"
+	"*भाऊराव"
+"<कोल्हटकर>"
+	"*कोल्हटकर"
+"<व>"
+	"व" cnjcoo
+	"व" vblex tv stem
+	"वणे" vblex imp p2 sg
+"<दीनानाथ>"
+	"*दीनानाथ"
+"<मंगेशकर>"
+	"मंगेशकर" np cog sg
+	"मंगेशकर" np ant m sg nom
+"<या>"
+	"हा" det prox f pl
+	"हा" det prox nt pl
+"<गायक>"
+	"*गायक"
+"<->"
+	"-" guio
+"<कलावंतानी>"
+	"*कलावंतानी"
+"<रंगभूमीची>"
+	"रंगभूमी" n f sg obl
+		"चा" gen f sg
+	"रंगभूमी" n f sg obl
+		"चा" gen nt pl
+"<सेवा>"
+	"सेवा" n f sg nom
+	"सेवा" n f pl nom
+	"सेवणे" vblex imp p2 pl
+"<केली>"
+	"करणे" vblex perf p2 f sg
+	"करणे" vblex perf p3 f sg
+	"करणे" vblex perf p3 nt pl
+"<.>"
+	"." sent
+"<मराठी>"
+	"मराठी" n m sg nom
+	"मराठी" n m pl nom
+"<दूरचित्रवाणी>"
+	"*दूरचित्रवाणी"
+"<वाहिन्या>"
+	"*वाहिन्या"
+"<पुढीलप्रमाणे>"
+	"पुढीलप्रमाणे" adv
+"<->"
+	"-" guio
+"<दूरदर्शन>"
+	"*दूरदर्शन"
+"<->"
+	"-" guio
+"<सह्याद्री>"
+	"*सह्याद्री"
+"<,>"
+	"," cm
+"<ई>"
+	"ई" inj
+"<टीव्ही>"
+	"*टीव्ही"
+"<मराठी>"
+	"मराठी" n m sg nom
+	"मराठी" n m pl nom
+"<,>"
+	"," cm
+"<कलर>"
+	"*कलर"
+"<मराठी>"
+	"मराठी" n m sg nom
+	"मराठी" n m pl nom
+"<,>"
+	"," cm
+"<झी>"
+	"*झी"
+"<मराठी>"
+	"मराठी" n m sg nom
+	"मराठी" n m pl nom
+"<,>"
+	"," cm
+"<स्टार>"
+	"*स्टार"
+"<माझा>"
+	"माझा" adj m sg
+	"मी" prn p1 mf sg
+		"चा" gen m sg
+"<,>"
+	"," cm
+"<मी>"
+	"मी" prn p1 mf sg nom
+"<मराठी>"
+	"मराठी" n m sg nom
+	"मराठी" n m pl nom
+"<,>"
+	"," cm
+
+"<झी>"
+	"*झी"
+"<टॉकीज>"
+	"*टॉकीज"
+"<,>"
+	"," cm
+"<झी>"
+	"*झी"
+"<२४>"
+	"२४" num
+"<तास>"
+	"तास" vblex tv stem
+	"तास" n m sg nom
+	"तास" n m pl nom
+	"तासणे" vblex imp p2 sg
+"<,>"
+	"," cm
+"<आयबीएन>"
+	"*आयबीएन"
+"<->"
+	"-" guio
+"<लोकमत>"
+	"लोकमत" n nt sg nom
+"<आणि>"
+	"आणि" cnjcoo
+"<साम>"
+	"*साम"
+"<मराठी>"
+	"मराठी" n m sg nom
+	"मराठी" n m pl nom
+"<.>"
+	"." sent
+"<मागील>"
+	"मागील" post adv
+"<काही>"
+	"काही" adv
+	"काही" n m sg nom
+	"काही" n m pl nom
+"<वर्षांपासून>"
+	"वर्ष" n nt pl obl
+		"पासून" post adv
+"<मराठी>"
+	"मराठी" n m sg nom
+	"मराठी" n m pl nom
+"<वाहिन्यांनी>"
+	"*वाहिन्यांनी"
+"<लोकप्रियता>"
+	"लोकप्रियता" n f sg nom
+	"लोकप्रियता" n f pl nom
+"<मिळवली>"
+	"मिळवणे" vblex perf p2 f sg
+	"मिळवणे" vblex perf p3 f sg
+	"मिळवणे" vblex perf p3 nt pl
+"<असून>"
+	"असणे" vblex trans perf
+"<बहुतेक>"
+	"बहुतेक" adv
+"<वाहिन्या>"
+	"*वाहिन्या"
+"<२४>"
+	"२४" num
+"<तास>"
+	"तास" vblex tv stem
+	"तास" n m sg nom
+	"तास" n m pl nom
+	"तासणे" vblex imp p2 sg
+"<सुरू असतात>"
+	"सुरू असणे" vaux pres pres impf p3 mfn pl
+"<.>"
+	"." sent
+"<परदेशस्थ>"
+	"*परदेशस्थ"
+"<मराठी>"
+	"मराठी" n m sg nom
+	"मराठी" n m pl nom
+"<माणसेदेखील>"
+	"*माणसेदेखील"
+"<यांचा>"
+	"हा" det prox mfn pl obl
+		"चा" gen m sg
+"<आस्वाद>"
+	"आस्वाद" n m sg nom
+	"आस्वाद" n m pl nom
+"<घेतात>"
+	"घेणे" vblex pres impf p3 mfn pl
+"<.>"
+	"." sent
+
+
+"<महाराष्ट्राची>"
+	"महाराष्ट्र" n m sg obl
+		"चा" gen f sg
+	"महाराष्ट्र" n m sg obl
+		"चा" gen nt pl
+"<खाद्यसंस्कृती>"
+	"*खाद्यसंस्कृती"
+"<भागानुसार>"
+	"*भागानुसार"
+"<बदलते>"
+	"बदलता" adj m pl
+	"बदलता" adj nt sg
+	"बदलणे" vblex pres impf p1 f sg
+	"बदलणे" vblex pres impf p3 f sg
+	"बदलणे" vblex pres impf p3 nt sg
+"<.>"
+	"." sent
+"<कोकणात>"
+	"*कोकणात"
+"<भात>"
+	"भात" n m sg nom
+	"भात" n m pl nom
+"<व>"
+	"व" cnjcoo
+	"व" vblex tv stem
+	"वणे" vblex imp p2 sg
+"<मासे>"
+	"*मासे"
+"<लोकप्रिय>"
+	"लोकप्रिय" adj mfn sp
+	"लोकप्रिय" adj mfn sp obl
+"<आहेत>"
+	"असणे" vaux pres p3 mfn pl
+"<तर>"
+	"तर" vblex tv stem
+	"तरणे" vblex imp p2 sg
+"<पूर्व>"
+	"पूर्व" n f sg nom
+"<महाराष्ट्रात>"
+	"महाराष्ट्र" n m sg obl
+		"" loc
+"<गहू>"
+	"*गहू"
+"<,>"
+	"," cm
+"<ज्वारी>"
+	"ज्वारी" n m sg nom
+	"ज्वारी" n m pl nom
+"<आणि>"
+	"आणि" cnjcoo
+"<बाजरी>"
+	"बाजरी" n f sg nom
+	"बाजरी" n f pl obl
+"<जास्त>"
+	"जास्त" n f sg nom
+"<खाल्ली>"
+	"*खाल्ली"
+"<जाते>"
+	"जाणे" vblex pres impf p1 f sg
+	"जाणे" vblex pres impf p3 f sg
+	"जाणे" vblex pres impf p3 nt sg
+	"जाते" n nt sg nom
+"<.>"
+	"." sent
+"<सर्व>"
+	"सर्व" n m sg nom
+	"सर्व" n m pl nom
+"<प्रकारच्या>"
+	"*प्रकारच्या"
+"<डाळी>"
+	"डाळ" n f pl nom
+"<,>"
+	"," cm
+"<कांदे>"
+	"कांदा" n m pl nom
+"<,>"
+	"," cm
+"<बटाटे>"
+	"बटाटा" n m pl nom
+"<,>"
+	"," cm
+"<टॉमेटो>"
+	"*टॉमेटो"
+"<,>"
+	"," cm
+"<मिरची>"
+	"मिरची" n f sg nom
+"<,>"
+	"," cm
+"<लसूण>"
+	"लसूण" n m sg nom
+	"लसूण" n m pl nom
+"<व>"
+	"व" cnjcoo
+	"व" vblex tv stem
+	"वणे" vblex imp p2 sg
+"<आले>"
+	"येणे" vblex perf p2 m pl
+	"येणे" vblex perf p3 m pl
+	"येणे" vblex perf p3 nt sg
+	"येणे" vblex perf p1 f sg
+	"आले" n nt sg nom
+"<हे>"
+	"हा" det prox m pl
+	"हा" det prox nt sg
+"<पदार्थ>"
+	"पदार्थ" n m sg nom
+	"पदार्थ" n m pl nom
+"<मराठी>"
+	"मराठी" n m sg nom
+	"मराठी" n m pl nom
+"<जेवणात>"
+	"जेवण" n nt sg obl
+		"" loc
+"<सर्रास>"
+	"*सर्रास"
+"<वापरले>"
+	"वापरणे" vblex perf p2 m pl
+	"वापरणे" vblex perf p3 m pl
+	"वापरणे" vblex perf p3 nt sg
+	"वापरणे" vblex perf p1 f sg
+"<जातात>"
+	"जाणे" vblex pres impf p3 mfn pl
+"<.>"
+	"." sent
+"<सामिष>"
+	"*सामिष"
+"<अन्न>"
+	"अन्न" n m sg nom
+	"अन्न" n m pl nom
+"<अनेक>"
+	"अनेक" n m sg nom
+	"अनेक" n m pl nom
+"<जणांना>"
+	"*जणांना"
+"<आवडते>"
+	"आवडता" adj m pl
+	"आवडता" adj nt sg
+	"आवडणे" vblex pres impf p1 f sg
+	"आवडणे" vblex pres impf p3 f sg
+	"आवडणे" vblex pres impf p3 nt sg
+"<.>"
+	"." sent
+"<मराठी>"
+	"मराठी" n m sg nom
+	"मराठी" n m pl nom
+"<स्त्रियांचा>"
+	"स्त्री" n f pl obl
+		"चा" gen m sg
+"<पारंपरिक>"
+	"पारंपरिक" adj mfn sp
+	"पारंपरिक" adj mfn sp obl
+"<वेष>"
+	"वेष" n m sg nom
+	"वेष" n m pl nom
+"<नऊवारी>"
+	"*नऊवारी"
+"<साडी>"
+	"*साडी"
+"<तर>"
+	"तर" vblex tv stem
+	"तरणे" vblex imp p2 sg
+"<पुरुषांचा>"
+	"पुरुष" n m pl obl
+		"चा" gen m sg
+"<धोतर>"
+	"धोतर" n nt sg nom
+/
+"<पायजमा>"
+	"*पायजमा"
+"<आणि>"
+	"आणि" cnjcoo
+"<सदरा>"
+	"सदरा" n m sg nom
+"<असा>"
+	"असा" adj m sg
+	"असणे" vaux fut p2 mf pl
+	"असणे" vaux past hab p2 mf pl
+"<आहे>"
+	"असणे" vaux pres p1 mf sg
+	"असणे" vaux pres p2 mf sg
+	"असणे" vaux pres p3 mfn sg
+"<.>"
+	"." sent
+"<परंतु>"
+	"परंतु" cnjcoo
+"<शहरी>"
+	"शहरी" adv
+"<भागात>"
+	"भाग" n m sg obl
+		"" loc
+"<आधुनिक>"
+	"आधुनिक" adj mfn sp
+	"आधुनिक" adj mfn sp obl
+"<पेहराव>"
+	"पेहराव" n m sg nom
+	"पेहराव" n m pl nom
+"<केले>"
+	"करणे" vblex perf p2 m pl
+	"करणे" vblex perf p3 m pl
+	"करणे" vblex perf p3 nt sg
+	"करणे" vblex perf p1 f sg
+"<जातात>"
+	"जाणे" vblex pres impf p3 mfn pl
+"<.>"
+	"." sent
+
+
+"<भारतातील>"
+	"भारत" n m sg obl
+		"तील" post adv
+	"भारत" n m sg obl
+		"तील" post attr mfn pl
+"<इतर>"
+	"इतर" n m sg nom
+	"इतर" n m pl nom
+"<प्रांतांप्रमाणेच>"
+	"*प्रांतांप्रमाणेच"
+"<क्रिकेट>"
+	"क्रिकेट" n m sg nom
+"<हा>"
+	"हा" det prox m sg
+"<खेळ>"
+	"खेळ" vblex tv stem
+	"खेळ" n m sg nom
+	"खेळ" n m pl nom
+	"खेळणे" vblex imp p2 sg
+"<येथेही>"
+	"येथे" adv
+		"ही" emph
+"<लोकप्रिय>"
+	"लोकप्रिय" adj mfn sp
+	"लोकप्रिय" adj mfn sp obl
+"<आहे>"
+	"असणे" vaux pres p1 mf sg
+	"असणे" vaux pres p2 mf sg
+	"असणे" vaux pres p3 mfn sg
+"<.>"
+	"." sent
+"<कबड्डी>"
+	"*कबड्डी"
+"<सुद्धा>"
+	"सुद्धा" part
+"<खेळली>"
+	"खेळणे" vblex perf p2 f sg
+	"खेळणे" vblex perf p3 f sg
+	"खेळणे" vblex perf p3 nt pl
+"<जाते>"
+	"जाणे" vblex pres impf p1 f sg
+	"जाणे" vblex pres impf p3 f sg
+	"जाणे" vblex pres impf p3 nt sg
+	"जाते" n nt sg nom
+"<.>"
+	"." sent
+"<लहान>"
+	"लहान" adj mfn sp
+	"लहान" adj mfn sp obl
+"<मुलांत>"
+	"मुल" n nt pl obl
+		"" loc
+	"मुलगा" n m pl obl
+		"" loc
+"<विटी>"
+	"विटी" n f sg nom
+"<->"
+	"-" guio
+"<दांडू>"
+	"*दांडू"
+"<,>"
+	"," cm
+"<पकडा>"
+	"पकडणे" vblex imp p2 pl
+"<->"
+	"-" guio
+"<पकडी>"
+	"*पकडी"
+"<हे>"
+	"हा" det prox m pl
+	"हा" det prox nt sg
+"<खेळ>"
+	"खेळ" vblex tv stem
+	"खेळ" n m sg nom
+	"खेळ" n m pl nom
+	"खेळणे" vblex imp p2 sg
+"<लोकप्रिय>"
+	"लोकप्रिय" adj mfn sp
+	"लोकप्रिय" adj mfn sp obl
+"<आहेत>"
+	"असणे" vaux pres p3 mfn pl
+"<.>"
+	"." sent
+
+
+"<दिवाळी>"
+	"दिवाळी" n f sg nom
+"<,>"
+	"," cm
+"<रंगपंचमी>"
+	"*रंगपंचमी"
+"<,>"
+	"," cm
+"<गोकुळाष्टमी>"
+	"*गोकुळाष्टमी"
+"<व>"
+	"व" cnjcoo
+	"व" vblex tv stem
+	"वणे" vblex imp p2 sg
+"<गणेशोत्सव>"
+	"*गणेशोत्सव"
+"<,>"
+	"," cm
+"<होळी>"
+	"होळी" n f sg nom
+"<हे>"
+	"हा" det prox m pl
+	"हा" det prox nt sg
+"<महाराष्ट्राचे>"
+	"महाराष्ट्र" n m sg obl
+		"चा" gen m pl
+	"महाराष्ट्र" n m sg obl
+		"चा" gen nt sg
+"<मुख्य>"
+	"मुख्य" adj mfn sp
+	"मुख्य" adj mfn sp obl
+"<उत्सव>"
+	"उत्सव" n m sg nom
+	"उत्सव" n m pl nom
+"<आहेत>"
+	"असणे" vaux pres p3 mfn pl
+"<.>"
+	"." sent
+"<यांपैकी>"
+	"हा" det prox mfn pl obl
+		"पैकी" post adv
+"<गणेशोत्सव>"
+	"*गणेशोत्सव"
+"<सर्वांत>"
+	"सर्व" n m pl obl
+		"" loc
+"<मोठा>"
+	"मोठा" adj m sg
+	"मोठा" n m sg nom
+"<व>"
+	"व" cnjcoo
+	"व" vblex tv stem
+	"वणे" vblex imp p2 sg
+"<लोकप्रिय>"
+	"लोकप्रिय" adj mfn sp
+	"लोकप्रिय" adj mfn sp obl
+"<सण>"
+	"सण" n m sg nom
+	"सण" n m pl nom
+"<आहे>"
+	"असणे" vaux pres p1 mf sg
+	"असणे" vaux pres p2 mf sg
+	"असणे" vaux pres p3 mfn sg
+"<जो>"
+	"जो" prn rel m sg nom
+"<आता>"
+	"आता" adv
+"<देशभर>"
+	"*देशभर"
+"<साजरा>"
+	"साजरा" adj m sg
+	"साजरा" n m sg nom
+"<केला>"
+	"के" n m sg obl
+		"" acc
+	"के" n m sg obl
+		"" dat
+	"करणे" vblex perf p2 m sg
+	"करणे" vblex perf p2 mf pl
+	"करणे" vblex perf p3 m sg
+"<जातो>"
+	"जाणे" vblex pres impf p1 m sg
+	"जाणे" vblex pres impf p1 mf pl
+	"जाणे" vblex pres impf p3 m sg
+"<.>"
+	"." sent
+"<दहा>"
+	"दहा" num
+	"दहा" n m sg nom
+	"दहा" n m pl nom
+"<दिवस>"
+	"दिवस" n m sg nom
+	"दिवस" n m pl nom
+"<साजरा>"
+	"साजरा" adj m sg
+	"साजरा" n m sg nom
+"<होणारा>"
+	"होणे" vblex pprs impf m sg
+	"होणारा" gpr inf
+		"" m sg
+"<हा>"
+	"हा" det prox m sg
+"<सण>"
+	"सण" n m sg nom
+	"सण" n m pl nom
+"<बुद्धी>"
+	"बुद्धी" n m sg nom
+	"बुद्धी" n m pl nom
+"<व>"
+	"व" cnjcoo
+	"व" vblex tv stem
+	"वणे" vblex imp p2 sg
+"<विद्येचे>"
+	"विद्ये" n f sg obl
+		"चा" gen m pl
+	"विद्ये" n f sg obl
+		"चा" gen nt sg
+"<दैवत>"
+	"दैवत" n nt sg nom
+"<असणार्>"
+	"*असणार्"
+‍
+"<या>"
+	"हा" det prox f pl
+	"हा" det prox nt pl
+"<गणपतीचा>"
+	"गणपती" n m sg obl
+		"चा" gen m sg
+"<आहे>"
+	"असणे" vaux pres p1 mf sg
+	"असणे" vaux pres p2 mf sg
+	"असणे" vaux pres p3 mfn sg
+"<.>"
+	"." sent
+"<त्याचबरोबर>"
+	"*त्याचबरोबर"
+"<शिव>"
+	"शिव" vblex tv stem
+	"शिवणे" vblex imp p2 sg
+"<->"
+	"-" guio
+"<जयंती>"
+	"जयंती" n f sg nom
+"<,>"
+	"," cm
+"<वटपौर्णिमा>"
+	"*वटपौर्णिमा"
+"<,>"
+	"," cm
+"<मकरसंक्रांती>"
+	"*मकरसंक्रांती"
+"<,>"
+	"," cm
+"<दसरा>"
+	"दसरा" n m sg nom
+"<इ.>"
+	"इ." abbr
+"<सण>"
+	"सण" n m sg nom
+	"सण" n m pl nom
+"<देखील>"
+	"देखील" part
+"<साजरे>"
+	"साजरा" adj m pl
+	"साजरा" adj nt sg
+	"साजरा" n m pl nom
+"<केले>"
+	"करणे" vblex perf p2 m pl
+	"करणे" vblex perf p3 m pl
+	"करणे" vblex perf p3 nt sg
+	"करणे" vblex perf p1 f sg
+"<जातात>"
+	"जाणे" vblex pres impf p3 mfn pl
+"<.>"
+	"." sent
+
+
+"<स्वातंत्र्यपूर्व>"
+	"*स्वातंत्र्यपूर्व"
+"<काळात>"
+	"काळ" n m sg obl
+		"" loc
+"<सामाजिक>"
+	"सामाजिक" adj mfn sp
+	"सामाजिक" adj mfn sp obl
+"<सुधारणा>"
+	"सुधारणा" n f sg nom
+	"सुधारणा" n f pl nom
+"<व>"
+	"व" cnjcoo
+	"व" vblex tv stem
+	"वणे" vblex imp p2 sg
+"<चळवळ>"
+	"चळवळ" n f sg nom
+"<व>"
+	"व" cnjcoo
+	"व" vblex tv stem
+	"वणे" vblex imp p2 sg
+"<स्त्री>"
+	"स्त्री" n f sg nom
+"<शिक्षणाची>"
+	"शिक्षण" n nt sg obl
+		"चा" gen f sg
+	"शिक्षण" n nt sg obl
+		"चा" gen nt pl
+"<चळवळ>"
+	"चळवळ" n f sg nom
+"<महाराष्ट्रातूनच>"
+	"महाराष्ट्र" n m sg obl
+		"तून" post adv
+			"च" emph
+"<सुरू झाली>"
+	"सुरू होणे" vblex perf p2 f sg
+	"सुरू होणे" vblex perf p3 f sg
+	"सुरू होणे" vblex perf p3 nt pl
+"<.>"
+	"." sent
+"<ह्यात>"
+	"हा" det prox m sg obl
+		"" loc
+	"हा" det prox nt sg obl
+		"" loc
+"<महात्मा>"
+	"महात्मा" np ant m sg nom
+"<जोतिबा>"
+	"*जोतिबा"
+"<फुले>"
+	"फुल" n nt pl nom
+"<,>"
+	"," cm
+"<गोपाळ>"
+	"*गोपाळ"
+"<गणेश>"
+	"गणेश" np ant m sg nom
+"<आगरकर>"
+	"*आगरकर"
+"<,>"
+	"," cm
+"<धोंडो>"
+	"*धोंडो"
+"<केशव>"
+	"केशव" np ant m sg nom
+"<कर्वे>"
+	"कर्वे" n m sg nom
+	"कर्वे" n m pl nom
+"<हे>"
+	"हा" det prox m pl
+	"हा" det prox nt sg
+"<अग्रणी>"
+	"*अग्रणी"
+"<होते>"
+	"होणे" vaux pres pres impf p1 f sg
+	"होणे" vaux pres pres impf p3 f sg
+	"होणे" vaux pres pres impf p3 nt sg
+	"होणे" vblex impf p1 f sg
+	"होणे" vblex impf p3 f sg
+	"होणे" vblex impf p3 nt sg
+	"असणे" vaux past p1 f sg
+	"असणे" vaux past p3 m pl
+	"असणे" vaux past p3 nt sg
+"<.>"
+	"." sent
+"<.>"
+	"." sent
+
+

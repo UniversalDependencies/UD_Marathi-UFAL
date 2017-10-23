@@ -1,0 +1,4 @@
+#!/bin/zsh
+cat ~/Dev/UD_Marathi/no_release/$1.vislcg.txt.new | python ~/Dev/Apertium/scripts/vislcg3-to-conllu.py > ~/Dev/UD_Marathi/no_release/$1.conllu
+cat $1.conllu | python convert.py | sponge $1.conllu
+cat $1.conllu >> UD_Marathi.conllu

@@ -1,3 +1,4 @@
+!!! vblex incp -> neg imp
 1. dat @nsubj
 2. @advmod/@obl
 3. nom @obj
@@ -6,3 +7,6 @@
 6. stuffs with incp
 7. clit
 8. orphan
+9. kahi
+10. evdha
+11. x-nyat yene -> aux
