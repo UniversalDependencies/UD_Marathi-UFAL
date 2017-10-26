@@ -68,7 +68,7 @@ def post_lookup(feats):
     post = "|".join(out)
     return post
 
-def prn_lookup(feats):
+def prn_lookup(word, feats):
     table = {
         'm': 'Gender=Masc', 'f': 'Gender=Fem', 'nt': 'Gender=Neut',
         'mfn': 'Gender=TODO', 'sp': 'Number=TODO', 'mf': '',
@@ -94,6 +94,11 @@ def prn_lookup(feats):
         pass
 
     post = "|".join(out)
+    if word in ["तो", "ती", "ते", "त्या"]:
+        post += "|Distance=Dist"
+    if word in ["हा", "ही", "हे", "ह्या"]:
+        post += "|Distance=Prox"
+
     return post
 
 
@@ -218,7 +223,7 @@ for line in sys.stdin:
     
     if upos == 'prn':
         new_feats = []
-        new_feats = prn_lookup(old_feats)
+        new_feats = prn_lookup(cols[2], old_feats)
 
         sys.stdout.write(gen_str.format(*cols[0:4],
                                                                          'PRON',

@@ -97,7 +97,7 @@
 5	;	;	_	PUNCT	_	10	punct	_	_
 6	परंतु	परंतु	_	CCONJ	_	10	cc	_	_
 7	खरे	खरा	_	ADJ	Gender=Neut|Number=Sing|Case=Nom	8	amod	_	_
-8	ते	तो	_	DET	PronType=Dem|Distance=Dist|Gender=Neut|Number=Sg	10	obj	_	_
+8	ते	तो	_	PRON	Person=3|Gender=Neut|Number=Sing|Distance=Dist	10	obj	_	_
 9	मी	मी	_	PRON	Person=1|Number=Sing|Case=Nom	10	nsubj	_	_
 10	सांगतो	सांगणे	_	VERB	VerbForm=Fin|Tense=Pres|Aspect=Imp|Person=3|Gender=Masc|Number=Sing	3	conj	_	_
 11	.	.	_	PUNCT	_	10	punct	_	_
@@ -113,7 +113,7 @@
 7	.	.	_	PUNCT	_	6	punct	_	_
 
 # 11 5/5
-1	ही	हा	_	PRON	Person=3|Gender=Fem|Number=Sing|Case=Nom	4	obj	_	_
+1	ही	हा	_	PRON	Person=3|Gender=Fem|Number=Sing|Case=Nom|Distance=Prox	4	obj	_	_
 2	का	का	_	ADV	_	4	advmod	_	_
 3	मी	मी	_	PRON	Person=1|Number=Sing|Case=Nom	4	nsubj	_	_
 4	विकू	विकणे	_	VERB	VerbForm=Fin|Mood=Imp|Person=1|Number=Sing	0	root	_	_
@@ -136,7 +136,7 @@
 
 # 15 4/4
 1	पोटापुरे	पोटापुरे	_	ADV	_	3	advmod	_	_
-2	ती	तो	_	PRON	Person=3|Gender=Fem|Number=Sing|Case=Nom	3	nsubj	_	_
+2	ती	तो	_	PRON	Person=3|Gender=Fem|Number=Sing|Case=Nom|Distance=Dist	3	nsubj	_	_
 3	देते	देणे	_	VERB	VerbForm=Fin|Tense=Pres|Aspect=Imp|Person=3|Gender=Fem|Number=Sing	0	root	_	_
 4	.	.	_	PUNCT	_	3	punct	_	_
 
@@ -345,7 +345,7 @@
 
 # 35 12/12
 1-2	त्याचे	_	_	_	_	_	_
-1	_	तो	_	PRON	Person=3|Gender=Masc|Number=Sing	4	nmod:poss	_	_
+1	_	तो	_	PRON	Person=3|Gender=Masc|Number=Sing|Distance=Dist	4	nmod:poss	_	_
 2	_	चा	_	ADP	Gender=Neut|Number=Sing	1	case	_	_
 3	ते	तो	_	DET	PronType=Dem|Distance=Dist|Gender=Neut|Number=Sg	5	det	_	_
 4	लहानसे	लहानसा	_	ADJ	Gender=Neut|Number=Sing|Case=Nom	5	amod	_	_
@@ -376,7 +376,7 @@
 
 # 37 9/9
 1-2	त्यानेही	_	_	_	_	_	_
-1	_	तो	_	PRON	Person=3|Gender=Neut|Number=Sing|Case=Inst	7	nsubj	_	_
+1	_	तो	_	PRON	Person=3|Gender=Neut|Number=Sing|Case=Inst|Distance=Dist	7	nsubj	_	_
 2	_	ही	_	PART	_	1	discourse	_	_
 3	दोन	दोन	_	NUM	_	6	nummod	_	_
 4	-	-	_	PUNCT	_	6	punct	_	_
@@ -398,7 +398,7 @@
 # 39 7/7
 1	पलीकडे	पलीकडे	_	ADP	_	0	root	_	_
 2-3	त्याचा	_	_	_	_	_	_
-2	_	तो	_	PRON	Person=3|Gender=Masc|Number=Sing	5	nmod:poss	_	_
+2	_	तो	_	PRON	Person=3|Gender=Masc|Number=Sing|Distance=Dist	5	nmod:poss	_	_
 3	_	चा	_	ADP	Gender=Masc|Number=Sing	2	case	_	_
 4	लहानसा	लहानसा	_	ADJ	Gender=Masc|Number=Sing|Case=Nom	5	amod	_	_
 5	गोठा	गोठा	_	NOUN	Gender=Masc|Number=Sing|Case=Nom	1	nsubj	_	_
@@ -437,10 +437,10 @@
 12	.	.	_	PUNCT	_	10	punct	_	_
 
 # 42 9/9
-1	ते	तो	_	DET	PronType=Dem|Distance=Dist|Gender=Neut|Number=Sg	2	obj	_	_
+1	ते	तो	_	PRON	Person=3|Gender=Neut|Number=Sing|Distance=Dist	2	obj	_	_
 2	विकणे	विकणे	_	VERB	VerbForm=Inf|InfForm=Dict	7	csubj	_	_
 3-4	त्याच्या	_	_	_	_	_	_
-3	_	तो	_	PRON	Person=3|Gender=Masc|Number=Sing	5	nmod:poss	_	_
+3	_	तो	_	PRON	Person=3|Gender=Masc|Number=Sing|Distance=Dist	5	nmod:poss	_	_
 4	_	चा	_	ADP	Case=Obl|Gender=TODO|Number=TODO	3	case	_	_
 5-6	जिवावर	_	_	_	_	_	_
 5	_	जिवा	_	NOUN	Gender=Masc|Number=Sing|Case=Obl	7	obl	_	_
@@ -472,7 +472,7 @@
 # 47 0/18
 # 48 6/6
 1	केशवचंद्रांना	केशवचंद्र	_	PROPN	ant|Gender=Masc|Number=Plur|Case=Dat	3	nsubj	_	_
-2	ते	तो	_	PRON	Person=3|Gender=Neut|Number=Sing|Case=Nom	3	obj	_	_
+2	ते	तो	_	PRON	Person=3|Gender=Neut|Number=Sing|Case=Nom|Distance=Dist	3	obj	_	_
 3	सहन	सहन	_	ADV	_	4	compound:lvc	_	_
 4	होत	होणे	_	VERB	VerbForm=Part|Aspect=Imp	0	case	_	_
 5	नव्हते	नसणे	_	AUX	VerbForm=Fin|Tense=Past|Person=3|Gender=Neut|Number=Sing	4	aux	_	_
@@ -535,7 +535,7 @@
 
 # 55 7/7
 1-2	त्याचे	_	_	_	_	_	_
-1	_	तो	_	PRON	Person=3|Gender=Masc|Number=Sing	3	nmod:poss	_	_
+1	_	तो	_	PRON	Person=3|Gender=Masc|Number=Sing|Distance=Dist	3	nmod:poss	_	_
 2	_	चा	_	ADP	Gender=Neut|Number=Sing	1	case	_	_
 3	तोंड	तोंड	_	NOUN	Gender=Neut|Number=Sing|Case=Nom	6	nsubj	_	_
 4	चिंतेने	चिंता	_	NOUN	Gender=Fem|Number=Sing|Case=Inst	6	obl	_	_
@@ -546,7 +546,7 @@
 # 56 11/11
 1	इतक्यात	इतक्यात	_	ADV	_	10	advmod	_	_
 2-3	त्याची	_	_	_	_	_	_
-2	_	तो	_	PRON	Person=3|Gender=Neut|Number=Sing	4	nmod:poss	_	_
+2	_	तो	_	PRON	Person=3|Gender=Neut|Number=Sing|Distance=Dist	4	nmod:poss	_	_
 3	_	चा	_	ADP	Gender=Fem|Number=Sing	2	case	_	_
 4	वडील	वडील	_	NOUN	Gender=Masc|Number=Sing|Case=Nom	10	nsubj	_	_
 5	मुलगी	मुलगी	_	NOUN	Gender=Fem|Number=Sing|Case=Nom	4	flat	_	_
@@ -572,7 +572,7 @@
 1	"	"	_	PUNCT	_	3	punct	_	_
 2	काय	काय	_	PRON	PronType=Int|Gender=TODO|Number=TODO|Case=Nom	3	obj	_	_
 3	म्हणतो	म्हणणे	_	VERB	VerbForm=Fin|Tense=Pres|Aspect=Imp|Person=3|Gender=Masc|Number=Sing	0	root	_	_
-4	तो	तो	_	PRON	Person=3|Gender=Masc|Number=Sing|Case=Nom	3	nsubj	_	_
+4	तो	तो	_	PRON	Person=3|Gender=Masc|Number=Sing|Case=Nom|Distance=Dist	3	nsubj	_	_
 5	?	?	_	PUNCT	_	3	punct	_	_
 6	"	"	_	PUNCT	_	3	punct	_	_
 
@@ -583,7 +583,7 @@
 # 65 10/7
 # 66 20/17
 # 67 5/5
-1	ती	तो	_	PRON	Person=3|Gender=Fem|Number=Sing|Case=Nom	2	obj	_	_
+1	ती	तो	_	PRON	Person=3|Gender=Fem|Number=Sing|Case=Nom|Distance=Dist	2	obj	_	_
 2	विकून	विकणे	_	VERB	VerbForm=Conv|Aspect=Perf	4	advcl	_	_
 3	कुठे	कुठे	_	ADV	_	4	advmod	_	_
 4	जायचे	जाणे	_	VERB	VerbForm=Fin|Tense=Past|Aspect=Hab|Mood=Ind|CHECK|VerbForm=Part|Mood=Des|Person=3|Gender=Neut|Number=Sing	0	root	_	_
@@ -639,7 +639,7 @@
 4	उभा	उभा	_	ADJ	Gender=Masc|Number=Sing|Case=Nom	5	compound:lvc	_	_
 5	राहतो	रहाणे	_	VERB	VerbForm=Fin|Tense=Pres|Aspect=Imp|Person=3|Gender=Masc|Number=Sing	6	acl:relcl	_	_
 6-7	त्याचा	_	_	_	_	_	_
-6	_	तो	_	PRON	Person=3|Gender=Masc|Number=Sing	8	nmod:poss	_	_
+6	_	तो	_	PRON	Person=3|Gender=Masc|Number=Sing|Distance=Dist	8	nmod:poss	_	_
 7	_	चा	_	ADP	Gender=Masc|Number=Sing	6	case	_	_
 8	देव	देव	_	NOUN	Gender=Masc|Number=Sing|Case=Nom	9	nsubj	_	_
 9	मरत	मरणे	_	VERB	VerbForm=Part|Aspect=Imp	0	root	_	_
@@ -682,16 +682,16 @@
 3	सापडले	सापडणे	_	VERB	VerbForm=Fin|Aspect=Perf|Person=3|Gender=Masc|Number=Plur	2	acl:relcl	_	_
 4	आहेत	असणे	_	AUX	VerbForm=Fin|Tense=Pres|Person=3|Number=Plur	3	cop	_	_
 5-6	त्यावरून	_	_	_	_	_	_
-5	_	तो	_	DET	PronType=Dem|Distance=Dist|Gender=Neut|Number=Sg|obl	9	obl	_	_
+5	_	तो	_	obl	p3|nt|sg|obl	9	obl
 6	_	वरून	_	ADP	_	5	case	_	_
-7	हे	हा	_	DET	PronType=Dem|Distance=Prox|Gender=Neut|Number=Sg	9	nsubj	_	_
+7	हे	हा	_	PRON	Person=3|Gender=Neut|Number=Sing|Distance=Prox	9	nsubj	_	_
 8	सिद्ध	सिद्ध	_	NOUN	Gender=Masc|Number=Sing|Case=Nom	9	compound:lvc	_	_
 9	होत	होणे	_	VERB	VerbForm=Part|Aspect=Imp	0	root	_	_
 10	आहे	असणे	_	AUX	VerbForm=Fin|Tense=Pres|Person=3|Number=Sing	9	cop	_	_
 11	,	,	_	PUNCT	_	15	punct	_	_
 12	वगैरे	वगैरे	_	ADV	_	15	advmod	_	_
 13-14	त्याचे	_	_	_	_	_	_
-13	_	तो	_	PRON	Person=3|Gender=Masc|Number=Sing	15	nmod:poss	_	_
+13	_	तो	_	PRON	Person=3|Gender=Masc|Number=Sing|Distance=Dist	15	nmod:poss	_	_
 14	_	चा	_	ADP	Gender=Neut|Number=Sing	13	case	_	_
 15	म्हणणे	म्हणणे	_	VERB	VerbForm=Inf|InfForm=Dict|nom	9	nsubj	_	_
 16	.	.	_	PUNCT	_	9	punct	_	_
@@ -726,7 +726,7 @@
 11	.	.	_	PUNCT	_	9	punct	_	_
 
 # 87 11/11
-1	त्याने	तो	_	DET	PronType=Dem|Distance=Dist|Gender=Masc|Number=Sg|erg	9	nsubj	_	_
+1	त्याने	तो	_	PRON	Person=3|Gender=Masc|Number=Sing|Case=Erg|Distance=Dist	9	nsubj	_	_
 2-3	आपली	_	_	_	_	_	_
 2	_	मी	_	PRON	Person=1|Number=Plur|incl	4	nmod:poss	_	_
 3	_	चा	_	ADP	Gender=Fem|Number=Sing	2	case	_	_
@@ -751,7 +751,7 @@
 6	?	?	_	PUNCT	_	5	punct	_	_
 
 # 89 20/20
-1	तो	तो	_	DET	PronType=Dem|Distance=Dist|Gender=Masc|Number=Sg	5	nsubj	_	_
+1	तो	तो	_	PRON	Person=3|Gender=Masc|Number=Sing|Distance=Dist	5	nsubj	_	_
 2	न्यायाधीशास	न्यायाधीश	_	NOUN	Gender=Masc|Number=Sing|Case=Dat	5	iobj	_	_
 3-4	एवढेच	_	_	_	_	_	_
 3	_	एवढा	_	PRON	Person=3|Gender=TODO|Number=Plur	5	obj	_	_
@@ -766,7 +766,7 @@
 12	मी	मी	_	PRON	Person=1|Number=Sing|Case=Nom	13	nsubj	_	_
 13	सांगतो	सांगणे	_	VERB	VerbForm=Fin|Tense=Pres|Aspect=Imp|Person=1|Gender=Masc|Number=Sing	5	parataxis	_	_
 14	की	की	_	SCONJ	_	8	mark	_	_
-15	ही	हा	_	PRON	Person=3|Gender=Fem|Number=Sing|Case=Nom	18	nsubj	_	_
+15	ही	हा	_	PRON	Person=3|Gender=Fem|Number=Sing|Case=Nom|Distance=Prox	18	nsubj	_	_
 16-17	माझी	_	_	_	_	_	_
 16	_	मी	_	PRON	Person=1|Number=Sing	18	nmod:poss	_	_
 17	_	चा	_	ADP	Gender=Fem|Number=Sing	16	case	_	_
@@ -778,7 +778,7 @@
 1-2	वाडवडिलांपासून	_	_	_	_	_	_
 1	_	वाडवडिल	_	NOUN	Gender=Masc|Number=Plur|Case=Obl	4	obl	_	_
 2	_	पासून	_	ADP	_	1	case	_	_
-3	ही	हा	_	PRON	Person=3|Gender=Fem|Number=Sing|Case=Nom	4	nsubj	_	_
+3	ही	हा	_	PRON	Person=3|Gender=Fem|Number=Sing|Case=Nom|Distance=Prox	4	nsubj	_	_
 4	चालत	चालणे	_	VERB	VerbForm=Part|Aspect=Imp	0	root	_	_
 5	आली	येणे	_	VERB	VerbForm=Fin|Aspect=Perf|Person=3|Gender=Fem|Number=Sing	4	compound:svc	_	_
 6	आहे	असणे	_	AUX	VerbForm=Fin|Tense=Pres|Person=3|Number=Sing	4	aux	_	_
