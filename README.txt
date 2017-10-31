@@ -1,9 +1,9 @@
 === Machine-readable metadata =================================================
 Documentation status: stub
 Data source: manual
-Data available since: UD v2.0
+Data available since: UD v2.1
 License: CC BY-SA 4.0
-Genre: news
+Genre: fiction wiki
 Contributors: Ravishankar, Vinit
-Contact:
+Contact: vinit.ravishankar.16@um.edu.mt
 ===============================================================================
