@@ -200,7 +200,7 @@
 13	_	आई	NOUN	_	Case=Obl|Gender=Fem|Number=Sing	15	nmod	_	_
 14	_	चा	ADP	_	Case=Nom|Gender=Masc|Number=Sing	13	case	_	_
 15	निरोप	निरोप	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	17	nsubj	_	_
-16	घ्यायला	घेणे	VERB	_	VerbForm=Supine	17	xcomp	_	_
+16	घ्यायला	घेणे	VERB	_	VerbForm=Sup	17	xcomp	_	_
 17	गेला	जाणे	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Person=3|VerbForm=Fin	3	parataxis	_	_
 18	.	.	PUNCT	_	_	17	punct	_	_
 
@@ -218,7 +218,7 @@
 # text = आईने त्याला पोटाशी धरले .
 1	आईने	आई	NOUN	_	Case=Erg|Gender=Fem|Number=Sing	4	nsubj	_	_
 2	त्याला	तो	PRON	_	Case=Acc|Distance=Dist|Gender=Neut|Number=Sing|Person=3	4	obj	_	_
-3	पोटाशी	पोट	NOUN	_	Case=Soc|Gender=Neut|Number=Sing	4	obl	_	_
+3	पोटाशी	पोट	NOUN	_	Case=Com|Gender=Neut|Number=Sing	4	obl	_	_
 4	धरले	धरणे	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
 5	.	.	PUNCT	_	_	4	punct	_	_
 
@@ -1332,7 +1332,7 @@
 3	_	राजपुत्र	NOUN	_	Case=Obl|Gender=Masc|Number=Sing	5	nmod:poss	_	_
 4	_	चा	ADP	_	Gender=Fem|Number=Sing	3	case	_	_
 5	करमणूक	करमणूक	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	6	obj	_	_
-6	करायला	करणे	VERB	_	VerbForm=Supine	7	advcl	_	_
+6	करायला	करणे	VERB	_	VerbForm=Sup	7	advcl	_	_
 7	आलो	येणे	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Person=1|VerbForm=Fin	0	root	_	_
 8	आहे	असणे	AUX	_	Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	aux	_	_
 9	.	.	PUNCT	_	_	7	punct	_	_
@@ -1391,7 +1391,7 @@
 1	थोड्या	थोडा	ADJ	_	Case=Obl	2	amod	_	_
 2	वेळाने	वेळ	NOUN	_	Case=Ins|Gender=Fem|Number=Sing	4	obl	_	_
 3	खुशमस्कऱ्या	खुशमस्कऱ्या	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
-4	जायला	जाणे	VERB	_	VerbForm=Supine	0	root	_	_
+4	जायला	जाणे	VERB	_	VerbForm=Sup	0	root	_	_
 5	निघाला	निघाला	AUX	_	Aspect=Perf|Gender=Masc|Number=Sing|Person=3|VerbForm=Fin	4	aux	_	_
 6	.	.	PUNCT	_	_	4	punct	_	_
 
@@ -2074,7 +2074,7 @@
 15	_	चा	ADP	_	Gender=Masc|Number=Plur	14	case	_	_
 16	मोती	मोती	NOUN	_	Case=Acc|Gender=Masc|Number=Plur	17	obj	_	_
 17	निवडून	निवडणे	VERB	_	Aspect=Perf|VerbForm=Conv	19	advcl	_	_
-18	घ्यायला	घेणे	VERB	_	VerbForm=Supine	17	compound:svc	_	_
+18	घ्यायला	घेणे	VERB	_	VerbForm=Sup	17	compound:svc	_	_
 19	सांग	सांगसांगणे	VERB	_	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	5	parataxis	_	_
 20	.	.	PUNCT	_	_	19	punct	_	_
 
@@ -2391,7 +2391,7 @@
 4-5	राखेवर	_	_	_	_	_	_	_	_
 4	_	राख	NOUN	_	Case=Obl|Gender=Fem|Number=Sing	6	obl	_	_
 5	_	वर	ADP	_	_	4	case	_	_
-6	शिंपायला	शिंपणे	VERB	_	VerbForm=Supine	11	advcl	_	_
+6	शिंपायला	शिंपणे	VERB	_	VerbForm=Sup	11	advcl	_	_
 7-8	अमृताचे	_	_	_	_	_	_	_	_
 7	_	अमृत	NOUN	_	Case=Obl|Gender=Masc|Number=Sing	10	nmod:poss	_	_
 8	_	चा	ADP	_	Gender=Masc|Number=Plur	7	case	_	_
@@ -2971,7 +2971,7 @@
 1	_	तू	PRON	_	Number=Sing|Person=2	3	nmod:poss	_	_
 2	_	चा	ADP	_	Gender=Masc|Number=Plur	1	case	_	_
 3	उपकार	उपकार	NOUN	_	Case=Acc|Gender=Masc|Number=Plur	4	obj	_	_
-4	फेडायला	फेडणे	VERB	_	VerbForm=Supine	7	advcl	_	_
+4	फेडायला	फेडणे	VERB	_	VerbForm=Sup	7	advcl	_	_
 5	मी	मी	PRON	_	Case=Nom|Number=Sing|Person=1	7	nsubj	_	_
 6	बहीण	बहीण	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	7	obj	_	_
 7	झाले	होणे	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Person=1|VerbForm=Fin	0	root	_	_
@@ -3170,7 +3170,7 @@
 # text = तिने राजपुत्राला हृदयाशी धरले .
 1	तिने	तो	PRON	_	Case=Erg|Distance=Dist|Gender=Fem|Number=Sing|Person=3	4	nsubj	_	_
 2	राजपुत्राला	राजपुत्र	NOUN	_	Case=Dat|Gender=Masc|Number=Sing	4	obj	_	_
-3	हृदयाशी	हृदय	NOUN	_	Case=Soc|Gender=Masc|Number=Sing	4	obl	_	_
+3	हृदयाशी	हृदय	NOUN	_	Case=Com|Gender=Masc|Number=Sing	4	obl	_	_
 4	धरले	धरणे	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
 5	.	.	PUNCT	_	_	4	punct	_	_
 
@@ -3389,8 +3389,8 @@
 2	कुत्र्याला	कुत्रा	NOUN	_	Case=Dat|Gender=Masc|Number=Sing	7	nsubj	_	_
 3	ह्या	हा	DET	_	Case=Obl|Distance=Prox|PronType=Dem	5	det	_	_
 4	दोन	दोन	NUM	_	_	5	nummod	_	_
-5	मुलांशी	मुल	NOUN	_	Case=Soc|Gender=Neut|Number=Plur	6	obl	_	_
-6	खेळायला	खेळणे	VERB	_	VerbForm=Supine	7	xcomp	_	_
+5	मुलांशी	मुल	NOUN	_	Case=Com|Gender=Neut|Number=Plur	6	obl	_	_
+6	खेळायला	खेळणे	VERB	_	VerbForm=Sup	7	xcomp	_	_
 7	आवडते	आवडणे	VERB	_	Aspect=Imp|Gender=Neut|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 8	.	.	PUNCT	_	_	7	punct	_	_
 
@@ -3653,7 +3653,7 @@
 # sent_id = 330
 # text = लोकांना कुत्र्यांशी बोलल्यावर काही उत्तर मिळत नाही !
 1	लोकांना	लोक	NOUN	_	Case=Dat|Gender=Masc|Number=Plur	7	nsubj	_	_
-2	कुत्र्यांशी	कुत्रा	NOUN	_	Case=Soc|Gender=Masc|Number=Plur	3	obj	_	_
+2	कुत्र्यांशी	कुत्रा	NOUN	_	Case=Com|Gender=Masc|Number=Plur	3	obj	_	_
 3-4	बोलल्यावर	_	_	_	_	_	_	_	_
 3	_	बोलणे	VERB	_	Aspect=Perf|Case=Obl|VerbForm=Fin	7	advcl	_	_
 4	_	वर	ADP	_	_	3	case	_	_
@@ -4218,7 +4218,7 @@
 5	मागशील	मागणे	VERB	_	Number=Sing|Person=2|Tense=Fut|VerbForm=Fin	7	acl	_	_
 6	ती	तो	DET	_	Distance=Dist|Gender=Fem|Number=Sing|PronType=Dem	7	det	_	_
 7	किंमत	किंमत	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	8	obj	_	_
-8	द्यायला	देणे	VERB	_	VerbForm=Supine	9	xcomp	_	_
+8	द्यायला	देणे	VERB	_	VerbForm=Sup	9	xcomp	_	_
 9	तयार	तयार	ADV	_	_	0	root	_	_
 10	झालो	होणे	AUX	_	Aspect=Perf|Gender=Masc|Number=Sing|Person=1|VerbForm=Fin	9	aux	_	_
 11	होतो	असणे	AUX	_	Gender=Masc|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	9	aux	_	_

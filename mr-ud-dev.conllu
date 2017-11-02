@@ -156,7 +156,7 @@
 # sent_id = 455
 # text = भीमा दुःखाने घरी गेला .
 1	भीमा	भीमा	PROPN	_	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
-2	दुःखाने	दुःख	NOUN	_	Case=Inst|Gender=Neut|Number=Sing	4	obl	_	_
+2	दुःखाने	दुःख	NOUN	_	Case=Ins|Gender=Neut|Number=Sing	4	obl	_	_
 3	घरी	घरी	ADV	_	_	4	obl	_	_
 4	गेला	जाणे	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
 5	.	.	PUNCT	_	_	4	punct	_	_
@@ -540,7 +540,7 @@
 4	?	?	PUNCT	_	_	3	punct	_	_
 5	"	"	PUNCT	_	_	3	punct	_	_
 6	म्हाताऱ्या	म्हातारा	ADJ	_	Case=Obl	7	amod	_	_
-7	गुरवाने	गुरव	NOUN	_	Case=Inst|Gender=Masc|Number=Sing	8	nsubj	_	_
+7	गुरवाने	गुरव	NOUN	_	Case=Ins|Gender=Masc|Number=Sing	8	nsubj	_	_
 8	विचारले	विचारणे	VERB	_	Aspect=Perf|Gender=Masc|Number=Plur|Person=3|VerbForm=Fin	3	parataxis	_	_
 9	.	.	PUNCT	_	_	8	punct	_	_
 
