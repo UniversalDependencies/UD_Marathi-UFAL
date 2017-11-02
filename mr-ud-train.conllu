@@ -676,7 +676,7 @@
 # text = राजपुत्र जवळच्या तलवारीने मांडीचे मांस कापून सापाकडे फेकले .
 1	राजपुत्र	राजपुत्र	NOUN	_	Case=Erg|Gender=Masc|Number=Sing	7	nsubj	_	_
 2	जवळच्या	जवळचा	ADJ	_	Case=Obl	3	amod	_	_
-3	तलवारीने	तलवार	NOUN	_	Case=Inst|Gender=Fem|Number=Sing	7	obl	_	_
+3	तलवारीने	तलवार	NOUN	_	Case=Ins|Gender=Fem|Number=Sing	7	obl	_	_
 4-5	मांडीचे	_	_	_	_	_	_	_	_
 4	_	मांडी	NOUN	_	Case=Obl|Gender=Fem|Number=Sing	6	nmod:poss	_	_
 5	_	चा	ADP	_	Gender=Masc|Number=Plur	4	case	_	_
@@ -988,12 +988,12 @@
 4	_	चा	ADP	_	Case=Nom|Gender=Masc|Number=Sing	3	case	_	_
 5	लाडू	लाडू	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	7	dislocated	_	_
 6	,	,	PUNCT	_	_	5	punct	_	_
-7	त्याने	तो	PRON	_	Case=Inst|Distance=Dist|Gender=Masc|Number=Sing|Person=3	10	nsubj	_	_
+7	त्याने	तो	PRON	_	Case=Ins|Distance=Dist|Gender=Masc|Number=Sing|Person=3	10	nsubj	_	_
 8	नाही	नाही	AUX	_	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin	10	aux	_	_
 9	तृप्ती	तृप्ती	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	11	obj	_	_
 10	व्हावयाची	होणे	VERB	_	Gender=Fem|Mood=Des|Number=Sing|Person=3|VerbForm=Part	0	root	_	_
 11	तर	तर	SCONJ	_	_	12	mark	_	_
-12	कशाने	काय	PRON	_	Case=Inst|PronType=Int	10	advcl	_	_
+12	कशाने	काय	PRON	_	Case=Ins|PronType=Int	10	advcl	_	_
 13	?	?	PUNCT	_	_	12	punct	_	_
 
 # sent_id = 93
@@ -1067,7 +1067,7 @@
 # sent_id = 99
 # text = मला सन्मानाने मिरवत नेण्यासाठी या !
 1	मला	मी	PRON	_	Case=Acc|Number=Sing|Person=1	3	obj	_	_
-2	सन्मानाने	सन्मान	NOUN	_	Case=Inst|Gender=Masc|Number=Sing	3	obl	_	_
+2	सन्मानाने	सन्मान	NOUN	_	Case=Ins|Gender=Masc|Number=Sing	3	obl	_	_
 3	मिरवत	मिरवणे	VERB	_	Aspect=Imp|VerbForm=Part	4	advcl	_	_
 4-5	नेण्यासाठी	_	_	_	_	_	_	_	_
 4	_	नेणे	VERB	_	Case=Obl|InfForm=Dict|VerbForm=Inf	6	advcl	_	_
@@ -1389,7 +1389,7 @@
 # sent_id = 132
 # text = थोड्या वेळाने खुशमस्कऱ्या जायला निघाला .
 1	थोड्या	थोडा	ADJ	_	Case=Obl	2	amod	_	_
-2	वेळाने	वेळ	NOUN	_	Case=Inst|Gender=Fem|Number=Sing	4	obl	_	_
+2	वेळाने	वेळ	NOUN	_	Case=Ins|Gender=Fem|Number=Sing	4	obl	_	_
 3	खुशमस्कऱ्या	खुशमस्कऱ्या	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
 4	जायला	जाणे	VERB	_	VerbForm=Supine	0	root	_	_
 5	निघाला	निघाला	AUX	_	Aspect=Perf|Gender=Masc|Number=Sing|Person=3|VerbForm=Fin	4	aux	_	_
@@ -2153,7 +2153,7 @@
 1-2	त्याच	_	_	_	_	_	_	_	_
 1	_	तो	DET	_	Case=Obl|Distance=Dist|PronType=Dem	3	det	_	_
 2	_	च	PART	_	_	1	discourse	_	_
-3	रस्त्याने	रस्ता	NOUN	_	Case=Inst|Gender=Masc|Number=Sing	5	obl	_	_
+3	रस्त्याने	रस्ता	NOUN	_	Case=Ins|Gender=Masc|Number=Sing	5	obl	_	_
 4	राजपुत्राला	राजपुत्र	NOUN	_	Case=Dat|Gender=Masc|Number=Sing	5	obj	_	_
 5	पाठवू	पाठवणे	VERB	_	Mood=Imp|Number=Plur|Person=1|VerbForm=Fin	0	root	_	_
 6	!	!	PUNCT	_	_	5	punct	_	_
@@ -2596,7 +2596,7 @@
 4-5	त्याच	_	_	_	_	_	_	_	_
 4	_	तो	DET	_	Distance=Dist|Gender=Fem|Number=Plur|PronType=Dem	6	det	_	_
 5	_	च	PART	_	_	4	discourse	_	_
-6	मार्गाने	मार्ग	NOUN	_	Case=Inst|Gender=Masc|Number=Sing	9	obl	_	_
+6	मार्गाने	मार्ग	NOUN	_	Case=Ins|Gender=Masc|Number=Sing	9	obl	_	_
 7-8	तूही	_	_	_	_	_	_	_	_
 7	_	तू	PRON	_	Case=Nom|Number=Sing|Person=2	9	nsubj	_	_
 8	_	ही	PART	_	_	7	discourse	_	_
@@ -2625,7 +2625,7 @@
 # sent_id = 236
 # text = राजपुत्र लगबगीने आपल्या राजवाड्यात आला व भावंडांना म्हणाला , हा राजा लहरी दिसतो .
 1	राजपुत्र	राजपुत्र	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
-2	लगबगीने	लगबग	NOUN	_	Case=Inst|Gender=Fem|Number=Sing	6	obl	_	_
+2	लगबगीने	लगबग	NOUN	_	Case=Ins|Gender=Fem|Number=Sing	6	obl	_	_
 3-4	आपल्या	_	_	_	_	_	_	_	_
 3	_	आपण	PRON	_	PronType=Prs	5	nmod:poss	_	_
 4	_	चा	ADP	_	Case=Obl	3	case	_	_
@@ -3211,7 +3211,7 @@
 # sent_id = 291
 # text = तो नम्रतेने म्हणाला .
 1	तो	तो	PRON	_	Case=Nom|Distance=Dist|Gender=Masc|Number=Sing|Person=3	3	nsubj	_	_
-2	नम्रतेने	नम्रते	NOUN	_	Case=Inst|Gender=Fem|Number=Sing	3	obl	_	_
+2	नम्रतेने	नम्रते	NOUN	_	Case=Ins|Gender=Fem|Number=Sing	3	obl	_	_
 3	म्हणाला	म्हणणे	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
 4	.	.	PUNCT	_	_	3	punct	_	_
 
@@ -3993,7 +3993,7 @@
 6	या	हा	DET	_	Distance=Prox|PronType=Dem	9	det	_	_
 7	ना	ना	CCONJ	_	_	8	cc	_	_
 8	त्या	तो	DET	_	Distance=Dist|PronType=Dem	6	conj	_	_
-9	मार्गाने	मार्ग	NOUN	_	Case=Inst|Gender=Masc|Number=Sing	11	obl	_	_
+9	मार्गाने	मार्ग	NOUN	_	Case=Ins|Gender=Masc|Number=Sing	11	obl	_	_
 10	आपलीशी	आपलीशी	ADJ	_	Case=Nom	11	xcomp	_	_
 11	केलीत	करणे	VERB	_	Aspect=Perf|Gender=Neut|Number=Plur|Person=3|VerbForm=Fin	0	root	_	_
 12	.	.	PUNCT	_	_	11	punct	_	_
@@ -4306,7 +4306,7 @@
 # sent_id = 386
 # text = त्यानेही दोन - चार कलमे लावली होती .
 1-2	त्यानेही	_	_	_	_	_	_	_	_
-1	_	तो	PRON	_	Case=Inst|Distance=Dist|Gender=Neut|Number=Sing|Person=3	7	nsubj	_	_
+1	_	तो	PRON	_	Case=Ins|Distance=Dist|Gender=Neut|Number=Sing|Person=3	7	nsubj	_	_
 2	_	ही	PART	_	_	1	discourse	_	_
 3	दोन	दोन	NUM	_	_	6	nummod	_	_
 4	-	-	PUNCT	_	_	6	punct	_	_
