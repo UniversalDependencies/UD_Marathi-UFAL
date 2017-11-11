@@ -5,18 +5,120 @@
        fused is the number of tokens that are split to two or more syntactic words
        The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
   <size>
-    <total><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></total>
+    <total><sentences>466</sentences><tokens>3506</tokens><words>3849</words><fused>331</fused></total>
   </size>
-  <lemmas unique="0" /><!--  -->
-  <forms unique="0" /><!--  -->
-  <fusions unique="0" /><!--  -->
-  <!-- Statistics of universal POS tags. The comments with the most frequent lemmas are optional (but easy to obtain). -->
-  <tags unique="0">
+  <lemmas unique="700" /><!-- ., तो, चा, ,, असणे, ", येणे, मी, म्हणणे, !, जाणे, तू, ?, राजपुत्र, राजा -->
+  <forms unique="948" /><!-- ., ,, ", तो, आहे, !, ?, ती, म्हणाला, नाही, एक, आणि, मी, राजपुत्र, आला -->
+  <fusions unique="231" /><!-- माझी, तुझी, त्याच्या, त्याचे, आपल्या, तिच्या, राजाच्या, कानावर, तुमचा, माझा, अंतरावर, तुझे, त्याची, माझ्या, राजपुत्राची -->
+  <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
+  <tags unique="15">
+    <tag name="ADJ">124</tag><!-- सारा, सारी, असा, जुना, थोडा, शहाणा, अर्धा, छोटा, म्हातारा, सुखी -->
+    <tag name="ADP">298</tag><!-- चा, वर, कडे, तील, साठी, बाहेर, तून, बरोबर, वरती, प्रमाणे -->
+    <tag name="ADV">190</tag><!-- का, घरी, आता, कुठे, आज, तेथे, परत, पुन्हा, कसा, माहित -->
+    <tag name="AUX">218</tag><!-- असणे, नाही, लागणे, नको, होणे, येणे, देणे, नका, नकोस, नसणे -->
+    <tag name="CCONJ">64</tag><!-- आणि, व, परंतु, पण, तर, किंवा, ना, नाहीतर, म्हणून, आणखी -->
+    <tag name="DET">112</tag><!-- तो, एक, हा, काही, दोघे, कोणी, तुम्हा, मी -->
+    <tag name="INTJ">22</tag><!-- नाही, दादा, रे, अरे, डराव, फण्, ग, ठीक, ना, हो -->
+    <tag name="NOUN">829</tag><!-- राजपुत्र, राजा, आई, भाऊ, बहीण, जमीन, लाडू, राणी, खुशमस्कऱ्या, दादा -->
+    <tag name="NUM">34</tag><!-- दोन, एक, हजार, चार, पाच, पन्नास, चाळीस, दहा, दुसरा, लाख -->
+    <tag name="PART">47</tag><!-- ही, च, च्या, चा, तरी, सुद्धा -->
+    <tag name="PRON">379</tag><!-- तो, मी, तू, कोण, काय, आपण, हा, दोघे, सर्व, काही -->
+    <tag name="PROPN">55</tag><!-- जेम्स, भीमा, केशवचंद्र, मेरी, भीम, केशवबाबा, भीमी -->
+    <tag name="PUNCT">748</tag><!-- ., ,, ", !, ?, ', -, ; -->
+    <tag name="SCONJ">26</tag><!-- असे, की, म्हणून, तरी, असा, कि, तर, तसा -->
+    <tag name="VERB">703</tag><!-- येणे, म्हणणे, जाणे, करणे, होणे, देणे, बसणे, घेणे, विचारणे, दिसणे -->
   </tags>
-  <!-- Statistics of features and values. The comments with the most frequent word forms are optional (but easy to obtain). -->
-  <feats unique="0">
+  <!-- Statistics of features and values. The comments show the most frequent word forms. -->
+  <feats unique="47">
+    <feat name="Aspect" value="Hab" upos="AUX,VERB">10</feat><!-- करणारा, करित, चमकणारी, झळाळणाऱ्या, झोपे, नसे, मरायचा, येई, वाहणाऱ्या, हंबरायची -->
+    <feat name="Aspect" value="Imp" upos="AUX,VERB">124</feat><!-- येत, चालत, दिसत, बघते, असतो, करत, करीत, जात, दिसतो, बघत -->
+    <feat name="Aspect" value="Perf" upos="AUX,VERB">424</feat><!-- म्हणाला, आला, गेला, आली, _, म्हणाली, घेऊन, बसला, विचारले, निघाला -->
+    <feat name="Aspect" value="Prosp" upos="VERB">16</feat><!-- राहणार, विकणार, येणार, करणार, जाणार, बोलणार, मांडणार, मारणार, लाटणार, सोडणार -->
+    <feat name="Case" value="Abl" upos="NOUN">1</feat><!-- राखेतून -->
+    <feat name="Case" value="Acc" upos="NOUN,PRON,PROPN">181</feat><!-- काय, जमीन, निरोप, बहीण, लाडू, फुले, _, उपकार, भाऊ, भूक -->
+    <feat name="Case" value="Com" upos="NOUN">4</feat><!-- कुत्र्यांशी, पोटाशी, मुलांशी, हृदयाशी -->
+    <feat name="Case" value="Dat" upos="NOUN,PRON,PROPN">134</feat><!-- त्याला, मला, तिला, तुला, राजाला, राजपुत्राला, आईला, त्यांना, _, मेरीला -->
+    <feat name="Case" value="Erg" upos="NOUN,PRON,PROPN">68</feat><!-- त्याने, राजपुत्राने, राजाने, कोणी, त्यांनी, केशवचंद्राने, तिने, आईने, पहारेकऱ्यांनी, बायकोने -->
+    <feat name="Case" value="Ins" upos="NOUN,PRON">16</feat><!-- पैशाने, मार्गाने, _, कशाने, गुरवाने, चिंतेने, तलवारीने, त्याने, दुःखाने, नम्रतेने -->
+    <feat name="Case" value="Loc" upos="NOUN,VERB">71</feat><!-- _, मनात, कळविण्यात, काठी, घरात, तोंडात, राजवाड्यात, स्वर्गात, न्यायालयात, पाया -->
+    <feat name="Case" value="Nom" upos="ADJ,ADP,DET,NOUN,PRON,PROPN,VERB">629</feat><!-- तो, ती, _, मी, राजपुत्र, राजा, दादा, भीमा, कोण, जेम्स -->
+    <feat name="Case" value="Obl" upos="ADJ,ADP,AUX,DET,NOUN,PRON,PROPN,VERB">320</feat><!-- _, त्या, एका, या, थोड्या, शेतकरी, अंधाऱ्या, जुन्या, भाऊ, मोठ्या -->
+    <feat name="Case" value="Voc" upos="NOUN">2</feat><!-- देवा, पोरी -->
+    <feat name="Clusivity" value="Incl" upos="PRON">5</feat><!-- _, आपण -->
+    <feat name="Distance" value="Dist" upos="DET,PRON">226</feat><!-- तो, _, ती, त्याला, त्या, त्याने, ते, तिला, त्यांना, त्यांनी -->
+    <feat name="Distance" value="Prox" upos="DET,PRON">47</feat><!-- ही, या, हे, तो, ती, त्या, हा, आम्ही, याला, ह्या -->
+    <feat name="Gender" value="Fem" upos="ADJ,ADP,AUX,DET,NOUN,PRON,PROPN,VERB">480</feat><!-- _, ती, आली, बहीण, जमीन, म्हणाली, तिला, ही, होती, आई -->
+    <feat name="Gender" value="Masc" upos="ADJ,ADP,AUX,DET,NOUN,PRON,PROPN,VERB">938</feat><!-- _, तो, म्हणाला, राजपुत्र, आला, गेला, होता, त्याला, भाऊ, त्याने -->
+    <feat name="Gender" value="Neut" upos="ADJ,ADP,AUX,DET,NOUN,PRON,VERB">329</feat><!-- _, राजा, होते, हे, विचारले, होती, ते, लागली, फुले, शेत -->
+    <feat name="InfForm" value="Dict" upos="VERB">22</feat><!-- _, कळविण्यात, उडवण्यात, उभारण्यात, करण्यात, ठेवण्यात, देणे, देण्यात, पाठविण्यात, बोलावणे -->
+    <feat name="InfForm" value="Incp" upos="VERB">22</feat><!-- होऊ, ऐकू, करू, चालू, येऊ, _, खेळू, चालवू, जाऊ, देऊ -->
+    <feat name="Mood" value="Des" upos="VERB">6</feat><!-- जायचे, द्यायची, व्हावयाची, शमवायची, शोधायचा, सांगायचे -->
+    <feat name="Mood" value="Imp" upos="AUX,VERB">80</feat><!-- दे, जा, द्या, हो, करा, घ्या, पाठवा, सांग, करूस, जाऊ -->
+    <feat name="Mood" value="Ind" upos="VERB">2</feat><!-- मरायचा, हंबरायची -->
+    <feat name="Mood" value="Sub" upos="AUX,VERB">9</feat><!-- म्हणावे, द्यावे, नये, पिकवी, फेडावे, यावे, वाचवावा, विकावी -->
+    <feat name="Number" value="Plur" upos="ADJ,ADP,AUX,DET,NOUN,PRON,PROPN,VERB">375</feat><!-- _, होती, तुम्ही, होते, लागली, आहेत, दोघे, नका, फुले, रुपये -->
+    <feat name="Number" value="Sing" upos="ADJ,ADP,AUX,DET,NOUN,PRON,PROPN,VERB">1764</feat><!-- _, तो, आहे, ती, म्हणाला, नाही, मी, राजपुत्र, एक, आला -->
+    <feat name="Person" value="1" upos="AUX,PRON,VERB">106</feat><!-- _, मी, मला, नाही, झालो, आपण, आम्ही, जाऊ, सांगतो, होतो -->
+    <feat name="Person" value="2" upos="AUX,PRON,VERB">145</feat><!-- _, तुला, दे, तुम्ही, तू, जा, द्या, नका, हो, करा -->
+    <feat name="Person" value="3" upos="AUX,PRON,VERB">736</feat><!-- आहे, _, तो, म्हणाला, ती, नाही, आला, होती, गेला, त्याला -->
+    <feat name="Polarity" value="Neg" upos="AUX,VERB">58</feat><!-- नाही, नका, नाहीत, नको, नकोस, म्हणू, रडू, घालवू, घेऊस, नये -->
+    <feat name="PronType" value="Dem" upos="DET">82</feat><!-- तो, त्या, ती, या, ही, _, हा, हे, ते, आम्ही -->
+    <feat name="PronType" value="Ind" upos="DET,PRON">31</feat><!-- एक, एका, काही, _, कोणी -->
+    <feat name="PronType" value="Int" upos="PRON">29</feat><!-- काय, कोण, कोणी, _, कशाने, कोणता -->
+    <feat name="PronType" value="Prs" upos="PRON">13</feat><!-- _, आपण, आपापल्या -->
+    <feat name="PronType" value="Rel" upos="PRON">3</feat><!-- जो, ते -->
+    <feat name="PronType" value="Tot" upos="PRON">3</feat><!-- सर्वांना, सर्वांनी -->
+    <feat name="Tense" value="Fut" upos="AUX,VERB">22</feat><!-- येईल, असेल, _, असतील, उडवीन, करशील, घालतील, जाल, देईल, मागशील -->
+    <feat name="Tense" value="Past" upos="AUX,VERB">64</feat><!-- होती, होता, होते, होतो, करित, झोपे, नव्हते, नसे, मरायचा, हंबरायची -->
+    <feat name="Tense" value="Pres" upos="AUX,VERB">121</feat><!-- आहे, आहेत, बघते, असतो, दिसतो, सांगतो, देते, म्हणते, येते, येतो -->
+    <feat name="VerbForm" value="Conv" upos="VERB">97</feat><!-- घेऊन, करून, निघून, येऊन, जाऊन, म्हणून, बसून, कापून, देऊन, धरून -->
+    <feat name="VerbForm" value="Fin" upos="AUX,VERB">680</feat><!-- आहे, म्हणाला, नाही, आला, होती, गेला, होता, होते, आली, _ -->
+    <feat name="VerbForm" value="Inf" upos="VERB">44</feat><!-- _, होऊ, कळविण्यात, ऐकू, करू, चालू, येऊ, उडवण्यात, उभारण्यात, करण्यात -->
+    <feat name="VerbForm" value="Part" upos="AUX,VERB">90</feat><!-- येत, चालत, दिसत, करत, करीत, जात, बघत, रडत, शकत, होत -->
+    <feat name="VerbForm" value="Sup" upos="VERB">9</feat><!-- घ्यायला, द्यायला, करायला, खेळायला, जायला, फेडायला, शिंपायला -->
+    <feat name="Voice" value="Cau" upos="VERB">2</feat><!-- बघवत, बसविले -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
-  <deps unique="0">
+  <deps unique="40">
+    <dep name="acl">9</dep>
+    <dep name="acl:relcl">5</dep>
+    <dep name="advcl">117</dep>
+    <dep name="advmod">143</dep>
+    <dep name="amod">88</dep>
+    <dep name="appos">3</dep>
+    <dep name="aux">140</dep>
+    <dep name="aux:pass">7</dep>
+    <dep name="case">304</dep>
+    <dep name="cc">65</dep>
+    <dep name="ccomp">24</dep>
+    <dep name="compound">6</dep>
+    <dep name="compound:lvc">45</dep>
+    <dep name="compound:redup">1</dep>
+    <dep name="compound:svc">32</dep>
+    <dep name="conj">95</dep>
+    <dep name="cop">66</dep>
+    <dep name="csubj">2</dep>
+    <dep name="det">113</dep>
+    <dep name="discourse">57</dep>
+    <dep name="dislocated">8</dep>
+    <dep name="fixed">4</dep>
+    <dep name="flat">8</dep>
+    <dep name="goeswith">1</dep>
+    <dep name="iobj">30</dep>
+    <dep name="mark">28</dep>
+    <dep name="nmod">5</dep>
+    <dep name="nmod:poss">156</dep>
+    <dep name="nsubj">480</dep>
+    <dep name="nsubj:own">4</dep>
+    <dep name="nsubj:pass">7</dep>
+    <dep name="nummod">32</dep>
+    <dep name="obj">250</dep>
+    <dep name="obl">176</dep>
+    <dep name="orphan">1</dep>
+    <dep name="parataxis">75</dep>
+    <dep name="punct">747</dep>
+    <dep name="root">466</dep>
+    <dep name="vocative">29</dep>
+    <dep name="xcomp">20</dep>
   </deps>
 </treebank>
