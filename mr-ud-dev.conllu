@@ -190,7 +190,7 @@
 4	ठरलो	ठरणे	VERB	_	Aspect=Perf|Number=Plur|Person=1|VerbForm=Fin	0	root	_	_
 5	नि	नि	CCONJ	_	_	8	cc	_	_
 6	चोर	चोर	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
-7	मालक	मालक	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	8	obj	_	_
+7	मालक	मालक	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	8	obj	_	_
 8	ठरला	ठरणे	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Person=3|VerbForm=Fin	4	conj	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	8	punct	_	SpaceAfter=No
 10	"	"	PUNCT	_	_	4	punct	_	_
@@ -252,7 +252,7 @@
 # sent_id = 463
 # text = केशवचंद्राने वशिला लावून राजा आपल्या गावी येईल असे केले .
 1	केशवचंद्राने	केशवचंद्र	PROPN	_	Case=Erg|Gender=Masc|Number=Sing	10	nsubj	_	_
-2	वशिला	वशिला	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	3	obj	_	_
+2	वशिला	वशिला	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	3	obj	_	_
 3	लावून	लावणे	VERB	_	Aspect=Perf|VerbForm=Conv	10	advcl	_	_
 4	राजा	राजा	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	8	nsubj	_	_
 5-6	आपल्या	_	_	_	_	_	_	_	_
@@ -376,7 +376,7 @@
 1	म्हणून	म्हणून	SCONJ	_	_	5	mark	_	_
 2	त्याने	तो	PRON	_	Case=Erg|Distance=Dist|Gender=Masc|Number=Sing|Person=3	5	nsubj	_	_
 3	सर्वांना	सर्व	NOUN	_	Case=Dat|Gender=Masc|Number=Plur	5	iobj	_	_
-4	ताकीद	ताकीद	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	5	obj	_	_
+4	ताकीद	ताकीद	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	5	obj	_	_
 5	दिली	देणे	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
 6	की	की	SCONJ	_	_	12	mark	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	12	punct	_	_
@@ -526,7 +526,7 @@
 5	गेला	जाणे	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
 6	आणि	आणि	CCONJ	_	_	10	cc	_	_
 7	ती	तो	DET	_	Distance=Dist|Gender=Fem|Number=Sing|PronType=Dem	8	det	_	_
-8	घंटा	घंटा	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	10	obj	_	_
+8	घंटा	घंटा	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	10	obj	_	_
 9	दाणदाण	दाणदाण	ADV	_	_	10	advmod	_	_
 10	वाजवू	वाजवणे	VERB	_	InfForm=Incp|VerbForm=Inf	5	conj	_	_
 11	लागला	लागणे	AUX	_	Aspect=Perf|Gender=Masc|Number=Sing|Person=3|VerbForm=Fin	10	aux	_	SpaceAfter=No
@@ -547,7 +547,7 @@
 # sent_id = 487
 # text = " न्याय मेला . " भीमा म्हणाला .
 1	"	"	PUNCT	_	_	3	punct	_	SpaceAfter=No
-2	न्याय	न्याय	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	3	obj	_	_
+2	न्याय	न्याय	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	3	obj	_	_
 3	मेला	मरणे	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No
 4	.	.	PUNCT	_	_	3	punct	_	SpaceAfter=No
 5	"	"	PUNCT	_	_	3	punct	_	_
@@ -580,7 +580,7 @@
 1-2	घंटेचा	_	_	_	_	_	_	_	_
 1	_	घंटे	NOUN	_	Case=Obl|Gender=Fem|Number=Sing	3	nmod:poss	_	SpaceAfter=No
 2	_	चा	ADP	_	Gender=Masc|Number=Sing	1	case	_	_
-3	आवाज	आवाज	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	4	obj	_	_
+3	आवाज	आवाज	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	4	obj	_	_
 4	ऐकून	ऐकणे	VERB	_	Aspect=Perf|VerbForm=Conv	10	advcl	_	_
 5-6	देवीच्या	_	_	_	_	_	_	_	_
 5	_	देवी	NOUN	_	Case=Obl|Gender=Fem|Number=Sing	7	nmod:poss	_	SpaceAfter=No
