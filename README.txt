@@ -12,17 +12,24 @@ The treebank has been manually annotated by Vinit Ravishankar. We thank Dan Zema
 
 # Changelog
 
+* 2018-04-15 v2.2
+  * Repository renamed from UD_Marathi to UD_Marathi-UFAL.
 * 2017-11-02 v2.1
   * First release in UD
 
-=== Machine-readable metadata =================================================
-Documentation status: stub
-Data source: manual
+<pre>
+=== Machine-readable metadata (DO NOT REMOVE!) ================================
 Data available since: UD v2.1
 License: CC BY-SA 4.0
 Includes text: yes
-Contributing: here
 Genre: fiction wiki
+Lemmas: manual native
+UPOS: manual native
+XPOS: not available
+Features: manual native
+Relations: manual native
 Contributors: Ravishankar, Vinit
+Contributing: here
 Contact: vinit.ravishankar.16@um.edu.mt
 ===============================================================================
+</pre>
