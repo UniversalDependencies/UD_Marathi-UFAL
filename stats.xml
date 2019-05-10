@@ -6,6 +6,9 @@
        The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
   <size>
     <total><sentences>466</sentences><tokens>3506</tokens><words>3849</words><fused>331</fused></total>
+    <train><sentences>373</sentences><tokens>2730</tokens><words>2997</words><fused>256</fused></train>
+    <dev><sentences>46</sentences><tokens>400</tokens><words>440</words><fused>39</fused></dev>
+    <test><sentences>47</sentences><tokens>376</tokens><words>412</words><fused>36</fused></test>
   </size>
   <lemmas unique="700" /><!-- ., तो, चा, ,, असणे, ", येणे, मी, म्हणणे, !, जाणे, तू, ?, राजपुत्र, राजा -->
   <forms unique="948" /><!-- ., ,, ", तो, आहे, !, ?, ती, म्हणाला, नाही, एक, आणि, मी, राजपुत्र, आला -->
