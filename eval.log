@@ -3,9 +3,9 @@ commit d71d1b63fd448a8b098d4b5a0329f8da3f7413b0
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Date:   Sat Apr 21 19:02:58 2018 +0200
 Evaluating the following revision of UD_Marathi-UFAL:
-commit f122054dce74bc38f907118307c2df902d3614ae
-Merge: 85f73ca dab4077
+commit 0f262de3727fa1097d566a7c80a2cc6f35197f28
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Fri May 10 21:30:36 2019 +0200
 Size: counted 3849 of 3849 words (nodes).
 Size: min(0, log((N/1000)**2)) = 2.69562674860322.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -24,12 +24,54 @@ Udapi: worst expected case (threshold) is one bug per 10 words. There are 3849 w
 Genres: found 2 out of 17 known.
 Availability: '_' is the most frequent form.
 validate.py --lang mr --max-err=10 UD_Marathi-UFAL/mr_ufal-ud-dev.conllu
-*** PASSED ***
+[Line 88 Sent 451 Node 2]: [L3 Syntax leaf-mark-case] 'case' not expected to have children (2:_:case --> 3:_:discourse)
+[Line 119 Sent 452 Node 18]: [L5 Syntax cop-lemma] 'नाही' is not a copula in language [mr]
+[Line 203 Sent 459 Node 3]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
+[Line 289 Sent 465 Node 7]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'VERB'
+[Line 389 Sent 471 Node 13]: [L5 Morpho aux-lemma] 'नको' is not an auxiliary verb in language [mr]
+[Line 594 Sent 489 Node 12]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [13, 14, 15, 16]
+Morpho errors: 1
+Syntax errors: 5
+*** FAILED *** with 6 errors
+Exit code: 1
 validate.py --lang mr --max-err=10 UD_Marathi-UFAL/mr_ufal-ud-test.conllu
-*** PASSED ***
+[Line 41 Sent 397 Node 5]: [L5 Morpho aux-lemma] 'नसणे' is not an auxiliary verb in language [mr]
+[Line 87 Sent 402 Node 10]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'VERB'
+[Line 265 Sent 415 Node 13]: [L5 Syntax cop-lemma] 'नाही' is not a copula in language [mr]
+[Line 345 Sent 422 Node 9]: [L5 Syntax cop-lemma] 'नाही' is not a copula in language [mr]
+[Line 361 Sent 424 Node 7]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [8]
+[Line 379 Sent 425 Node 5]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'SCONJ'
+[Line 484 Sent 434 Node 4]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'VERB'
+Morpho errors: 1
+Syntax errors: 6
+*** FAILED *** with 7 errors
+Exit code: 1
 validate.py --lang mr --max-err=10 UD_Marathi-UFAL/mr_ufal-ud-train.conllu
-*** PASSED ***
-Validity: 1
+[Line 48 Sent 4 Node 5]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [6]
+[Line 172 Sent 14 Node 4]: [L3 Syntax leaf-aux-cop] 'cop' not expected to have children (4:झालोत:cop --> 1:आपण:nsubj)
+[Line 173 Sent 14 Node 4]: [L3 Syntax leaf-aux-cop] 'cop' not expected to have children (4:झालोत:cop --> 2:आता:advmod)
+[Line 176 Sent 14 Node 4]: [L3 Syntax leaf-aux-cop] 'cop' not expected to have children (4:झालोत:cop --> 5:असे:mark)
+[Line 175 Sent 14 Node 4]: [L5 Morpho aux-lemma] 'झालोत' is not an auxiliary verb in language [mr]
+[Line 175 Sent 14 Node 4]: [L5 Syntax cop-lemma] 'झालोत' is not a copula in language [mr]
+[Line 268 Sent 21 Node 3]: [L3 Syntax leaf-aux-cop] 'aux' not expected to have children (3:होता:aux --> 1:पायी:advmod)
+[Line 366 Sent 32 Node 4]: [L3 Syntax rel-upos-mark] 'mark' should not be 'PRON'
+[Line 385 Sent 33 Node 7]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP'
+[Line 470 Sent 40 Node 2]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP'
+...suppressing further errors regarding Syntax
+[Line 564 Sent 49 Node 4]: [L5 Morpho aux-lemma] 'नकोस' is not an auxiliary verb in language [mr]
+[Line 1395 Sent 132 Node 5]: [L5 Morpho aux-lemma] 'निघाला' is not an auxiliary verb in language [mr]
+[Line 1720 Sent 160 Node 2]: [L5 Morpho aux-lemma] 'नको' is not an auxiliary verb in language [mr]
+[Line 1905 Sent 174 Node 2]: [L5 Morpho aux-lemma] 'नकोस' is not an auxiliary verb in language [mr]
+[Line 1922 Sent 176 Node 2]: [L5 Morpho aux-lemma] 'नको' is not an auxiliary verb in language [mr]
+[Line 2203 Sent 201 Node 2]: [L5 Morpho aux-lemma] 'नको' is not an auxiliary verb in language [mr]
+[Line 3067 Sent 275 Node 6]: [L5 Morpho aux-lemma] 'पाहिजे' is not an auxiliary verb in language [mr]
+[Line 3105 Sent 277 Node 7]: [L5 Morpho aux-lemma] 'नसणे' is not an auxiliary verb in language [mr]
+...suppressing further errors regarding Morpho
+Morpho errors: 12
+Syntax errors: 44
+*** FAILED *** with 56 errors
+Exit code: 1
+Validity: 0.01
 (weight=0.0769230769230769) * (score{features}=1) = 0.0769230769230769
 (weight=0.0769230769230769) * (score{genres}=0.117647058823529) = 0.00904977375565611
 (weight=0.0769230769230769) * (score{lemmas}=1) = 0.0769230769230769
@@ -38,6 +80,6 @@ Validity: 1
 (weight=0.0769230769230769) * (score{tags}=0.882352941176471) = 0.0678733031674208
 (weight=0.307692307692308) * (score{udapi}=0.01) = 0.00307692307692308
 (weight=0.0769230769230769) * (score{udeprels}=0.864864864864865) = 0.0665280665280665
-(TOTAL score=0.350916776878032) * (availability=0.1) * (validity=1) = 0.0350916776878032
+(TOTAL score=0.350916776878032) * (availability=0.1) * (validity=0.01) = 0.000350916776878032
 STARS = 0
-UD_Marathi-UFAL	0.0350916776878032	0
+UD_Marathi-UFAL	0.000350916776878032	0
