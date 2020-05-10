@@ -3,9 +3,9 @@ commit d71d1b63fd448a8b098d4b5a0329f8da3f7413b0
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Date:   Sat Apr 21 19:02:58 2018 +0200
 Evaluating the following revision of UD_Marathi-UFAL:
-commit 0f262de3727fa1097d566a7c80a2cc6f35197f28
+commit 9720b6f4fb7b88ddf152d80780e5765a5796f5c6
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Fri May 10 21:30:36 2019 +0200
+Date:   Tue Nov 12 17:29:12 2019 +0100
 Size: counted 3849 of 3849 words (nodes).
 Size: min(0, log((N/1000)**2)) = 2.69562674860322.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -19,7 +19,7 @@ Features: 2582 out of 3849 total words have one or more features.
 Features: source of annotation (from README) factor is 1.
 Universal relations: 32 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
-Udapi: found 992 bugs.
+Udapi: found 995 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 3849 words.
 Genres: found 2 out of 17 known.
 Availability: '_' is the most frequent form.
