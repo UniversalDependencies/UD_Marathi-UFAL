@@ -3,9 +3,9 @@ commit d71d1b63fd448a8b098d4b5a0329f8da3f7413b0
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Date:   Sat Apr 21 19:02:58 2018 +0200
 Evaluating the following revision of UD_Marathi-UFAL:
-commit 9720b6f4fb7b88ddf152d80780e5765a5796f5c6
+commit 6517acf2a7c950159d03f48bba1dc8fcf5070ac9
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue Nov 12 17:29:12 2019 +0100
+Date:   Sun May 10 18:26:52 2020 +0200
 Size: counted 3849 of 3849 words (nodes).
 Size: min(0, log((N/1000)**2)) = 2.69562674860322.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -38,16 +38,17 @@ validate.py --lang mr --max-err=10 UD_Marathi-UFAL/mr_ufal-ud-test.conllu
 [Line 41 Sent 397 Node 5]: [L5 Morpho aux-lemma] 'नसणे' is not an auxiliary verb in language [mr]
 [Line 87 Sent 402 Node 10]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'VERB'
 [Line 265 Sent 415 Node 13]: [L5 Syntax cop-lemma] 'नाही' is not a copula in language [mr]
+[Line 308 Sent 419 Node 5]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [4]
 [Line 345 Sent 422 Node 9]: [L5 Syntax cop-lemma] 'नाही' is not a copula in language [mr]
 [Line 361 Sent 424 Node 7]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [8]
 [Line 379 Sent 425 Node 5]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'SCONJ'
 [Line 484 Sent 434 Node 4]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'VERB'
 Morpho errors: 1
-Syntax errors: 6
-*** FAILED *** with 7 errors
+Syntax errors: 7
+*** FAILED *** with 8 errors
 Exit code: 1
 validate.py --lang mr --max-err=10 UD_Marathi-UFAL/mr_ufal-ud-train.conllu
-[Line 48 Sent 4 Node 5]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [6]
+[Line 48 Sent 4 Node 5]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [6, 7]
 [Line 172 Sent 14 Node 4]: [L3 Syntax leaf-aux-cop] 'cop' not expected to have children (4:झालोत:cop --> 1:आपण:nsubj)
 [Line 173 Sent 14 Node 4]: [L3 Syntax leaf-aux-cop] 'cop' not expected to have children (4:झालोत:cop --> 2:आता:advmod)
 [Line 176 Sent 14 Node 4]: [L3 Syntax leaf-aux-cop] 'cop' not expected to have children (4:झालोत:cop --> 5:असे:mark)
@@ -68,8 +69,8 @@ validate.py --lang mr --max-err=10 UD_Marathi-UFAL/mr_ufal-ud-train.conllu
 [Line 3105 Sent 277 Node 7]: [L5 Morpho aux-lemma] 'नसणे' is not an auxiliary verb in language [mr]
 ...suppressing further errors regarding Morpho
 Morpho errors: 12
-Syntax errors: 44
-*** FAILED *** with 56 errors
+Syntax errors: 46
+*** FAILED *** with 58 errors
 Exit code: 1
 Validity: 0.01
 (weight=0.0769230769230769) * (score{features}=1) = 0.0769230769230769
