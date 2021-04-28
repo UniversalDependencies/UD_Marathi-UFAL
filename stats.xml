@@ -38,6 +38,7 @@
     <feat name="Aspect" value="Perf" upos="AUX,VERB">424</feat><!-- म्हणाला, आला, गेला, आली, _, म्हणाली, घेऊन, बसला, विचारले, निघाला -->
     <feat name="Aspect" value="Prosp" upos="VERB">16</feat><!-- राहणार, विकणार, येणार, करणार, जाणार, बोलणार, मांडणार, मारणार, लाटणार, सोडणार -->
     <feat name="Case" value="Abl" upos="NOUN">1</feat><!-- राखेतून -->
+    <feat name="Case" value="Abs" upos="ADJ,ADP,AUX,DET,NOUN,PRON,PROPN,VERB">320</feat><!-- _, त्या, एका, या, थोड्या, शेतकरी, अंधाऱ्या, जुन्या, भाऊ, मोठ्या -->
     <feat name="Case" value="Acc" upos="NOUN,PRON,PROPN">187</feat><!-- काय, जमीन, निरोप, बहीण, लाडू, फुले, _, उपकार, भाऊ, भूक -->
     <feat name="Case" value="Com" upos="NOUN">4</feat><!-- कुत्र्यांशी, पोटाशी, मुलांशी, हृदयाशी -->
     <feat name="Case" value="Dat" upos="NOUN,PRON,PROPN">134</feat><!-- त्याला, मला, तिला, तुला, राजाला, राजपुत्राला, आईला, त्यांना, _, मेरीला -->
@@ -45,7 +46,6 @@
     <feat name="Case" value="Ins" upos="NOUN,PRON">16</feat><!-- पैशाने, मार्गाने, _, कशाने, गुरवाने, चिंतेने, तलवारीने, त्याने, दुःखाने, नम्रतेने -->
     <feat name="Case" value="Loc" upos="NOUN,VERB">71</feat><!-- _, मनात, कळविण्यात, काठी, घरात, तोंडात, राजवाड्यात, स्वर्गात, न्यायालयात, पाया -->
     <feat name="Case" value="Nom" upos="ADJ,ADP,DET,NOUN,PRON,PROPN,VERB">623</feat><!-- तो, ती, _, मी, राजपुत्र, राजा, दादा, भीमा, कोण, जेम्स -->
-    <feat name="Case" value="Obl" upos="ADJ,ADP,AUX,DET,NOUN,PRON,PROPN,VERB">320</feat><!-- _, त्या, एका, या, थोड्या, शेतकरी, अंधाऱ्या, जुन्या, भाऊ, मोठ्या -->
     <feat name="Case" value="Voc" upos="NOUN">2</feat><!-- देवा, पोरी -->
     <feat name="Clusivity" value="Incl" upos="PRON">5</feat><!-- _, आपण -->
     <feat name="Distance" value="Dist" upos="DET,PRON">226</feat><!-- तो, _, ती, त्याला, त्या, त्याने, ते, तिला, त्यांना, त्यांनी -->
