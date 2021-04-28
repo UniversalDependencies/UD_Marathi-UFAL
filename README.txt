@@ -12,6 +12,8 @@ The treebank has been manually annotated by Vinit Ravishankar. We thank Dan Zema
 
 # Changelog
 
+* 2021-05-15 v2.8
+  * Fixed non-projective punctuation with Udapi ud.FixPunct.
 * 2018-04-15 v2.2
   * Repository renamed from UD_Marathi to UD_Marathi-UFAL.
 * 2017-11-02 v2.1

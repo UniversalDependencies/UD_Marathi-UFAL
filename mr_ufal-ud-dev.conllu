@@ -88,7 +88,7 @@
 3	_	च	PART	_	_	2	discourse	_	_
 4	जमीन	जमीन	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
 5	आहे	असणे	AUX	_	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	SpaceAfter=No
-6	,	,	PUNCT	_	_	4	punct	_	_
+6	,	,	PUNCT	_	_	10	punct	_	_
 7	असा	असा	SCONJ	_	_	9	mark	_	_
 8	त्याने	तो	PRON	_	Case=Erg|Distance=Dist|Gender=Masc|Number=Sing|Person=3	10	nsubj	_	_
 9	निर्णय	निर्णय	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	10	obj	_	_
@@ -106,7 +106,7 @@
 6	हात	हात	NOUN	_	Case=Nom|Gender=Masc|Number=Plur	7	compound:lvc	_	_
 7	करून	करणे	VERB	_	Aspect=Perf|VerbForm=Conv	8	advcl	_	_
 8	म्हणाला	म्हणणे	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No
-9	,	,	PUNCT	_	_	8	punct	_	_
+9	,	,	PUNCT	_	_	17	punct	_	_
 10	"	"	PUNCT	_	_	17	punct	_	SpaceAfter=No
 11-12	तुझ्या	_	_	_	_	_	_	_	_
 11	_	तू	PRON	_	Number=Sing|Person=2	13	nmod:poss	_	_
@@ -129,7 +129,7 @@
 4	_	चा	ADP	_	Case=Obl	3	case	_	_
 5	हातात	हात	NOUN	_	Case=Loc|Gender=Masc|Number=Sing	0	root	_	_
 6	असतो	असणे	AUX	_	Aspect=Imp|Gender=Masc|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	SpaceAfter=No
-7	,	,	PUNCT	_	_	5	punct	_	_
+7	,	,	PUNCT	_	_	8	punct	_	_
 8	भीमा	भीमा	PROPN	_	Case=Nom|Gender=Masc|Number=Sing	5	vocative	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	5	punct	_	SpaceAfter=No
 10	"	"	PUNCT	_	_	5	punct	_	_
@@ -142,7 +142,7 @@
 3	_	सत्ता	NOUN	_	Case=Obl|Gender=Masc|Number=Sing	0	root	_	_
 4	_	जवळ	ADP	_	_	3	case	_	_
 5	असतो	असणे	AUX	_	Aspect=Imp|Gender=Masc|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	SpaceAfter=No
-6	,	,	PUNCT	_	_	3	punct	_	_
+6	,	,	PUNCT	_	_	7	punct	_	_
 7-8	संपत्तीजवळ	_	_	_	_	_	_	_	_
 7	_	संपत्ती	NOUN	_	Case=Obl|Gender=Fem|Number=Sing	3	conj	_	_
 8	_	जवळ	ADP	_	_	7	case	_	_
@@ -364,7 +364,7 @@
 5	ते	तो	PRON	_	Case=Nom|Distance=Dist|Gender=Masc|Number=Plur|Person=3	7	nsubj	_	_
 6	कागाळ्या	कागाळी	NOUN	_	Case=Acc|Gender=Fem|Number=Plur	7	obj	_	_
 7	घालतील	घालतील	VERB	_	Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	SpaceAfter=No
-8	,	,	PUNCT	_	_	7	punct	_	_
+8	,	,	PUNCT	_	_	11	punct	_	_
 9	अशी	असा	SCONJ	_	_	11	mark	_	_
 10	त्याला	तो	PRON	_	Case=Dat|Distance=Dist|Gender=Masc|Number=Sing|Person=3	11	nsubj	_	_
 11	शंका	शंका	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	7	ccomp	_	_
@@ -379,7 +379,7 @@
 4	ताकीद	ताकीद	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	5	obj	_	_
 5	दिली	देणे	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
 6	की	की	SCONJ	_	_	12	mark	_	SpaceAfter=No
-7	,	,	PUNCT	_	_	12	punct	_	_
+7	,	,	PUNCT	_	_	6	punct	_	_
 8	त्या	तो	DET	_	Case=Obl|Distance=Dist|PronType=Dem	9	det	_	_
 9	दिवशी	दिवस	NOUN	_	Case=Dat|Gender=Masc|Number=Sing	12	obl	_	_
 10-11	घराबाहेर	_	_	_	_	_	_	_	_
@@ -442,7 +442,7 @@
 # sent_id = 478
 # text = हां, हे बघा घोडेस्वार!
 1	हां	हो	INTJ	_	_	4	vocative	_	SpaceAfter=No
-2	,	,	PUNCT	_	_	4	punct	_	_
+2	,	,	PUNCT	_	_	1	punct	_	_
 3	हे	हा	PRON	_	Distance=Prox|Gender=Neut|Number=Sing|Person=3	4	obj	_	_
 4	बघा	बघणे	VERB	_	Mood=Imp|Number=Plur|Person=2|VerbForm=Fin	0	root	_	_
 5	घोडेस्वार	घोडेस्वार	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	3	dislocated	_	SpaceAfter=No
@@ -509,7 +509,7 @@
 1	गावात	गाव	NOUN	_	Case=Loc|Gender=Masc|Number=Sing	3	obl	_	_
 2	कोणी	कोण	PRON	_	Case=Erg|PronType=Ind	3	nsubj	_	_
 3	मेले	मेरणे	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No
-4	,	,	PUNCT	_	_	3	punct	_	_
+4	,	,	PUNCT	_	_	8	punct	_	_
 5	तर	तर	SCONJ	_	_	8	mark	_	_
 6	ती	तो	DET	_	Distance=Dist|Gender=Fem|Number=Sing|PronType=Dem	7	det	_	_
 7	घंटा	घंटा	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	8	nsubj:pass	_	_
@@ -561,7 +561,7 @@
 2-3	खरेच	_	_	_	_	_	_	_	_
 2	_	खरा	NOUN	_	Case=Nom|Gender=Masc|Number=Plur	6	discourse	_	_
 3	_	च	PART	_	_	2	discourse	_	_
-4	,	,	PUNCT	_	_	6	punct	_	_
+4	,	,	PUNCT	_	_	2	punct	_	_
 5	न्याय	न्याय	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
 6	उरला	उरणे	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
 7	नाही	नाही	AUX	_	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin	6	aux	_	SpaceAfter=No
@@ -591,7 +591,7 @@
 9	शेतकरी	शेतकरी	NOUN	_	Case=Nom|Gender=Masc|Number=Plur	10	nsubj	_	_
 10	येऊ	येणे	VERB	_	InfForm=Incp|VerbForm=Inf	0	root	_	_
 11	लागले	लागणे	AUX	_	Aspect=Perf|Gender=Masc|Number=Plur|Person=3|VerbForm=Fin	10	aux	_	SpaceAfter=No
-12	,	,	PUNCT	_	_	18	punct	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	15	punct	_	SpaceAfter=No
 13	'	'	PUNCT	_	_	15	punct	_	SpaceAfter=No
 14	कोण	कोण	PRON	_	Case=Nom|PronType=Int	15	nsubj	_	_
 15	मेले	मरणे	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Person=3|VerbForm=Fin	10	conj	_	SpaceAfter=No

@@ -130,7 +130,7 @@
 # text = "बाबा, आईने घरी बोलावले आहे." ती म्हणाली.
 1	"	"	PUNCT	_	_	6	punct	_	SpaceAfter=No
 2	बाबा	बाबा	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	6	vocative	_	SpaceAfter=No
-3	,	,	PUNCT	_	_	6	punct	_	_
+3	,	,	PUNCT	_	_	2	punct	_	_
 4	आईने	आई	NOUN	_	Case=Erg|Gender=Fem|Number=Sing	6	nsubj	_	_
 5	घरी	घरी	ADV	_	_	6	obl	_	_
 6	बोलावले	बोलावणे	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
@@ -146,7 +146,7 @@
 1	"	"	PUNCT	_	_	2	punct	_	SpaceAfter=No
 2	कशाला	कशाला	ADV	_	_	0	root	_	_
 3	ग	ग	INTJ	_	_	2	vocative	_	SpaceAfter=No
-4	,	,	PUNCT	_	_	2	punct	_	_
+4	,	,	PUNCT	_	_	5	punct	_	_
 5	पोरी	पोरगी	NOUN	_	Case=Voc|Gender=Fem|Number=Sing	2	vocative	_	SpaceAfter=No
 6	?	?	PUNCT	_	_	2	punct	_	SpaceAfter=No
 7	"	"	PUNCT	_	_	2	punct	_	_
@@ -175,7 +175,7 @@
 1	"	"	PUNCT	_	_	3	punct	_	SpaceAfter=No
 2	आईला	आई	NOUN	_	Case=Dat|Gender=Fem|Number=Sing	3	obj	_	_
 3	म्हणाला	म्हणणे	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No
-4	,	,	PUNCT	_	_	3	punct	_	_
+4	,	,	PUNCT	_	_	8	punct	_	_
 5	'	'	PUNCT	_	_	8	punct	_	SpaceAfter=No
 6	हजार	हजार	NUM	_	_	7	nummod	_	_
 7	रुपये	रुपय	NOUN	_	Case=Acc|Gender=Neut|Number=Plur	8	obj	_	_
@@ -184,11 +184,11 @@
 10	शेत	शेत	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	11	obj	_	_
 11	द्या	देणे	VERB	_	Mood=Imp|Number=Plur|Person=2|VerbForm=Fin	8	conj	_	SpaceAfter=No
 12	!	!	PUNCT	_	_	11	punct	_	SpaceAfter=No
-13	'	'	PUNCT	_	_	11	punct	_	_
+13	'	'	PUNCT	_	_	8	punct	_	_
 14	आणि	आणि	CCONJ	_	_	16	cc	_	_
 15	मला	मी	PRON	_	Case=Dat|Number=Sing|Person=1	16	obj	_	_
 16	म्हणाला	म्हणणे	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Person=3|VerbForm=Fin	3	conj	_	SpaceAfter=No
-17	,	,	PUNCT	_	_	16	punct	_	_
+17	,	,	PUNCT	_	_	23	punct	_	_
 18	'	'	PUNCT	_	_	23	punct	_	SpaceAfter=No
 19-20	तुझ्या	_	_	_	_	_	_	_	_
 19	_	तू	PRON	_	Number=Sing|Person=2	21	nmod:poss	_	_
@@ -204,7 +204,7 @@
 # text = "बाबा, शेत का तुम्ही विकणार?"
 1	"	"	PUNCT	_	_	7	punct	_	SpaceAfter=No
 2	बाबा	बाबा	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	7	vocative	_	SpaceAfter=No
-3	,	,	PUNCT	_	_	7	punct	_	_
+3	,	,	PUNCT	_	_	2	punct	_	_
 4	शेत	शेत	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	7	obj	_	_
 5	का	का	ADV	_	_	7	discourse	_	_
 6	तुम्ही	तू	PRON	_	Case=Nom|Number=Plur|Person=2	7	nsubj	_	_
@@ -240,13 +240,13 @@
 1	"	"	PUNCT	_	_	3	punct	_	SpaceAfter=No
 2	ती	तो	PRON	_	Case=Nom|Distance=Dist|Gender=Fem|Number=Sing|Person=3	3	nsubj	_	_
 3	म्हणाली	म्हणणे	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No
-4	,	,	PUNCT	_	_	3	punct	_	_
+4	,	,	PUNCT	_	_	7	punct	_	_
 5	'	'	PUNCT	_	_	7	punct	_	SpaceAfter=No
 6	त्यांना	तो	PRON	_	Case=Dat|Distance=Dist|Gender=Masc|Number=Plur|Person=3	7	obj	_	_
 7	विचारा	विचारणे	VERB	_	Mood=Imp|Number=Plur|Person=2|VerbForm=Fin	3	parataxis	_	SpaceAfter=No
 8	.	.	PUNCT	_	_	7	punct	_	SpaceAfter=No
 9	'	'	PUNCT	_	_	7	punct	_	SpaceAfter=No
-10	"	"	PUNCT	_	_	7	punct	_	_
+10	"	"	PUNCT	_	_	3	punct	_	_
 
 # sent_id = 415
 # text = आणखी आई त्यांना म्हणाली, 'पैसे काय, आज आहेत उद्या नाहीत, जमीन कायमची सत्तेची.'"
@@ -254,8 +254,8 @@
 2	आई	आई	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
 3	त्यांना	तो	PRON	_	Case=Dat|Distance=Dist|Gender=Masc|Number=Plur|Person=3	4	obj	_	_
 4	म्हणाली	म्हणणे	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No
-5	,	,	PUNCT	_	_	4	punct	_	_
-6	'	'	PUNCT	_	_	7	punct	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	10	punct	_	_
+6	'	'	PUNCT	_	_	10	punct	_	SpaceAfter=No
 7	पैसे	पैसा	NOUN	_	Case=Obl|Gender=Masc|Number=Plur	10	nsubj	_	_
 8	काय	काय	PRON	_	Case=Nom|PronType=Int	7	discourse	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	7	punct	_	_
@@ -305,7 +305,7 @@
 2	निघून	निघने	VERB	_	Aspect=Perf|VerbForm=Conv	0	root	_	_
 3	गेला	जाणे	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Person=3|VerbForm=Fin	2	compound:svc	_	_
 4	होता	असणे	AUX	_	Gender=Masc|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	aux	_	SpaceAfter=No
-5	.	.	PUNCT	_	_	3	punct	_	_
+5	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = 420
 # text = बायकोने सारी बोलणी भीमाच्या कानावर घातली.
@@ -351,14 +351,14 @@
 
 # sent_id = 424
 # text = " त्यांच्या बाबतीत देव मेला, तसा आपल्या बाबतीतही मरायचा!"
-1	"	"	PUNCT	_	_	6	punct	_	_
+1	"	"	PUNCT	_	_	13	punct	_	_
 2-3	त्यांच्या	_	_	_	_	_	_	_	_
 2	_	तो	PRON	_	Case=Obl|Distance=Dist|Gender=Masc|Number=Plur|Person=3	4	nmod:poss	_	_
 3	_	चा	ADP	_	Case=Obl	2	case	_	_
 4	बाबतीत	बाबत	NOUN	_	Case=Loc|Gender=Fem|Number=Sing	5	obl	_	_
 5	देव	देव	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
 6	मेला	मरणे	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Person=3|VerbForm=Fin	13	advcl	_	SpaceAfter=No
-7	,	,	PUNCT	_	_	13	punct	_	_
+7	,	,	PUNCT	_	_	8	punct	_	_
 8	तसा	तसा	SCONJ	_	_	6	mark	_	_
 9-10	आपल्या	_	_	_	_	_	_	_	_
 9	_	आपण	PRON	_	PronType=Prs	11	nmod:poss	_	_
@@ -536,7 +536,7 @@
 6	,	,	PUNCT	_	_	13	punct	_	_
 7	"	"	PUNCT	_	_	13	punct	_	SpaceAfter=No
 8	महाराज	महाराज	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	13	vocative	_	SpaceAfter=No
-9	,	,	PUNCT	_	_	13	punct	_	_
+9	,	,	PUNCT	_	_	8	punct	_	_
 10	देवाधर्माला	देवाधर्म	NOUN	_	Case=Dat|Gender=Masc|Number=Sing	11	obj	_	_
 11	स्मरून	स्मरणे	VERB	_	Aspect=Perf|VerbForm=Conv	13	advcl	_	_
 12	मी	मी	PRON	_	Case=Nom|Number=Sing|Person=1	13	nsubj	_	_
