@@ -18,6 +18,7 @@ The treebank has been manually annotated by Vinit Ravishankar. We thank Dan Zema
     Changed (temporarily?) to Case=Abs.
   * Distance=Prox|Dist changed to Deixis=Prox|Remt, as in other treebanks.
   * Clusivity=Incl changed to correct Clusivity=In.
+  * Instead of nsubj:own, we now annotate cop:own, as in other treebanks.
 * 2018-04-15 v2.2
   * Repository renamed from UD_Marathi to UD_Marathi-UFAL.
 * 2017-11-02 v2.1

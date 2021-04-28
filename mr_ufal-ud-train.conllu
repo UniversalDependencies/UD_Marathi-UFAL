@@ -3406,11 +3406,11 @@
 # sent_id = 312
 # text = मेरीकडे पण कुत्रा आहे का?
 1-2	मेरीकडे	_	_	_	_	_	_	_	_
-1	_	मेरी	PROPN	_	Case=Abs|Gender=Fem|Number=Sing	4	nsubj:own	_	_
+1	_	मेरी	PROPN	_	Case=Abs|Gender=Fem|Number=Sing	4	nsubj	_	_
 2	_	कडे	ADP	_	_	1	case	_	_
 3	पण	पण	ADV	_	_	4	advmod	_	_
 4	कुत्रा	कुत्रा	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
-5	आहे	असणे	AUX	_	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+5	आहे	असणे	AUX	_	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop:own	_	_
 6	का	का	ADV	_	_	4	advmod	_	SpaceAfter=No
 7	?	?	PUNCT	_	_	4	punct	_	_
 
@@ -3419,18 +3419,18 @@
 1	नाही	नाही	INTJ	_	_	5	vocative	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3-4	मेरीकडे	_	_	_	_	_	_	_	_
-3	_	मेरी	PROPN	_	Case=Abs|Gender=Fem|Number=Sing	5	nsubj:own	_	_
+3	_	मेरी	PROPN	_	Case=Abs|Gender=Fem|Number=Sing	5	nsubj	_	_
 4	_	कडे	ADP	_	_	3	case	_	_
 5	कुत्रा	कुत्रा	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
 6	नाही	नाही	AUX	_	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin	5	aux	_	_
-7	आहे	असणे	AUX	_	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	SpaceAfter=No
+7	आहे	असणे	AUX	_	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop:own	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	12	punct	_	_
 9-11	तिच्याकडे	_	_	_	_	_	_	_	_
-9	_	ती	PRON	_	Case=Abs|Deixis=Remt|Gender=Fem|Number=Sing|Person=3	12	nsubj:own	_	_
+9	_	ती	PRON	_	Case=Abs|Deixis=Remt|Gender=Fem|Number=Sing|Person=3	12	nsubj	_	_
 10	_	च्या	PART	_	_	9	case	_	_
 11	_	कडे	ADP	_	_	9	case	_	_
 12	मांजर	मांजर	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	5	parataxis	_	_
-13	आहे	असणे	AUX	_	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	SpaceAfter=No
+13	आहे	असणे	AUX	_	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop:own	_	SpaceAfter=No
 14	.	.	PUNCT	_	_	12	punct	_	_
 
 # sent_id = 314
