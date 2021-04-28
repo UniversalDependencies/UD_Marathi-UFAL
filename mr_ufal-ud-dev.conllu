@@ -7,7 +7,7 @@
 # sent_id = 444
 # text = "त्या तुकड्याचे का कोणी हजार रुपये देईल?"
 1	"	"	PUNCT	_	_	9	punct	_	SpaceAfter=No
-2	त्या	तो	DET	_	Case=Abs|Distance=Dist|PronType=Dem	3	det	_	_
+2	त्या	तो	DET	_	Case=Abs|Deixis=Remt|PronType=Dem	3	det	_	_
 3-4	तुकड्याचे	_	_	_	_	_	_	_	_
 3	_	तुकडा	NOUN	_	Case=Abs|Gender=Masc|Number=Sing	9	obl	_	_
 4	_	चा	ADP	_	Gender=Neut|Number=Sing	3	case	_	_
@@ -56,7 +56,7 @@
 # sent_id = 449
 # text = "हे म्हातारे शेतकरी साक्षीदार का खोटे सांगतात?" वकील म्हणाला.
 1	"	"	PUNCT	_	_	5	punct	_	SpaceAfter=No
-2	हे	हा	DET	_	Distance=Prox|Gender=Neut|Number=Sing|PronType=Dem	4	det	_	_
+2	हे	हा	DET	_	Deixis=Prox|Gender=Neut|Number=Sing|PronType=Dem	4	det	_	_
 3	म्हातारे	म्हातारा	ADJ	_	Case=Nom|Gender=Neut|Number=Sing	4	amod	_	_
 4	शेतकरी	शेतकरी	NOUN	_	Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
 5	साक्षीदार	साक्षीदार	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
@@ -90,7 +90,7 @@
 5	आहे	असणे	AUX	_	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	10	punct	_	_
 7	असा	असा	SCONJ	_	_	9	mark	_	_
-8	त्याने	तो	PRON	_	Case=Erg|Distance=Dist|Gender=Masc|Number=Sing|Person=3	10	nsubj	_	_
+8	त्याने	तो	PRON	_	Case=Erg|Deixis=Remt|Gender=Masc|Number=Sing|Person=3	10	nsubj	_	_
 9	निर्णय	निर्णय	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	10	obj	_	_
 10	दिला	देणे	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Person=3|VerbForm=Fin	4	ccomp	_	SpaceAfter=No
 11	.	.	PUNCT	_	_	10	punct	_	_
@@ -163,7 +163,7 @@
 
 # sent_id = 456
 # text = तो कपाळाला हात लावून बसला.
-1	तो	तो	PRON	_	Case=Nom|Distance=Dist|Gender=Masc|Number=Sing|Person=3	5	nsubj	_	_
+1	तो	तो	PRON	_	Case=Nom|Deixis=Remt|Gender=Masc|Number=Sing|Person=3	5	nsubj	_	_
 2	कपाळाला	कपाळ	NOUN	_	Case=Dat|Gender=Neut|Number=Sing	4	iobj	_	_
 3	हात	हात	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	4	obj	_	_
 4	लावून	लावणे	VERB	_	Aspect=Perf|VerbForm=Conv	5	advcl	_	_
@@ -206,14 +206,14 @@
 6	झालो	होणे	VERB	_	Aspect=Perf|Number=Plur|Person=1|VerbForm=Fin	0	root	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	6	punct	_	SpaceAfter=No
 8	"	"	PUNCT	_	_	6	punct	_	_
-9	तो	तो	PRON	_	Case=Nom|Distance=Dist|Gender=Masc|Number=Sing|Person=3	11	nsubj	_	_
+9	तो	तो	PRON	_	Case=Nom|Deixis=Remt|Gender=Masc|Number=Sing|Person=3	11	nsubj	_	_
 10	दुःखाने	दुःख	NOUN	_	Case=Erg|Gender=Neut|Number=Sing	11	obl	_	_
 11	बोलला	बोलणे	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Person=3|VerbForm=Fin	6	parataxis	_	SpaceAfter=No
 12	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = 460
 # text = त्या गावातील सारे गोरगरीब केशवचंद्रांच्या नावे खडे फोडीत होते.
-1	त्या	तो	DET	_	Case=Abs|Distance=Dist|PronType=Dem	2	det	_	_
+1	त्या	तो	DET	_	Case=Abs|Deixis=Remt|PronType=Dem	2	det	_	_
 2-3	गावातील	_	_	_	_	_	_	_	_
 2	_	गाव	NOUN	_	Case=Abs|Gender=Masc|Number=Sing	5	amod	_	_
 3	_	तील	ADP	_	_	2	case	_	_
@@ -237,7 +237,7 @@
 
 # sent_id = 462
 # text = या प्रांताचा राजा दौऱ्यावर निघाला होता.
-1	या	हा	DET	_	Case=Abs|Distance=Prox|PronType=Dem	2	det	_	_
+1	या	हा	DET	_	Case=Abs|Deixis=Prox|PronType=Dem	2	det	_	_
 2-3	प्रांताचा	_	_	_	_	_	_	_	_
 2	_	प्रांत	NOUN	_	Case=Abs|Gender=Masc|Number=Sing	4	nmod:poss	_	_
 3	_	चा	ADP	_	Gender=Masc|Number=Sing	2	case	_	_
@@ -361,12 +361,12 @@
 3-4	कानावर	_	_	_	_	_	_	_	_
 3	_	कान	NOUN	_	Case=Abs|Gender=Masc|Number=Sing	7	obl	_	_
 4	_	वर	ADP	_	_	3	case	_	_
-5	ते	तो	PRON	_	Case=Nom|Distance=Dist|Gender=Masc|Number=Plur|Person=3	7	nsubj	_	_
+5	ते	तो	PRON	_	Case=Nom|Deixis=Remt|Gender=Masc|Number=Plur|Person=3	7	nsubj	_	_
 6	कागाळ्या	कागाळी	NOUN	_	Case=Acc|Gender=Fem|Number=Plur	7	obj	_	_
 7	घालतील	घालतील	VERB	_	Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	11	punct	_	_
 9	अशी	असा	SCONJ	_	_	11	mark	_	_
-10	त्याला	तो	PRON	_	Case=Dat|Distance=Dist|Gender=Masc|Number=Sing|Person=3	11	nsubj	_	_
+10	त्याला	तो	PRON	_	Case=Dat|Deixis=Remt|Gender=Masc|Number=Sing|Person=3	11	nsubj	_	_
 11	शंका	शंका	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	7	ccomp	_	_
 12	होती	असणे	AUX	_	Gender=Fem|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	cop	_	SpaceAfter=No
 13	.	.	PUNCT	_	_	11	punct	_	_
@@ -374,13 +374,13 @@
 # sent_id = 471
 # text = म्हणून त्याने सर्वांना ताकीद दिली की, त्या दिवशी घराबाहेर फिरकू नका.
 1	म्हणून	म्हणून	SCONJ	_	_	5	mark	_	_
-2	त्याने	तो	PRON	_	Case=Erg|Distance=Dist|Gender=Masc|Number=Sing|Person=3	5	nsubj	_	_
+2	त्याने	तो	PRON	_	Case=Erg|Deixis=Remt|Gender=Masc|Number=Sing|Person=3	5	nsubj	_	_
 3	सर्वांना	सर्व	NOUN	_	Case=Dat|Gender=Masc|Number=Plur	5	iobj	_	_
 4	ताकीद	ताकीद	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	5	obj	_	_
 5	दिली	देणे	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
 6	की	की	SCONJ	_	_	12	mark	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	6	punct	_	_
-8	त्या	तो	DET	_	Case=Abs|Distance=Dist|PronType=Dem	9	det	_	_
+8	त्या	तो	DET	_	Case=Abs|Deixis=Remt|PronType=Dem	9	det	_	_
 9	दिवशी	दिवस	NOUN	_	Case=Dat|Gender=Masc|Number=Sing	12	obl	_	_
 10-11	घराबाहेर	_	_	_	_	_	_	_	_
 10	_	घर	NOUN	_	Case=Abs|Gender=Neut|Number=Sing	12	obl	_	_
@@ -443,7 +443,7 @@
 # text = हां, हे बघा घोडेस्वार!
 1	हां	हो	INTJ	_	_	4	vocative	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
-3	हे	हा	PRON	_	Distance=Prox|Gender=Neut|Number=Sing|Person=3	4	obj	_	_
+3	हे	हा	PRON	_	Deixis=Prox|Gender=Neut|Number=Sing|Person=3	4	obj	_	_
 4	बघा	बघणे	VERB	_	Mood=Imp|Number=Plur|Person=2|VerbForm=Fin	0	root	_	_
 5	घोडेस्वार	घोडेस्वार	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	3	dislocated	_	SpaceAfter=No
 6	!	!	PUNCT	_	_	4	punct	_	_
@@ -496,7 +496,7 @@
 
 # sent_id = 483
 # text = त्या मंदिरात एक प्रचंड घंटा होती.
-1	त्या	तो	DET	_	Case=Abs|Distance=Dist|PronType=Dem	2	det	_	_
+1	त्या	तो	DET	_	Case=Abs|Deixis=Remt|PronType=Dem	2	det	_	_
 2	मंदिरात	मंदिर	NOUN	_	Case=Loc|Gender=Neut|Number=Sing	5	obl	_	_
 3	एक	एक	DET	_	Number=Sing|PronType=Ind	5	det	_	_
 4	प्रचंड	प्रचंड	ADJ	_	Case=Nom	5	amod	_	_
@@ -511,7 +511,7 @@
 3	मेले	मेरणे	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	8	punct	_	_
 5	तर	तर	SCONJ	_	_	8	mark	_	_
-6	ती	तो	DET	_	Distance=Dist|Gender=Fem|Number=Sing|PronType=Dem	7	det	_	_
+6	ती	तो	DET	_	Deixis=Remt|Gender=Fem|Number=Sing|PronType=Dem	7	det	_	_
 7	घंटा	घंटा	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	8	nsubj:pass	_	_
 8	वाजविण्यात	वाजवणे	VERB	_	Case=Loc|InfForm=Dict|VerbForm=Inf	3	ccomp	_	_
 9	येई	येणे	AUX	_	Aspect=Hab|VerbForm=Fin	8	aux:pass	_	SpaceAfter=No
@@ -521,11 +521,11 @@
 # text = भीमा आज त्या मंदिरात गेला आणि ती घंटा दाणदाण वाजवू लागला.
 1	भीमा	भीमा	PROPN	_	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
 2	आज	आज	ADV	_	_	5	advmod	_	_
-3	त्या	तो	DET	_	Case=Abs|Distance=Dist|PronType=Dem	4	det	_	_
+3	त्या	तो	DET	_	Case=Abs|Deixis=Remt|PronType=Dem	4	det	_	_
 4	मंदिरात	मंदिर	NOUN	_	Case=Loc|Gender=Neut|Number=Sing	5	obl	_	_
 5	गेला	जाणे	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
 6	आणि	आणि	CCONJ	_	_	10	cc	_	_
-7	ती	तो	DET	_	Distance=Dist|Gender=Fem|Number=Sing|PronType=Dem	8	det	_	_
+7	ती	तो	DET	_	Deixis=Remt|Gender=Fem|Number=Sing|PronType=Dem	8	det	_	_
 8	घंटा	घंटा	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	10	obj	_	_
 9	दाणदाण	दाणदाण	ADV	_	_	10	advmod	_	_
 10	वाजवू	वाजवणे	VERB	_	InfForm=Incp|VerbForm=Inf	5	conj	_	_
@@ -570,7 +570,7 @@
 10-11	देवीचा	_	_	_	_	_	_	_	_
 10	_	देवी	NOUN	_	Case=Abs|Gender=Fem|Number=Sing	13	nmod:poss	_	_
 11	_	चा	ADP	_	Gender=Masc|Number=Sing	10	case	_	_
-12	तो	तो	DET	_	Distance=Dist|Gender=Masc|Number=Sing|PronType=Dem	13	det	_	_
+12	तो	तो	DET	_	Deixis=Remt|Gender=Masc|Number=Sing|PronType=Dem	13	det	_	_
 13	पुजारी	पुजारी	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	14	nsubj	_	_
 14	म्हणाला	म्हणणे	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Person=3|VerbForm=Fin	6	parataxis	_	SpaceAfter=No
 15	.	.	PUNCT	_	_	14	punct	_	_
@@ -609,7 +609,7 @@
 4	'	'	PUNCT	_	_	3	punct	_	_
 5	असे	असे	SCONJ	_	_	9	mark	_	_
 6	जो	जो	PRON	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	9	discourse	_	_
-7	तो	तो	PRON	_	Case=Nom|Distance=Dist|Gender=Masc|Number=Sing|Person=3	9	nsubj	_	_
+7	तो	तो	PRON	_	Case=Nom|Deixis=Remt|Gender=Masc|Number=Sing|Person=3	9	nsubj	_	_
 8	उत्तर	उत्तर	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	9	compound:lvc	_	_
 9	देऊ	देणे	VERB	_	InfForm=Incp|VerbForm=Inf	3	parataxis	_	_
 10	लागला	लागणे	AUX	_	Aspect=Perf|Gender=Masc|Number=Sing|Person=3|VerbForm=Fin	9	aux	_	SpaceAfter=No

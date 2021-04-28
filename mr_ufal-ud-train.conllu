@@ -7,7 +7,7 @@
 
 # sent_id = 1
 # text = त्याला एक मुलगा होता.
-1	त्याला	तो	PRON	_	Case=Dat|Distance=Dist|Gender=Masc|Number=Sing|Person=3	3	nsubj	_	_
+1	त्याला	तो	PRON	_	Case=Dat|Deixis=Remt|Gender=Masc|Number=Sing|Person=3	3	nsubj	_	_
 2	एक	एक	DET	_	Number=Sing|PronType=Ind	3	det	_	_
 3	मुलगा	मुलगा	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
 4	होता	असणे	AUX	_	Gender=Masc|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	cop	_	SpaceAfter=No
@@ -22,7 +22,7 @@
 5	राजा	राजा	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	12	nsubj	_	SpaceAfter=No
 6	-	-	PUNCT	_	_	7	punct	_	SpaceAfter=No
 7	राणी	राणी	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	5	conj	_	_
-8	त्याला	तो	PRON	_	Case=Dat|Distance=Dist|Gender=Masc|Number=Sing|Person=3	12	obj	_	_
+8	त्याला	तो	PRON	_	Case=Dat|Deixis=Remt|Gender=Masc|Number=Sing|Person=3	12	obj	_	_
 9	जीव	जीव	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	12	compound:lvc	_	_
 10	की	की	ADV	_	_	9	fixed	_	_
 11	प्राण	प्राण	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	9	fixed	_	_
@@ -35,7 +35,7 @@
 2-3	लाडामुळे	_	_	_	_	_	_	_	_
 2	_	लाड	NOUN	_	Case=Abs|Gender=Masc|Number=Sing	5	obl	_	_
 3	_	मुळे	ADP	_	_	2	case	_	_
-4	तो	तो	PRON	_	Case=Nom|Distance=Dist|Gender=Masc|Number=Sing|Person=3	5	nsubj	_	_
+4	तो	तो	PRON	_	Case=Nom|Deixis=Remt|Gender=Masc|Number=Sing|Person=3	5	nsubj	_	_
 5	बिघडला	बिघडणे	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	5	punct	_	_
 
@@ -46,7 +46,7 @@
 3	म्हणाला	म्हणणे	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	7	punct	_	_
 5	"	,	PUNCT	_	_	7	punct	_	SpaceAfter=No
-6	याला	हा	PRON	_	Case=Dat|Distance=Prox|Gender=Masc|Number=Sing	7	obj	_	_
+6	याला	हा	PRON	_	Case=Dat|Deixis=Prox|Gender=Masc|Number=Sing	7	obj	_	_
 7	घालवून	घालवणे	VERB	_	Aspect=Perf|VerbForm=Conv	3	ccomp	_	_
 8	द्यावे	देणे	VERB	_	Gender=Neut|Mood=Sub|Number=Sing|Person=3|VerbForm=Fin	7	compound:svc	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	8	punct	_	SpaceAfter=No
@@ -68,7 +68,7 @@
 # text = राजाने राणीला हा विचार सांगितला.
 1	राजाने	राजा	NOUN	_	Case=Erg|Gender=Masc|Number=Sing	5	nsubj	_	_
 2	राणीला	राणी	NOUN	_	Case=Dat|Gender=Fem|Number=Sing	5	iobj	_	_
-3	हा	हा	DET	_	Distance=Prox|Gender=Masc|Number=Sing|PronType=Dem	4	det	_	_
+3	हा	हा	DET	_	Deixis=Prox|Gender=Masc|Number=Sing|PronType=Dem	4	det	_	_
 4	विचार	विचार	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	5	obj	_	_
 5	सांगितला	सांगणे	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	5	punct	_	_
@@ -79,7 +79,7 @@
 2	ना	ना	CCONJ	_	_	3	cc	_	_
 3	उद्या	उद्या	ADV	_	_	1	conj	_	_
 4	सुधारेल	सुधारणे	VERB	_	Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
-5	तो	तो	PRON	_	Case=Nom|Distance=Dist|Gender=Masc|Number=Sing|Person=3	4	nsubj	_	SpaceAfter=No
+5	तो	तो	PRON	_	Case=Nom|Deixis=Remt|Gender=Masc|Number=Sing|Person=3	4	nsubj	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = 8
@@ -87,11 +87,11 @@
 1	"	"	PUNCT	_	_	3	punct	_	SpaceAfter=No
 2	नका	नका	AUX	_	Mood=Imp|Number=Plur|Person=2|Polarity=Neg|VerbForm=Fin	3	aux	_	_
 3	घालवू	घालवणे	VERB	_	Mood=Imp|Number=Plur|Person=2|Polarity=Neg|VerbForm=Fin	0	root	_	_
-4	त्याला	तो	PRON	_	Case=Acc|Distance=Dist|Gender=Masc|Number=Sing|Person=3	3	obj	_	_
+4	त्याला	तो	PRON	_	Case=Acc|Deixis=Remt|Gender=Masc|Number=Sing|Person=3	3	obj	_	_
 5	दूर	दूर	ADJ	_	Case=Nom	3	xcomp	_	SpaceAfter=No
 6	!	!	PUNCT	_	_	3	punct	_	SpaceAfter=No
 7	"	"	PUNCT	_	_	3	punct	_	_
-8	ती	तो	PRON	_	Case=Nom|Distance=Dist|Gender=Fem|Number=Sing|Person=3	10	nsubj	_	_
+8	ती	तो	PRON	_	Case=Nom|Deixis=Remt|Gender=Fem|Number=Sing|Person=3	10	nsubj	_	_
 9	रडत	रडणे	VERB	_	Aspect=Imp|VerbForm=Part	10	advcl	_	_
 10	म्हणाली	म्हणणे	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Person=3|VerbForm=Fin	3	parataxis	_	SpaceAfter=No
 11	.	.	PUNCT	_	_	10	punct	_	_
@@ -110,7 +110,7 @@
 # text = "आज त्याला हाकलून देणे तुला कठोरपणाचे वाटले तरी तेच हिताचे आहे," तो म्हणाला.
 1	"	"	PUNCT	_	_	9	punct	_	SpaceAfter=No
 2	आज	आज	ADV	_	_	4	advmod	_	_
-3	त्याला	तो	PRON	_	Case=Dat|Distance=Dist|Gender=Masc|Number=Sing|Person=3	4	obj	_	_
+3	त्याला	तो	PRON	_	Case=Dat|Deixis=Remt|Gender=Masc|Number=Sing|Person=3	4	obj	_	_
 4	हाकलून	हाकलणे	VERB	_	Aspect=Perf|VerbForm=Conv	9	xcomp	_	_
 5	देणे	देणे	VERB	_	Case=Nom|InfForm=Dict|VerbForm=Inf	4	compound:svc	_	_
 6	तुला	तू	PRON	_	Case=Dat|Number=Sing|Person=2	9	obj	_	_
@@ -120,7 +120,7 @@
 9	वाटले	वाटणे	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
 10	तरी	तरी	SCONJ	_	_	13	mark	_	_
 11-12	तेच	_	_	_	_	_	_	_	_
-11	_	तो	PRON	_	Case=Nom|Distance=Dist|Gender=Neut|Number=Sing|Person=3	13	nsubj	_	_
+11	_	तो	PRON	_	Case=Nom|Deixis=Remt|Gender=Neut|Number=Sing|Person=3	13	nsubj	_	_
 12	_	च	PART	_	_	11	discourse	_	_
 13-14	हिताचे	_	_	_	_	_	_	_	_
 13	_	हित	NOUN	_	Case=Abs|Gender=Neut|Number=Sing	9	ccomp	_	_
@@ -128,7 +128,7 @@
 15	आहे	असणे	AUX	_	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	9	punct	_	SpaceAfter=No
 17	"	"	PUNCT	_	_	9	punct	_	_
-18	तो	तो	PRON	_	Case=Nom|Distance=Dist|Gender=Masc|Number=Sing|Person=3	19	nsubj	_	_
+18	तो	तो	PRON	_	Case=Nom|Deixis=Remt|Gender=Masc|Number=Sing|Person=3	19	nsubj	_	_
 19	म्हणाला	म्हणणे	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Person=3|VerbForm=Fin	9	parataxis	_	SpaceAfter=No
 20	.	.	PUNCT	_	_	19	punct	_	_
 
@@ -147,7 +147,7 @@
 1-2	रात्रभर	_	_	_	_	_	_	_	_
 1	_	रात्र	NOUN	_	Case=Abs|Gender=Fem|Number=Sing	5	obl	_	_
 2	_	भर	ADP	_	_	1	case	_	_
-3	तिला	तो	PRON	_	Case=Dat|Distance=Dist|Gender=Fem|Number=Sing|Person=3	5	nsubj	_	_
+3	तिला	तो	PRON	_	Case=Dat|Deixis=Remt|Gender=Fem|Number=Sing|Person=3	5	nsubj	_	_
 4	झोप	झोप	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	5	obj	_	_
 5	आली	येणे	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
 6	नाही	नाही	AUX	_	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin	5	aux	_	SpaceAfter=No
@@ -195,7 +195,7 @@
 9	_	चा	ADP	_	Case=Abs	8	case	_	_
 10	पाया	पाय	NOUN	_	Case=Loc|Gender=Masc|Number=Sing	11	obl	_	_
 11	पडून	पडणे	VERB	_	Aspect=Perf|VerbForm=Conv	17	advcl	_	_
-12	तो	तो	PRON	_	Case=Nom|Distance=Dist|Gender=Masc|Number=Sing|Person=3	17	nsubj	_	_
+12	तो	तो	PRON	_	Case=Nom|Deixis=Remt|Gender=Masc|Number=Sing|Person=3	17	nsubj	_	_
 13-14	आईचा	_	_	_	_	_	_	_	_
 13	_	आई	NOUN	_	Case=Abs|Gender=Fem|Number=Sing	15	nmod	_	_
 14	_	चा	ADP	_	Case=Nom|Gender=Masc|Number=Sing	13	case	_	_
@@ -206,7 +206,7 @@
 
 # sent_id = 16
 # text = तो आईच्या पाया पडला.
-1	तो	तो	PRON	_	Case=Nom|Distance=Dist|Gender=Masc|Number=Sing|Person=3	5	nsubj	_	_
+1	तो	तो	PRON	_	Case=Nom|Deixis=Remt|Gender=Masc|Number=Sing|Person=3	5	nsubj	_	_
 2-3	आईच्या	_	_	_	_	_	_	_	_
 2	_	आई	NOUN	_	Case=Abs|Gender=Fem|Number=Sing	4	nmod:poss	_	_
 3	_	चा	ADP	_	Case=Abs	2	case	_	_
@@ -217,14 +217,14 @@
 # sent_id = 17
 # text = आईने त्याला पोटाशी धरले .
 1	आईने	आई	NOUN	_	Case=Erg|Gender=Fem|Number=Sing	4	nsubj	_	_
-2	त्याला	तो	PRON	_	Case=Acc|Distance=Dist|Gender=Neut|Number=Sing|Person=3	4	obj	_	_
+2	त्याला	तो	PRON	_	Case=Acc|Deixis=Remt|Gender=Neut|Number=Sing|Person=3	4	obj	_	_
 3	पोटाशी	पोट	NOUN	_	Case=Com|Gender=Neut|Number=Sing	4	obl	_	_
 4	धरले	धरणे	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
 5	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = 18
 # text = हे घे चार लाडू .
-1	हे	हा	PRON	_	Distance=Prox|Gender=Neut|Number=Sing|Person=3	2	obj	_	_
+1	हे	हा	PRON	_	Deixis=Prox|Gender=Neut|Number=Sing|Person=3	2	obj	_	_
 2	घे	घेणे	VERB	_	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	_	_
 3	चार	चार	NUM	_	_	4	nummod	_	_
 4	लाडू	लाडू	NOUN	_	Case=Nom|Gender=Masc|Number=Plur	1	appos	_	_
@@ -239,7 +239,7 @@
 4	_	चा	ADP	_	Gender=Masc|Number=Plur	3	case	_	_
 5	लाडू	लाडू	NOUN	_	Case=Nom|Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	8	punct	_	_
-7	ती	तो	PRON	_	Case=Nom|Distance=Dist|Gender=Fem|Number=Sing|Person=3	8	nsubj	_	_
+7	ती	तो	PRON	_	Case=Nom|Deixis=Remt|Gender=Fem|Number=Sing|Person=3	8	nsubj	_	_
 8	म्हणाली	म्हणणे	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Person=3|VerbForm=Fin	5	parataxis	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	8	punct	_	_
 
@@ -251,7 +251,7 @@
 3	आशीर्वाद	आशीर्वाद	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
 4	घेऊन	घेणे	VERB	_	Aspect=Perf|VerbForm=Conv	15	advcl	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	8	punct	_	_
-6	ते	तो	PRON	_	Case=Nom|Distance=Dist|Gender=Masc|Number=Plur|Person=3	8	nsubj	_	_
+6	ते	तो	PRON	_	Case=Nom|Deixis=Remt|Gender=Masc|Number=Plur|Person=3	8	nsubj	_	_
 7	लाडू	लाडू	NOUN	_	Case=Acc|Gender=Masc|Number=Plur	8	obj	_	_
 8	घेऊन	घेणे	VERB	_	Aspect=Perf|VerbForm=Conv	4	conj	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	8	punct	_	_
@@ -259,7 +259,7 @@
 11	आणि	आणि	CCONJ	_	_	12	cc	_	_
 12	तलवार	तलवार	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	10	conj	_	_
 13	घेऊन	घेणे	VERB	_	Aspect=Perf|VerbForm=Conv	4	conj	_	_
-14	तो	तो	PRON	_	Case=Nom|Distance=Dist|Gender=Masc|Number=Sing|Person=3	15	nsubj	_	_
+14	तो	तो	PRON	_	Case=Nom|Deixis=Remt|Gender=Masc|Number=Sing|Person=3	15	nsubj	_	_
 15	निघाला	निघाला	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No
 16	.	.	PUNCT	_	_	15	punct	_	_
 
@@ -303,18 +303,18 @@
 
 # sent_id = 26
 # text = त्याला भूक लागली.
-1	त्याला	तो	PRON	_	Case=Dat|Distance=Dist|Gender=Masc|Number=Sing|Person=3	3	nsubj	_	_
+1	त्याला	तो	PRON	_	Case=Dat|Deixis=Remt|Gender=Masc|Number=Sing|Person=3	3	nsubj	_	_
 2	भूक	भूक	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	3	obj	_	_
 3	लागली	लागणे	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No
 4	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = 27
 # text = त्या लाडूंची त्याला आठवण झाली.
-1	त्या	तो	DET	_	Distance=Dist|Gender=Fem|Number=Plur|PronType=Dem	2	det	_	_
+1	त्या	तो	DET	_	Deixis=Remt|Gender=Fem|Number=Plur|PronType=Dem	2	det	_	_
 2-3	लाडूंची	_	_	_	_	_	_	_	_
 2	_	लाडू	NOUN	_	Case=Abs|Gender=Masc|Number=Plur	6	nsubj	_	_
 3	_	चा	ADP	_	Gender=Fem|Number=Sing	2	case	_	_
-4	त्याला	तो	PRON	_	Case=Dat|Distance=Dist|Gender=Masc|Number=Sing|Person=3	6	iobj	_	_
+4	त्याला	तो	PRON	_	Case=Dat|Deixis=Remt|Gender=Masc|Number=Sing|Person=3	6	iobj	_	_
 5	आठवण	आठवण	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	6	compound:lvc	_	_
 6	झाली	होणे	AUX	_	Aspect=Perf|Gender=Fem|Number=Sing|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	6	punct	_	_
@@ -340,7 +340,7 @@
 
 # sent_id = 30
 # text = त्याने एक लाडू फोडला तर आतून एक रत्न निघाले.
-1	त्याने	तो	PRON	_	Case=Erg|Distance=Dist|Gender=Masc|Number=Sing|Person=3	4	nsubj	_	_
+1	त्याने	तो	PRON	_	Case=Erg|Deixis=Remt|Gender=Masc|Number=Sing|Person=3	4	nsubj	_	_
 2	एक	एक	DET	_	Number=Sing|PronType=Ind	3	det	_	_
 3	लाडू	लाडू	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	4	obj	_	_
 4	फोडला	फोडणे	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
@@ -353,7 +353,7 @@
 
 # sent_id = 31
 # text = त्याला आनंद झाला.
-1	त्याला	तो	PRON	_	Case=Dat|Distance=Dist|Gender=Masc|Number=Sing|Person=3	3	nsubj	_	_
+1	त्याला	तो	PRON	_	Case=Dat|Deixis=Remt|Gender=Masc|Number=Sing|Person=3	3	nsubj	_	_
 2	आनंद	आनंद	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	3	obj	_	_
 3	झाला	होणे	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No
 4	.	.	PUNCT	_	_	3	punct	_	_
@@ -363,11 +363,11 @@
 1	आईला	आई	NOUN	_	Case=Dat|Gender=Fem|Number=Sing	6	advcl	_	_
 2	किती	किती	ADJ	_	Case=Nom	3	amod	_	_
 3	चिंता	चिंता	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	1	orphan	_	_
-4	ते	तो	PRON	_	Case=Nom|Distance=Dist|Gender=Neut|Number=Sing|Person=3	5	mark	_	_
+4	ते	तो	PRON	_	Case=Nom|Deixis=Remt|Gender=Neut|Number=Sing|Person=3	5	mark	_	_
 5	मनात	मन	NOUN	_	Case=Loc|Gender=Neut|Number=Sing	6	obl	_	_
 6	येऊन	येणे	VERB	_	Aspect=Perf|VerbForm=Conv	10	advcl	_	_
 7-8	त्याचे	_	_	_	_	_	_	_	_
-7	_	तो	PRON	_	Distance=Dist|Gender=Masc|Number=Sing|Person=3	9	nmod:poss	_	_
+7	_	तो	PRON	_	Deixis=Remt|Gender=Masc|Number=Sing|Person=3	9	nmod:poss	_	_
 8	_	चा	ADP	_	Gender=Masc|Number=Plur	7	case	_	_
 9	डोळे	डोळा	NOUN	_	Case=Nom|Gender=Masc|Number=Plur	10	nsubj	_	_
 10	भरून	भरणे	VERB	_	Aspect=Perf|VerbForm=Conv	0	root	_	_
@@ -381,12 +381,12 @@
 3	,	,	PUNCT	_	_	5	punct	_	_
 4	पाणी	पाणी	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	_
 5	पिऊन	पिणे	VERB	_	Aspect=Perf|VerbForm=Conv	2	conj	_	_
-6	तो	तो	PRON	_	Case=Nom|Distance=Dist|Gender=Masc|Number=Sing|Person=3	8	nsubj	_	_
+6	तो	तो	PRON	_	Case=Nom|Deixis=Remt|Gender=Masc|Number=Sing|Person=3	8	nsubj	_	_
 7	पुढे	पुढे	ADP	_	_	8	advmod	_	_
 8	निघाला	निघाला	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	14	punct	_	_
 10	तर	तर	CCONJ	_	_	14	cc	_	_
-11	त्याला	तो	PRON	_	Case=Dat|Distance=Dist|Gender=Masc|Number=Sing|Person=3	14	nsubj	_	_
+11	त्याला	तो	PRON	_	Case=Dat|Deixis=Remt|Gender=Masc|Number=Sing|Person=3	14	nsubj	_	_
 12	एक	एक	DET	_	Number=Sing|PronType=Ind	13	det	_	_
 13	हरिणी	हरिणी	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	14	obj	_	_
 14	दिसली	दिसणे	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Person=3|VerbForm=Fin	8	conj	_	SpaceAfter=No
@@ -395,11 +395,11 @@
 # sent_id = 34
 # text = तिच्याभोवती तिची पाडसे खेळत होती.
 1-3	तिच्याभोवती	_	_	_	_	_	_	_	_
-1	_	तो	PRON	_	Case=Abs|Distance=Dist|Gender=Fem|Number=Sing|Person=3	7	obl	_	_
+1	_	तो	PRON	_	Case=Abs|Deixis=Remt|Gender=Fem|Number=Sing|Person=3	7	obl	_	_
 2	_	च्या	PART	_	_	1	case	_	_
 3	_	भोवती	ADP	_	_	1	case	_	_
 4-5	तिची	_	_	_	_	_	_	_	_
-4	_	तो	PRON	_	Distance=Dist|Gender=Fem|Number=Sing|Person=3	6	nmod:poss	_	_
+4	_	तो	PRON	_	Deixis=Remt|Gender=Fem|Number=Sing|Person=3	6	nmod:poss	_	_
 5	_	चा	ADP	_	Gender=Neut|Number=Plur	4	case	_	_
 6	पाडसे	पाडस	NOUN	_	Case=Nom|Gender=Neut|Number=Plur	7	nsubj	_	_
 7	खेळत	खेळणे	VERB	_	Aspect=Imp|VerbForm=Part	0	root	_	_
@@ -416,14 +416,14 @@
 
 # sent_id = 36
 # text = तो त्या हरिणीला मारणार होता; परंतु त्याला स्वतःची आई आठवली.
-1	तो	तो	PRON	_	Case=Nom|Distance=Dist|Gender=Masc|Number=Sing|Person=3	4	nsubj	_	_
-2	त्या	तो	DET	_	Case=Abs|Distance=Dist|PronType=Dem	3	det	_	_
+1	तो	तो	PRON	_	Case=Nom|Deixis=Remt|Gender=Masc|Number=Sing|Person=3	4	nsubj	_	_
+2	त्या	तो	DET	_	Case=Abs|Deixis=Remt|PronType=Dem	3	det	_	_
 3	हरिणीला	हरिणी	NOUN	_	Case=Dat|Gender=Fem|Number=Sing	4	obj	_	_
 4	मारणार	मारणे	VERB	_	Aspect=Prosp|VerbForm=Fin	0	root	_	_
 5	होता	असणे	AUX	_	Gender=Masc|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux	_	SpaceAfter=No
 6	;	;	PUNCT	_	_	12	punct	_	_
 7	परंतु	परंतु	CCONJ	_	_	12	cc	_	_
-8	त्याला	तो	PRON	_	Case=Dat|Distance=Dist|Gender=Neut|Number=Sing|Person=3	12	nsubj	_	_
+8	त्याला	तो	PRON	_	Case=Dat|Deixis=Remt|Gender=Neut|Number=Sing|Person=3	12	nsubj	_	_
 9-10	स्वतःची	_	_	_	_	_	_	_	_
 9	_	स्वतः	PRON	_	Case=Nom|PronType=Prs	11	nmod:poss	_	_
 10	_	चा	ADP	_	Case=Nom|Gender=Fem|Number=Sing	9	case	_	_
@@ -440,16 +440,16 @@
 4	मला	मी	PRON	_	Case=Dat|Number=Sing|Person=1	0	root	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	10	punct	_	_
 6	तशी	तसा	ADV	_	_	10	cc	_	_
-7	ही	हा	DET	_	Distance=Prox|Gender=Fem|Number=Sing|PronType=Dem	8	det	_	_
+7	ही	हा	DET	_	Deixis=Prox|Gender=Fem|Number=Sing|PronType=Dem	8	det	_	_
 8	हरिणी	हरिणी	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	_
-9	या	हा	DET	_	Distance=Prox|Gender=Neut|Number=Plur|PronType=Dem	10	det	_	_
+9	या	हा	DET	_	Deixis=Prox|Gender=Neut|Number=Plur|PronType=Dem	10	det	_	_
 10	पाडसांना	पाडस	NOUN	_	Case=Dat|Gender=Neut|Number=Plur	4	conj	_	SpaceAfter=No
 11	.	.	PUNCT	_	_	10	punct	_	_
 
 # sent_id = 38
 # text = त्याचे हृदय द्रवले.
 1-2	त्याचे	_	_	_	_	_	_	_	_
-1	_	तो	PRON	_	Distance=Dist|Gender=Neut|Number=Sing|Person=3	3	nmod:poss	_	_
+1	_	तो	PRON	_	Deixis=Remt|Gender=Neut|Number=Sing|Person=3	3	nmod:poss	_	_
 2	_	चा	ADP	_	Gender=Neut|Number=Sing	1	case	_	_
 3	हृदय	हृदय	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
 4	द्रवले	द्रवणे	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No
@@ -457,7 +457,7 @@
 
 # sent_id = 39
 # text = त्याने बाण परत भात्यात ठेवला.
-1	त्याने	तो	PRON	_	Case=Erg|Distance=Dist|Gender=Masc|Number=Sing|Person=3	5	nsubj	_	_
+1	त्याने	तो	PRON	_	Case=Erg|Deixis=Remt|Gender=Masc|Number=Sing|Person=3	5	nsubj	_	_
 2	बाण	बाण	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	5	obj	_	_
 3	परत	परत	ADV	_	_	5	advmod	_	_
 4	भात्यात	भाता	NOUN	_	Case=Loc|Gender=Masc|Number=Sing	5	iobj	_	_
@@ -466,7 +466,7 @@
 
 # sent_id = 40
 # text = तो पुढे निघाला.
-1	तो	तो	PRON	_	Case=Nom|Distance=Dist|Gender=Masc|Number=Sing|Person=3	3	nsubj	_	_
+1	तो	तो	PRON	_	Case=Nom|Deixis=Remt|Gender=Masc|Number=Sing|Person=3	3	nsubj	_	_
 2	पुढे	पुढे	ADP	_	_	3	advmod	_	_
 3	निघाला	निघणे	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No
 4	.	.	PUNCT	_	_	3	punct	_	_
@@ -488,7 +488,7 @@
 11	आहे	असणे	AUX	_	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	11	punct	_	_
 13	असे	असे	SCONJ	_	_	15	mark	_	_
-14	त्याला	तो	PRON	_	Case=Dat|Distance=Dist|Gender=Masc|Number=Sing|Person=3	15	nsubj	_	_
+14	त्याला	तो	PRON	_	Case=Dat|Deixis=Remt|Gender=Masc|Number=Sing|Person=3	15	nsubj	_	_
 15	वाटले	वाटणे	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No
 16	.	.	PUNCT	_	_	15	punct	_	_
 
@@ -513,13 +513,13 @@
 
 # sent_id = 44
 # text = तो थांबला.
-1	तो	तो	PRON	_	Case=Nom|Distance=Dist|Gender=Masc|Number=Sing|Person=3	2	nsubj	_	_
+1	तो	तो	PRON	_	Case=Nom|Deixis=Remt|Gender=Masc|Number=Sing|Person=3	2	nsubj	_	_
 2	थांबला	थांबणे	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No
 3	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = 45
 # text = ती स्त्री जवळ आली.
-1	ती	तो	DET	_	Case=Nom|Distance=Dist|Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
+1	ती	तो	DET	_	Case=Nom|Deixis=Remt|Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
 2	स्त्री	स्त्री	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
 3	जवळ	जवळ	ADV	_	_	4	advmod	_	_
 4	आली	येणे	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No
@@ -535,7 +535,7 @@
 
 # sent_id = 47
 # text = या रानावनातून एकट्या कुठे जाता?
-1	या	हा	DET	_	Case=Abs|Distance=Prox|Gender=Neut|Number=Sing|PronType=Dem	3	det	_	_
+1	या	हा	DET	_	Case=Abs|Deixis=Prox|Gender=Neut|Number=Sing|PronType=Dem	3	det	_	_
 2-4	रानावनातून	_	_	_	_	_	_	_	_
 2	_	रान	NOUN	_	Case=Abs|Gender=Masc|Number=Sing	3	compound	_	_
 3	_	वन	NOUN	_	Case=Abs|Gender=Neut|Number=Sing	7	obl	_	_
@@ -563,7 +563,7 @@
 3	म्हणू	म्हणणे	VERB	_	Mood=Imp|Number=Plur|Person=2|Polarity=Neg|VerbForm=Fin	0	root	_	_
 4	नकोस	नकोस	AUX	_	Number=Sing|Person=2|Polarity=Neg|VerbForm=Fin	3	aux	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	7	punct	_	_
-6	ती	तो	PRON	_	Case=Nom|Distance=Dist|Gender=Fem|Number=Sing|Person=3	7	nsubj	_	_
+6	ती	तो	PRON	_	Case=Nom|Deixis=Remt|Gender=Fem|Number=Sing|Person=3	7	nsubj	_	_
 7	म्हणाली	म्हणणे	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Person=3|VerbForm=Fin	3	parataxis	_	SpaceAfter=No
 8	.	.	PUNCT	_	_	7	punct	_	_
 
@@ -581,7 +581,7 @@
 2	बहीण	बहीण	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	3	obj	_	_
 3	झाली	होणे	AUX	_	Aspect=Perf|Gender=Fem|Number=Sing|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No
 4	.	.	PUNCT	_	_	3	punct	_	_
-5	तो	तो	PRON	_	Case=Nom|Distance=Dist|Gender=Masc|Number=Sing|Person=3	6	nsubj	_	_
+5	तो	तो	PRON	_	Case=Nom|Deixis=Remt|Gender=Masc|Number=Sing|Person=3	6	nsubj	_	_
 6	म्हणाला	म्हणणे	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Person=3|VerbForm=Fin	3	parataxis	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	6	punct	_	_
 
@@ -614,7 +614,7 @@
 
 # sent_id = 55
 # text = त्याने एक लाडू फोडला.
-1	त्याने	तो	PRON	_	Case=Erg|Distance=Dist|Gender=Masc|Number=Sing|Person=3	4	nsubj	_	_
+1	त्याने	तो	PRON	_	Case=Erg|Deixis=Remt|Gender=Masc|Number=Sing|Person=3	4	nsubj	_	_
 2	एक	एक	DET	_	Number=Sing|PronType=Ind	3	det	_	_
 3	लाडू	लाडू	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	4	obj	_	_
 4	फोडला	फोडणे	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No
@@ -623,7 +623,7 @@
 # sent_id = 56
 # text = त्यातून पुन्हा एक रत्न निघाले.
 1-2	त्यातून	_	_	_	_	_	_	_	_
-1	_	तो	PRON	_	Case=Abs|Distance=Dist|Gender=Masc|Number=Sing|Person=3	6	obl	_	_
+1	_	तो	PRON	_	Case=Abs|Deixis=Remt|Gender=Masc|Number=Sing|Person=3	6	obl	_	_
 2	_	तून	ADP	_	_	1	case	_	_
 3	पुन्हा	पुन्हा	ADV	_	_	6	advmod	_	_
 4	एक	एक	DET	_	Number=Sing|PronType=Ind	5	det	_	_
@@ -690,7 +690,7 @@
 
 # sent_id = 62
 # text = तो लाल तुकडा पाहून बेडकाला सोडून साप तिकडे धावला.
-1	तो	तो	DET	_	Distance=Dist|Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
+1	तो	तो	DET	_	Deixis=Remt|Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
 2	लाल	लाल	ADJ	_	Case=Nom	3	amod	_	_
 3	तुकडा	तुकडा	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	4	obj	_	_
 4	पाहून	पहाणे	VERB	_	Aspect=Perf|VerbForm=Conv	9	advcl	_	_
@@ -729,7 +729,7 @@
 
 # sent_id = 66
 # text = ती पटकन कुठेतरी गेली आणि पाला घेऊन आली.
-1	ती	तो	PRON	_	Case=Nom|Distance=Dist|Gender=Fem|Number=Sing|Person=3	4	nsubj	_	_
+1	ती	तो	PRON	_	Case=Nom|Deixis=Remt|Gender=Fem|Number=Sing|Person=3	4	nsubj	_	_
 2	पटकन	पटकन	ADV	_	_	4	advmod	_	_
 3	कुठेतरी	कुठेतरी	ADV	_	_	4	advmod	_	_
 4	गेली	जाणे	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
@@ -741,14 +741,14 @@
 
 # sent_id = 67
 # text = तिने त्या पाल्याचा चोळामोळा करून तो पाला आपला पदर फाडून जखमेवर बांधला.
-1	तिने	तो	PRON	_	Case=Erg|Distance=Dist|Gender=Fem|Number=Sing|Person=3	6	nsubj	_	_
-2	त्या	तो	DET	_	Case=Abs|Distance=Prox|PronType=Dem	3	det	_	_
+1	तिने	तो	PRON	_	Case=Erg|Deixis=Remt|Gender=Fem|Number=Sing|Person=3	6	nsubj	_	_
+2	त्या	तो	DET	_	Case=Abs|Deixis=Prox|PronType=Dem	3	det	_	_
 3-4	पाल्याचा	_	_	_	_	_	_	_	_
 3	_	पाला	NOUN	_	Case=Abs|Gender=Masc|Number=Sing	6	obj	_	_
 4	_	चा	ADP	_	Gender=Masc|Number=Sing	3	case	_	_
 5	चोळामोळा	चोळामोळा	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	6	compound:lvc	_	_
 6	करून	करणे	VERB	_	Aspect=Perf|VerbForm=Conv	15	advcl	_	_
-7	तो	तो	DET	_	Case=Nom|Distance=Prox|Gender=Masc|Number=Sing|PronType=Dem	8	det	_	_
+7	तो	तो	DET	_	Case=Nom|Deixis=Prox|Gender=Masc|Number=Sing|PronType=Dem	8	det	_	_
 8	पाला	पाला	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	15	obj	_	_
 9-10	आपला	_	_	_	_	_	_	_	_
 9	_	आपण	PRON	_	Case=Abs|PronType=Prs	11	nmod:poss	_	_
@@ -771,13 +771,13 @@
 
 # sent_id = 69
 # text = तो पाठीमागून कोणी येत आहे असे त्यांना वाटले.
-1	तो	तो	DET	_	Case=Nom|Distance=Prox|Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
+1	तो	तो	DET	_	Case=Nom|Deixis=Prox|Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
 2	पाठीमागून	पाठीमागून	ADV	_	_	4	advmod	_	_
 3	कोणी	कोण	PRON	_	Case=Erg|PronType=Int	4	nsubj	_	_
 4	येत	येणे	VERB	_	Aspect=Imp|VerbForm=Part	8	ccomp	_	_
 5	आहे	असणे	AUX	_	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
 6	असे	असा	ADV	_	_	4	mark	_	_
-7	त्यांना	तो	PRON	_	Case=Dat|Distance=Dist|Gender=Neut|Number=Plur|Person=3	8	nsubj	_	_
+7	त्यांना	तो	PRON	_	Case=Dat|Deixis=Remt|Gender=Neut|Number=Plur|Person=3	8	nsubj	_	_
 8	वाटले	वाटणे	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	8	punct	_	_
 
@@ -829,7 +829,7 @@
 5	होऊ	होणे	VERB	_	InfForm=Incp|VerbForm=Inf	0	root	_	_
 6	दे	देणे	AUX	_	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	5	aux	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	9	punct	_	_
-8	तो	तो	PRON	_	Case=Nom|Distance=Dist|Gender=Masc|Number=Sing|Person=3	9	nsubj	_	_
+8	तो	तो	PRON	_	Case=Nom|Deixis=Remt|Gender=Masc|Number=Sing|Person=3	9	nsubj	_	_
 9	म्हणाला	म्हणणे	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Person=3|VerbForm=Fin	5	parataxis	_	SpaceAfter=No
 10	.	.	PUNCT	_	_	9	punct	_	_
 
@@ -853,7 +853,7 @@
 
 # sent_id = 78
 # text = तो आणखी एक तरुण धावत आला.
-1	तो	तो	DET	_	Case=Nom|Distance=Prox|Gender=Masc|Number=Sing|PronType=Dem	4	det	_	_
+1	तो	तो	DET	_	Case=Nom|Deixis=Prox|Gender=Masc|Number=Sing|PronType=Dem	4	det	_	_
 2	आणखी	आणखी	ADJ	_	Case=Nom	3	amod	_	_
 3	एक	एक	NUM	_	_	4	nummod	_	_
 4	तरुण	तरुण	ADJ	_	Case=Nom	6	nsubj	_	_
@@ -892,7 +892,7 @@
 # sent_id = 82
 # text = तोही म्हणाला.
 1-2	तोही	_	_	_	_	_	_	_	_
-1	_	तो	PRON	_	Case=Nom|Distance=Dist|Gender=Masc|Number=Sing|Person=3	3	nsubj	_	_
+1	_	तो	PRON	_	Case=Nom|Deixis=Remt|Gender=Masc|Number=Sing|Person=3	3	nsubj	_	_
 2	_	ही	PART	_	_	1	discourse	_	_
 3	म्हणाला	म्हणणे	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No
 4	.	.	PUNCT	_	_	3	punct	_	_
@@ -901,7 +901,7 @@
 # text = राजपुत्राने त्यालाही आपल्याबरोबर घेतले.
 1	राजपुत्राने	राजपुत्र	NOUN	_	Case=Erg|Gender=Masc|Number=Sing	6	nsubj	_	_
 2-3	त्यालाही	_	_	_	_	_	_	_	_
-2	_	तो	PRON	_	Case=Acc|Distance=Dist|Gender=Masc|Number=Sing|Person=3	6	obj	_	_
+2	_	तो	PRON	_	Case=Acc|Deixis=Remt|Gender=Masc|Number=Sing|Person=3	6	obj	_	_
 3	_	ही	PART	_	_	2	discourse	_	_
 4-5	आपल्याबरोबर	_	_	_	_	_	_	_	_
 4	_	आपण	PRON	_	Case=Abs|PronType=Prs	6	obl	_	_
@@ -911,7 +911,7 @@
 
 # sent_id = 84
 # text = ती चौघे जात होती.
-1	ती	तो	DET	_	Case=Nom|Distance=Prox|Gender=Neut|Number=Plur|PronType=Dem	2	det	_	_
+1	ती	तो	DET	_	Case=Nom|Deixis=Prox|Gender=Neut|Number=Plur|PronType=Dem	2	det	_	_
 2	चौघे	चौघे	PRON	_	Case=Nom|Number=Plur|Person=3	3	nsubj	_	_
 3	जात	जाणे	VERB	_	Aspect=Imp|VerbForm=Part	0	root	_	_
 4	होती	असणे	AUX	_	Gender=Neut|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	3	aux	_	SpaceAfter=No
@@ -954,7 +954,7 @@
 # sent_id = 89
 # text = त्यांतूनही दोन रत्ने बाहेर निघाली.
 1-3	त्यांतूनही	_	_	_	_	_	_	_	_
-1	_	तो	PRON	_	Case=Abs|Distance=Dist|Gender=Masc|Number=Plur|Person=3	7	obl	_	_
+1	_	तो	PRON	_	Case=Abs|Deixis=Remt|Gender=Masc|Number=Plur|Person=3	7	obl	_	_
 2	_	तून	ADP	_	_	1	case	_	_
 3	_	ही	PART	_	_	1	discourse	_	_
 4	दोन	दोन	NUM	_	_	5	nummod	_	_
@@ -988,7 +988,7 @@
 4	_	चा	ADP	_	Case=Nom|Gender=Masc|Number=Sing	3	case	_	_
 5	लाडू	लाडू	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	7	dislocated	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	5	punct	_	_
-7	त्याने	तो	PRON	_	Case=Ins|Distance=Dist|Gender=Masc|Number=Sing|Person=3	10	nsubj	_	_
+7	त्याने	तो	PRON	_	Case=Ins|Deixis=Remt|Gender=Masc|Number=Sing|Person=3	10	nsubj	_	_
 8	नाही	नाही	AUX	_	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin	10	aux	_	_
 9	तृप्ती	तृप्ती	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	11	obj	_	_
 10	व्हावयाची	होणे	VERB	_	Gender=Fem|Mood=Des|Number=Sing|Person=3|VerbForm=Part	0	root	_	_
@@ -1028,14 +1028,14 @@
 3	भावांना	भाऊ	NOUN	_	Case=Dat|Gender=Masc|Number=Plur	4	obl	_	_
 4	म्हणाला	म्हणणे	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	8	punct	_	_
-6	त्या	तो	DET	_	Case=Abs|Distance=Dist|PronType=Dem	7	det	_	_
+6	त्या	तो	DET	_	Case=Abs|Deixis=Remt|PronType=Dem	7	det	_	_
 7	राजधानीत	राजधानी	NOUN	_	Case=Loc|Gender=Fem|Number=Sing	8	obl	_	_
 8	जा	जाणे	VERB	_	Mood=Imp|Number=Plur|Person=2|VerbForm=Fin	4	parataxis	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	8	punct	_	_
 
 # sent_id = 96
 # text = ही रत्ने विकून एक राजवाडा खरेदी करा.
-1	ही	हा	DET	_	Distance=Prox|Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
+1	ही	हा	DET	_	Deixis=Prox|Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
 2	रत्ने	रत्न	NOUN	_	Case=Acc|Gender=Neut|Number=Plur	3	obj	_	_
 3	विकून	विकणे	VERB	_	Aspect=Perf|VerbForm=Conv	7	advcl	_	_
 4	एक	एक	DET	_	Number=Sing|PronType=Ind	5	det	_	_
@@ -1079,7 +1079,7 @@
 # text = दोघे भाऊ त्या नगरीत गेले.
 1	दोघे	दोघे	DET	_	Case=Nom|Number=Plur|PronType=Dem	2	det	_	_
 2	भाऊ	भाऊ	NOUN	_	Case=Abs|Gender=Masc|Number=Plur	5	nsubj	_	_
-3	त्या	तो	DET	_	Case=Abs|Distance=Prox|PronType=Dem	4	det	_	_
+3	त्या	तो	DET	_	Case=Abs|Deixis=Prox|PronType=Dem	4	det	_	_
 4	नगरीत	नगर	NOUN	_	Case=Loc|Gender=Neut|Number=Sing	5	obl	_	_
 5	गेले	जाणे	VERB	_	Aspect=Perf|Gender=Masc|Number=Plur|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	5	punct	_	_
@@ -1088,14 +1088,14 @@
 # text = दोन रत्ने त्यांनी विकली.
 1	दोन	दोन	NUM	_	_	2	nummod	_	_
 2	रत्ने	रत्न	NOUN	_	Case=Acc|Gender=Neut|Number=Plur	4	obj	_	_
-3	त्यांनी	तो	PRON	_	Case=Erg|Distance=Dist|Gender=Masc|Number=Plur|Person=3	4	nsubj	_	_
+3	त्यांनी	तो	PRON	_	Case=Erg|Deixis=Remt|Gender=Masc|Number=Plur|Person=3	4	nsubj	_	_
 4	विकली	विकणे	VERB	_	Aspect=Perf|Gender=Neut|Number=Plur|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = 102
 # text = त्यांचे दहा लाख रुपये मिळाले.
 1-2	त्यांचे	_	_	_	_	_	_	_	_
-1	_	तो	PRON	_	Distance=Dist|Gender=Neut|Number=Plur|Person=3	6	nsubj	_	_
+1	_	तो	PRON	_	Deixis=Remt|Gender=Neut|Number=Plur|Person=3	6	nsubj	_	_
 2	_	चा	ADP	_	Gender=Neut|Number=Sing	1	case	_	_
 3	दहा	दहा	NUM	_	_	4	nummod	_	_
 4	लाख	लाख	NUM	_	_	5	nummod	_	_
@@ -1114,7 +1114,7 @@
 
 # sent_id = 104
 # text = त्यांनी राजवाडा खरेदी केली, नोकरचाकर ठेवले.
-1	त्यांनी	तो	PRON	_	Case=Erg|Distance=Dist|Gender=Neut|Number=Plur|Person=3	4	nsubj	_	_
+1	त्यांनी	तो	PRON	_	Case=Erg|Deixis=Remt|Gender=Neut|Number=Plur|Person=3	4	nsubj	_	_
 2	राजवाडा	राजवाडा	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	4	obj	_	_
 3	खरेदी	खरेदी	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	4	compound:lvc	_	_
 4	केली	करणे	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No
@@ -1143,7 +1143,7 @@
 
 # sent_id = 107
 # text = त्या दोघा भावांनी घोडेस्वार तैनातीस ठेवले आणि हत्ती सजविला.
-1	त्या	तो	DET	_	Distance=Dist|Gender=Fem|Number=Plur|PronType=Dem	2	det	_	_
+1	त्या	तो	DET	_	Deixis=Remt|Gender=Fem|Number=Plur|PronType=Dem	2	det	_	_
 2	दोघा	दोघे	DET	_	Case=Abs|Number=Plur|PronType=Dem	3	det	_	_
 3	भावांनी	भाऊ	NOUN	_	Case=Erg|Gender=Masc|Number=Plur	7	nsubj	_	_
 4	घोडेस्वार	घोडेस्वार	NOUN	_	Case=Acc|Gender=Masc|Number=Plur	7	obj	_	_
@@ -1159,7 +1159,7 @@
 # sent_id = 108
 # text = त्याच्यावर अंबारी ठेवण्यात आली.
 1-3	त्याच्यावर	_	_	_	_	_	_	_	_
-1	_	तो	PRON	_	Distance=Dist|Gender=Neut|Number=Sing|Person=3	5	nmod	_	_
+1	_	तो	PRON	_	Deixis=Remt|Gender=Neut|Number=Sing|Person=3	5	nmod	_	_
 2	_	च्या	PART	_	_	1	case	_	_
 3	_	वर	ADP	_	_	1	case	_	_
 4	अंबारी	अंबारी	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	5	nsubj:pass	_	_
@@ -1273,7 +1273,7 @@
 # sent_id = 121
 # text = राजाने त्याला विचारले, कोण आला आहे राजपुत्र?
 1	राजाने	राजा	NOUN	_	Case=Erg|Gender=Masc|Number=Sing	3	nsubj	_	_
-2	त्याला	तो	PRON	_	Case=Dat|Distance=Dist|Gender=Masc|Number=Sing|Person=3	3	obl	_	_
+2	त्याला	तो	PRON	_	Case=Dat|Deixis=Remt|Gender=Masc|Number=Sing|Person=3	3	obl	_	_
 3	विचारले	विचारणे	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	6	punct	_	_
 5	कोण	कोण	PRON	_	Case=Nom|PronType=Int	6	nsubj	_	_
@@ -1289,7 +1289,7 @@
 3	काढून	काढणे	VERB	_	Aspect=Perf|VerbForm=Conv	0	root	_	_
 4	आणतो	आणणे	VERB	_	Aspect=Imp|Gender=Masc|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	compound:svc	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	7	punct	_	_
-6	तो	तो	PRON	_	Case=Nom|Distance=Dist|Gender=Masc|Number=Sing|Person=3	7	nsubj	_	_
+6	तो	तो	PRON	_	Case=Nom|Deixis=Remt|Gender=Masc|Number=Sing|Person=3	7	nsubj	_	_
 7	म्हणाला	म्हणणे	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Person=3|VerbForm=Fin	3	parataxis	_	SpaceAfter=No
 8	.	.	PUNCT	_	_	7	punct	_	_
 
@@ -1305,13 +1305,13 @@
 # sent_id = 124
 # text = पहारेकऱ्यांनी त्याला हटकले.
 1	पहारेकऱ्यांनी	पहारेकरा	NOUN	_	Case=Erg|Gender=Masc|Number=Plur	3	nsubj	_	_
-2	त्याला	तो	PRON	_	Case=Dat|Distance=Dist|Gender=Masc|Number=Sing|Person=3	3	obj	_	_
+2	त्याला	तो	PRON	_	Case=Dat|Deixis=Remt|Gender=Masc|Number=Sing|Person=3	3	obj	_	_
 3	हटकले	हटकणे	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No
 4	.	.	PUNCT	_	_	3	case	_	_
 
 # sent_id = 125
 # text = तो म्हणाला, मी येथल्या राजाची करमणूक करणारा.
-1	तो	तो	PRON	_	Case=Nom|Distance=Dist|Gender=Masc|Number=Sing|Person=3	2	nsubj	_	_
+1	तो	तो	PRON	_	Case=Nom|Deixis=Remt|Gender=Masc|Number=Sing|Person=3	2	nsubj	_	_
 2	म्हणाला	म्हणणे	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	9	punct	_	_
 4	मी	मी	PRON	_	Case=Nom|Number=Sing|Person=1	9	nsubj	_	_
@@ -1348,7 +1348,7 @@
 # sent_id = 128
 # text = पाठवा त्याला, राजपुत्र म्हणाला.
 1	पाठवा	पाठवणे	VERB	_	Mood=Imp|Number=Plur|Person=2|VerbForm=Fin	0	root	_	_
-2	त्याला	तो	PRON	_	Case=Dat|Distance=Dist|Gender=Masc|Number=Sing|Person=3	5	obj	_	SpaceAfter=No
+2	त्याला	तो	PRON	_	Case=Dat|Deixis=Remt|Gender=Masc|Number=Sing|Person=3	5	obj	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
 4	राजपुत्र	राजपुत्र	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
 5	म्हणाला	म्हणणे	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Person=3|VerbForm=Fin	1	parataxis	_	SpaceAfter=No
@@ -1365,7 +1365,7 @@
 1-2	राजपुत्राची	_	_	_	_	_	_	_	_
 1	_	राजपुत्र	NOUN	_	Case=Abs|Gender=Masc|Number=Sing	4	nmod:poss	_	_
 2	_	चा	ADP	_	Gender=Fem|Number=Sing	1	case	_	_
-3	तो	तो	PRON	_	Case=Nom|Distance=Dist|Gender=Masc|Number=Sing|Person=3	5	nsubj	_	_
+3	तो	तो	PRON	_	Case=Nom|Deixis=Remt|Gender=Masc|Number=Sing|Person=3	5	nsubj	_	_
 4	करमणूक	करमणूक	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	5	obj	_	_
 5	करू	करणे	VERB	_	InfForm=Incp|VerbForm=Inf	0	root	_	_
 6	लागला	लागणे	AUX	_	Aspect=Perf|Gender=Masc|Number=Sing|Person=3|VerbForm=Fin	5	aux	_	SpaceAfter=No
@@ -1373,12 +1373,12 @@
 
 # sent_id = 131
 # text = तो तेथील हास्यविनोद ऐकून त्याची बहीणही आली.
-1	तो	तो	DET	_	Case=Nom|Distance=Prox|Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
+1	तो	तो	DET	_	Case=Nom|Deixis=Prox|Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
 2	तेथील	तेथे	ADJ	_	_	3	amod	_	_
 3	हास्यविनोद	हास्यविनोद	NOUN	_	Case=Acc|Gender=Masc|Number=Plur	4	obj	_	_
 4	ऐकून	ऐकणे	VERB	_	Aspect=Perf|VerbForm=Conv	9	advcl	_	_
 5-6	त्याची	_	_	_	_	_	_	_	_
-5	_	तो	PRON	_	Distance=Dist|Gender=Masc|Number=Sing|Person=3	7	nmod:poss	_	_
+5	_	तो	PRON	_	Deixis=Remt|Gender=Masc|Number=Sing|Person=3	7	nmod:poss	_	_
 6	_	चा	ADP	_	Gender=Fem|Number=Sing	5	case	_	_
 7-8	बहीणही	_	_	_	_	_	_	_	_
 7	_	बहीण	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	_
@@ -1411,7 +1411,7 @@
 3	दिले	देणे	AUX	_	Aspect=Perf|Gender=Neut|Number=Sing|Person=3|VerbForm=Fin	2	aux	_	_
 4	तर	तर	CCONJ	_	_	2	mark	_	SpaceAfter=No
 5	!	!	PUNCT	_	_	4	punct	_	_
-6	तो	तो	PRON	_	Case=Nom|Distance=Dist|Gender=Masc|Number=Sing|Person=3	7	nsubj	_	_
+6	तो	तो	PRON	_	Case=Nom|Deixis=Remt|Gender=Masc|Number=Sing|Person=3	7	nsubj	_	_
 7	म्हणाला	म्हणणे	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Person=3|VerbForm=Fin	4	parataxis	_	SpaceAfter=No
 8	.	.	PUNCT	_	_	7	punct	_	_
 
@@ -1429,7 +1429,7 @@
 9	,	,	PUNCT	_	_	8	punct	_	_
 10	राजा	राजा	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	17	discourse	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	10	punct	_	_
-12	त्या	तो	DET	_	Case=Nom|Distance=Prox|Gender=Fem|Number=Plur|PronType=Dem	13	det	_	_
+12	त्या	तो	DET	_	Case=Nom|Deixis=Prox|Gender=Fem|Number=Plur|PronType=Dem	13	det	_	_
 13-14	राजपुत्राची	_	_	_	_	_	_	_	_
 13	_	राजपुत्र	NOUN	_	Case=Abs|Gender=Masc|Number=Sing	15	nmod:poss	_	_
 14	_	ची	ADP	_	Gender=Fem|Number=Sing	13	case	_	_
@@ -1441,7 +1441,7 @@
 
 # sent_id = 136
 # text = ती तुम्हालाच शोभेल.
-1	ती	तो	PRON	_	Case=Nom|Distance=Dist|Gender=Fem|Number=Sing|Person=3	4	nsubj	_	_
+1	ती	तो	PRON	_	Case=Nom|Deixis=Remt|Gender=Fem|Number=Sing|Person=3	4	nsubj	_	_
 2-3	तुम्हालाच	_	_	_	_	_	_	_	_
 2	_	तू	PRON	_	Case=Dat|Number=Plur|Person=2	4	obj	_	_
 3	_	च	PART	_	_	2	discourse	_	_
@@ -1452,7 +1452,7 @@
 # text = तुम्ही तिच्यासाठी मागणी करा!
 1	तुम्ही	तू	PRON	_	Case=Nom|Number=Plur|Person=2	6	nsubj	_	_
 2-4	तिच्यासाठी	_	_	_	_	_	_	_	_
-2	_	ती	PRON	_	Case=Abs|Distance=Dist|Gender=Fem|Number=Sing|Person=3	6	obl	_	_
+2	_	ती	PRON	_	Case=Abs|Deixis=Remt|Gender=Fem|Number=Sing|Person=3	6	obl	_	_
 3	_	च्या	PART	_	_	2	case	_	_
 4	_	साठी	ADP	_	_	2	case	_	_
 5	मागणी	मागणी	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	6	compound:lvc	_	_
@@ -1512,7 +1512,7 @@
 
 # sent_id = 142
 # text = ती माझी बहीण!
-1	ती	तो	PRON	_	Case=Nom|Distance=Dist|Gender=Fem|Number=Sing|Person=3	4	nsubj	_	_
+1	ती	तो	PRON	_	Case=Nom|Deixis=Remt|Gender=Fem|Number=Sing|Person=3	4	nsubj	_	_
 2-3	माझी	_	_	_	_	_	_	_	_
 2	_	मी	PRON	_	Number=Sing|Person=1	4	nmod:poss	_	_
 3	_	चा	ADP	_	Gender=Fem|Number=Sing	2	case	_	_
@@ -1521,7 +1521,7 @@
 
 # sent_id = 143
 # text = ती माझी राणी होऊ दे!
-1	ती	तो	PRON	_	Case=Nom|Distance=Dist|Gender=Fem|Number=Sing|Person=3	6	nsubj	_	_
+1	ती	तो	PRON	_	Case=Nom|Deixis=Remt|Gender=Fem|Number=Sing|Person=3	6	nsubj	_	_
 2-3	माझी	_	_	_	_	_	_	_	_
 2	_	मी	PRON	_	Number=Sing|Person=1	4	nmod:poss	_	_
 3	_	चा	ADP	_	Gender=Fem|Number=Sing	2	case	_	_
@@ -1533,7 +1533,7 @@
 # sent_id = 144
 # text = मी तिला विचारीन!
 1	मी	मी	PRON	_	Case=Nom|Number=Sing|Person=1	3	nsubj	_	_
-2	तिला	तो	PRON	_	Case=Dat|Distance=Dist|Gender=Fem|Number=Sing|Person=3	3	obj	_	_
+2	तिला	तो	PRON	_	Case=Dat|Deixis=Remt|Gender=Fem|Number=Sing|Person=3	3	obj	_	_
 3	विचारीन	विचारणे	VERB	_	Number=Sing|Person=1|Tense=Fut|VerbForm=Fin	0	root	_	SpaceAfter=No
 4	!	!	PUNCT	_	_	3	punct	_	_
 
@@ -1542,7 +1542,7 @@
 1	कळवा	कळवणे	VERB	_	Mood=Imp|Number=Plur|Person=2|VerbForm=Fin	0	root	_	_
 2	मला	मी	PRON	_	Case=Dat|Number=Sing|Person=1	1	iobj	_	_
 3	काय	काय	PRON	_	Case=Acc|PronType=Int	4	dislocated	_	_
-4	ते	तो	PRON	_	Case=Nom|Distance=Dist|Gender=Neut|Number=Sing|Person=3	1	obj	_	SpaceAfter=No
+4	ते	तो	PRON	_	Case=Nom|Deixis=Remt|Gender=Neut|Number=Sing|Person=3	1	obj	_	SpaceAfter=No
 5	!	!	PUNCT	_	_	1	punct	_	_
 
 # sent_id = 146
@@ -1554,7 +1554,7 @@
 
 # sent_id = 147
 # text = त्याने बहिणीला सारी हकीगत सांगितली.
-1	त्याने	तो	PRON	_	Case=Erg|Distance=Dist|Gender=Masc|Number=Sing|Person=3	5	nsubj	_	_
+1	त्याने	तो	PRON	_	Case=Erg|Deixis=Remt|Gender=Masc|Number=Sing|Person=3	5	nsubj	_	_
 2	बहिणीला	बहिण	NOUN	_	Case=Dat|Gender=Fem|Number=Sing	5	iobj	_	_
 3	सारी	सारी	ADJ	_	Case=Nom|Gender=Fem|Number=Sing	4	amod	_	_
 4	हकीगत	हकीगत	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	5	obj	_	_
@@ -1563,7 +1563,7 @@
 
 # sent_id = 148
 # text = ती म्हणाली, राजाला सांग मी व्रती आहे.
-1	ती	तो	PRON	_	Case=Nom|Distance=Dist|Gender=Fem|Number=Sing|Person=3	2	nsubj	_	_
+1	ती	तो	PRON	_	Case=Nom|Deixis=Remt|Gender=Fem|Number=Sing|Person=3	2	nsubj	_	_
 2	म्हणाली	म्हणणे	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	5	punct	_	_
 4	राजाला	राजा	NOUN	_	Case=Dat|Gender=Masc|Number=Sing	5	iobj	_	_
@@ -1590,11 +1590,11 @@
 1	राजपुत्राने	राजपुत्र	NOUN	_	Case=Erg|Gender=Masc|Number=Sing	5	nsubj	_	_
 2	राजाला	राजा	NOUN	_	Case=Dat|Gender=Masc|Number=Sing	5	obj	_	_
 3-4	त्याप्रमाणे	_	_	_	_	_	_	_	_
-3	_	तो	PRON	_	Case=Abs|Distance=Dist|Gender=Neut|Number=Sing|Person=3	5	obl	_	_
+3	_	तो	PRON	_	Case=Abs|Deixis=Remt|Gender=Neut|Number=Sing|Person=3	5	obl	_	_
 4	_	प्रमाणे	ADP	_	_	3	case	_	_
 5	सांगितले	सांगसांगणे	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
 6	आणि	आणि	CCONJ	_	_	9	cc	_	_
-7	तो	तो	PRON	_	Case=Nom|Distance=Dist|Gender=Masc|Number=Sing|Person=3	9	nsubj	_	_
+7	तो	तो	PRON	_	Case=Nom|Deixis=Remt|Gender=Masc|Number=Sing|Person=3	9	nsubj	_	_
 8	परत	परत	ADV	_	_	9	advmod	_	_
 9	आला	येणे	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Person=3|VerbForm=Fin	5	conj	_	SpaceAfter=No
 10	.	.	PUNCT	_	_	9	punct	_	_
@@ -1610,7 +1610,7 @@
 # sent_id = 152
 # text = इतक्यात तो खुशमस्कऱ्या आला.
 1	इतक्यात	इतक्यात	ADV	_	_	4	advmod	_	_
-2	तो	तो	DET	_	Case=Nom|Distance=Prox|Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
+2	तो	तो	DET	_	Case=Nom|Deixis=Prox|Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
 3	खुशमस्कऱ्या	खुशमस्कऱ्या	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
 4	आला	येणे	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	4	punct	_	_
@@ -1626,7 +1626,7 @@
 
 # sent_id = 154
 # text = त्याला म्हणावे, तुझी बहीण तरी दे, नाहीतर रात्री पायी चाळीस कोस चालत जा व त्या अंधाऱ्या दरीतील पांढरी फुले घेऊन उजाडत हजर हो, नाहीतर डोके उडवण्यात येईल!
-1	त्याला	तो	PRON	_	Case=Dat|Distance=Dist|Gender=Neut|Number=Sing|Person=3	2	obj	_	_
+1	त्याला	तो	PRON	_	Case=Dat|Deixis=Remt|Gender=Neut|Number=Sing|Person=3	2	obj	_	_
 2	म्हणावे	म्हणणे	VERB	_	Gender=Neut|Mood=Sub|Number=Sing|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	8	punct	_	_
 4-5	तुझी	_	_	_	_	_	_	_	_
@@ -1644,7 +1644,7 @@
 15	चालत	चालणे	VERB	_	Aspect=Imp|VerbForm=Part	8	conj	_	_
 16	जा	जाणे	VERB	_	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	15	compound:svc	_	_
 17	व	व	CCONJ	_	_	27	cc	_	_
-18	त्या	तो	DET	_	Distance=Dist|Gender=Fem|Number=Plur|PronType=Dem	20	det	_	_
+18	त्या	तो	DET	_	Deixis=Remt|Gender=Fem|Number=Plur|PronType=Dem	20	det	_	_
 19	अंधाऱ्या	अंधाऱ्या	ADJ	_	Case=Abs	20	amod	_	_
 20-21	दरीतील	_	_	_	_	_	_	_	_
 20	_	दरी	NOUN	_	Case=Abs|Gender=Fem|Number=Sing	23	acl	_	_
@@ -1672,7 +1672,7 @@
 
 # sent_id = 156
 # text = तो रडत बसला.
-1	तो	तो	PRON	_	Case=Nom|Distance=Dist|Gender=Masc|Number=Sing|Person=3	2	nsubj	_	_
+1	तो	तो	PRON	_	Case=Nom|Deixis=Remt|Gender=Masc|Number=Sing|Person=3	2	nsubj	_	_
 2	रडत	रडणे	VERB	_	Aspect=Imp|VerbForm=Part	0	root	_	_
 3	बसला	बसणे	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Person=3|VerbForm=Fin	2	compound:svc	_	SpaceAfter=No
 4	.	.	PUNCT	_	_	2	punct	_	_
@@ -1691,15 +1691,15 @@
 
 # sent_id = 158
 # text = त्याने तो वृत्तान्त सांगितला.
-1	त्याने	तो	PRON	_	Case=Erg|Distance=Dist|Gender=Masc|Number=Sing|Person=3	4	nsubj	_	_
-2	तो	तो	DET	_	Case=Nom|Distance=Prox|Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
+1	त्याने	तो	PRON	_	Case=Erg|Deixis=Remt|Gender=Masc|Number=Sing|Person=3	4	nsubj	_	_
+2	तो	तो	DET	_	Case=Nom|Deixis=Prox|Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
 3	वृत्तान्त	वृत्तान्त	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	4	obj	_	_
 4	सांगितला	सांगसांगणे	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = 159
 # text = ती म्हणाली, गावाबाहेर जाऊन दोन कोसांवर बसून राहा.
-1	ती	तो	PRON	_	Case=Nom|Distance=Dist|Gender=Fem|Number=Sing|Person=3	2	nsubj	_	_
+1	ती	तो	PRON	_	Case=Nom|Deixis=Remt|Gender=Fem|Number=Sing|Person=3	2	nsubj	_	_
 2	म्हणाली	म्हणणे	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	10	punct	_	_
 4-5	गावाबाहेर	_	_	_	_	_	_	_	_
@@ -1755,7 +1755,7 @@
 1-2	वाऱ्याप्रमाणे	_	_	_	_	_	_	_	_
 1	_	वारा	NOUN	_	Case=Abs|Gender=Masc|Number=Sing	4	advcl	_	_
 2	_	प्रमाणे	ADP	_	_	1	case	_	_
-3	ती	तो	PRON	_	Case=Nom|Distance=Dist|Gender=Fem|Number=Sing|Person=3	4	nsubj	_	_
+3	ती	तो	PRON	_	Case=Nom|Deixis=Remt|Gender=Fem|Number=Sing|Person=3	4	nsubj	_	_
 4	पळत	पळणे	VERB	_	Aspect=Imp|VerbForm=Part	0	root	_	_
 5	सुटली	सुटणे	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Person=3|VerbForm=Fin	4	compound:svc	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	4	punct	_	_
@@ -1768,13 +1768,13 @@
 3	_	तील	ADP	_	_	2	case	_	_
 4	पांढरी	पांढरा	ADJ	_	Case=Nom|Gender=Neut|Number=Plur	5	amod	_	_
 5	फुले	फुल	NOUN	_	Case=Acc|Gender=Neut|Number=Plur	7	obj	_	_
-6	तिने	तो	PRON	_	Case=Erg|Distance=Dist|Gender=Fem|Number=Sing|Person=3	7	nsubj	_	_
+6	तिने	तो	PRON	_	Case=Erg|Deixis=Remt|Gender=Fem|Number=Sing|Person=3	7	nsubj	_	_
 7	तोडली	तोडणे	VERB	_	Aspect=Perf|Gender=Neut|Number=Plur|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No
 8	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = 165
 # text = ती फुले दातात धरून सूर्योदयाच्या आत ती आली.
-1	ती	तो	DET	_	Case=Nom|Distance=Prox|Gender=Neut|Number=Plur|PronType=Dem	2	det	_	_
+1	ती	तो	DET	_	Case=Nom|Deixis=Prox|Gender=Neut|Number=Plur|PronType=Dem	2	det	_	_
 2	फुले	फुल	NOUN	_	Case=Acc|Gender=Neut|Number=Plur	4	obj	_	_
 3	दातात	दात	NOUN	_	Case=Loc|Gender=Masc|Number=Sing	4	obl	_	_
 4	धरून	धरणे	VERB	_	Aspect=Perf|VerbForm=Conv	9	advcl	_	_
@@ -1782,7 +1782,7 @@
 5	_	सूर्योदय	NOUN	_	Case=Abs|Gender=Masc|Number=Sing	7	nmod:poss	_	_
 6	_	चा	ADP	_	Case=Abs	5	case	_	_
 7	आत	आत	ADV	_	_	9	advcl	_	_
-8	ती	तो	PRON	_	Case=Nom|Distance=Dist|Gender=Fem|Number=Sing|Person=3	9	nsubj	_	_
+8	ती	तो	PRON	_	Case=Nom|Deixis=Remt|Gender=Fem|Number=Sing|Person=3	9	nsubj	_	_
 9	आली	येणे	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No
 10	.	.	PUNCT	_	_	9	punct	_	_
 
@@ -1794,16 +1794,16 @@
 4-5	राजपुत्राजवळ	_	_	_	_	_	_	_	_
 4	_	राजपुत्र	NOUN	_	Case=Abs|Gender=Masc|Number=Sing	8	obl	_	_
 5	_	जवळ	ADP	_	_	4	case	_	_
-6	ती	तो	DET	_	Case=Nom|Distance=Prox|Gender=Neut|Number=Plur|PronType=Dem	7	det	_	_
+6	ती	तो	DET	_	Case=Nom|Deixis=Prox|Gender=Neut|Number=Plur|PronType=Dem	7	det	_	_
 7	फुले	फुल	NOUN	_	Case=Acc|Gender=Neut|Number=Plur	8	obj	_	_
 8	देऊन	देणे	VERB	_	Aspect=Perf|VerbForm=Conv	10	advcl	_	_
-9	ती	तो	PRON	_	Case=Nom|Distance=Dist|Gender=Fem|Number=Sing|Person=3	10	nsubj	_	_
+9	ती	तो	PRON	_	Case=Nom|Deixis=Remt|Gender=Fem|Number=Sing|Person=3	10	nsubj	_	_
 10	म्हणाली	म्हणणे	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	12	punct	_	_
 12	जा	जाणे	VERB	_	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	10	conj	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	17	punct	_	_
 14	राजाला	राजा	NOUN	_	Case=Dat|Gender=Masc|Number=Sing	17	iobj	_	_
-15	ही	हा	DET	_	Distance=Prox|Gender=Neut|Number=Plur|PronType=Dem	16	det	_	_
+15	ही	हा	DET	_	Deixis=Prox|Gender=Neut|Number=Plur|PronType=Dem	16	det	_	_
 16	नेऊन	नेणे	VERB	_	Aspect=Perf|VerbForm=Conv	17	obj	_	_
 17	दे	देणे	VERB	_	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	10	conj	_	SpaceAfter=No
 18	!	!	PUNCT	_	_	17	punct	_	_
@@ -1825,7 +1825,7 @@
 # text = निरोप घेऊन तो परत घरी आला.
 1	निरोप	निरोप	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	2	obj	_	_
 2	घेऊन	घेणे	VERB	_	Aspect=Perf|VerbForm=Conv	6	advcl	_	_
-3	तो	तो	PRON	_	Case=Nom|Distance=Dist|Gender=Masc|Number=Sing|Person=3	6	nsubj	_	_
+3	तो	तो	PRON	_	Case=Nom|Deixis=Remt|Gender=Masc|Number=Sing|Person=3	6	nsubj	_	_
 4	परत	परत	ADV	_	_	6	advmod	_	_
 5	घरी	घरी	ADV	_	_	6	obl	_	_
 6	आला	येणे	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No
@@ -1844,7 +1844,7 @@
 
 # sent_id = 170
 # text = त्याला सांगा कि, बहीण तरी दे किंवा मागील राणीची समुद्रात पडलेली नथ आणून दे, नाहीतर डोके उडवीन! खुशमस्कऱ्याने सुचविले.
-1	त्याला	तो	PRON	_	Case=Dat|Distance=Dist|Gender=Masc|Number=Sing|Person=3	2	obj	_	_
+1	त्याला	तो	PRON	_	Case=Dat|Deixis=Remt|Gender=Masc|Number=Sing|Person=3	2	obj	_	_
 2	सांगा	सांगसांगणे	VERB	_	Mood=Imp|Number=Plur|Person=2|VerbForm=Fin	0	root	_	_
 3	कि	कि	SCONJ	_	_	7	mark	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	_
@@ -1873,7 +1873,7 @@
 # sent_id = 171
 # text = राजपुत्राला ती गोष्ट कळविण्यात आली.
 1	राजपुत्राला	राजपुत्र	NOUN	_	Case=Dat|Gender=Masc|Number=Sing	5	nsubj	_	_
-2	ती	तो	DET	_	Case=Nom|Distance=Prox|Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
+2	ती	तो	DET	_	Case=Nom|Deixis=Prox|Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
 3	गोष्ट	गोष्ट	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	5	obj	_	_
 4	कळविण्यात	कळवणे	VERB	_	Case=Loc|InfForm=Dict|VerbForm=Inf	5	advcl	_	_
 5	आली	येणे	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No
@@ -1935,14 +1935,14 @@
 
 # sent_id = 178
 # text = तो भाऊही बाहेर गेला आणि तो बेडूक बनला.
-1	तो	तो	DET	_	Distance=Dist|Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
+1	तो	तो	DET	_	Deixis=Remt|Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
 2-3	भाऊही	_	_	_	_	_	_	_	_
 2	_	भाऊ	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
 3	_	ही	PART	_	_	2	discourse	_	_
 4	बाहेर	बाहेर	ADP	_	_	5	advmod	_	_
 5	गेला	जाणे	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
 6	आणि	आणि	CCONJ	_	_	9	cc	_	_
-7	तो	तो	PRON	_	Case=Nom|Distance=Dist|Gender=Masc|Number=Sing|Person=3	9	nsubj	_	_
+7	तो	तो	PRON	_	Case=Nom|Deixis=Remt|Gender=Masc|Number=Sing|Person=3	9	nsubj	_	_
 8	बेडूक	बेडूक	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	9	obj	_	_
 9	बनला	बनणे	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Person=3|VerbForm=Fin	5	conj	_	SpaceAfter=No
 10	.	.	PUNCT	_	_	9	punct	_	_
@@ -1953,7 +1953,7 @@
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	डराव	डराव	INTJ	_	_	4	discourse	_	_
 4	करून	करणे	VERB	_	Aspect=Perf|VerbForm=Conv	8	advcl	_	_
-5	त्याने	तो	PRON	_	Case=Erg|Distance=Dist|Gender=Masc|Number=Sing|Person=3	8	nsubj	_	_
+5	त्याने	तो	PRON	_	Case=Erg|Deixis=Remt|Gender=Masc|Number=Sing|Person=3	8	nsubj	_	_
 6	बेडकांना	बेडूक	NOUN	_	Case=Dat|Gender=Masc|Number=Plur	8	obj	_	_
 7	हाका	हाक	NOUN	_	Case=Abs|Gender=Fem|Number=Plur	8	compound:lvc	_	_
 8	मारल्या	मारणे	VERB	_	Aspect=Perf|Gender=Fem|Number=Plur|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No
@@ -1969,11 +1969,11 @@
 
 # sent_id = 181
 # text = तो त्यांना म्हणाला, त्या राजपुत्राने माझा प्राण वाचविला आहे.
-1	तो	तो	PRON	_	Case=Nom|Distance=Dist|Gender=Masc|Number=Sing|Person=3	3	nsubj	_	_
-2	त्यांना	तो	PRON	_	Case=Dat|Distance=Dist|Gender=Masc|Number=Plur|Person=3	3	obj	_	_
+1	तो	तो	PRON	_	Case=Nom|Deixis=Remt|Gender=Masc|Number=Sing|Person=3	3	nsubj	_	_
+2	त्यांना	तो	PRON	_	Case=Dat|Deixis=Remt|Gender=Masc|Number=Plur|Person=3	3	obj	_	_
 3	म्हणाला	म्हणणे	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	10	punct	_	_
-5	त्या	तो	DET	_	Case=Abs|Distance=Dist|PronType=Dem	6	det	_	_
+5	त्या	तो	DET	_	Case=Abs|Deixis=Remt|PronType=Dem	6	det	_	_
 6	राजपुत्राने	राजपुत्र	NOUN	_	Case=Erg|Gender=Masc|Number=Sing	10	nsubj	_	_
 7-8	माझा	_	_	_	_	_	_	_	_
 7	_	मी	PRON	_	Number=Sing|Person=1	9	nmod:poss	_	_
@@ -1987,7 +1987,7 @@
 # text = आपण त्याच्यासाठी काही करूया.
 1	आपण	आपण	PRON	_	Case=Nom|PronType=Prs	6	nsubj	_	_
 2-4	त्याच्यासाठी	_	_	_	_	_	_	_	_
-2	_	तो	PRON	_	Case=Abs|Distance=Dist|Gender=Masc|Number=Sing|Person=3	6	obl	_	_
+2	_	तो	PRON	_	Case=Abs|Deixis=Remt|Gender=Masc|Number=Sing|Person=3	6	obl	_	_
 3	_	च्या	PART	_	_	2	case	_	_
 4	_	साठी	ADP	_	_	2	case	_	_
 5	काही	काही	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	6	obj	_	_
@@ -2009,7 +2009,7 @@
 # sent_id = 184
 # text = मिळतील ते मोती तोंडात धरून आणू, राजाच्या अंगणात ढीग घालू!
 1	मिळतील	मिळणे	VERB	_	Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	5	xcomp	_	_
-2	ते	तो	PRON	_	Case=Nom|Distance=Dist|Gender=Masc|Number=Plur|Person=3|PronType=Rel	1	obj	_	_
+2	ते	तो	PRON	_	Case=Nom|Deixis=Remt|Gender=Masc|Number=Plur|Person=3|PronType=Rel	1	obj	_	_
 3	मोती	मोती	NOUN	_	Case=Nom|Gender=Masc|Number=Plur	2	dislocated	_	_
 4	तोंडात	तोंड	NOUN	_	Case=Loc|Gender=Neut|Number=Sing	5	obl	_	_
 5	धरून	धरणे	VERB	_	Aspect=Perf|VerbForm=Conv	6	advcl	_	_
@@ -2030,9 +2030,9 @@
 3	ऐकले	ऐकणे	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
 4	आणि	आणि	CCONJ	_	_	8	cc	_	_
 5-6	त्याप्रमाणे	_	_	_	_	_	_	_	_
-5	_	तो	PRON	_	Case=Abs|Distance=Dist|Person=3	8	obl	_	_
+5	_	तो	PRON	_	Case=Abs|Deixis=Remt|Person=3	8	obl	_	_
 6	_	प्रमाणे	ADP	_	_	5	case	_	_
-7	त्यांनी	तो	PRON	_	Case=Erg|Distance=Dist|Gender=Masc|Number=Plur|Person=3	8	nsubj	_	_
+7	त्यांनी	तो	PRON	_	Case=Erg|Deixis=Remt|Gender=Masc|Number=Plur|Person=3	8	nsubj	_	_
 8	केले	करणे	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Person=3|VerbForm=Fin	3	conj	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	8	punct	_	_
 
@@ -2125,7 +2125,7 @@
 
 # sent_id = 194
 # text = तो स्वर्गात कसा जाणार?
-1	तो	तो	PRON	_	Case=Nom|Distance=Dist|Gender=Masc|Number=Sing|Person=3	4	nsubj	_	_
+1	तो	तो	PRON	_	Case=Nom|Deixis=Remt|Gender=Masc|Number=Sing|Person=3	4	nsubj	_	_
 2	स्वर्गात	स्वर्ग	NOUN	_	Case=Loc|Gender=Masc|Number=Sing	4	obl	_	_
 3	कसा	कसा	ADV	_	_	4	advmod	_	_
 4	जाणार	जाणे	VERB	_	Aspect=Prosp|VerbForm=Fin	0	root	_	SpaceAfter=No
@@ -2151,7 +2151,7 @@
 # sent_id = 196
 # text = त्याच रस्त्याने राजपुत्राला पाठवू!
 1-2	त्याच	_	_	_	_	_	_	_	_
-1	_	तो	DET	_	Case=Abs|Distance=Dist|PronType=Dem	3	det	_	_
+1	_	तो	DET	_	Case=Abs|Deixis=Remt|PronType=Dem	3	det	_	_
 2	_	च	PART	_	_	1	discourse	_	_
 3	रस्त्याने	रस्ता	NOUN	_	Case=Ins|Gender=Masc|Number=Sing	5	obl	_	_
 4	राजपुत्राला	राजपुत्र	NOUN	_	Case=Dat|Gender=Masc|Number=Sing	5	obj	_	_
@@ -2161,7 +2161,7 @@
 # sent_id = 197
 # text = राजपुत्राला ती गोष्ट कळविण्यात आली.
 1	राजपुत्राला	राजपुत्र	NOUN	_	Case=Dat|Gender=Masc|Number=Sing	5	nsubj	_	_
-2	ती	तो	DET	_	Distance=Dist|Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
+2	ती	तो	DET	_	Deixis=Remt|Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
 3	गोष्ट	गोष्ट	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
 4	कळविण्यात	कळणे	VERB	_	Case=Loc|InfForm=Dict|VerbForm=Inf	5	advcl	_	_
 5	आली	येणे	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No
@@ -2177,7 +2177,7 @@
 
 # sent_id = 199
 # text = तो दुसरा भाऊ येऊन म्हणाला, दादा, का दु:खी?
-1	तो	तो	DET	_	Distance=Dist|Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
+1	तो	तो	DET	_	Deixis=Remt|Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
 2	दुसरा	दोन	NUM	_	_	3	nummod	_	_
 3	भाऊ	भाऊ	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
 4	येऊन	येणे	VERB	_	Aspect=Perf|VerbForm=Conv	5	advcl	_	_
@@ -2207,7 +2207,7 @@
 # text = मी देतो तो रस अंगाला लावा आणि चितेवर निजा.
 1	मी	मी	PRON	_	Case=Nom|Number=Sing|Person=1	2	nsubj	_	_
 2	देतो	देणे	VERB	_	Aspect=Imp|Gender=Masc|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	acl	_	_
-3	तो	तो	DET	_	Distance=Dist|Gender=Masc|Number=Sing|PronType=Dem	4	det	_	_
+3	तो	तो	DET	_	Deixis=Remt|Gender=Masc|Number=Sing|PronType=Dem	4	det	_	_
 4	रस	रस	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	6	obj	_	_
 5	अंगाला	अंग	NOUN	_	Case=Dat|Gender=Neut|Number=Sing	6	iobj	_	_
 6	लावा	लावणे	VERB	_	Mood=Imp|Number=Plur|Person=2|VerbForm=Fin	0	root	_	_
@@ -2253,7 +2253,7 @@
 # sent_id = 205
 # text = राजपुत्र तो रस अंगाला लावून राजाकडे गेला.
 1	राजपुत्र	राजपुत्र	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
-2	तो	तो	DET	_	Distance=Dist|Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
+2	तो	तो	DET	_	Deixis=Remt|Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
 3	रस	रस	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	5	obj	_	_
 4	अंगाला	अंग	NOUN	_	Case=Dat|Gender=Neut|Number=Sing	5	iobj	_	_
 5	लावून	लावणे	VERB	_	Aspect=Perf|VerbForm=Conv	8	advcl	_	_
@@ -2275,7 +2275,7 @@
 6	घरी	घरी	ADV	_	_	7	iobj	_	_
 7	पाठवा	पाठवणे	VERB	_	Mood=Imp|Number=Plur|Person=2|VerbForm=Fin	0	root	_	_
 8	असे	असे	SCONJ	_	_	10	mark	_	_
-9	त्याने	तो	PRON	_	Case=Erg|Distance=Dist|Gender=Masc|Number=Sing|Person=3	10	nsubj	_	_
+9	त्याने	तो	PRON	_	Case=Erg|Deixis=Remt|Gender=Masc|Number=Sing|Person=3	10	nsubj	_	_
 10	सांगितले	सांगसांगणे	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Person=3|VerbForm=Fin	7	ccomp	_	SpaceAfter=No
 11	.	.	PUNCT	_	_	10	punct	_	_
 
@@ -2283,7 +2283,7 @@
 # text = हजारो लोक तो प्रकार पाहत होते.
 1	हजारो	हजारो	ADJ	_	Case=Nom|Number=Plur	2	nummod	_	_
 2	लोक	लोक	NOUN	_	Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
-3	तो	तो	DET	_	Distance=Dist|Gender=Masc|Number=Sing|PronType=Dem	4	det	_	_
+3	तो	तो	DET	_	Deixis=Remt|Gender=Masc|Number=Sing|PronType=Dem	4	det	_	_
 4	प्रकार	प्रकार	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	5	obj	_	_
 5	पाहत	पहाणे	VERB	_	Aspect=Imp|VerbForm=Part	0	root	_	_
 6	होते	असणे	AUX	_	Gender=Masc|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	5	aux	_	SpaceAfter=No
@@ -2324,14 +2324,14 @@
 # sent_id = 212
 # text = त्याच्या देहाची राख त्याच्या घरी पाठविण्यात आली.
 1-2	त्याच्या	_	_	_	_	_	_	_	_
-1	_	तो	PRON	_	Distance=Dist|Gender=Masc|Number=Sing|Person=3	3	nmod:poss	_	_
+1	_	तो	PRON	_	Deixis=Remt|Gender=Masc|Number=Sing|Person=3	3	nmod:poss	_	_
 2	_	चा	ADP	_	Case=Abs	1	case	_	_
 3-4	देहाची	_	_	_	_	_	_	_	_
 3	_	देह	NOUN	_	Case=Abs|Gender=Masc|Number=Sing	5	nmod:poss	_	_
 4	_	चा	ADP	_	Gender=Fem|Number=Sing	3	case	_	_
 5	राख	राख	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	_
 6-7	त्याच्या	_	_	_	_	_	_	_	_
-6	_	तो	PRON	_	Distance=Dist|Gender=Masc|Number=Sing|Person=3	8	nmod:poss	_	_
+6	_	तो	PRON	_	Deixis=Remt|Gender=Masc|Number=Sing|Person=3	8	nmod:poss	_	_
 7	_	चा	ADP	_	Case=Abs	6	case	_	_
 8	घरी	घरी	ADV	_	_	10	obl	_	_
 9	पाठविण्यात	पाठवणे	VERB	_	Case=Loc|InfForm=Dict|VerbForm=Inf	10	advcl	_	_
@@ -2344,10 +2344,10 @@
 1	_	रात्र	NOUN	_	Case=Abs|Gender=Fem|Number=Sing	3	nmod:poss	_	_
 2	_	चा	ADP	_	Case=Abs	1	case	_	_
 3	वेळेस	वेळ	NOUN	_	Case=Loc|Gender=Fem|Number=Sing	11	obl	_	_
-4	तो	तो	DET	_	Distance=Dist|Gender=Masc|Number=Sing|PronType=Dem	6	det	_	_
+4	तो	तो	DET	_	Deixis=Remt|Gender=Masc|Number=Sing|PronType=Dem	6	det	_	_
 5	एक	एक	NUM	_	_	6	nummod	_	_
 6	भाऊ	भाऊ	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	_
-7	ती	तो	DET	_	Distance=Dist|Gender=Fem|Number=Sing|PronType=Dem	8	det	_	_
+7	ती	तो	DET	_	Deixis=Remt|Gender=Fem|Number=Sing|PronType=Dem	8	det	_	_
 8	राख	राख	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	9	obj	_	_
 9	घेऊन	घेणे	VERB	_	Aspect=Perf|VerbForm=Conv	11	advcl	_	_
 10	बाहेर	बाहेर	ADV	_	_	11	compound:lvc	_	_
@@ -2356,7 +2356,7 @@
 
 # sent_id = 214
 # text = तो सर्प बनला.
-1	तो	तो	PRON	_	Case=Nom|Distance=Dist|Gender=Masc|Number=Sing|Person=3	3	nsubj	_	_
+1	तो	तो	PRON	_	Case=Nom|Deixis=Remt|Gender=Masc|Number=Sing|Person=3	3	nsubj	_	_
 2	सर्प	सर्प	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	3	obj	_	_
 3	बनला	बनणे	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No
 4	.	.	PUNCT	_	_	3	punct	_	_
@@ -2369,14 +2369,14 @@
 3	भांडे	भांडे	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	_
 4	तोंडात	तोंड	NOUN	_	Case=Loc|Gender=Neut|Number=Sing	5	obl	_	_
 5	धरून	धरणे	VERB	_	Aspect=Perf|VerbForm=Conv	8	advcl	_	_
-6	तो	तो	PRON	_	Case=Nom|Distance=Dist|Gender=Masc|Number=Sing|Person=3	8	nsubj	_	_
+6	तो	तो	PRON	_	Case=Nom|Deixis=Remt|Gender=Masc|Number=Sing|Person=3	8	nsubj	_	_
 7	पाताळात	पाताळ	NOUN	_	Case=Loc|Gender=Masc|Number=Sing	8	obl	_	_
 8	गेला	जाणे	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	8	punct	_	_
 
 # sent_id = 216
 # text = त्याने शेषाला सारा वृत्तान्त निवेदला.
-1	त्याने	तो	PRON	_	Case=Erg|Distance=Dist|Gender=Masc|Number=Sing|Person=3	5	nsubj	_	_
+1	त्याने	तो	PRON	_	Case=Erg|Deixis=Remt|Gender=Masc|Number=Sing|Person=3	5	nsubj	_	_
 2	शेषाला	शेष	NOUN	_	Case=Dat|Gender=Masc|Number=Sing	5	iobj	_	_
 3	सारा	सारा	ADJ	_	Case=Nom|Gender=Masc|Number=Sing	5	amod	_	_
 4	वृत्तान्त	वृत्तान्त	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	5	obj	_	_
@@ -2387,7 +2387,7 @@
 # text = महाराज, या राखेवर शिंपायला अमृताचे चार बिंदू द्या, सर्प म्हणाला.
 1	महाराज	महाराज	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	11	vocative	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
-3	या	हा	DET	_	Case=Abs|Distance=Prox|PronType=Dem	4	det	_	_
+3	या	हा	DET	_	Case=Abs|Deixis=Prox|PronType=Dem	4	det	_	_
 4-5	राखेवर	_	_	_	_	_	_	_	_
 4	_	राख	NOUN	_	Case=Abs|Gender=Fem|Number=Sing	6	obl	_	_
 5	_	वर	ADP	_	_	4	case	_	_
@@ -2405,7 +2405,7 @@
 
 # sent_id = 218
 # text = हा साप तुझ्याबरोबर अमृतबिंदू घेऊन पृथ्वीपर्यंत येईल, शेष म्हणाला.
-1	हा	हा	DET	_	Distance=Prox|Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
+1	हा	हा	DET	_	Deixis=Prox|Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
 2	साप	साप	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_
 3-5	तुझ्याबरोबर	_	_	_	_	_	_	_	_
 3	_	तू	PRON	_	Case=Abs|Number=Sing|Person=2	10	obl	_	_
@@ -2426,7 +2426,7 @@
 # text = एक सर्प या सर्पाबरोबर निघाला.
 1	एक	एक	DET	_	Number=Sing|PronType=Ind	2	det	_	_
 2	सर्प	सर्प	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
-3	या	हा	DET	_	Case=Abs|Distance=Prox|PronType=Dem	4	det	_	_
+3	या	हा	DET	_	Case=Abs|Deixis=Prox|PronType=Dem	4	det	_	_
 4-5	सर्पाबरोबर	_	_	_	_	_	_	_	_
 4	_	सर्प	NOUN	_	Case=Abs|Gender=Masc|Number=Sing	6	obl	_	_
 5	_	बरोबर	ADP	_	_	4	case	_	_
@@ -2454,7 +2454,7 @@
 6	अमृत	अमृत	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	7	obj	_	_
 7	शिंपले	शिंपणे	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
 8	आणि	आणि	CCONJ	_	_	10	cc	_	_
-9	तो	तो	PRON	_	Case=Nom|Distance=Dist|Gender=Masc|Number=Sing|Person=3	10	nsubj	_	_
+9	तो	तो	PRON	_	Case=Nom|Deixis=Remt|Gender=Masc|Number=Sing|Person=3	10	nsubj	_	_
 10	निघून	निघणे	VERB	_	Aspect=Perf|VerbForm=Conv	7	conj	_	_
 11	गेला	जाणे	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Person=3|VerbForm=Fin	10	compound:svc	_	SpaceAfter=No
 12	.	.	PUNCT	_	_	10	punct	_	_
@@ -2478,7 +2478,7 @@
 
 # sent_id = 224
 # text = तो म्हणाला, दादा, जा व राजाला सांगा की, त्याच्या वडिलांना स्वर्गात करमत नाही.
-1	तो	तो	PRON	_	Case=Nom|Distance=Dist|Gender=Masc|Number=Sing|Person=3	2	nsubj	_	_
+1	तो	तो	PRON	_	Case=Nom|Deixis=Remt|Gender=Masc|Number=Sing|Person=3	2	nsubj	_	_
 2	म्हणाला	म्हणणे	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	6	punct	_	_
 4	दादा	दादा	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	6	vocative	_	SpaceAfter=No
@@ -2490,7 +2490,7 @@
 10	की	की	SCONJ	_	_	16	mark	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	10	punct	_	_
 12-13	त्याच्या	_	_	_	_	_	_	_	_
-12	_	तो	PRON	_	Distance=Dist|Gender=Masc|Number=Sing|Person=3	14	nmod:poss	_	_
+12	_	तो	PRON	_	Deixis=Remt|Gender=Masc|Number=Sing|Person=3	14	nmod:poss	_	_
 13	_	चा	ADP	_	Case=Abs	12	case	_	_
 14	वडिलांना	वडिल	NOUN	_	Case=Dat|Gender=Masc|Number=Plur	16	nsubj	_	_
 15	स्वर्गात	स्वर्ग	NOUN	_	Case=Loc|Gender=Masc|Number=Sing	16	obl	_	_
@@ -2509,7 +2509,7 @@
 
 # sent_id = 226
 # text = त्याला लवकर पाठवून द्या!
-1	त्याला	तो	PRON	_	Case=Dat|Distance=Dist|Gender=Neut|Number=Sing|Person=3	3	obj	_	_
+1	त्याला	तो	PRON	_	Case=Dat|Deixis=Remt|Gender=Neut|Number=Sing|Person=3	3	obj	_	_
 2	लवकर	लवकर	ADV	_	_	3	advmod	_	_
 3	पाठवून	पाठवणे	VERB	_	Aspect=Perf|VerbForm=Conv	0	root	_	_
 4	द्या	देणे	VERB	_	Mood=Imp|Number=Plur|Person=2|VerbForm=Fin	3	compound:svc	_	SpaceAfter=No
@@ -2531,7 +2531,7 @@
 1-2	राजवाड्यासमोर	_	_	_	_	_	_	_	_
 1	_	राजवाडा	NOUN	_	Case=Abs|Gender=Masc|Number=Sing	4	nsubj	_	_
 2	_	समोर	ADP	_	_	1	case	_	_
-3	ही	हा	DET	_	Distance=Prox|Gender=Fem|Number=Sing|PronType=Dem	4	det	_	_
+3	ही	हा	DET	_	Deixis=Prox|Gender=Fem|Number=Sing|PronType=Dem	4	det	_	_
 4	गर्दी	गर्दी	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
 5	!	!	PUNCT	_	_	4	punct	_	_
 
@@ -2540,7 +2540,7 @@
 1	राजपुत्राने	राजपुत्र	NOUN	_	Case=Erg|Gender=Masc|Number=Sing	8	nsubj	_	_
 2	राजाला	राजाला	NOUN	_	Case=Dat|Gender=Masc|Number=Sing	8	iobj	_	_
 3-4	त्याच्या	_	_	_	_	_	_	_	_
-3	_	तो	PRON	_	Distance=Dist|Gender=Masc|Number=Sing|Person=3	5	nmod:poss	_	_
+3	_	तो	PRON	_	Deixis=Remt|Gender=Masc|Number=Sing|Person=3	5	nmod:poss	_	_
 4	_	चा	ADP	_	Case=Abs	3	case	_	_
 5-6	वडिलांचा	_	_	_	_	_	_	_	_
 5	_	वडिल	NOUN	_	Case=Abs|Gender=Masc|Number=Plur	7	nmod:poss	_	_
@@ -2576,7 +2576,7 @@
 1	जा	जाणे	VERB	_	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	_	_
 2	तू	तू	PRON	_	Case=Nom|Number=Sing|Person=2	1	nsubj	_	_
 3-5	त्यांच्याकडे	_	_	_	_	_	_	_	_
-3	_	तो	PRON	_	Case=Abs|Distance=Dist|Number=Plur|Person=3	1	obl	_	_
+3	_	तो	PRON	_	Case=Abs|Deixis=Remt|Number=Plur|Person=3	1	obl	_	_
 4	_	च्या	PART	_	_	3	case	_	_
 5	_	कडे	ADP	_	_	3	case	_	_
 6	!	!	PUNCT	_	_	1	punct	_	_
@@ -2590,11 +2590,11 @@
 
 # sent_id = 233
 # text = या राजपुत्रास पाठविले त्याच मार्गाने तूही जा!
-1	या	हा	DET	_	Distance=Prox|PronType=Dem	2	det	_	_
+1	या	हा	DET	_	Deixis=Prox|PronType=Dem	2	det	_	_
 2	राजपुत्रास	राजपुत्र	NOUN	_	Case=Dat|Gender=Masc|Number=Sing	3	obj	_	_
 3	पाठविले	पाठवणे	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Person=3|VerbForm=Fin	6	acl	_	_
 4-5	त्याच	_	_	_	_	_	_	_	_
-4	_	तो	DET	_	Distance=Dist|Gender=Fem|Number=Plur|PronType=Dem	6	det	_	_
+4	_	तो	DET	_	Deixis=Remt|Gender=Fem|Number=Plur|PronType=Dem	6	det	_	_
 5	_	च	PART	_	_	4	discourse	_	_
 6	मार्गाने	मार्ग	NOUN	_	Case=Ins|Gender=Masc|Number=Sing	9	obl	_	_
 7-8	तूही	_	_	_	_	_	_	_	_
@@ -2635,7 +2635,7 @@
 8	भावंडांना	भावंड	NOUN	_	Case=Dat|Gender=Neut|Number=Plur	9	obj	_	_
 9	म्हणाला	म्हणणे	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Person=3|VerbForm=Fin	6	conj	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	14	punct	_	_
-11	हा	हा	DET	_	Distance=Prox|Gender=Masc|Number=Sing|PronType=Dem	12	det	_	_
+11	हा	हा	DET	_	Deixis=Prox|Gender=Masc|Number=Sing|PronType=Dem	12	det	_	_
 12	राजा	राजा	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	14	nsubj	_	_
 13	लहरी	लहर	NOUN	_	Case=Acc|Gender=Fem|Number=Plur	14	obj	_	_
 14	दिसतो	दिसणे	VERB	_	Aspect=Imp|Gender=Masc|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	parataxis	_	SpaceAfter=No
@@ -2697,7 +2697,7 @@
 
 # sent_id = 243
 # text = ती पुन्हा चालू लागली.
-1	ती	तो	PRON	_	Case=Nom|Distance=Dist|Gender=Neut|Number=Plur|Person=3	3	nsubj	_	_
+1	ती	तो	PRON	_	Case=Nom|Deixis=Remt|Gender=Neut|Number=Plur|Person=3	3	nsubj	_	_
 2	पुन्हा	पुन्हा	ADV	_	_	3	advmod	_	_
 3	चालू	चालणे	VERB	_	InfForm=Incp|VerbForm=Inf	0	root	_	_
 4	लागली	लागणे	AUX	_	Aspect=Perf|Gender=Neut|Number=Plur|Person=3|VerbForm=Fin	3	aux	_	SpaceAfter=No
@@ -2705,7 +2705,7 @@
 
 # sent_id = 244
 # text = तो एक भाऊ म्हणाला, दादा, मला निरोप दे!
-1	तो	तो	DET	_	Distance=Dist|Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
+1	तो	तो	DET	_	Deixis=Remt|Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
 2	एक	एक	NUM	_	_	3	nummod	_	_
 3	भाऊ	भाऊ	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
 4	म्हणाला	म्हणणे	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No
@@ -2776,7 +2776,7 @@
 
 # sent_id = 250
 # text = आम्ही सापही केलेले उपकार स्मरतो.
-1	आम्ही	मी	DET	_	Case=Nom|Distance=Prox|Number=Plur|PronType=Dem	2	det	_	_
+1	आम्ही	मी	DET	_	Case=Nom|Deixis=Prox|Number=Plur|PronType=Dem	2	det	_	_
 2-3	सापही	_	_	_	_	_	_	_	_
 2	_	साप	NOUN	_	Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	_
 3	_	ही	PART	_	_	2	discourse	_	_
@@ -2795,7 +2795,7 @@
 6	!	!	PUNCT	_	_	5	punct	_	_
 7	असे	असे	SCONJ	_	_	12	mark	_	_
 8	म्हणून	म्हणणे	VERB	_	Aspect=Perf|VerbForm=Conv	12	advcl	_	_
-9	तो	तो	DET	_	Distance=Dist|Gender=Masc|Number=Sing|PronType=Dem	10	det	_	_
+9	तो	तो	DET	_	Deixis=Remt|Gender=Masc|Number=Sing|PronType=Dem	10	det	_	_
 10	भाऊ	भाऊ	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	_
 11	साप	साप	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	12	obj	_	_
 12	बनला	बनणे	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Person=3|VerbForm=Fin	1	parataxis	_	_
@@ -2842,7 +2842,7 @@
 1	दादा	दादा	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	5	vocative	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	मी	मी	PRON	_	Case=Nom|Number=Sing|Person=1	5	nsubj	_	_
-4	तो	तो	DET	_	Distance=Dist|Gender=Masc|Number=Sing|PronType=Dem	5	det	_	_
+4	तो	तो	DET	_	Deixis=Remt|Gender=Masc|Number=Sing|PronType=Dem	5	det	_	_
 5	बेडूक	बेडूक	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	5	punct	_	_
 
@@ -2884,7 +2884,7 @@
 # text = असे म्हणून तो भाऊ बेडूक बनला व टुणटुण उड्या मारीत निघून गेला.
 1	असे	असे	SCONJ	_	_	6	mark	_	_
 2	म्हणून	म्हणणे	VERB	_	Aspect=Perf|VerbForm=Conv	6	advcl	_	_
-3	तो	तो	DET	_	Distance=Dist|Gender=Masc|Number=Sing|PronType=Dem	4	det	_	_
+3	तो	तो	DET	_	Deixis=Remt|Gender=Masc|Number=Sing|PronType=Dem	4	det	_	_
 4	भाऊ	भाऊ	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
 5	बेडूक	बेडूक	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	6	obj	_	_
 6	बनला	बनणे	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
@@ -2934,7 +2934,7 @@
 # sent_id = 264
 # text = मी ती हरिणी.
 1	मी	मी	PRON	_	Case=Nom|Number=Sing|Person=1	3	nsubj	_	_
-2	ती	तो	DET	_	Distance=Dist|Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
+2	ती	तो	DET	_	Deixis=Remt|Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
 3	हरिणी	हरिणी	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
 4	.	.	PUNCT	_	_	3	punct	_	_
 
@@ -3034,7 +3034,7 @@
 # text = विचार करीत तो निघाला.
 1	विचार	विचार	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	2	compound:lvc	_	_
 2	करीत	करणे	VERB	_	Aspect=Imp|VerbForm=Part	4	advcl	_	_
-3	तो	तो	PRON	_	Case=Nom|Distance=Dist|Gender=Masc|Number=Sing|Person=3	4	nsubj	_	_
+3	तो	तो	PRON	_	Case=Nom|Deixis=Remt|Gender=Masc|Number=Sing|Person=3	4	nsubj	_	_
 4	निघाला	निघणे	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	4	punct	_	_
 
@@ -3050,7 +3050,7 @@
 7	!	!	PUNCT	_	_	6	punct	_	_
 8	असे	असे	SCONJ	_	_	12	mark	_	_
 9-10	त्याच्या	_	_	_	_	_	_	_	_
-9	_	तो	PRON	_	Distance=Dist|Gender=Masc|Number=Sing|Person=3	11	nmod:poss	_	_
+9	_	तो	PRON	_	Deixis=Remt|Gender=Masc|Number=Sing|Person=3	11	nmod:poss	_	_
 10	_	चा	ADP	_	Case=Abs	9	case	_	_
 11	मनात	मन	NOUN	_	Case=Loc|Gender=Neut|Number=Sing	12	obl	_	_
 12	येत	येणे	VERB	_	Aspect=Imp|VerbForm=Part	6	parataxis	_	_
@@ -3069,14 +3069,14 @@
 8	असा	असा	ADJ	_	Case=Nom|Gender=Masc|Number=Sing	9	amod	_	_
 9	विचार	विचार	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	_
 10-11	त्याच्या	_	_	_	_	_	_	_	_
-10	_	तो	PRON	_	Distance=Dist|Gender=Masc|Number=Sing|Person=3	12	nmod:poss	_	_
+10	_	तो	PRON	_	Deixis=Remt|Gender=Masc|Number=Sing|Person=3	12	nmod:poss	_	_
 11	_	चा	ADP	_	Case=Abs	10	case	_	_
 12	मनात	मन	NOUN	_	Case=Loc|Gender=Neut|Number=Sing	13	obl	_	_
 13	आला	येणे	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Person=3|VerbForm=Fin	4	parataxis	_	_
 14	आणि	आणि	CCONJ	_	_	21	cc	_	_
-15	या	हा	DET	_	Distance=Prox|PronType=Dem	16	det	_	_
+15	या	हा	DET	_	Deixis=Prox|PronType=Dem	16	det	_	_
 16	विचारात	विचार	NOUN	_	Case=Loc|Gender=Masc|Number=Sing	21	obl	_	_
-17	तो	तो	PRON	_	Case=Nom|Distance=Dist|Gender=Masc|Number=Sing|Person=3	21	nsubj	_	_
+17	तो	तो	PRON	_	Case=Nom|Deixis=Remt|Gender=Masc|Number=Sing|Person=3	21	nsubj	_	_
 18-19	आपल्या	_	_	_	_	_	_	_	_
 18	_	आपण	PRON	_	PronType=Prs	20	nmod:poss	_	_
 19	_	चा	ADP	_	Case=Abs	18	case	_	_
@@ -3107,7 +3107,7 @@
 
 # sent_id = 278
 # text = ती गच्चीत उभी होती.
-1	ती	तो	PRON	_	Case=Nom|Distance=Dist|Gender=Fem|Number=Sing|Person=3	3	nsubj	_	_
+1	ती	तो	PRON	_	Case=Nom|Deixis=Remt|Gender=Fem|Number=Sing|Person=3	3	nsubj	_	_
 2	गच्चीत	गच्ची	NOUN	_	Case=Loc|Gender=Fem|Number=Sing	3	obl	_	_
 3	उभी	उभा	ADJ	_	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
 4	होती	असणे	AUX	_	Gender=Fem|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	aux	_	SpaceAfter=No
@@ -3168,7 +3168,7 @@
 
 # sent_id = 286
 # text = तिने राजपुत्राला हृदयाशी धरले.
-1	तिने	तो	PRON	_	Case=Erg|Distance=Dist|Gender=Fem|Number=Sing|Person=3	4	nsubj	_	_
+1	तिने	तो	PRON	_	Case=Erg|Deixis=Remt|Gender=Fem|Number=Sing|Person=3	4	nsubj	_	_
 2	राजपुत्राला	राजपुत्र	NOUN	_	Case=Dat|Gender=Masc|Number=Sing	4	obj	_	_
 3	हृदयाशी	हृदय	NOUN	_	Case=Com|Gender=Masc|Number=Sing	4	obl	_	_
 4	धरले	धरणे	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No
@@ -3210,7 +3210,7 @@
 
 # sent_id = 291
 # text = तो नम्रतेने म्हणाला.
-1	तो	तो	PRON	_	Case=Nom|Distance=Dist|Gender=Masc|Number=Sing|Person=3	3	nsubj	_	_
+1	तो	तो	PRON	_	Case=Nom|Deixis=Remt|Gender=Masc|Number=Sing|Person=3	3	nsubj	_	_
 2	नम्रतेने	नम्रते	NOUN	_	Case=Ins|Gender=Fem|Number=Sing	3	obl	_	_
 3	म्हणाला	म्हणणे	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No
 4	.	.	PUNCT	_	_	3	punct	_	_
@@ -3228,7 +3228,7 @@
 # sent_id = 293
 # text = त्याचे लग्नही करून दिले.
 1-2	त्याचे	_	_	_	_	_	_	_	_
-1	_	तो	PRON	_	Distance=Dist|Gender=Masc|Number=Sing|Person=3	3	nmod:poss	_	_
+1	_	तो	PRON	_	Deixis=Remt|Gender=Masc|Number=Sing|Person=3	3	nmod:poss	_	_
 2	_	चा	ADP	_	Gender=Neut|Number=Sing	1	case	_	_
 3-4	लग्नही	_	_	_	_	_	_	_	_
 3	_	लग्न	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	5	obj	_	_
@@ -3322,7 +3322,7 @@
 
 # sent_id = 305
 # text = ते तेंव्हा बाहेर खेळू शकले नाहीत.
-1	ते	तो	PRON	_	Case=Nom|Distance=Dist|Gender=Masc|Number=Plur|Person=3	4	nsubj	_	_
+1	ते	तो	PRON	_	Case=Nom|Deixis=Remt|Gender=Masc|Number=Plur|Person=3	4	nsubj	_	_
 2	तेंव्हा	तेंव्हा	ADV	_	_	4	advmod	_	_
 3	बाहेर	बाहेर	ADV	_	_	4	advmod	_	_
 4	खेळू	खेळणे	VERB	_	InfForm=Incp|VerbForm=Inf	0	root	_	_
@@ -3338,7 +3338,7 @@
 4	मुलगा	मुलगा	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
 5	आहे	असणे	AUX	_	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
 6	आणि	आणि	CCONJ	_	_	9	cc	_	_
-7	तो	तो	PRON	_	Case=Nom|Distance=Dist|Gender=Masc|Number=Sing|Person=3	9	nsubj	_	_
+7	तो	तो	PRON	_	Case=Nom|Deixis=Remt|Gender=Masc|Number=Sing|Person=3	9	nsubj	_	_
 8	सहा	सहा	NUM	_	_	9	nummod	_	_
 9-10	वर्षाचा	_	_	_	_	_	_	_	_
 9	_	वर्ष	NOUN	_	Case=Abs|Gender=Neut|Number=Sing	4	conj	_	_
@@ -3348,16 +3348,16 @@
 
 # sent_id = 308
 # text = ती छोटी मुलगी त्याची बहीण आहे, ती पाच वर्षाची आहे.
-1	ती	तो	DET	_	Distance=Dist|Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
+1	ती	तो	DET	_	Deixis=Remt|Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
 2	छोटी	छोटा	ADJ	_	Case=Nom|Gender=Fem|Number=Sing	3	amod	_	_
 3	मुलगी	मुलगी	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
 4-5	त्याची	_	_	_	_	_	_	_	_
-4	_	तो	PRON	_	Distance=Dist|Gender=Masc|Number=Sing|Person=3	6	nmod:poss	_	_
+4	_	तो	PRON	_	Deixis=Remt|Gender=Masc|Number=Sing|Person=3	6	nmod:poss	_	_
 5	_	चा	ADP	_	Gender=Fem|Number=Sing	4	case	_	_
 6	बहीण	बहीण	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
 7	आहे	असणे	AUX	_	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	11	punct	_	_
-9	ती	तो	PRON	_	Case=Nom|Distance=Dist|Gender=Fem|Number=Sing|Person=3	11	nsubj	_	_
+9	ती	तो	PRON	_	Case=Nom|Deixis=Remt|Gender=Fem|Number=Sing|Person=3	11	nsubj	_	_
 10	पाच	पाच	NUM	_	_	11	nummod	_	_
 11-12	वर्षाची	_	_	_	_	_	_	_	_
 11	_	वर्ष	NOUN	_	Case=Abs|Gender=Neut|Number=Sing	6	conj	_	_
@@ -3385,9 +3385,9 @@
 
 # sent_id = 310
 # text = त्या कुत्र्याला ह्या दोन मुलांशी खेळायला आवडते.
-1	त्या	तो	DET	_	Case=Abs|Distance=Dist|PronType=Dem	2	det	_	_
+1	त्या	तो	DET	_	Case=Abs|Deixis=Remt|PronType=Dem	2	det	_	_
 2	कुत्र्याला	कुत्रा	NOUN	_	Case=Dat|Gender=Masc|Number=Sing	7	nsubj	_	_
-3	ह्या	हा	DET	_	Case=Abs|Distance=Prox|PronType=Dem	5	det	_	_
+3	ह्या	हा	DET	_	Case=Abs|Deixis=Prox|PronType=Dem	5	det	_	_
 4	दोन	दोन	NUM	_	_	5	nummod	_	_
 5	मुलांशी	मुल	NOUN	_	Case=Com|Gender=Neut|Number=Plur	6	obl	_	_
 6	खेळायला	खेळणे	VERB	_	VerbForm=Sup	7	xcomp	_	_
@@ -3426,7 +3426,7 @@
 7	आहे	असणे	AUX	_	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	12	punct	_	_
 9-11	तिच्याकडे	_	_	_	_	_	_	_	_
-9	_	ती	PRON	_	Case=Abs|Distance=Dist|Gender=Fem|Number=Sing|Person=3	12	nsubj:own	_	_
+9	_	ती	PRON	_	Case=Abs|Deixis=Remt|Gender=Fem|Number=Sing|Person=3	12	nsubj:own	_	_
 10	_	च्या	PART	_	_	9	case	_	_
 11	_	कडे	ADP	_	_	9	case	_	_
 12	मांजर	मांजर	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	5	parataxis	_	_
@@ -3436,7 +3436,7 @@
 # sent_id = 314
 # text = पण ते मांजर घरात आहे, मांजर झोपले आहे.
 1	पण	पण	CCONJ	_	_	5	cc	_	_
-2	ते	तो	DET	_	Distance=Dist|Gender=Neut|Number=Sing|PronType=Dem	3	det	_	_
+2	ते	तो	DET	_	Deixis=Remt|Gender=Neut|Number=Sing|PronType=Dem	3	det	_	_
 3	मांजर	मांजर	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
 4	घरात	घर	NOUN	_	Case=Loc|Gender=Neut|Number=Sing	0	root	_	_
 5	आहे	असणे	AUX	_	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	SpaceAfter=No
@@ -3449,7 +3449,7 @@
 # sent_id = 315
 # text = त्यांची आई घरात मांजराबरोबर आहे, ती खिडकीतनं बघते आणि तिला जेम्स आणि मेरी खेळताना दिसतात.
 1-2	त्यांची	_	_	_	_	_	_	_	_
-1	_	तो	PRON	_	Distance=Dist|Gender=Masc|Number=Plur|Person=3	3	nmod:poss	_	_
+1	_	तो	PRON	_	Deixis=Remt|Gender=Masc|Number=Plur|Person=3	3	nmod:poss	_	_
 2	_	चा	ADP	_	Gender=Fem|Number=Sing	1	case	_	_
 3	आई	आई	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
 4	घरात	घर	NOUN	_	Case=Loc|Gender=Neut|Number=Sing	0	root	_	_
@@ -3458,13 +3458,13 @@
 6	_	बरोबर	ADP	_	_	5	case	_	_
 7	आहे	असणे	AUX	_	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	12	punct	_	_
-9	ती	तो	PRON	_	Case=Nom|Distance=Dist|Gender=Fem|Number=Sing|Person=3	12	nsubj	_	_
+9	ती	तो	PRON	_	Case=Nom|Deixis=Remt|Gender=Fem|Number=Sing|Person=3	12	nsubj	_	_
 10-11	खिडकीतनं	_	_	_	_	_	_	_	_
 10	_	खिडकी	NOUN	_	Case=Abs|Gender=Fem|Number=Sing	12	obl	_	_
 11	_	तून	ADP	_	_	10	case	_	_
 12	बघते	बघणे	VERB	_	Aspect=Imp|Gender=Fem|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
 13	आणि	आणि	CCONJ	_	_	19	cc	_	_
-14	तिला	तो	PRON	_	Case=Dat|Distance=Dist|Gender=Fem|Number=Sing|Person=3	19	nsubj	_	_
+14	तिला	तो	PRON	_	Case=Dat|Deixis=Remt|Gender=Fem|Number=Sing|Person=3	19	nsubj	_	_
 15	जेम्स	जेम्स	PROPN	_	Case=Nom|Gender=Masc|Number=Sing	18	nsubj	_	_
 16	आणि	आणि	CCONJ	_	_	17	cc	_	_
 17	मेरी	मेरी	PROPN	_	Case=Nom|Gender=Fem|Number=Sing	15	conj	_	_
@@ -3485,7 +3485,7 @@
 8	_	पर्यंत	ADP	_	_	7	case	_	_
 9	पळतो	पळणे	VERB	_	Aspect=Imp|Gender=Masc|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	14	punct	_	_
-11	तो	तो	PRON	_	Case=Nom|Distance=Dist|Gender=Masc|Number=Sing|Person=3	14	nsubj	_	_
+11	तो	तो	PRON	_	Case=Nom|Deixis=Remt|Gender=Masc|Number=Sing|Person=3	14	nsubj	_	_
 12-13	मेरीपासुन	_	_	_	_	_	_	_	_
 12	_	मेरी	PROPN	_	Case=Abs|Gender=Fem|Number=Sing	14	obl	_	_
 13	_	पासुन	ADP	_	_	12	case	_	_
@@ -3510,11 +3510,11 @@
 4	,	,	PUNCT	_	_	11	punct	_	_
 5	आणि	आणि	CCONJ	_	_	11	cc	_	_
 6-7	तिचे	_	_	_	_	_	_	_	_
-6	_	तो	PRON	_	Distance=Dist|Gender=Fem|Number=Sing|Person=3	8	nmod:poss	_	_
+6	_	तो	PRON	_	Deixis=Remt|Gender=Fem|Number=Sing|Person=3	8	nmod:poss	_	_
 7	_	चा	ADP	_	Gender=Masc|Number=Plur	6	case	_	_
 8	हात	हात	NOUN	_	Case=Nom|Gender=Masc|Number=Plur	11	nsubj	_	_
 9-10	तिच्या	_	_	_	_	_	_	_	_
-9	_	तो	PRON	_	Distance=Dist|Gender=Fem|Number=Sing|Person=3	11	nmod:poss	_	_
+9	_	तो	PRON	_	Deixis=Remt|Gender=Fem|Number=Sing|Person=3	11	nmod:poss	_	_
 10	_	चा	ADP	_	Case=Abs	9	case	_	_
 11-12	डोळ्यांसमोर	_	_	_	_	_	_	_	_
 11	_	डोळा	NOUN	_	Case=Abs|Gender=Masc|Number=Plur	2	conj	_	_
@@ -3524,21 +3524,21 @@
 
 # sent_id = 319
 # text = तिला काही दिसत नाही आहे, आणि ती मोजत आहे.
-1	तिला	तो	PRON	_	Case=Dat|Distance=Dist|Gender=Fem|Number=Sing|Person=3	3	nsubj	_	_
+1	तिला	तो	PRON	_	Case=Dat|Deixis=Remt|Gender=Fem|Number=Sing|Person=3	3	nsubj	_	_
 2	काही	काही	PRON	_	Gender=Neut|Number=Sing	3	obj	_	_
 3	दिसत	दिसणे	VERB	_	Aspect=Imp|VerbForm=Part	0	root	_	_
 4	नाही	नाही	AUX	_	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin	3	aux	_	_
 5	आहे	असणे	AUX	_	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	9	punct	_	_
 7	आणि	आणि	CCONJ	_	_	9	cc	_	_
-8	ती	तो	PRON	_	Case=Nom|Distance=Dist|Gender=Fem|Number=Sing|Person=3	9	nsubj	_	_
+8	ती	तो	PRON	_	Case=Nom|Deixis=Remt|Gender=Fem|Number=Sing|Person=3	9	nsubj	_	_
 9	मोजत	मोजणे	VERB	_	Aspect=Imp|VerbForm=Part	3	conj	_	_
 10	आहे	असणे	AUX	_	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	SpaceAfter=No
 11	.	.	PUNCT	_	_	9	punct	_	_
 
 # sent_id = 320
 # text = ती तसं का करते?
-1	ती	तो	PRON	_	Case=Nom|Distance=Dist|Gender=Fem|Number=Sing|Person=3	4	nsubj	_	_
+1	ती	तो	PRON	_	Case=Nom|Deixis=Remt|Gender=Fem|Number=Sing|Person=3	4	nsubj	_	_
 2	तसं	तसा	ADV	_	_	4	advmod	_	_
 3	का	का	ADV	_	_	4	advmod	_	_
 4	करते	करणे	VERB	_	Aspect=Imp|Gender=Neut|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
@@ -3558,7 +3558,7 @@
 
 # sent_id = 322
 # text = तो एक खेळ आहे.
-1	तो	तो	PRON	_	Case=Nom|Distance=Dist|Gender=Masc|Number=Sing|Person=3	3	nsubj	_	_
+1	तो	तो	PRON	_	Case=Nom|Deixis=Remt|Gender=Masc|Number=Sing|Person=3	3	nsubj	_	_
 2	एक	एक	DET	_	Number=Sing|PronType=Ind	3	det	_	_
 3	खेळ	खेळ	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
 4	आहे	असणे	AUX	_	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	SpaceAfter=No
@@ -3573,14 +3573,14 @@
 4-5	झाल्यावर	_	_	_	_	_	_	_	_
 4	_	होणे	VERB	_	Aspect=Perf|Case=Abs|VerbForm=Fin	8	advcl	_	_
 5	_	वर	ADP	_	_	4	case	_	_
-6	ती	तो	PRON	_	Case=Nom|Distance=Dist|Gender=Fem|Number=Sing|Person=3	8	nsubj	_	_
+6	ती	तो	PRON	_	Case=Nom|Deixis=Remt|Gender=Fem|Number=Sing|Person=3	8	nsubj	_	_
 7	आवतीभोवती	आवतीभोवती	ADV	_	_	8	advmod	_	_
 8	बघते	बघणे	VERB	_	Aspect=Imp|Gender=Fem|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	8	punct	_	_
 
 # sent_id = 324
 # text = ती जेम्सला शोधत आहे.
-1	ती	तो	PRON	_	Case=Nom|Distance=Dist|Gender=Fem|Number=Sing|Person=3	3	nsubj	_	_
+1	ती	तो	PRON	_	Case=Nom|Deixis=Remt|Gender=Fem|Number=Sing|Person=3	3	nsubj	_	_
 2	जेम्सला	जेम्स	PROPN	_	Case=Dat|Gender=Masc|Number=Sing	3	obj	_	_
 3	शोधत	शोधणे	VERB	_	Aspect=Imp|VerbForm=Part	0	root	_	_
 4	आहे	असणे	AUX	_	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	SpaceAfter=No
@@ -3594,7 +3594,7 @@
 4	आहे	असणे	AUX	_	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
 5	का	का	ADV	_	_	8	advmod	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	5	punct	_	_
-7	तो	तो	PRON	_	Case=Nom|Distance=Dist|Gender=Masc|Number=Sing|Person=3	8	nsubj	_	_
+7	तो	तो	PRON	_	Case=Nom|Deixis=Remt|Gender=Masc|Number=Sing|Person=3	8	nsubj	_	_
 8	कुठे	कुठे	ADV	_	_	0	root	_	_
 9	आहे	असणे	AUX	_	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	SpaceAfter=No
 10	?	?	PUNCT	_	_	8	punct	_	_
@@ -3606,7 +3606,7 @@
 2	कुठे	कुठे	ADV	_	_	5	dislocated	_	_
 3	आहे	असणे	AUX	_	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	2	punct	_	_
-5	हे	हा	PRON	_	Case=Acc|Distance=Prox|Gender=Neut|Number=Sing|Person=3	7	obj	_	_
+5	हे	हा	PRON	_	Case=Acc|Deixis=Prox|Gender=Neut|Number=Sing|Person=3	7	obj	_	_
 6	मेरीला	मेरी	PROPN	_	Case=Dat|Gender=Fem|Number=Sing	7	nsubj	_	_
 7	माहित	माहित	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
 8	नाही	नाही	AUX	_	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin	7	aux	_	SpaceAfter=No
@@ -3614,7 +3614,7 @@
 
 # sent_id = 327
 # text = ती कुत्र्याला विचारते, तुला जेम्स दिसला का?
-1	ती	तो	PRON	_	Case=Nom|Distance=Dist|Gender=Fem|Number=Sing|Person=3	3	nsubj	_	_
+1	ती	तो	PRON	_	Case=Nom|Deixis=Remt|Gender=Fem|Number=Sing|Person=3	3	nsubj	_	_
 2	कुत्र्याला	कुत्रा	NOUN	_	Case=Dat|Gender=Masc|Number=Sing	3	obj	_	_
 3	विचारते	विचारणे	VERB	_	Aspect=Imp|Gender=Fem|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	7	punct	_	_
@@ -3641,7 +3641,7 @@
 1	म्हणून	म्हणून	SCONJ	_	_	8	mark	_	_
 2	मेरीला	मेर	NOUN	_	Case=Dat|Gender=Fem|Number=Sing	8	nsubj	_	_
 3-4	तिच्या	_	_	_	_	_	_	_	_
-3	_	तो	PRON	_	Case=Abs|Distance=Dist|Gender=Fem|Number=Sing|Person=3	5	nmod:poss	_	_
+3	_	तो	PRON	_	Case=Abs|Deixis=Remt|Gender=Fem|Number=Sing|Person=3	5	nmod:poss	_	_
 4	_	च्या	ADP	_	Case=Abs	3	case	_	_
 5	प्रश्नाला	प्रश्न	NOUN	_	Case=Dat|Gender=Masc|Number=Sing	8	obl	_	_
 6	काही	काही	DET	_	Gender=Neut|Number=Sing|PronType=Ind	7	det	_	_
@@ -3671,7 +3671,7 @@
 3	_	चा	PART	_	_	2	case	_	_
 4	मागे	मागे	ADP	_	_	2	case	_	_
 5-6	तिच्या	_	_	_	_	_	_	_	_
-5	_	तो	PRON	_	Case=Abs|Distance=Dist|Gender=Fem|Number=Sing|Person=3	7	nmod:poss	_	_
+5	_	तो	PRON	_	Case=Abs|Deixis=Remt|Gender=Fem|Number=Sing|Person=3	7	nmod:poss	_	_
 6	_	च्या	ADP	_	Case=Abs	5	case	_	_
 7-8	आईकडे	_	_	_	_	_	_	_	_
 7	_	आई	NOUN	_	Case=Abs|Gender=Fem|Number=Sing	9	obl	_	_
@@ -3679,7 +3679,7 @@
 9	बघते	बघणे	VERB	_	Aspect=Imp|Gender=Fem|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	14	punct	_	_
 11-12	तिची	_	_	_	_	_	_	_	_
-11	_	तो	PRON	_	Distance=Dist|Gender=Fem|Number=Sing|Person=3	13	nmod:poss	_	_
+11	_	तो	PRON	_	Deixis=Remt|Gender=Fem|Number=Sing|Person=3	13	nmod:poss	_	_
 12	_	चा	ADP	_	Gender=Fem|Number=Sing	11	case	_	_
 13	आई	आई	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	14	nsubj	_	_
 14	हसत	हसणे	VERB	_	Aspect=Imp|VerbForm=Part	9	conj	_	_
@@ -3692,14 +3692,14 @@
 2	वाटते	वाटणे	VERB	_	Aspect=Imp|Gender=Neut|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	कि	कि	SCONJ	_	_	12	mark	_	_
 4-5	तिच्या	_	_	_	_	_	_	_	_
-4	_	तो	PRON	_	Case=Abs|Distance=Dist|Gender=Fem|Number=Sing|Person=3	6	nmod:poss	_	_
+4	_	तो	PRON	_	Case=Abs|Deixis=Remt|Gender=Fem|Number=Sing|Person=3	6	nmod:poss	_	_
 5	_	च्या	ADP	_	Case=Abs	4	case	_	_
 6	आईला	आई	NOUN	_	Case=Dat|Gender=Fem|Number=Sing	12	nsubj	_	_
 7	जेम्स	जेम्स	PROPN	_	Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
 8	कुठे	कुठे	ADV	_	_	9	advmod	_	_
 9	गेला	जाणे	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Person=3|VerbForm=Fin	12	dislocated	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	9	punct	_	_
-11	हे	हा	PRON	_	Case=Acc|Distance=Prox|Gender=Neut|Number=Sing|Person=3	2	obj	_	_
+11	हे	हा	PRON	_	Case=Acc|Deixis=Prox|Gender=Neut|Number=Sing|Person=3	2	obj	_	_
 12	माहित	माहित	ADV	_	_	2	ccomp	_	_
 13	आहे	असणे	AUX	_	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	SpaceAfter=No
 14	.	.	PUNCT	_	_	12	punct	_	_
@@ -3710,15 +3710,15 @@
 2	सांग	सांगणे	VERB	_	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	_	_
 3	मला	मी	PRON	_	Case=Dat|Number=Sing|Person=1	2	iobj	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	6	punct	_	_
-5	तो	तो	PRON	_	Case=Nom|Distance=Dist|Gender=Masc|Number=Sing|Person=3	6	nsubj	_	_
+5	तो	तो	PRON	_	Case=Nom|Deixis=Remt|Gender=Masc|Number=Sing|Person=3	6	nsubj	_	_
 6	कुठे	कुठे	ADV	_	_	2	ccomp	_	_
 7	आहे	असणे	AUX	_	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	SpaceAfter=No
 8	!	!	PUNCT	_	_	6	punct	_	_
 9	"	"	PUNCT	_	_	2	punct	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	15	punct	_	_
-11	ती	तो	PRON	_	Case=Nom|Distance=Dist|Gender=Fem|Number=Sing|Person=3	15	nsubj	_	_
+11	ती	तो	PRON	_	Case=Nom|Deixis=Remt|Gender=Fem|Number=Sing|Person=3	15	nsubj	_	_
 12-13	तिच्या	_	_	_	_	_	_	_	_
-12	_	तो	PRON	_	Case=Abs|Distance=Dist|Gender=Fem|Number=Sing|Person=3	14	nmod:poss	_	_
+12	_	तो	PRON	_	Case=Abs|Deixis=Remt|Gender=Fem|Number=Sing|Person=3	14	nmod:poss	_	_
 13	_	च्या	ADP	_	Case=Abs	12	case	_	_
 14	आईला	आई	NOUN	_	Case=Dat|Gender=Fem|Number=Sing	15	obj	_	_
 15	म्हणते	म्हणणे	VERB	_	Aspect=Imp|Gender=Fem|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	SpaceAfter=No
@@ -3736,25 +3736,25 @@
 8	शकत	शकणे	VERB	_	Aspect=Imp|VerbForm=Part	7	aux	_	_
 9	नाही	नाही	AUX	_	Number=Sing|Person=1|Polarity=Neg|VerbForm=Fin	7	aux	_	SpaceAfter=No
 10	"	"	PUNCT	_	_	7	punct	_	_
-11	ती	तो	PRON	_	Case=Nom|Distance=Dist|Gender=Fem|Number=Sing|Person=3	13	nsubj	_	_
+11	ती	तो	PRON	_	Case=Nom|Deixis=Remt|Gender=Fem|Number=Sing|Person=3	13	nsubj	_	_
 12	उत्तर	उत्तर	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	13	obj	_	_
 13	देते	देणे	VERB	_	Aspect=Imp|Gender=Fem|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	parataxis	_	SpaceAfter=No
 14	.	.	PUNCT	_	_	13	punct	_	_
 
 # sent_id = 335
 # text = तिला बहुतेक माहित आहे, तो कुठे आहे, पण तिला हे सांगायचे नाही आहे.
-1	तिला	तो	PRON	_	Case=Dat|Distance=Dist|Gender=Fem|Number=Sing|Person=3	3	nsubj	_	_
+1	तिला	तो	PRON	_	Case=Dat|Deixis=Remt|Gender=Fem|Number=Sing|Person=3	3	nsubj	_	_
 2	बहुतेक	बहुतेक	ADV	_	_	3	advmod	_	_
 3	माहित	माहित	ADV	_	_	0	root	_	_
 4	आहे	असणे	AUX	_	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	7	punct	_	_
-6	तो	तो	PRON	_	Case=Nom|Distance=Dist|Gender=Masc|Number=Sing|Person=3	7	nsubj	_	_
+6	तो	तो	PRON	_	Case=Nom|Deixis=Remt|Gender=Masc|Number=Sing|Person=3	7	nsubj	_	_
 7	कुठे	कुठे	ADV	_	_	3	ccomp	_	_
 8	आहे	असणे	AUX	_	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	13	punct	_	_
 10	पण	पण	CCONJ	_	_	13	cc	_	_
-11	तिला	तो	PRON	_	Case=Dat|Distance=Dist|Gender=Fem|Number=Sing|Person=3	13	nsubj	_	_
-12	हे	हा	PRON	_	Case=Acc|Distance=Prox|Gender=Neut|Number=Sing|Person=3	13	obj	_	_
+11	तिला	तो	PRON	_	Case=Dat|Deixis=Remt|Gender=Fem|Number=Sing|Person=3	13	nsubj	_	_
+12	हे	हा	PRON	_	Case=Acc|Deixis=Prox|Gender=Neut|Number=Sing|Person=3	13	obj	_	_
 13	सांगायचे	सांगसांगणे	VERB	_	Gender=Fem|Mood=Des|Number=Sing|Person=3|VerbForm=Part	3	conj	_	_
 14	नाही	नाही	AUX	_	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin	13	aux	_	_
 15	आहे	असणे	AUX	_	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	SpaceAfter=No
@@ -3770,7 +3770,7 @@
 
 # sent_id = 337
 # text = ती अजून जेम्सला शोधायचा प्रयत्न करत आहे.
-1	ती	तो	PRON	_	Case=Nom|Distance=Dist|Gender=Fem|Number=Sing|Person=3	5	nsubj	_	_
+1	ती	तो	PRON	_	Case=Nom|Deixis=Remt|Gender=Fem|Number=Sing|Person=3	5	nsubj	_	_
 2	अजून	अजून	ADV	_	_	5	advmod	_	_
 3	जेम्सला	जेम्स	PROPN	_	Case=Acc|Gender=Masc|Number=Sing	4	obj	_	_
 4	शोधायचा	शोधणे	VERB	_	Gender=Masc|Mood=Des|Number=Sing|Person=3|VerbForm=Part	5	xcomp	_	_
@@ -3781,7 +3781,7 @@
 
 # sent_id = 338
 # text = ती टेबलाखाली आणि खुर्च्यांच्याखाली बघते, पण जेम्स तिकडे नाही आहे.
-1	ती	तो	PRON	_	Case=Nom|Distance=Dist|Gender=Fem|Number=Sing|Person=3	8	nsubj	_	_
+1	ती	तो	PRON	_	Case=Nom|Deixis=Remt|Gender=Fem|Number=Sing|Person=3	8	nsubj	_	_
 2-3	टेबलाखाली	_	_	_	_	_	_	_	_
 2	_	टेबल	NOUN	_	Case=Abs|Gender=Masc|Number=Sing	8	obl	_	_
 3	_	खाली	ADP	_	_	2	case	_	_
@@ -3801,11 +3801,11 @@
 
 # sent_id = 339
 # text = ती सगळीकडे शोधते पण तिला जेम्स सापडत नाही.
-1	ती	तो	PRON	_	Case=Nom|Distance=Dist|Gender=Fem|Number=Sing|Person=3	3	nsubj	_	_
+1	ती	तो	PRON	_	Case=Nom|Deixis=Remt|Gender=Fem|Number=Sing|Person=3	3	nsubj	_	_
 2	सगळीकडे	सगळीकडे	ADV	_	_	3	advmod	_	_
 3	शोधते	शोधणे	VERB	_	Aspect=Imp|Gender=Fem|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	पण	पण	CCONJ	_	_	7	cc	_	_
-5	तिला	तो	PRON	_	Case=Dat|Distance=Dist|Gender=Fem|Number=Sing|Person=3	7	nsubj	_	_
+5	तिला	तो	PRON	_	Case=Dat|Deixis=Remt|Gender=Fem|Number=Sing|Person=3	7	nsubj	_	_
 6	जेम्स	जेम्स	PROPN	_	Case=Acc|Gender=Masc|Number=Sing	7	obj	_	_
 7	सापडत	सापडणे	VERB	_	Aspect=Imp|VerbForm=Part	3	conj	_	_
 8	नाही	नाही	AUX	_	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin	7	aux	_	SpaceAfter=No
@@ -3814,13 +3814,13 @@
 # sent_id = 340
 # text = मग तिला आवाज ऐकू येतो, तो त्या मोठ्या जुन्या झाडाच्या मागून येत आहे.
 1	मग	मग	ADV	_	_	4	advmod	_	_
-2	तिला	तो	PRON	_	Case=Dat|Distance=Dist|Gender=Fem|Number=Sing|Person=3	4	nsubj	_	_
+2	तिला	तो	PRON	_	Case=Dat|Deixis=Remt|Gender=Fem|Number=Sing|Person=3	4	nsubj	_	_
 3	आवाज	आवाज	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	4	obj	_	_
 4	ऐकू	ऐकणे	VERB	_	InfForm=Incp|VerbForm=Inf	0	root	_	_
 5	येतो	येणे	VERB	_	Aspect=Imp|Gender=Masc|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	fixed	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	14	punct	_	_
-7	तो	तो	PRON	_	Case=Nom|Distance=Dist|Gender=Masc|Number=Sing|Person=3	14	nsubj	_	_
-8	त्या	तो	DET	_	Case=Abs|Distance=Dist|PronType=Dem	11	det	_	_
+7	तो	तो	PRON	_	Case=Nom|Deixis=Remt|Gender=Masc|Number=Sing|Person=3	14	nsubj	_	_
+8	त्या	तो	DET	_	Case=Abs|Deixis=Remt|PronType=Dem	11	det	_	_
 9	मोठ्या	मोठा	ADJ	_	Case=Abs	11	amod	_	_
 10	जुन्या	जुना	ADJ	_	Case=Abs	11	amod	_	_
 11-12	झाडाच्या	_	_	_	_	_	_	_	_
@@ -3833,7 +3833,7 @@
 
 # sent_id = 341
 # text = तो जेम्स असेल का?
-1	तो	तो	PRON	_	Distance=Dist|Gender=Masc|Number=Sing|Person=3	2	nsubj	_	_
+1	तो	तो	PRON	_	Deixis=Remt|Gender=Masc|Number=Sing|Person=3	2	nsubj	_	_
 2	जेम्स	जेम्स	PROPN	_	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
 3	असेल	असणे	AUX	_	Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	2	cop	_	_
 4	का	का	ADV	_	_	2	advmod	_	SpaceAfter=No
@@ -3842,7 +3842,7 @@
 # sent_id = 342
 # text = तोच आवाज परत येत आहे!
 1-2	तोच	_	_	_	_	_	_	_	_
-1	_	तो	DET	_	Distance=Dist|Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
+1	_	तो	DET	_	Deixis=Remt|Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
 2	_	च	PART	_	_	1	discourse	_	_
 3	आवाज	आवाज	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
 4	परत	परत	ADV	_	_	5	advmod	_	_
@@ -3852,7 +3852,7 @@
 
 # sent_id = 344
 # text = तो पक्षी किंवा प्राणी नाही आहे.
-1	तो	तो	PRON	_	Case=Nom|Distance=Dist|Gender=Masc|Number=Sing|Person=3	2	nsubj	_	_
+1	तो	तो	PRON	_	Case=Nom|Deixis=Remt|Gender=Masc|Number=Sing|Person=3	2	nsubj	_	_
 2	पक्षी	पक्ष	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
 3	किंवा	किंवा	CCONJ	_	_	4	cc	_	_
 4	प्राणी	प्राण	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	2	conj	_	_
@@ -3862,9 +3862,9 @@
 
 # sent_id = 345
 # text = तिला आता तो नीट ऐकू येत आहे.
-1	तिला	तो	PRON	_	Case=Dat|Distance=Dist|Gender=Fem|Number=Sing|Person=3	5	nsubj	_	_
+1	तिला	तो	PRON	_	Case=Dat|Deixis=Remt|Gender=Fem|Number=Sing|Person=3	5	nsubj	_	_
 2	आता	आता	ADV	_	_	5	advmod	_	_
-3	तो	तो	PRON	_	Case=Acc|Distance=Dist|Gender=Masc|Number=Sing|Person=3	5	obj	_	_
+3	तो	तो	PRON	_	Case=Acc|Deixis=Remt|Gender=Masc|Number=Sing|Person=3	5	obj	_	_
 4	नीट	नीट	ADV	_	_	5	advmod	_	_
 5	ऐकू	ऐकणे	VERB	_	InfForm=Incp|VerbForm=Inf	0	root	_	_
 6	येत	येणे	VERB	_	Aspect=Imp|VerbForm=Part	5	fixed	_	_
@@ -3873,7 +3873,7 @@
 
 # sent_id = 346
 # text = तो जेम्सच असेल!
-1	तो	तो	PRON	_	Case=Nom|Distance=Dist|Gender=Masc|Number=Sing|Person=3	2	nsubj	_	_
+1	तो	तो	PRON	_	Case=Nom|Deixis=Remt|Gender=Masc|Number=Sing|Person=3	2	nsubj	_	_
 2-3	जेम्सच	_	_	_	_	_	_	_	_
 2	_	जेम्स	PROPN	_	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
 3	_	च	PART	_	_	2	discourse	_	_
@@ -3883,7 +3883,7 @@
 # sent_id = 347
 # text = मग तिला एक छोटा हात दिसतो आणि जवळ गेल्यावर त्याचं डोकं पण दिसतं.
 1	मग	मग	ADV	_	_	6	advmod	_	_
-2	तिला	तो	PRON	_	Case=Dat|Distance=Dist|Gender=Fem|Number=Sing|Person=3	6	nsubj	_	_
+2	तिला	तो	PRON	_	Case=Dat|Deixis=Remt|Gender=Fem|Number=Sing|Person=3	6	nsubj	_	_
 3	एक	एक	DET	_	Number=Sing|PronType=Ind	5	det	_	_
 4	छोटा	छोटा	ADJ	_	Case=Nom|Gender=Masc|Number=Sing	5	amod	_	_
 5	हात	हात	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	6	obj	_	_
@@ -3894,7 +3894,7 @@
 9	_	जाणे	VERB	_	Aspect=Perf|Case=Abs|VerbForm=Fin	15	advcl	_	_
 10	_	वर	ADP	_	_	9	case	_	_
 11-12	त्याचं	_	_	_	_	_	_	_	_
-11	_	तो	PRON	_	Distance=Dist|Gender=Masc|Number=Sing|Person=3	13	nmod:poss	_	_
+11	_	तो	PRON	_	Deixis=Remt|Gender=Masc|Number=Sing|Person=3	13	nmod:poss	_	_
 12	_	चा	ADP	_	Gender=Neut|Number=Sing	11	case	_	_
 13	डोकं	डोके	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	15	obj	_	_
 14	पण	पण	ADV	_	_	15	advmod	_	_
@@ -3903,7 +3903,7 @@
 
 # sent_id = 348
 # text = ती हसून म्हणते, "मला तू सापडलास! ".
-1	ती	तो	PRON	_	Case=Nom|Distance=Dist|Gender=Fem|Number=Sing|Person=3	3	nsubj	_	_
+1	ती	तो	PRON	_	Case=Nom|Deixis=Remt|Gender=Fem|Number=Sing|Person=3	3	nsubj	_	_
 2	हसून	हसणे	VERB	_	Aspect=Perf|VerbForm=Conv	3	advcl	_	_
 3	म्हणते	म्हणणे	VERB	_	Aspect=Imp|Gender=Fem|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	8	punct	_	_
@@ -3946,7 +3946,7 @@
 2	_	तू	PRON	_	Number=Sing|Person=2	6	nmod:poss	_	_
 3	_	चा	ADP	_	Gender=Neut|Number=Sing	2	case	_	_
 4	_	च	PART	_	_	2	discourse	_	_
-5	हे	हा	DET	_	Distance=Prox|Gender=Neut|Number=Sing|PronType=Dem	6	det	_	_
+5	हे	हा	DET	_	Deixis=Prox|Gender=Neut|Number=Sing|PronType=Dem	6	det	_	_
 6	शेत	शेत	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	7	nsubj	_	_
 7	आडवे	आडवा	ADJ	_	Case=Nom|Gender=Neut|Number=Sing	8	compound:lvc	_	_
 8	येते	येणे	VERB	_	Aspect=Imp|Gender=Neut|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
@@ -3990,9 +3990,9 @@
 3	सगळी	सगळा	ADJ	_	Case=Nom|Gender=Fem|Number=Sing	4	amod	_	_
 4	जमीन	जमीन	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	11	obj	_	_
 5	तुम्ही	तू	PRON	_	Case=Nom|Number=Plur|Person=2	11	nsubj	_	_
-6	या	हा	DET	_	Distance=Prox|PronType=Dem	9	det	_	_
+6	या	हा	DET	_	Deixis=Prox|PronType=Dem	9	det	_	_
 7	ना	ना	CCONJ	_	_	8	cc	_	_
-8	त्या	तो	DET	_	Distance=Dist|PronType=Dem	6	conj	_	_
+8	त्या	तो	DET	_	Deixis=Remt|PronType=Dem	6	conj	_	_
 9	मार्गाने	मार्ग	NOUN	_	Case=Ins|Gender=Masc|Number=Sing	11	obl	_	_
 10	आपलीशी	आपलीशी	ADJ	_	Case=Nom	11	xcomp	_	_
 11	केलीत	करणे	VERB	_	Aspect=Perf|Gender=Neut|Number=Plur|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No
@@ -4007,7 +4007,7 @@
 5	;	;	PUNCT	_	_	10	punct	_	_
 6	परंतु	परंतु	CCONJ	_	_	10	cc	_	_
 7	खरे	खरा	ADJ	_	Case=Nom|Gender=Neut|Number=Sing	8	amod	_	_
-8	ते	तो	PRON	_	Distance=Dist|Gender=Neut|Number=Sing|Person=3	10	obj	_	_
+8	ते	तो	PRON	_	Deixis=Remt|Gender=Neut|Number=Sing|Person=3	10	obj	_	_
 9	मी	मी	PRON	_	Case=Nom|Number=Sing|Person=1	10	nsubj	_	_
 10	सांगतो	सांगणे	VERB	_	Aspect=Imp|Gender=Masc|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	SpaceAfter=No
 11	.	.	PUNCT	_	_	10	punct	_	_
@@ -4019,13 +4019,13 @@
 2	_	पासून	ADP	_	_	1	case	_	_
 3	चालत	चालणे	VERB	_	Aspect=Imp|VerbForm=Part	4	advcl	_	_
 4	आलेली	येणे	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Person=3|VerbForm=Part	6	acl	_	_
-5	ही	हा	DET	_	Distance=Prox|Gender=Fem|Number=Sing|PronType=Dem	6	det	_	_
+5	ही	हा	DET	_	Deixis=Prox|Gender=Fem|Number=Sing|PronType=Dem	6	det	_	_
 6	जमीन	जमीन	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = 360
 # text = ही का मी विकू?
-1	ही	हा	PRON	_	Case=Acc|Distance=Prox|Gender=Fem|Number=Sing|Person=3	4	obj	_	_
+1	ही	हा	PRON	_	Case=Acc|Deixis=Prox|Gender=Fem|Number=Sing|Person=3	4	obj	_	_
 2	का	का	ADV	_	_	4	advmod	_	_
 3	मी	मी	PRON	_	Case=Nom|Number=Sing|Person=1	4	nsubj	_	_
 4	विकू	विकणे	VERB	_	Mood=Imp|Number=Sing|Person=1|VerbForm=Fin	0	root	_	SpaceAfter=No
@@ -4050,7 +4050,7 @@
 # sent_id = 364
 # text = पोटापुरे ती देते.
 1	पोटापुरे	पोटापुरे	ADV	_	_	3	advmod	_	_
-2	ती	तो	PRON	_	Case=Nom|Distance=Dist|Gender=Fem|Number=Sing|Person=3	3	nsubj	_	_
+2	ती	तो	PRON	_	Case=Nom|Deixis=Remt|Gender=Fem|Number=Sing|Person=3	3	nsubj	_	_
 3	देते	देणे	VERB	_	Aspect=Imp|Gender=Fem|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 4	.	.	PUNCT	_	_	3	punct	_	_
 
@@ -4125,7 +4125,7 @@
 1-2	तुझी	_	_	_	_	_	_	_	_
 1	_	तू	PRON	_	Number=Sing|Person=2	5	nmod:poss	_	_
 2	_	चा	ADP	_	Gender=Fem|Number=Sing	1	case	_	_
-3	ही	हा	DET	_	Distance=Prox|Gender=Fem|Number=Sing|PronType=Dem	5	det	_	_
+3	ही	हा	DET	_	Deixis=Prox|Gender=Fem|Number=Sing|PronType=Dem	5	det	_	_
 4	मगरूर	मगरूर	ADJ	_	Case=Nom	5	amod	_	_
 5	वृत्ती	वृत्ती	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	_
 6	तुला	तू	PRON	_	Case=Dat|Number=Sing|Person=2	8	obj	_	_
@@ -4193,7 +4193,7 @@
 
 # sent_id = 379
 # text = हे तुझे शेत गेले समज आणि तुला पैही न मिळता.
-1	हे	हा	DET	_	Distance=Prox|Gender=Neut|Number=Sing|PronType=Dem	4	det	_	_
+1	हे	हा	DET	_	Deixis=Prox|Gender=Neut|Number=Sing|PronType=Dem	4	det	_	_
 2-3	तुझे	_	_	_	_	_	_	_	_
 2	_	तू	PRON	_	Number=Sing|Person=2	4	nmod:poss	_	_
 3	_	चा	ADP	_	Gender=Neut|Number=Sing	2	case	_	_
@@ -4216,7 +4216,7 @@
 3	तुला	तू	PRON	_	Case=Dat|Number=Sing|Person=2	8	iobj	_	_
 4	तू	तू	PRON	_	Case=Nom|Number=Sing|Person=2	5	nsubj	_	_
 5	मागशील	मागणे	VERB	_	Number=Sing|Person=2|Tense=Fut|VerbForm=Fin	7	acl	_	_
-6	ती	तो	DET	_	Distance=Dist|Gender=Fem|Number=Sing|PronType=Dem	7	det	_	_
+6	ती	तो	DET	_	Deixis=Remt|Gender=Fem|Number=Sing|PronType=Dem	7	det	_	_
 7	किंमत	किंमत	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	8	obj	_	_
 8	द्यायला	देणे	VERB	_	VerbForm=Sup	9	xcomp	_	_
 9	तयार	तयार	ADV	_	_	0	root	_	_
@@ -4273,9 +4273,9 @@
 # sent_id = 384
 # text = त्याचे ते लहानसे शेत; परंतु खरेच सोने पिकवी.
 1-2	त्याचे	_	_	_	_	_	_	_	_
-1	_	तो	PRON	_	Distance=Dist|Gender=Masc|Number=Sing|Person=3	4	nmod:poss	_	_
+1	_	तो	PRON	_	Deixis=Remt|Gender=Masc|Number=Sing|Person=3	4	nmod:poss	_	_
 2	_	चा	ADP	_	Gender=Neut|Number=Sing	1	case	_	_
-3	ते	तो	DET	_	Distance=Dist|Gender=Neut|Number=Sing|PronType=Dem	5	det	_	_
+3	ते	तो	DET	_	Deixis=Remt|Gender=Neut|Number=Sing|PronType=Dem	5	det	_	_
 4	लहानसे	लहानसा	ADJ	_	Case=Nom|Gender=Neut|Number=Sing	5	amod	_	_
 5	शेत	शेत	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No
 6	;	;	PUNCT	_	_	10	punct	_	_
@@ -4306,7 +4306,7 @@
 # sent_id = 386
 # text = त्यानेही दोन-चार कलमे लावली होती.
 1-2	त्यानेही	_	_	_	_	_	_	_	_
-1	_	तो	PRON	_	Case=Ins|Distance=Dist|Gender=Neut|Number=Sing|Person=3	7	nsubj	_	_
+1	_	तो	PRON	_	Case=Ins|Deixis=Remt|Gender=Neut|Number=Sing|Person=3	7	nsubj	_	_
 2	_	ही	PART	_	_	1	discourse	_	_
 3	दोन	दोन	NUM	_	_	6	nummod	_	SpaceAfter=No
 4	-	-	PUNCT	_	_	5	punct	_	SpaceAfter=No
@@ -4330,7 +4330,7 @@
 # text = पलीकडे त्याचा लहानसा गोठा होता.
 1	पलीकडे	पलीकडे	ADP	_	_	0	root	_	_
 2-3	त्याचा	_	_	_	_	_	_	_	_
-2	_	तो	PRON	_	Distance=Dist|Gender=Masc|Number=Sing|Person=3	5	nmod:poss	_	_
+2	_	तो	PRON	_	Deixis=Remt|Gender=Masc|Number=Sing|Person=3	5	nmod:poss	_	_
 3	_	चा	ADP	_	Gender=Masc|Number=Sing	2	case	_	_
 4	लहानसा	लहानसा	ADJ	_	Case=Nom|Gender=Masc|Number=Sing	5	amod	_	_
 5	गोठा	गोठा	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	1	nsubj	_	_
@@ -4356,7 +4356,7 @@
 # sent_id = 390
 # text = खरोखरच त्या शेतावर भीमाचे जीव की प्राण प्रेम होते.
 1	खरोखरच	खरोखरच	ADV	_	_	10	advmod	_	_
-2	त्या	तो	DET	_	Case=Abs|Distance=Dist|PronType=Dem	3	det	_	_
+2	त्या	तो	DET	_	Case=Abs|Deixis=Remt|PronType=Dem	3	det	_	_
 3-4	शेतावर	_	_	_	_	_	_	_	_
 3	_	शेत	NOUN	_	Case=Abs|Gender=Neut|Number=Sing	10	obl	_	_
 4	_	वर	ADP	_	_	3	case	_	_
