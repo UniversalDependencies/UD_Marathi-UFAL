@@ -17,6 +17,7 @@ The treebank has been manually annotated by Vinit Ravishankar. We thank Dan Zema
   * Case=Obl was undocumented and causing validation errors.
     Changed (temporarily?) to Case=Abs.
   * Distance=Prox|Dist changed to Deixis=Prox|Remt, as in other treebanks.
+  * Clusivity=Incl changed to correct Clusivity=In.
 * 2018-04-15 v2.2
   * Repository renamed from UD_Marathi to UD_Marathi-UFAL.
 * 2017-11-02 v2.1

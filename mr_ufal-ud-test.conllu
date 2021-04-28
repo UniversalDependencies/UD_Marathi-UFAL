@@ -335,7 +335,7 @@
 1	"	"	PUNCT	_	_	8	punct	_	SpaceAfter=No
 2	तो	तो	PRON	_	Case=Nom|Deixis=Remt|Gender=Masc|Number=Sing|Person=3	8	nsubj	_	_
 3-4	आपला	_	_	_	_	_	_	_	_
-3	_	मी	PRON	_	Clusivity=Incl|Number=Plur|Person=1	5	nmod:poss	_	_
+3	_	मी	PRON	_	Clusivity=In|Number=Plur|Person=1	5	nmod:poss	_	_
 4	_	चा	ADP	_	Gender=Masc|Number=Sing	3	case	_	_
 5	सत्यानाश	सत्यानाश	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	6	obj	_	_
 6-7	केल्यावाचून	_	_	_	_	_	_	_	_
@@ -430,7 +430,7 @@
 4	जमीन	जमीन	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
 5	वास्तविक	वास्तविक	ADV	_	_	4	advmod	_	_
 6-7	आपली	_	_	_	_	_	_	_	_
-6	_	मी	PRON	_	Clusivity=Incl|Number=Plur|Person=1	4	nmod:poss	_	_
+6	_	मी	PRON	_	Clusivity=In|Number=Plur|Person=1	4	nmod:poss	_	_
 7	_	चा	ADP	_	Gender=Fem|Number=Sing	6	case	_	_
 8	आहे	असणे	AUX	_	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	4	punct	_	_
@@ -502,7 +502,7 @@
 # text = त्याने आपली बाजू मांडण्यासाठी कायदेपंडितही आणला होता.
 1	त्याने	तो	PRON	_	Case=Erg|Deixis=Remt|Gender=Masc|Number=Sing|Person=3	9	nsubj	_	_
 2-3	आपली	_	_	_	_	_	_	_	_
-2	_	मी	PRON	_	Clusivity=Incl|Number=Plur|Person=1	4	nmod:poss	_	_
+2	_	मी	PRON	_	Clusivity=In|Number=Plur|Person=1	4	nmod:poss	_	_
 3	_	चा	ADP	_	Gender=Fem|Number=Sing	2	case	_	_
 4	बाजू	बाजू	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
 5-6	मांडण्यासाठी	_	_	_	_	_	_	_	_

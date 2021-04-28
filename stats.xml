@@ -47,7 +47,7 @@
     <feat name="Case" value="Loc" upos="NOUN,VERB">71</feat><!-- _, मनात, कळविण्यात, काठी, घरात, तोंडात, राजवाड्यात, स्वर्गात, न्यायालयात, पाया -->
     <feat name="Case" value="Nom" upos="ADJ,ADP,DET,NOUN,PRON,PROPN,VERB">623</feat><!-- तो, ती, _, मी, राजपुत्र, राजा, दादा, भीमा, कोण, जेम्स -->
     <feat name="Case" value="Voc" upos="NOUN">2</feat><!-- देवा, पोरी -->
-    <feat name="Clusivity" value="Incl" upos="PRON">5</feat><!-- _, आपण -->
+    <feat name="Clusivity" value="In" upos="PRON">5</feat><!-- _, आपण -->
     <feat name="Deixis" value="Prox" upos="DET,PRON">47</feat><!-- ही, या, हे, तो, ती, त्या, हा, आम्ही, याला, ह्या -->
     <feat name="Deixis" value="Remt" upos="DET,PRON">226</feat><!-- तो, _, ती, त्याला, त्या, त्याने, ते, तिला, त्यांना, त्यांनी -->
     <feat name="Gender" value="Fem" upos="ADJ,ADP,AUX,DET,NOUN,PRON,PROPN,VERB">480</feat><!-- _, ती, आली, बहीण, जमीन, म्हणाली, तिला, ही, होती, आई -->
