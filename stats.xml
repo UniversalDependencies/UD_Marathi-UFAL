@@ -99,7 +99,8 @@
     <dep name="compound:redup">1</dep>
     <dep name="compound:svc">32</dep>
     <dep name="conj">95</dep>
-    <dep name="cop">66</dep>
+    <dep name="cop">62</dep>
+    <dep name="cop:own">4</dep>
     <dep name="csubj">2</dep>
     <dep name="det">113</dep>
     <dep name="discourse">57</dep>
@@ -111,8 +112,7 @@
     <dep name="mark">28</dep>
     <dep name="nmod">5</dep>
     <dep name="nmod:poss">156</dep>
-    <dep name="nsubj">480</dep>
-    <dep name="nsubj:own">4</dep>
+    <dep name="nsubj">484</dep>
     <dep name="nsubj:pass">7</dep>
     <dep name="nummod">32</dep>
     <dep name="obj">250</dep>
