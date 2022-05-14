@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit 3478a99bb195eb8749c367af4f7b3fd357a12a4c
-Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue Nov 2 22:17:19 2021 +0100
+commit ba6fbf413cb14afa25145b931c79fb60ef9456e2
+Author: www-data (nschneid) <nschneid@github.com>
+Date:   Wed May 11 05:10:30 2022 +0200
 Evaluating the following revision of UD_Marathi-UFAL:
-commit 08fba3f3b5a0a44239b466dc18b40def244fec30
+commit 0bcbdf7190a01cad563f00c67becd1461b36dc00
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Thu May 13 09:39:56 2021 +0200
+Date:   Wed Nov 3 16:45:06 2021 +0100
 Size: counted 3849 of 3849 words (nodes).
 Size: min(0, log((N/1000)**2)) = 2.69562674860322.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -64,12 +64,12 @@ validate.py --lang mr --max-err=10 UD_Marathi-UFAL/mr_ufal-ud-train.conllu
 [Line 1905 Sent 174 Node 2]: [L5 Morpho aux-lemma] 'नकोस' is not an auxiliary verb in language [mr]
 [Line 1922 Sent 176 Node 2]: [L5 Morpho aux-lemma] 'नको' is not an auxiliary verb in language [mr]
 [Line 2203 Sent 201 Node 2]: [L5 Morpho aux-lemma] 'नको' is not an auxiliary verb in language [mr]
-[Line 3067 Sent 275 Node 6]: [L5 Morpho aux-lemma] 'पाहिजे' is not an auxiliary verb in language [mr]
-[Line 3105 Sent 277 Node 7]: [L5 Morpho aux-lemma] 'नसणे' is not an auxiliary verb in language [mr]
+[Line 2807 Sent 251 Node 17]: [L3 Morpho goeswith-missing-typo] Since the treebank has morphological features, 'Typo=Yes' must be used with 'goeswith' heads.
+[Line 2808 Sent 251 Node 18]: [L3 Morpho goeswith-lemma] The lemma of a 'goeswith'-connected word must be annotated only at the first part.
 ...suppressing further errors regarding Morpho
-Morpho errors: 12
+Morpho errors: 15
 Syntax errors: 37
-*** FAILED *** with 49 errors
+*** FAILED *** with 52 errors
 Exit code: 1
 Validity: 0.01
 (weight=0.0769230769230769) * (score{features}=1) = 0.0769230769230769
