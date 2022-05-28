@@ -1,7 +1,7 @@
 # sent_id = 0
 # text = एक होता राजा.
 1	एक	एक	DET	_	Number=Sing|PronType=Ind	3	det	_	_
-2	होता	असणे	AUX	_	Gender=Masc|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	cop	_	_
+2	होता	असणे	AUX	_	Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin	3	cop	_	_
 3	राजा	राजा	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No
 4	.	.	PUNCT	_	_	3	punct	_	_
 
@@ -10,7 +10,7 @@
 1	त्याला	तो	PRON	_	Case=Dat|Deixis=Remt|Gender=Masc|Number=Sing|Person=3	3	nsubj	_	_
 2	एक	एक	DET	_	Number=Sing|PronType=Ind	3	det	_	_
 3	मुलगा	मुलगा	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
-4	होता	असणे	AUX	_	Gender=Masc|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	cop	_	SpaceAfter=No
+4	होता	असणे	AUX	_	Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin	3	cop	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = 2
@@ -125,7 +125,7 @@
 13-14	हिताचे	_	_	_	_	_	_	_	_
 13	_	हित	NOUN	_	Case=Abs|Gender=Neut|Number=Sing	9	ccomp	_	_
 14	_	चा	ADP	_	Gender=Neut|Number=Sing	13	case	_	_
-15	आहे	असणे	AUX	_	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	SpaceAfter=No
+15	आहे	असणे	AUX	_	Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	13	cop	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	9	punct	_	SpaceAfter=No
 17	"	"	PUNCT	_	_	9	punct	_	_
 18	तो	तो	PRON	_	Case=Nom|Deixis=Remt|Gender=Masc|Number=Sing|Person=3	19	nsubj	_	_
@@ -267,7 +267,7 @@
 # text = पायी जात होता.
 1	पायी	पायी	ADV	_	_	2	advmod	_	_
 2	जात	जाणे	VERB	_	Aspect=Imp|VerbForm=Part	0	root	_	_
-3	होता	असणे	AUX	_	Gender=Masc|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	aux	_	SpaceAfter=No
+3	होता	असणे	AUX	_	Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin	2	aux	_	SpaceAfter=No
 4	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = 22
@@ -282,7 +282,7 @@
 # sent_id = 23
 # text = चालत होता.
 1	चालत	चालणे	VERB	_	Aspect=Imp|VerbForm=Part	0	root	_	_
-2	होता	असणे	AUX	_	Gender=Masc|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	aux	_	SpaceAfter=No
+2	होता	असणे	AUX	_	Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin	1	aux	_	SpaceAfter=No
 3	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = 24
@@ -325,7 +325,7 @@
 2	झरा	झरा	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
 3	खळखळ	खळखळ	ADV	_	_	4	advmod	_	_
 4	वाहत	वहाणे	VERB	_	Aspect=Imp|VerbForm=Part	0	root	_	_
-5	होता	असणे	AUX	_	Gender=Masc|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux	_	SpaceAfter=No
+5	होता	असणे	AUX	_	Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin	4	aux	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = 29
@@ -403,7 +403,7 @@
 5	_	चा	ADP	_	Gender=Neut|Number=Plur	4	case	_	_
 6	पाडसे	पाडस	NOUN	_	Case=Nom|Gender=Neut|Number=Plur	7	nsubj	_	_
 7	खेळत	खेळणे	VERB	_	Aspect=Imp|VerbForm=Part	0	root	_	_
-8	होती	असणे	AUX	_	Gender=Neut|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	7	aux	_	SpaceAfter=No
+8	होती	असणे	AUX	_	Gender=Neut|Number=Plur|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin	7	aux	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = 35
@@ -420,7 +420,7 @@
 2	त्या	तो	DET	_	Case=Abs|Deixis=Remt|PronType=Dem	3	det	_	_
 3	हरिणीला	हरिणी	NOUN	_	Case=Dat|Gender=Fem|Number=Sing	4	obj	_	_
 4	मारणार	मारणे	VERB	_	Aspect=Prosp|VerbForm=Fin	0	root	_	_
-5	होता	असणे	AUX	_	Gender=Masc|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux	_	SpaceAfter=No
+5	होता	असणे	AUX	_	Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin	4	aux	_	SpaceAfter=No
 6	;	;	PUNCT	_	_	12	punct	_	_
 7	परंतु	परंतु	CCONJ	_	_	12	cc	_	_
 8	त्याला	तो	PRON	_	Case=Dat|Deixis=Remt|Gender=Neut|Number=Sing|Person=3	12	nsubj	_	_
@@ -485,7 +485,7 @@
 8	_	तरी	PART	_	_	7	discourse	_	_
 9	माणूस	माणूस	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_
 10	येत	येणे	VERB	_	Aspect=Imp|VerbForm=Part	15	ccomp	_	_
-11	आहे	असणे	AUX	_	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	SpaceAfter=No
+11	आहे	असणे	AUX	_	Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	10	aux	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	11	punct	_	_
 13	असे	असे	SCONJ	_	_	15	mark	_	_
 14	त्याला	तो	PRON	_	Case=Dat|Deixis=Remt|Gender=Masc|Number=Sing|Person=3	15	nsubj	_	_
@@ -497,7 +497,7 @@
 1	एक	एक	DET	_	Number=Sing|PronType=Ind	2	det	_	_
 2	स्त्री	स्त्री	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
 3	येत	येणे	VERB	_	Aspect=Imp|VerbForm=Part	0	root	_	_
-4	होती	असणे	AUX	_	Gender=Fem|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	aux	_	SpaceAfter=No
+4	होती	असणे	AUX	_	Gender=Fem|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin	3	aux	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = 43
@@ -508,7 +508,7 @@
 3	,	,	PUNCT	_	_	4	punct	_	_
 4	निष्पाप	निष्पाप	ADJ	_	Case=Nom	2	conj	_	_
 5	दिसत	दिसणे	VERB	_	Aspect=Imp|VerbForm=Part	0	root	_	_
-6	होती	असणे	AUX	_	Gender=Fem|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	aux	_	SpaceAfter=No
+6	होती	असणे	AUX	_	Gender=Fem|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin	5	aux	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = 44
@@ -589,7 +589,7 @@
 # text = दोघे जात होती.
 1	दोघे	दोघे	PRON	_	Gender=Neut|Number=Plur|Person=3	2	nsubj	_	_
 2	जात	जाणे	VERB	_	Aspect=Imp|VerbForm=Part	0	root	_	_
-3	होती	असणे	AUX	_	Gender=Neut|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	2	aux	_	SpaceAfter=No
+3	होती	असणे	AUX	_	Gender=Neut|Number=Plur|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin	2	aux	_	SpaceAfter=No
 4	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = 53
@@ -656,7 +656,7 @@
 3	बेडकाला	बेडूक	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	5	obj	_	_
 4	तोंडात	तोंड	NOUN	_	Case=Loc|Gender=Neut|Number=Sing	5	obl	_	_
 5	धरले	धरणे	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
-6	होते	असणे	AUX	_	Gender=Neut|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	aux	_	SpaceAfter=No
+6	होते	असणे	AUX	_	Gender=Neut|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin	5	aux	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = 60
@@ -775,7 +775,7 @@
 2	पाठीमागून	पाठीमागून	ADV	_	_	4	advmod	_	_
 3	कोणी	कोण	PRON	_	Case=Erg|PronType=Int	4	nsubj	_	_
 4	येत	येणे	VERB	_	Aspect=Imp|VerbForm=Part	8	ccomp	_	_
-5	आहे	असणे	AUX	_	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+5	आहे	असणे	AUX	_	Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	4	aux	_	_
 6	असे	असा	ADV	_	_	4	mark	_	_
 7	त्यांना	तो	PRON	_	Case=Dat|Deixis=Remt|Gender=Neut|Number=Plur|Person=3	8	nsubj	_	_
 8	वाटले	वाटणे	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No
@@ -792,7 +792,7 @@
 1	एक	एक	DET	_	Number=Sing|PronType=Ind	2	det	_	_
 2	तरुण	तरुण	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
 3	येत	येणे	VERB	_	Aspect=Imp|VerbForm=Part	0	root	_	_
-4	होता	असणे	AUX	_	Gender=Masc|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	aux	_	SpaceAfter=No
+4	होता	असणे	AUX	_	Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin	3	aux	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = 72
@@ -914,7 +914,7 @@
 1	ती	तो	DET	_	Case=Nom|Deixis=Prox|Gender=Neut|Number=Plur|PronType=Dem	2	det	_	_
 2	चौघे	चौघे	PRON	_	Case=Nom|Number=Plur|Person=3	3	nsubj	_	_
 3	जात	जाणे	VERB	_	Aspect=Imp|VerbForm=Part	0	root	_	_
-4	होती	असणे	AUX	_	Gender=Neut|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	3	aux	_	SpaceAfter=No
+4	होती	असणे	AUX	_	Gender=Neut|Number=Plur|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin	3	aux	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = 85
@@ -929,7 +929,7 @@
 1	दोन	दोन	NUM	_	_	2	nummod	_	_
 2	लाडू	लाडू	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
 3	शिल्लक	शिल्लक	ADJ	_	Case=Nom	0	root	_	_
-4	होते	असणे	AUX	_	Gender=Masc|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	3	aux	_	SpaceAfter=No
+4	होते	असणे	AUX	_	Gender=Masc|Number=Plur|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin	3	aux	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = 87
@@ -1004,7 +1004,7 @@
 3	एक	एक	DET	_	Number=Sing|PronType=Ind	4	det	_	_
 4	शहर	शहर	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	5	obj	_	_
 5	दिसत	दिसणे	VERB	_	Aspect=Imp|VerbForm=Part	0	root	_	_
-6	होते	असणे	AUX	_	Gender=Neut|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	aux	_	SpaceAfter=No
+6	होते	असणे	AUX	_	Gender=Neut|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin	5	aux	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = 94
@@ -1018,7 +1018,7 @@
 5	_	चा	ADP	_	Gender=Masc|Number=Plur	4	case	_	_
 6	कळस	कळस	NOUN	_	Case=Acc|Gender=Masc|Number=Plur	7	obj	_	_
 7	दिसत	दिसणे	VERB	_	Aspect=Imp|VerbForm=Part	0	root	_	_
-8	होते	असणे	AUX	_	Gender=Masc|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	7	aux	_	SpaceAfter=No
+8	होते	असणे	AUX	_	Gender=Masc|Number=Plur|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin	7	aux	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = 95
@@ -1138,7 +1138,7 @@
 3	_	सोने	NOUN	_	Case=Abs|Gender=Neut|Number=Sing	1	conj	_	_
 4	_	चा	ADP	_	Gender=Neut|Number=Plur	3	case	_	_
 5	भांडी	भांडे	NOUN	_	Case=Nom|Gender=Neut|Number=Plur	6	nsubj	_	_
-6	होती	असणे	AUX	_	Gender=Neut|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+6	होती	असणे	AUX	_	Gender=Neut|Number=Plur|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = 107
@@ -1216,7 +1216,7 @@
 1	दुतर्फा	दुतर्फा	ADJ	_	_	2	amod	_	_
 2	लोक	लोक	NOUN	_	Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
 3	बघत	बघणे	VERB	_	Aspect=Imp|VerbForm=Part	0	root	_	_
-4	होते	असणे	AUX	_	Gender=Masc|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	3	aux	_	SpaceAfter=No
+4	होते	असणे	AUX	_	Gender=Masc|Number=Plur|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin	3	aux	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = 116
@@ -1230,7 +1230,7 @@
 5	_	तून	ADP	_	_	4	case	_	_
 6	लोक	लोक	NOUN	_	Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	_
 7	बघत	बघणे	VERB	_	Aspect=Imp|VerbForm=Part	0	root	_	_
-8	होते	असणे	AUX	_	Gender=Masc|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	7	aux	_	SpaceAfter=No
+8	होते	असणे	AUX	_	Gender=Masc|Number=Plur|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin	7	aux	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = 117
@@ -1267,7 +1267,7 @@
 2	_	चा	ADP	_	Gender=Masc|Number=Sing	1	case	_	_
 3	एक	एक	DET	_	Number=Sing|PronType=Ind	4	det	_	_
 4	खुशमस्कऱ्या	खुशमस्कऱ्या	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
-5	होता	असणे	AUX	_	Gender=Masc|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	होता	असणे	AUX	_	Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = 121
@@ -1278,7 +1278,7 @@
 4	,	,	PUNCT	_	_	6	punct	_	_
 5	कोण	कोण	PRON	_	Case=Nom|PronType=Int	6	nsubj	_	_
 6	आला	येणे	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Person=3|VerbForm=Fin	3	parataxis	_	_
-7	आहे	असणे	AUX	_	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+7	आहे	असणे	AUX	_	Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	6	aux	_	_
 8	राजपुत्र	राजपुत्र	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	5	dislocated	_	SpaceAfter=No
 9	?	?	PUNCT	_	_	6	punct	_	_
 
@@ -1334,7 +1334,7 @@
 5	करमणूक	करमणूक	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	6	obj	_	_
 6	करायला	करणे	VERB	_	VerbForm=Sup	7	advcl	_	_
 7	आलो	येणे	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Person=1|VerbForm=Fin	0	root	_	_
-8	आहे	असणे	AUX	_	Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	aux	_	SpaceAfter=No
+8	आहे	असणे	AUX	_	Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	7	aux	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = 127
@@ -1436,7 +1436,7 @@
 15	बहीण	बहीण	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	17	nsubj	_	_
 16	फार	फार	ADJ	_	_	17	amod	_	_
 17	सुंदर	सुंदर	ADJ	_	Case=Nom	6	parataxis	_	_
-18	आहे	असणे	AUX	_	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	SpaceAfter=No
+18	आहे	असणे	AUX	_	Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	17	cop	_	SpaceAfter=No
 19	.	.	PUNCT	_	_	17	punct	_	_
 
 # sent_id = 136
@@ -1462,7 +1462,7 @@
 # sent_id = 138
 # text = ठीक आहे, राजा म्हणाला.
 1	ठीक	ठीक	ADJ	_	Case=Nom	0	root	_	_
-2	आहे	असणे	AUX	_	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	SpaceAfter=No
+2	आहे	असणे	AUX	_	Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	1	cop	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	5	punct	_	_
 4	राजा	राजा	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	_
 5	म्हणाला	म्हणणे	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Person=3|VerbForm=Fin	1	parataxis	_	SpaceAfter=No
@@ -1505,7 +1505,7 @@
 10	पत्नी	पत्नी	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	_
 11	फार	फार	ADV	_	_	12	amod	_	_
 12	लावण्यवती	लावण्यवती	ADJ	_	Case=Nom|Gender=Fem|Number=Sing	15	ccomp	_	_
-13	आहे	असणे	AUX	_	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+13	आहे	असणे	AUX	_	Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	12	cop	_	_
 14	असे	असे	SCONJ	_	_	12	mark	_	_
 15	ऐकतो	ऐकणे	VERB	_	Aspect=Imp|Gender=Masc|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	parataxis	_	SpaceAfter=No
 16	.	.	PUNCT	_	_	15	punct	_	_
@@ -1570,7 +1570,7 @@
 5	सांग	सांगणे	VERB	_	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	2	parataxis	_	_
 6	मी	मी	PRON	_	Case=Nom|Number=Sing|Person=1	7	nsubj	_	_
 7	व्रती	व्रती	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	5	ccomp	_	_
-8	आहे	असणे	AUX	_	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	obj	_	SpaceAfter=No
+8	आहे	असणे	AUX	_	Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	7	obj	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = 149
@@ -1980,7 +1980,7 @@
 8	_	चा	ADP	_	Gender=Masc|Number=Sing	7	case	_	_
 9	प्राण	प्राण	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	10	obj	_	_
 10	वाचविला	वाचवणे	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Person=3|VerbForm=Fin	3	parataxis	_	_
-11	आहे	असणे	AUX	_	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	SpaceAfter=No
+11	आहे	असणे	AUX	_	Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	10	cop	_	SpaceAfter=No
 12	.	.	PUNCT	_	_	11	punct	_	_
 
 # sent_id = 182
@@ -2286,7 +2286,7 @@
 3	तो	तो	DET	_	Deixis=Remt|Gender=Masc|Number=Sing|PronType=Dem	4	det	_	_
 4	प्रकार	प्रकार	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	5	obj	_	_
 5	पाहत	पहाणे	VERB	_	Aspect=Imp|VerbForm=Part	0	root	_	_
-6	होते	असणे	AUX	_	Gender=Masc|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	5	aux	_	SpaceAfter=No
+6	होते	असणे	AUX	_	Gender=Masc|Number=Plur|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin	5	aux	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = 208
@@ -2318,7 +2318,7 @@
 2	जणू	जणू	ADV	_	_	4	discourse	_	_
 3	शांत	शांत	ADV	_	_	4	advmod	_	_
 4	झोपला	झोपणे	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
-5	होता	असणे	AUX	_	Gender=Masc|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux	_	SpaceAfter=No
+5	होता	असणे	AUX	_	Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin	4	aux	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = 212
@@ -2473,7 +2473,7 @@
 2-3	भाऊही	_	_	_	_	_	_	_	_
 2	_	भाऊ	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
 3	_	ही	PART	_	_	2	case	_	_
-4	होता	असणे	AUX	_	Gender=Masc|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	होता	असणे	AUX	_	Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = 224
@@ -2568,7 +2568,7 @@
 13	_	चा	ADP	_	Gender=Fem|Number=Sing	12	case	_	_
 14	आठवण	आठवण	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	15	compound:lvc	_	_
 15	काढीत	काढणे	VERB	_	Aspect=Imp|VerbForm=Part	3	parataxis	_	_
-16	आहेत	असणे	AUX	_	Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	SpaceAfter=No
+16	आहेत	असणे	AUX	_	Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	15	aux	_	SpaceAfter=No
 17	.	.	PUNCT	_	_	15	punct	_	_
 
 # sent_id = 231
@@ -2673,7 +2673,7 @@
 1	_	रात्र	NOUN	_	Case=Abs|Gender=Fem|Number=Sing	3	obl	_	_
 2	_	भर	ADP	_	_	1	case	_	_
 3	चालत	चालत	ADV	_	_	0	root	_	_
-4	होती	असणे	AUX	_	Gender=Neut|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	3	aux	_	SpaceAfter=No
+4	होती	असणे	AUX	_	Gender=Neut|Number=Plur|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin	3	aux	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = 241
@@ -2682,7 +2682,7 @@
 2-3	फराळाचे	_	_	_	_	_	_	_	_
 2	_	फराळ	NOUN	_	Case=Abs|Gender=Masc|Number=Sing	4	obj	_	_
 3	_	चा	ADP	_	Gender=Neut|Number=Sing	2	case	_	_
-4	होते	असणे	AUX	_	Gender=Neut|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	होते	असणे	AUX	_	Gender=Neut|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = 242
@@ -2735,7 +2735,7 @@
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	मी	मी	PRON	_	Case=Nom|Number=Sing|Person=1	4	nsubj	_	_
 4	साप	साप	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	0	root	_	_
-5	होतो	असणे	AUX	_	Gender=Masc|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	4	cop	_	SpaceAfter=No
+5	होतो	असणे	AUX	_	Gender=Masc|Number=Sing|Person=1|Polarity=Pos|Tense=Past|VerbForm=Fin	4	cop	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = 248
@@ -2928,7 +2928,7 @@
 1	पाडसे	पाडस	NOUN	_	Case=Nom|Gender=Neut|Number=Plur	3	nsubj	_	_
 2	वाट	वाट	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	3	compound:lvc	_	_
 3	पाहत	पहाणे	VERB	_	Aspect=Imp|VerbForm=Part	0	root	_	_
-4	असतील	असणे	AUX	_	Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	3	aux	_	SpaceAfter=No
+4	असतील	असणे	AUX	_	Number=Plur|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin	3	aux	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = 264
@@ -2946,7 +2946,7 @@
 3	_	वर	ADP	_	_	2	case	_	_
 4	बाण	बाण	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	5	obj	_	_
 5	सोडणार	सोडणे	VERB	_	Aspect=Prosp|VerbForm=Fin	0	root	_	_
-6	होतास	असणे	AUX	_	Gender=Masc|Number=Sing|Person=2|Tense=Past|VerbForm=Fin	5	aux	_	SpaceAfter=No
+6	होतास	असणे	AUX	_	Gender=Masc|Number=Sing|Person=2|Polarity=Pos|Tense=Past|VerbForm=Fin	5	aux	_	SpaceAfter=No
 7	;	;	PUNCT	_	_	13	punct	_	_
 8	परंतु	परंतु	CCONJ	_	_	13	cc	_	_
 9-10	तुझे	_	_	_	_	_	_	_	_
@@ -3054,7 +3054,7 @@
 10	_	चा	ADP	_	Case=Abs	9	case	_	_
 11	मनात	मन	NOUN	_	Case=Loc|Gender=Neut|Number=Sing	12	obl	_	_
 12	येत	येणे	VERB	_	Aspect=Imp|VerbForm=Part	6	parataxis	_	_
-13	होते	असणे	AUX	_	Gender=Neut|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	aux	_	SpaceAfter=No
+13	होते	असणे	AUX	_	Gender=Neut|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin	12	aux	_	SpaceAfter=No
 14	.	.	PUNCT	_	_	12	punct	_	_
 
 # sent_id = 275
@@ -3063,7 +3063,7 @@
 2	माणसाने	माणूस	NOUN	_	Case=Erg|Gender=Masc|Number=Sing	4	nsubj	_	_
 3	किती	किती	ADV	_	_	4	advmod	_	_
 4	चांगले	चांगला	ADJ	_	Case=Nom|Gender=Neut|Number=Sing	0	root	_	_
-5	असले	असणे	AUX	_	Aspect=Perf|Gender=Neut|Number=Sing|Person=3|VerbForm=Fin	4	aux	_	_
+5	असले	असणे	AUX	_	Aspect=Perf|Gender=Neut|Number=Sing|Person=3|Polarity=Pos|VerbForm=Fin	4	aux	_	_
 6	पाहिजे	पाहिजे	AUX	_	_	4	aux	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	13	punct	_	_
 8	असा	असा	ADJ	_	Case=Nom|Gender=Masc|Number=Sing	9	amod	_	_
@@ -3090,7 +3090,7 @@
 1	_	पहाटे	NOUN	_	Case=Abs|Gender=Neut|Number=Sing	3	nmod:poss	_	_
 2	_	चा	ADP	_	Gender=Fem|Number=Sing	1	case	_	_
 3	वेळ	वेळ	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
-4	होती	असणे	AUX	_	Gender=Fem|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	aux	_	SpaceAfter=No
+4	होती	असणे	AUX	_	Gender=Fem|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin	3	aux	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = 277
@@ -3110,7 +3110,7 @@
 1	ती	तो	PRON	_	Case=Nom|Deixis=Remt|Gender=Fem|Number=Sing|Person=3	3	nsubj	_	_
 2	गच्चीत	गच्ची	NOUN	_	Case=Loc|Gender=Fem|Number=Sing	3	obl	_	_
 3	उभी	उभा	ADJ	_	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
-4	होती	असणे	AUX	_	Gender=Fem|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	aux	_	SpaceAfter=No
+4	होती	असणे	AUX	_	Gender=Fem|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin	3	aux	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = 279
@@ -3118,13 +3118,13 @@
 1	देवाला	देव	NOUN	_	Case=Dat|Gender=Masc|Number=Sing	3	obl	_	_
 2	प्रार्थना	प्रार्थना	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	3	obj	_	_
 3	करत	करणे	VERB	_	Aspect=Imp|VerbForm=Part	0	root	_	_
-4	होती	असणे	AUX	_	Gender=Fem|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	aux	_	SpaceAfter=No
+4	होती	असणे	AUX	_	Gender=Fem|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin	3	aux	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = 280
 # text = कोण आहे?
 1	कोण	कोण	PRON	_	Case=Nom|PronType=Int	0	root	_	_
-2	आहे	असणे	AUX	_	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	aux	_	SpaceAfter=No
+2	आहे	असणे	AUX	_	Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	1	aux	_	SpaceAfter=No
 3	?	?	PUNCT	_	_	1	punct	_	_
 
 # sent_id = 281
@@ -3304,11 +3304,11 @@
 1	हवामान	हवामान	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
 2	आज	आज	ADV	_	_	3	advmod	_	_
 3	चांगले	चांगला	ADJ	_	Case=Nom|Gender=Neut|Number=Sing	0	root	_	_
-4	आहे	असणे	AUX	_	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	SpaceAfter=No
+4	आहे	असणे	AUX	_	Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	3	cop	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	7	punct	_	_
 6	खूप	खूप	ADV	_	_	7	advmod	_	_
 7	गरम	गरम	ADJ	_	Case=Nom	3	conj	_	_
-8	आहे	असणे	AUX	_	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	SpaceAfter=No
+8	आहे	असणे	AUX	_	Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	7	cop	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = 304
@@ -3317,7 +3317,7 @@
 2	काल	काल	ADV	_	_	4	advmod	_	_
 3	खूप	खूप	ADV	_	_	4	advmod	_	_
 4	गार	गार	ADJ	_	Case=Nom	0	root	_	_
-5	होते	असणे	AUX	_	Gender=Neut|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	SpaceAfter=No
+5	होते	असणे	AUX	_	Gender=Neut|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin	4	cop	_	SpaceAfter=No
 6	!	!	PUNCT	_	_	4	punct	_	_
 
 # sent_id = 305
@@ -3336,14 +3336,14 @@
 2	एक	एक	DET	_	Number=Sing|PronType=Ind	4	det	_	_
 3	लहान	लहान	ADJ	_	Case=Nom	4	amod	_	_
 4	मुलगा	मुलगा	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
-5	आहे	असणे	AUX	_	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+5	आहे	असणे	AUX	_	Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	4	cop	_	_
 6	आणि	आणि	CCONJ	_	_	9	cc	_	_
 7	तो	तो	PRON	_	Case=Nom|Deixis=Remt|Gender=Masc|Number=Sing|Person=3	9	nsubj	_	_
 8	सहा	सहा	NUM	_	_	9	nummod	_	_
 9-10	वर्षाचा	_	_	_	_	_	_	_	_
 9	_	वर्ष	NOUN	_	Case=Abs|Gender=Neut|Number=Sing	4	conj	_	_
 10	_	चा	ADP	_	Gender=Masc|Number=Sing	9	case	_	_
-11	आहे	असणे	AUX	_	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	SpaceAfter=No
+11	आहे	असणे	AUX	_	Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	9	cop	_	SpaceAfter=No
 12	.	.	PUNCT	_	_	11	punct	_	_
 
 # sent_id = 308
@@ -3355,14 +3355,14 @@
 4	_	तो	PRON	_	Deixis=Remt|Gender=Masc|Number=Sing|Person=3	6	nmod:poss	_	_
 5	_	चा	ADP	_	Gender=Fem|Number=Sing	4	case	_	_
 6	बहीण	बहीण	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
-7	आहे	असणे	AUX	_	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	SpaceAfter=No
+7	आहे	असणे	AUX	_	Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	6	cop	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	11	punct	_	_
 9	ती	तो	PRON	_	Case=Nom|Deixis=Remt|Gender=Fem|Number=Sing|Person=3	11	nsubj	_	_
 10	पाच	पाच	NUM	_	_	11	nummod	_	_
 11-12	वर्षाची	_	_	_	_	_	_	_	_
 11	_	वर्ष	NOUN	_	Case=Abs|Gender=Neut|Number=Sing	6	conj	_	_
 12	_	चा	ADP	_	Gender=Fem|Number=Sing	11	case	_	_
-13	आहे	असणे	AUX	_	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	SpaceAfter=No
+13	आहे	असणे	AUX	_	Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	11	cop	_	SpaceAfter=No
 14	.	.	PUNCT	_	_	11	punct	_	_
 
 # sent_id = 309
@@ -3373,14 +3373,14 @@
 3	एक	एक	DET	_	Number=Sing|PronType=Ind	5	det	_	_
 4	छोटा	छोटा	ADJ	_	Case=Nom|Gender=Masc|Number=Sing	5	amod	_	_
 5	कुत्रा	कुत्रा	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
-6	आहे	असणे	AUX	_	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	SpaceAfter=No
+6	आहे	असणे	AUX	_	Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	5	cop	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	11	punct	_	_
 8-9	कुत्रासुद्धा	_	_	_	_	_	_	_	_
 8	_	कुत्रा	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	_
 9	_	सुद्धा	PART	_	_	8	discourse	_	_
 10	आता	आता	ADV	_	_	11	advmod	_	_
 11	बागेत	बाग	NOUN	_	Case=Loc|Gender=Fem|Number=Sing	5	parataxis	_	_
-12	आहे	असणे	AUX	_	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	SpaceAfter=No
+12	आहे	असणे	AUX	_	Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	11	cop	_	SpaceAfter=No
 13	.	.	PUNCT	_	_	11	punct	_	_
 
 # sent_id = 310
@@ -3400,7 +3400,7 @@
 2	आता	आता	ADV	_	_	4	advmod	_	_
 3	खूप	खूप	ADV	_	_	4	advmod	_	_
 4	खुश	खुश	ADJ	_	Case=Nom	0	root	_	_
-5	आहे	असणे	AUX	_	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	SpaceAfter=No
+5	आहे	असणे	AUX	_	Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	4	cop	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = 312
@@ -3410,7 +3410,7 @@
 2	_	कडे	ADP	_	_	1	case	_	_
 3	पण	पण	ADV	_	_	4	advmod	_	_
 4	कुत्रा	कुत्रा	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
-5	आहे	असणे	AUX	_	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop:own	_	_
+5	आहे	असणे	AUX	_	Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	4	cop:own	_	_
 6	का	का	ADV	_	_	4	advmod	_	SpaceAfter=No
 7	?	?	PUNCT	_	_	4	punct	_	_
 
@@ -3423,14 +3423,14 @@
 4	_	कडे	ADP	_	_	3	case	_	_
 5	कुत्रा	कुत्रा	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
 6	नाही	नाही	AUX	_	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin	5	aux	_	_
-7	आहे	असणे	AUX	_	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop:own	_	SpaceAfter=No
+7	आहे	असणे	AUX	_	Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	5	cop:own	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	12	punct	_	_
 9-11	तिच्याकडे	_	_	_	_	_	_	_	_
 9	_	ती	PRON	_	Case=Abs|Deixis=Remt|Gender=Fem|Number=Sing|Person=3	12	nsubj	_	_
 10	_	च्या	PART	_	_	9	case	_	_
 11	_	कडे	ADP	_	_	9	case	_	_
 12	मांजर	मांजर	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	5	parataxis	_	_
-13	आहे	असणे	AUX	_	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop:own	_	SpaceAfter=No
+13	आहे	असणे	AUX	_	Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	12	cop:own	_	SpaceAfter=No
 14	.	.	PUNCT	_	_	12	punct	_	_
 
 # sent_id = 314
@@ -3439,11 +3439,11 @@
 2	ते	तो	DET	_	Deixis=Remt|Gender=Neut|Number=Sing|PronType=Dem	3	det	_	_
 3	मांजर	मांजर	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
 4	घरात	घर	NOUN	_	Case=Loc|Gender=Neut|Number=Sing	0	root	_	_
-5	आहे	असणे	AUX	_	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	SpaceAfter=No
+5	आहे	असणे	AUX	_	Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	4	cop	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	8	punct	_	_
 7	मांजर	मांजर	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	8	nsubj	_	_
 8	झोपले	झोपणे	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Person=3|VerbForm=Fin	4	conj	_	_
-9	आहे	असणे	AUX	_	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	SpaceAfter=No
+9	आहे	असणे	AUX	_	Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	8	aux	_	SpaceAfter=No
 10	.	.	PUNCT	_	_	8	punct	_	_
 
 # sent_id = 315
@@ -3456,7 +3456,7 @@
 5-6	मांजराबरोबर	_	_	_	_	_	_	_	_
 5	_	मांजर	NOUN	_	Case=Abs|Gender=Neut|Number=Sing	4	obl	_	_
 6	_	बरोबर	ADP	_	_	5	case	_	_
-7	आहे	असणे	AUX	_	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	SpaceAfter=No
+7	आहे	असणे	AUX	_	Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	4	cop	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	12	punct	_	_
 9	ती	तो	PRON	_	Case=Nom|Deixis=Remt|Gender=Fem|Number=Sing|Person=3	12	nsubj	_	_
 10-11	खिडकीतनं	_	_	_	_	_	_	_	_
@@ -3490,7 +3490,7 @@
 12	_	मेरी	PROPN	_	Case=Abs|Gender=Fem|Number=Sing	14	obl	_	_
 13	_	पासुन	ADP	_	_	12	case	_	_
 14	लपत	लपणे	VERB	_	Aspect=Imp|VerbForm=Part	9	conj	_	_
-15	आहे	असणे	AUX	_	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	SpaceAfter=No
+15	आहे	असणे	AUX	_	Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	14	aux	_	SpaceAfter=No
 16	.	.	PUNCT	_	_	14	punct	_	_
 
 # sent_id = 317
@@ -3498,7 +3498,7 @@
 1	तुला	तू	PRON	_	Case=Dat|Number=Sing|Person=2	3	obl	_	_
 2	कारण	कारण	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
 3	माहित	माहित	ADV	_	_	0	root	_	_
-4	आहे	असणे	AUX	_	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+4	आहे	असणे	AUX	_	Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	3	cop	_	_
 5	का	का	ADV	_	_	3	advmod	_	SpaceAfter=No
 6	?	?	PUNCT	_	_	3	punct	_	_
 
@@ -3506,7 +3506,7 @@
 # text = मेरी बसली आहे, आणि तिचे हात तिच्या डोळ्यांसमोर आहेत.
 1	मेरी	मेरी	PROPN	_	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	_
 2	बसली	बसणे	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
-3	आहे	असणे	AUX	_	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	SpaceAfter=No
+3	आहे	असणे	AUX	_	Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	2	cop	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	11	punct	_	_
 5	आणि	आणि	CCONJ	_	_	11	cc	_	_
 6-7	तिचे	_	_	_	_	_	_	_	_
@@ -3519,7 +3519,7 @@
 11-12	डोळ्यांसमोर	_	_	_	_	_	_	_	_
 11	_	डोळा	NOUN	_	Case=Abs|Gender=Masc|Number=Plur	2	conj	_	_
 12	_	समोर	ADP	_	_	11	case	_	_
-13	आहेत	असणे	AUX	_	Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	SpaceAfter=No
+13	आहेत	असणे	AUX	_	Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	11	cop	_	SpaceAfter=No
 14	.	.	PUNCT	_	_	11	punct	_	_
 
 # sent_id = 319
@@ -3528,12 +3528,12 @@
 2	काही	काही	PRON	_	Gender=Neut|Number=Sing	3	obj	_	_
 3	दिसत	दिसणे	VERB	_	Aspect=Imp|VerbForm=Part	0	root	_	_
 4	नाही	नाही	AUX	_	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin	3	aux	_	_
-5	आहे	असणे	AUX	_	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	SpaceAfter=No
+5	आहे	असणे	AUX	_	Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	3	aux	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	9	punct	_	_
 7	आणि	आणि	CCONJ	_	_	9	cc	_	_
 8	ती	तो	PRON	_	Case=Nom|Deixis=Remt|Gender=Fem|Number=Sing|Person=3	9	nsubj	_	_
 9	मोजत	मोजणे	VERB	_	Aspect=Imp|VerbForm=Part	3	conj	_	_
-10	आहे	असणे	AUX	_	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	SpaceAfter=No
+10	आहे	असणे	AUX	_	Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	9	aux	_	SpaceAfter=No
 11	.	.	PUNCT	_	_	9	punct	_	_
 
 # sent_id = 320
@@ -3553,7 +3553,7 @@
 4	_	जवळ	ADP	_	_	3	case	_	_
 5	काय	काय	PRON	_	Case=Acc|PronType=Int	6	obj	_	_
 6	करत	करणे	VERB	_	Aspect=Imp|VerbForm=Part	0	root	_	_
-7	आहे	असणे	AUX	_	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	SpaceAfter=No
+7	आहे	असणे	AUX	_	Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	6	aux	_	SpaceAfter=No
 8	?	?	PUNCT	_	_	6	punct	_	_
 
 # sent_id = 322
@@ -3561,7 +3561,7 @@
 1	तो	तो	PRON	_	Case=Nom|Deixis=Remt|Gender=Masc|Number=Sing|Person=3	3	nsubj	_	_
 2	एक	एक	DET	_	Number=Sing|PronType=Ind	3	det	_	_
 3	खेळ	खेळ	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
-4	आहे	असणे	AUX	_	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	SpaceAfter=No
+4	आहे	असणे	AUX	_	Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	3	cop	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = 323
@@ -3583,7 +3583,7 @@
 1	ती	तो	PRON	_	Case=Nom|Deixis=Remt|Gender=Fem|Number=Sing|Person=3	3	nsubj	_	_
 2	जेम्सला	जेम्स	PROPN	_	Case=Dat|Gender=Masc|Number=Sing	3	obj	_	_
 3	शोधत	शोधणे	VERB	_	Aspect=Imp|VerbForm=Part	0	root	_	_
-4	आहे	असणे	AUX	_	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	SpaceAfter=No
+4	आहे	असणे	AUX	_	Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	3	aux	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = 325
@@ -3591,12 +3591,12 @@
 1	"	"	PUNCT	_	_	3	punct	_	SpaceAfter=No
 2	तुला	तू	PRON	_	Case=Dat|Number=Sing|Person=2	3	obl	_	_
 3	माहित	माहित	ADV	_	_	0	root	_	_
-4	आहे	असणे	AUX	_	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+4	आहे	असणे	AUX	_	Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	3	cop	_	_
 5	का	का	ADV	_	_	3	advmod	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	8	punct	_	_
 7	तो	तो	PRON	_	Case=Nom|Deixis=Remt|Gender=Masc|Number=Sing|Person=3	8	nsubj	_	_
 8	कुठे	कुठे	ADV	_	_	3	csubj	_	_
-9	आहे	असणे	AUX	_	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	SpaceAfter=No
+9	आहे	असणे	AUX	_	Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	8	cop	_	SpaceAfter=No
 10	?	?	PUNCT	_	_	3	punct	_	_
 11	"	"	PUNCT	_	_	3	punct	_	_
 
@@ -3604,7 +3604,7 @@
 # text = जेम्स कुठे आहे, हे मेरीला माहित नाही.
 1	जेम्स	जेम्स	PROPN	_	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
 2	कुठे	कुठे	ADV	_	_	5	dislocated	_	_
-3	आहे	असणे	AUX	_	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	SpaceAfter=No
+3	आहे	असणे	AUX	_	Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	2	cop	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	2	punct	_	_
 5	हे	हा	PRON	_	Case=Acc|Deixis=Prox|Gender=Neut|Number=Sing|Person=3	7	obj	_	_
 6	मेरीला	मेरी	PROPN	_	Case=Dat|Gender=Fem|Number=Sing	7	nsubj	_	_
@@ -3683,7 +3683,7 @@
 12	_	चा	ADP	_	Gender=Fem|Number=Sing	11	case	_	_
 13	आई	आई	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	14	nsubj	_	_
 14	हसत	हसणे	VERB	_	Aspect=Imp|VerbForm=Part	9	conj	_	_
-15	आहे	असणे	AUX	_	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	SpaceAfter=No
+15	आहे	असणे	AUX	_	Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	14	aux	_	SpaceAfter=No
 16	.	.	PUNCT	_	_	14	punct	_	_
 
 # sent_id = 332
@@ -3701,7 +3701,7 @@
 10	,	,	PUNCT	_	_	9	punct	_	_
 11	हे	हा	PRON	_	Case=Acc|Deixis=Prox|Gender=Neut|Number=Sing|Person=3	2	obj	_	_
 12	माहित	माहित	ADV	_	_	2	ccomp	_	_
-13	आहे	असणे	AUX	_	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	SpaceAfter=No
+13	आहे	असणे	AUX	_	Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	12	cop	_	SpaceAfter=No
 14	.	.	PUNCT	_	_	12	punct	_	_
 
 # sent_id = 333
@@ -3712,7 +3712,7 @@
 4	,	,	PUNCT	_	_	6	punct	_	_
 5	तो	तो	PRON	_	Case=Nom|Deixis=Remt|Gender=Masc|Number=Sing|Person=3	6	nsubj	_	_
 6	कुठे	कुठे	ADV	_	_	2	ccomp	_	_
-7	आहे	असणे	AUX	_	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	SpaceAfter=No
+7	आहे	असणे	AUX	_	Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	6	cop	_	SpaceAfter=No
 8	!	!	PUNCT	_	_	6	punct	_	_
 9	"	"	PUNCT	_	_	2	punct	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	15	punct	_	_
@@ -3746,18 +3746,18 @@
 1	तिला	तो	PRON	_	Case=Dat|Deixis=Remt|Gender=Fem|Number=Sing|Person=3	3	nsubj	_	_
 2	बहुतेक	बहुतेक	ADV	_	_	3	advmod	_	_
 3	माहित	माहित	ADV	_	_	0	root	_	_
-4	आहे	असणे	AUX	_	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	SpaceAfter=No
+4	आहे	असणे	AUX	_	Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	3	cop	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	7	punct	_	_
 6	तो	तो	PRON	_	Case=Nom|Deixis=Remt|Gender=Masc|Number=Sing|Person=3	7	nsubj	_	_
 7	कुठे	कुठे	ADV	_	_	3	ccomp	_	_
-8	आहे	असणे	AUX	_	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	SpaceAfter=No
+8	आहे	असणे	AUX	_	Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	7	cop	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	13	punct	_	_
 10	पण	पण	CCONJ	_	_	13	cc	_	_
 11	तिला	तो	PRON	_	Case=Dat|Deixis=Remt|Gender=Fem|Number=Sing|Person=3	13	nsubj	_	_
 12	हे	हा	PRON	_	Case=Acc|Deixis=Prox|Gender=Neut|Number=Sing|Person=3	13	obj	_	_
 13	सांगायचे	सांगसांगणे	VERB	_	Gender=Fem|Mood=Des|Number=Sing|Person=3|VerbForm=Part	3	conj	_	_
 14	नाही	नाही	AUX	_	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin	13	aux	_	_
-15	आहे	असणे	AUX	_	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	SpaceAfter=No
+15	आहे	असणे	AUX	_	Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	13	aux	_	SpaceAfter=No
 16	.	.	PUNCT	_	_	13	punct	_	_
 
 # sent_id = 336
@@ -3776,7 +3776,7 @@
 4	शोधायचा	शोधणे	VERB	_	Gender=Masc|Mood=Des|Number=Sing|Person=3|VerbForm=Part	5	xcomp	_	_
 5	प्रयत्न	प्रयत्न	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	6	compound:lvc	_	_
 6	करत	करणे	VERB	_	Aspect=Imp|VerbForm=Part	0	root	_	_
-7	आहे	असणे	AUX	_	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	SpaceAfter=No
+7	आहे	असणे	AUX	_	Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	6	aux	_	SpaceAfter=No
 8	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = 338
@@ -3796,7 +3796,7 @@
 11	जेम्स	जेम्स	PROPN	_	Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	_
 12	तिकडे	तिकडे	ADV	_	_	8	conj	_	_
 13	नाही	नाही	AUX	_	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin	12	cop	_	_
-14	आहे	असणे	AUX	_	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	SpaceAfter=No
+14	आहे	असणे	AUX	_	Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	12	cop	_	SpaceAfter=No
 15	.	.	PUNCT	_	_	12	punct	_	_
 
 # sent_id = 339
@@ -3828,14 +3828,14 @@
 12	_	चा	ADP	_	Case=Abs	11	case	_	_
 13	मागून	मागून	ADV	_	_	14	advmod	_	_
 14	येत	येणे	VERB	_	Aspect=Imp|VerbForm=Part	4	conj	_	_
-15	आहे	असणे	AUX	_	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	SpaceAfter=No
+15	आहे	असणे	AUX	_	Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	14	aux	_	SpaceAfter=No
 16	.	.	PUNCT	_	_	14	punct	_	_
 
 # sent_id = 341
 # text = तो जेम्स असेल का?
 1	तो	तो	PRON	_	Deixis=Remt|Gender=Masc|Number=Sing|Person=3	2	nsubj	_	_
 2	जेम्स	जेम्स	PROPN	_	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
-3	असेल	असणे	AUX	_	Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	2	cop	_	_
+3	असेल	असणे	AUX	_	Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin	2	cop	_	_
 4	का	का	ADV	_	_	2	advmod	_	SpaceAfter=No
 5	?	?	PUNCT	_	_	2	punct	_	_
 
@@ -3847,7 +3847,7 @@
 3	आवाज	आवाज	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
 4	परत	परत	ADV	_	_	5	advmod	_	_
 5	येत	येणे	VERB	_	Aspect=Imp|VerbForm=Part	0	root	_	_
-6	आहे	असणे	AUX	_	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	SpaceAfter=No
+6	आहे	असणे	AUX	_	Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	5	aux	_	SpaceAfter=No
 7	!	!	PUNCT	_	_	5	punct	_	_
 
 # sent_id = 344
@@ -3857,7 +3857,7 @@
 3	किंवा	किंवा	CCONJ	_	_	4	cc	_	_
 4	प्राणी	प्राण	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	2	conj	_	_
 5	नाही	नाही	AUX	_	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin	2	cop	_	_
-6	आहे	असणे	AUX	_	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	SpaceAfter=No
+6	आहे	असणे	AUX	_	Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	2	cop	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = 345
@@ -3868,7 +3868,7 @@
 4	नीट	नीट	ADV	_	_	5	advmod	_	_
 5	ऐकू	ऐकणे	VERB	_	InfForm=Incp|VerbForm=Inf	0	root	_	_
 6	येत	येणे	VERB	_	Aspect=Imp|VerbForm=Part	5	compound	_	_
-7	आहे	असणे	AUX	_	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	SpaceAfter=No
+7	आहे	असणे	AUX	_	Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	6	aux	_	SpaceAfter=No
 8	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = 346
@@ -3877,7 +3877,7 @@
 2-3	जेम्सच	_	_	_	_	_	_	_	_
 2	_	जेम्स	PROPN	_	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
 3	_	च	PART	_	_	2	discourse	_	_
-4	असेल	असणे	AUX	_	Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	2	cop	_	SpaceAfter=No
+4	असेल	असणे	AUX	_	Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin	2	cop	_	SpaceAfter=No
 5	!	!	PUNCT	_	_	2	punct	_	_
 
 # sent_id = 347
@@ -3923,7 +3923,7 @@
 4	इतकी	इतका	ADJ	_	Case=Nom|Gender=Fem|Number=Sing	5	amod	_	_
 5	किंमत	किंमत	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	6	obj	_	_
 6	देत	देणे	VERB	_	Aspect=Imp|VerbForm=Part	0	root	_	_
-7	आहे	असणे	AUX	_	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	SpaceAfter=No
+7	आहे	असणे	AUX	_	Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	6	aux	_	SpaceAfter=No
 8	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = 351
@@ -4173,7 +4173,7 @@
 2	_	मी	PRON	_	Number=Sing|Person=1	4	nmod:poss	_	_
 3	_	चा	ADP	_	Case=Abs	2	case	_	_
 4	तिजोरीत	तिजोरी	NOUN	_	Case=Loc|Gender=Fem|Number=Sing	0	root	_	_
-5	आहे	असणे	AUX	_	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	SpaceAfter=No
+5	आहे	असणे	AUX	_	Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	4	cop	_	SpaceAfter=No
 6	!	!	PUNCT	_	_	4	punct	_	_
 
 # sent_id = 377
@@ -4187,7 +4187,7 @@
 6	जग	जग	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	7	obj	_	_
 7	व्यापून	व्यापणे	VERB	_	Aspect=Perf|VerbForm=Conv	0	root	_	_
 8	राहिलेला	रहाणे	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Person=3|VerbForm=Part	7	compound:svc	_	_
-9	आहे	असणे	AUX	_	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	SpaceAfter=No
+9	आहे	असणे	AUX	_	Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	8	aux	_	SpaceAfter=No
 10	!	!	PUNCT	_	_	7	punct	_	SpaceAfter=No
 11	"	"	PUNCT	_	_	7	punct	_	_
 
@@ -4221,7 +4221,7 @@
 8	द्यायला	देणे	VERB	_	VerbForm=Sup	9	xcomp	_	_
 9	तयार	तयार	ADV	_	_	10	xcomp	_	_
 10	झालो	होणे	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Person=1|VerbForm=Fin	0	root	_	_
-11	होतो	असणे	AUX	_	Gender=Masc|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	10	aux	_	SpaceAfter=No
+11	होतो	असणे	AUX	_	Gender=Masc|Number=Sing|Person=1|Polarity=Pos|Tense=Past|VerbForm=Fin	10	aux	_	SpaceAfter=No
 12	;	;	PUNCT	_	_	18	punct	_	_
 13	परंतु	परंतु	CCONJ	_	_	18	cc	_	_
 14-15	तुझी	_	_	_	_	_	_	_	_
@@ -4230,7 +4230,7 @@
 16	बुद्धी	बुद्धी	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	18	nsubj	_	_
 17	भ्रष्ट	भ्रष्ट	ADJ	_	Case=Nom	18	xcomp	_	_
 18	झाली	होणे	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Person=3|VerbForm=Fin	10	conj	_	_
-19	आहे	असणे	AUX	_	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	SpaceAfter=No
+19	आहे	असणे	AUX	_	Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	18	aux	_	SpaceAfter=No
 20	.	.	PUNCT	_	_	10	punct	_	_
 
 # sent_id = 381
@@ -4267,7 +4267,7 @@
 5	काठी	काठ	NOUN	_	Case=Loc|Gender=Fem|Number=Sing	7	obl	_	_
 6	भीमा	भीमा	PROPN	_	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
 7	बसला	बसणे	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
-8	होता	असणे	AUX	_	Gender=Masc|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	aux	_	SpaceAfter=No
+8	होता	असणे	AUX	_	Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin	7	aux	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = 384
@@ -4300,7 +4300,7 @@
 6	_	चा	ADP	_	Gender=Neut|Number=Plur	5	case	_	_
 7	तेथे	तेथे	ADV	_	_	8	advmod	_	_
 8	झाडे	झाड	NOUN	_	Case=Nom|Gender=Neut|Number=Plur	0	root	_	_
-9	होती	असणे	AUX	_	Gender=Neut|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	8	aux	_	SpaceAfter=No
+9	होती	असणे	AUX	_	Gender=Neut|Number=Plur|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin	8	aux	_	SpaceAfter=No
 10	.	.	PUNCT	_	_	8	punct	_	_
 
 # sent_id = 386
@@ -4313,7 +4313,7 @@
 5	चार	चार	NUM	_	_	3	flat	_	_
 6	कलमे	कलम	NOUN	_	Case=Acc|Gender=Neut|Number=Plur	7	obj	_	_
 7	लावली	लावणे	VERB	_	Aspect=Perf|Gender=Neut|Number=Plur|Person=3|VerbForm=Fin	0	root	_	_
-8	होती	असणे	AUX	_	Gender=Neut|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	7	aux	_	SpaceAfter=No
+8	होती	असणे	AUX	_	Gender=Neut|Number=Plur|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin	7	aux	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	8	punct	_	_
 
 # sent_id = 387
@@ -4323,7 +4323,7 @@
 2	_	चा	ADP	_	Case=Abs	1	case	_	_
 3	कडेला	कडे	NOUN	_	Case=Dat|Gender=Masc|Number=Sing	4	obl	_	_
 4	फुलझाडे	फुलझाड	NOUN	_	Case=Nom|Gender=Neut|Number=Plur	0	root	_	_
-5	होती	असणे	AUX	_	Gender=Neut|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	SpaceAfter=No
+5	होती	असणे	AUX	_	Gender=Neut|Number=Plur|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin	4	cop	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = 388
@@ -4334,7 +4334,7 @@
 3	_	चा	ADP	_	Gender=Masc|Number=Sing	2	case	_	_
 4	लहानसा	लहानसा	ADJ	_	Case=Nom|Gender=Masc|Number=Sing	5	amod	_	_
 5	गोठा	गोठा	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	1	nsubj	_	_
-6	होता	असणे	AUX	_	Gender=Masc|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	aux	_	SpaceAfter=No
+6	होता	असणे	AUX	_	Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin	1	aux	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = 389
@@ -4367,6 +4367,6 @@
 8	की	की	CCONJ	_	_	9	cc	_	_
 9	प्राण	प्राण	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	7	conj	_	_
 10	प्रेम	प्रेम	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	0	root	_	_
-11	होते	असणे	AUX	_	Gender=Neut|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	cop	_	SpaceAfter=No
+11	होते	असणे	AUX	_	Gender=Neut|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin	10	cop	_	SpaceAfter=No
 12	.	.	PUNCT	_	_	10	punct	_	_
 
