@@ -821,17 +821,17 @@
 
 # sent_id = 75
 # text = मला तुमचा भाऊ होऊ दे, तो म्हणाला.
-1	मला	मी	PRON	_	Case=Dat|Number=Sing|Person=1	5	nsubj	_	_
+1	मला	मी	PRON	_	Case=Dat|Number=Sing|Person=1	6	nsubj	_	_
 2-3	तुमचा	_	_	_	_	_	_	_	_
 2	_	तू	PRON	_	Number=Plur|Person=2	4	nmod:poss	_	_
 3	_	चा	ADP	_	Gender=Masc|Number=Sing	2	case	_	_
 4	भाऊ	भाऊ	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	5	obj	_	_
-5	होऊ	होणे	VERB	_	InfForm=Incp|VerbForm=Inf	0	root	_	_
-6	दे	देणे	AUX	_	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	5	aux	_	SpaceAfter=No
+5	होऊ	होणे	VERB	_	InfForm=Incp|VerbForm=Inf	6	xcomp	_	_
+6	दे	देणे	VERB	_	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	9	punct	_	_
 8	तो	तो	PRON	_	Case=Nom|Deixis=Remt|Gender=Masc|Number=Sing|Person=3	9	nsubj	_	_
-9	म्हणाला	म्हणणे	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Person=3|VerbForm=Fin	5	parataxis	_	SpaceAfter=No
-10	.	.	PUNCT	_	_	9	punct	_	_
+9	म्हणाला	म्हणणे	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Person=3|VerbForm=Fin	6	parataxis	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = 76
 # text = ठीक, हरकत नाही, राजपुत्र म्हणाला.
@@ -1406,13 +1406,13 @@
 
 # sent_id = 134
 # text = राजाने येऊ दिले तर! तो म्हणाला.
-1	राजाने	राजा	NOUN	_	Case=Erg|Gender=Masc|Number=Sing	2	nsubj	_	_
-2	येऊ	येणे	VERB	_	InfForm=Incp|VerbForm=Inf	0	root	_	_
-3	दिले	देणे	AUX	_	Aspect=Perf|Gender=Neut|Number=Sing|Person=3|VerbForm=Fin	2	aux	_	_
-4	तर	तर	SCONJ	_	_	2	mark	_	SpaceAfter=No
-5	!	!	PUNCT	_	_	2	punct	_	_
+1	राजाने	राजा	NOUN	_	Case=Erg|Gender=Masc|Number=Sing	3	nsubj	_	_
+2	येऊ	येणे	VERB	_	InfForm=Incp|VerbForm=Inf	3	xcomp	_	_
+3	दिले	देणे	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+4	तर	तर	SCONJ	_	_	3	mark	_	SpaceAfter=No
+5	!	!	PUNCT	_	_	3	punct	_	_
 6	तो	तो	PRON	_	Case=Nom|Deixis=Remt|Gender=Masc|Number=Sing|Person=3	7	nsubj	_	_
-7	म्हणाला	म्हणणे	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Person=3|VerbForm=Fin	2	parataxis	_	SpaceAfter=No
+7	म्हणाला	म्हणणे	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Person=3|VerbForm=Fin	3	parataxis	_	SpaceAfter=No
 8	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = 135
@@ -4041,11 +4041,11 @@
 
 # sent_id = 363
 # text = राहू द्या एवढी जमीन.
-1	राहू	रहाणे	VERB	_	InfForm=Incp|VerbForm=Inf	0	root	_	_
-2	द्या	देणे	AUX	_	Mood=Imp|Number=Plur|Person=2|VerbForm=Fin	1	aux	_	_
+1	राहू	रहाणे	VERB	_	InfForm=Incp|VerbForm=Inf	2	xcomp	_	_
+2	द्या	देणे	VERB	_	Mood=Imp|Number=Plur|Person=2|VerbForm=Fin	0	root	_	_
 3	एवढी	एवढा	ADJ	_	Case=Nom|Gender=Fem|Number=Sing	4	amod	_	_
 4	जमीन	जमीन	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	1	obj	_	SpaceAfter=No
-5	.	.	PUNCT	_	_	1	punct	_	_
+5	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = 364
 # text = पोटापुरे ती देते.
