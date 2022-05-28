@@ -3588,7 +3588,7 @@
 
 # sent_id = 325
 # text = "तुला माहित आहे का, तो कुठे आहे? "
-1	"	"	PUNCT	_	_	8	punct	_	SpaceAfter=No
+1	"	"	PUNCT	_	_	3	punct	_	SpaceAfter=No
 2	तुला	तू	PRON	_	Case=Dat|Number=Sing|Person=2	3	obl	_	_
 3	माहित	माहित	ADV	_	_	0	root	_	_
 4	आहे	असणे	AUX	_	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
