@@ -51,7 +51,7 @@
 3	म्हणाला	म्हणणे	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No|Translit=mhaṇālā|LTranslit=mhaṇaṇe
 4	,	,	PUNCT	_	_	7	punct	_	Translit=,|LTranslit=,
 5	"	,	PUNCT	_	_	7	punct	_	SpaceAfter=No|Translit="|LTranslit=,
-6	याला	हा	PRON	_	Case=Dat|Deixis=Prox|Gender=Masc|Number=Sing	7	obj	_	Translit=yālā|LTranslit=hā
+6	याला	हा	PRON	_	Case=Dat|Deixis=Prox|Gender=Masc|Number=Sing|PronType=Dem	7	obj	_	Translit=yālā|LTranslit=hā
 7	घालवून	घालवणे	VERB	_	Aspect=Perf|VerbForm=Conv	3	ccomp	_	Translit=ghālavūna|LTranslit=ghālavaṇe
 8	द्यावे	देणे	VERB	_	Gender=Neut|Mood=Sub|Number=Sing|Person=3|VerbForm=Fin	7	compound:svc	_	SpaceAfter=No|Translit=dyāve|LTranslit=deṇe
 9	.	.	PUNCT	_	_	8	punct	_	SpaceAfter=No|Translit=.|LTranslit=.
@@ -514,7 +514,7 @@
 # sent_id = 41
 # text = काही अंतर चालून गेल्यावर मागून कोणीतरी माणूस येत आहे, असे त्याला वाटले.
 # translit = kāhī aṁtara cālūna gelyāvara māgūna koṇītarī māṇūsa yeta āhe, ase tyālā vāṭale.
-1	काही	काही	DET	_	_	2	det	_	Translit=kāhī|LTranslit=kāhī
+1	काही	काही	DET	_	PronType=Ind	2	det	_	Translit=kāhī|LTranslit=kāhī
 2	अंतर	अंतर	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	3	obl	_	Translit=aṁtara|LTranslit=aṁtara
 3	चालून	चालून	VERB	_	Aspect=Perf|VerbForm=Conv	4	advcl	_	Translit=cālūna|LTranslit=cālūna
 4-5	गेल्यावर	_	_	_	_	_	_	_	Translit=gelyāvara
@@ -1438,7 +1438,7 @@
 2	म्हणाला	म्हणणे	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No|Translit=mhaṇālā|LTranslit=mhaṇaṇe
 3	,	,	PUNCT	_	_	9	punct	_	Translit=,|LTranslit=,
 4	मी	मी	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	Translit=mī|LTranslit=mī
-5	येथल्या	येथल्या	PRON	_	Case=Abs	6	amod	_	Translit=yethalyā|LTranslit=yethalyā
+5	येथल्या	येथल्या	PRON	_	Case=Abs|PronType=Dem	6	amod	_	Translit=yethalyā|LTranslit=yethalyā
 6-7	राजाची	_	_	_	_	_	_	_	Translit=rājācī
 6	राजा	राजा	NOUN	_	Case=Abs|Gender=Masc|Number=Sing	8	nmod:poss	_	Translit=rājā|LTranslit=rājā
 7	ची	चा	ADP	_	Gender=Fem|Number=Sing	6	case	_	Translit=cī|LTranslit=cā
@@ -2059,7 +2059,7 @@
 # sent_id = 173
 # text = एक भाऊ येऊन म्हणाला, दादा, का रडतोस?
 # translit = eka bhāū yeūna mhaṇālā, dādā, kā raḍatosa?
-1	एक	एक	DET	_	_	2	det	_	Translit=eka|LTranslit=eka
+1	एक	एक	DET	_	PronType=Ind	2	det	_	Translit=eka|LTranslit=eka
 2	भाऊ	भाऊ	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	Translit=bhāū|LTranslit=bhāū
 3	येऊन	येणे	VERB	_	Aspect=Perf|VerbForm=Conv	4	advcl	_	Translit=yeūna|LTranslit=yeṇe
 4	म्हणाला	म्हणणे	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No|Translit=mhaṇālā|LTranslit=mhaṇaṇe
@@ -2745,7 +2745,7 @@
 2	परत	परत	ADV	_	_	3	advmod	_	Translit=parata|LTranslit=parata
 3	आलेला	येणे	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Person=3|VerbForm=Part	4	acl	_	Translit=ālelā|LTranslit=yeṇe
 4	पाहून	पहाणे	VERB	_	Aspect=Perf|VerbForm=Conv	7	advcl	_	Translit=pāhūna|LTranslit=pahāṇe
-5	सारे	सारे	PRON	_	Gender=Masc|Number=Plur	7	nsubj	_	Translit=sāre|LTranslit=sāre
+5	सारे	सारे	PRON	_	Gender=Masc|Number=Plur|PronType=Tot	7	nsubj	_	Translit=sāre|LTranslit=sāre
 6	आश्चर्यचकित	आश्चर्यचकित	ADJ	_	Case=Nom	7	obj	_	Translit=āścaryacakita|LTranslit=āścaryacakita
 7	झाले	होणे	VERB	_	Aspect=Perf|Gender=Masc|Number=Plur|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No|Translit=jhāle|LTranslit=hoṇe
 8	.	.	PUNCT	_	_	7	punct	_	Translit=.|LTranslit=.
@@ -3834,7 +3834,7 @@
 # text = तिला काही दिसत नाही आहे, आणि ती मोजत आहे.
 # translit = tilā kāhī disata nāhī āhe, āṇi tī mojata āhe.
 1	तिला	तो	PRON	_	Case=Dat|Deixis=Remt|Gender=Fem|Number=Sing|Person=3|PronType=Dem	3	nsubj	_	Translit=tilā|LTranslit=to
-2	काही	काही	PRON	_	Gender=Neut|Number=Sing	3	obj	_	Translit=kāhī|LTranslit=kāhī
+2	काही	काही	PRON	_	Gender=Neut|Number=Sing|PronType=Ind	3	obj	_	Translit=kāhī|LTranslit=kāhī
 3	दिसत	दिसणे	VERB	_	Aspect=Imp|VerbForm=Part	0	root	_	Translit=disata|LTranslit=disaṇe
 4	नाही	असणे	AUX	_	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin	3	aux	_	Translit=nāhī|LTranslit=asaṇe
 5	आहे	असणे	AUX	_	Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	3	aux	_	SpaceAfter=No|Translit=āhe|LTranslit=asaṇe
