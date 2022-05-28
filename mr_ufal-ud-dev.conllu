@@ -116,7 +116,7 @@
 15	,	,	PUNCT	_	_	14	punct	_	_
 16	का	का	ADV	_	_	17	advmod	_	_
 17	न्याय	न्याय	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	8	parataxis	_	_
-18	नाही	नाही	AUX	_	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin	17	cop	_	SpaceAfter=No
+18	नाही	नाही	PART	_	Polarity=Neg	17	advmod	_	SpaceAfter=No
 19	?	?	PUNCT	_	_	17	punct	_	SpaceAfter=No
 20	"	"	PUNCT	_	_	17	punct	_	_
 
@@ -564,7 +564,7 @@
 4	,	,	PUNCT	_	_	2	punct	_	_
 5	न्याय	न्याय	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
 6	उरला	उरणे	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
-7	नाही	नाही	AUX	_	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin	6	aux	_	SpaceAfter=No
+7	नाही	नाही	PART	_	Polarity=Neg	6	advmod	_	SpaceAfter=No
 8	.	.	PUNCT	_	_	6	punct	_	SpaceAfter=No
 9	"	"	PUNCT	_	_	6	punct	_	_
 10-11	देवीचा	_	_	_	_	_	_	_	_
