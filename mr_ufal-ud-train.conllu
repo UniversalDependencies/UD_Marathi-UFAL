@@ -85,7 +85,7 @@
 # sent_id = 8
 # text = "नका घालवू त्याला दूर!" ती रडत म्हणाली.
 1	"	"	PUNCT	_	_	3	punct	_	SpaceAfter=No
-2	नका	नका	AUX	_	Mood=Imp|Number=Plur|Person=2|Polarity=Neg|VerbForm=Fin	3	aux	_	_
+2	नका	नको	AUX	_	Mood=Imp|Number=Plur|Person=2|Polarity=Neg|VerbForm=Fin	3	aux	_	_
 3	घालवू	घालवणे	VERB	_	Mood=Imp|Number=Plur|Person=2|VerbForm=Fin	0	root	_	_
 4	त्याला	तो	PRON	_	Case=Acc|Deixis=Remt|Gender=Masc|Number=Sing|Person=3	3	obj	_	_
 5	दूर	दूर	ADJ	_	Case=Nom	3	xcomp	_	SpaceAfter=No
@@ -886,7 +886,7 @@
 # text = नाही म्हणू नका.
 1	नाही	नाही	INTJ	_	_	2	obj	_	_
 2	म्हणू	म्हणणे	VERB	_	Mood=Imp|Number=Plur|Person=2|VerbForm=Fin	0	root	_	_
-3	नका	नका	AUX	_	Number=Plur|Person=2|Polarity=Neg|VerbForm=Fin	2	aux	_	SpaceAfter=No
+3	नका	नको	AUX	_	Mood=Imp|Number=Plur|Person=2|Polarity=Neg|VerbForm=Fin	2	aux	_	SpaceAfter=No
 4	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = 82
@@ -4001,7 +4001,7 @@
 # sent_id = 358
 # text = राग नका मानू दादा; परंतु खरे ते मी सांगतो.
 1	राग	राग	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	3	obj	_	_
-2	नका	नको	AUX	_	Number=Plur|Person=3|Polarity=Neg|VerbForm=Fin	3	aux	_	_
+2	नका	नको	AUX	_	Mood=Imp|Number=Plur|Person=2|Polarity=Neg|VerbForm=Fin	3	aux	_	_
 3	मानू	मानणे	VERB	_	Mood=Imp|Number=Plur|Person=2|VerbForm=Fin	0	root	_	_
 4	दादा	दादा	INTJ	_	_	3	vocative	_	SpaceAfter=No
 5	;	;	PUNCT	_	_	10	punct	_	_

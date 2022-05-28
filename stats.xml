@@ -10,7 +10,7 @@
     <dev><sentences>46</sentences><tokens>400</tokens><words>440</words><fused>39</fused></dev>
     <test><sentences>47</sentences><tokens>376</tokens><words>412</words><fused>36</fused></test>
   </size>
-  <lemmas unique="698" /><!-- ., तो, असणे, चा, ,, ", येणे, मी, म्हणणे, !, जाणे, तू, ?, राजपुत्र, राजा -->
+  <lemmas unique="696" /><!-- ., तो, असणे, चा, ,, ", येणे, मी, म्हणणे, !, जाणे, तू, ?, राजपुत्र, राजा -->
   <forms unique="948" /><!-- ., ,, ", तो, आहे, !, ?, ती, म्हणाला, नाही, एक, आणि, मी, राजपुत्र, आला -->
   <fusions unique="231" /><!-- माझी, तुझी, त्याच्या, त्याचे, आपल्या, तिच्या, राजाच्या, कानावर, तुमचा, माझा, अंतरावर, तुझे, त्याची, माझ्या, राजपुत्राची -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
@@ -18,7 +18,7 @@
     <tag name="ADJ">121</tag><!-- सारा, सारी, असा, जुना, थोडा, शहाणा, अर्धा, छोटा, म्हातारा, सुखी -->
     <tag name="ADP">292</tag><!-- चा, वर, कडे, तील, साठी, तून, बरोबर, बाहेर, वरती, प्रमाणे -->
     <tag name="ADV">195</tag><!-- का, घरी, आता, कुठे, आज, तेथे, परत, बाहेर, पुन्हा, कसा -->
-    <tag name="AUX">200</tag><!-- असणे, येणे, नको, शकणे, नका, नकोस, जाणे, पाहिजे -->
+    <tag name="AUX">200</tag><!-- असणे, नको, येणे, शकणे, जाणे, पाहिजे -->
     <tag name="CCONJ">63</tag><!-- आणि, व, परंतु, पण, किंवा, तर, ना, नाहीतर, म्हणून, आणखी -->
     <tag name="DET">114</tag><!-- तो, एक, हा, काही, दोघे, कोणी, तुम्हा, मी -->
     <tag name="INTJ">21</tag><!-- नाही, दादा, रे, अरे, डराव, ग, ठीक, ना, फण्, हो -->
@@ -57,14 +57,14 @@
     <feat name="InfForm" value="Dict" upos="VERB">22</feat><!-- _, कळविण्यात, उडवण्यात, उभारण्यात, करण्यात, ठेवण्यात, देणे, देण्यात, पाठविण्यात, बोलावणे -->
     <feat name="InfForm" value="Incp" upos="VERB">22</feat><!-- होऊ, ऐकू, करू, चालू, येऊ, _, खेळू, चालवू, जाऊ, देऊ -->
     <feat name="Mood" value="Des" upos="VERB">6</feat><!-- जायचे, द्यायची, व्हावयाची, शमवायची, शोधायचा, सांगायचे -->
-    <feat name="Mood" value="Imp" upos="AUX,VERB">80</feat><!-- दे, जा, द्या, हो, करा, घ्या, पाठवा, सांग, करूस, जाऊ -->
+    <feat name="Mood" value="Imp" upos="AUX,VERB">88</feat><!-- दे, जा, नका, द्या, हो, करा, घ्या, नको, पाठवा, सांग -->
     <feat name="Mood" value="Ind" upos="VERB">2</feat><!-- मरायचा, हंबरायची -->
     <feat name="Mood" value="Sub" upos="AUX,VERB">9</feat><!-- म्हणावे, द्यावे, नये, पिकवी, फेडावे, यावे, वाचवावा, विकावी -->
     <feat name="Number" value="Plur" upos="ADJ,ADP,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">375</feat><!-- _, होती, तुम्ही, होते, लागली, आहेत, दोघे, नका, फुले, रुपये -->
-    <feat name="Number" value="Sing" upos="ADJ,ADP,AUX,DET,NOUN,PRON,PROPN,VERB">1764</feat><!-- _, तो, आहे, ती, म्हणाला, नाही, मी, राजपुत्र, एक, आला -->
+    <feat name="Number" value="Sing" upos="ADJ,ADP,AUX,DET,NOUN,PRON,PROPN,VERB">1765</feat><!-- _, तो, आहे, ती, म्हणाला, नाही, मी, राजपुत्र, एक, आला -->
     <feat name="Person" value="1" upos="AUX,PRON,VERB">106</feat><!-- _, मी, मला, नाही, झालो, आपण, आम्ही, जाऊ, सांगतो, होतो -->
-    <feat name="Person" value="2" upos="AUX,PRON,VERB">145</feat><!-- _, तुला, दे, तुम्ही, तू, जा, द्या, नका, हो, करा -->
-    <feat name="Person" value="3" upos="AUX,PRON,VERB">736</feat><!-- आहे, _, तो, म्हणाला, ती, नाही, आला, होती, गेला, त्याला -->
+    <feat name="Person" value="2" upos="AUX,PRON,VERB">147</feat><!-- _, तुला, दे, तुम्ही, तू, जा, नका, द्या, हो, करा -->
+    <feat name="Person" value="3" upos="AUX,PRON,VERB">735</feat><!-- आहे, _, तो, म्हणाला, ती, नाही, आला, होती, गेला, त्याला -->
     <feat name="Polarity" value="Neg" upos="AUX">50</feat><!-- नाही, नका, नाहीत, नको, नकोस, नये, नव्हते, नसे, नाहीस -->
     <feat name="Polarity" value="Pos" upos="AUX">137</feat><!-- आहे, होती, होता, होते, आहेत, असतो, असेल, होतो, असतील, असले -->
     <feat name="PronType" value="Dem" upos="DET">82</feat><!-- तो, त्या, ती, या, ही, _, हा, हे, ते, आम्ही -->

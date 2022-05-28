@@ -386,7 +386,7 @@
 10	_	घर	NOUN	_	Case=Abs|Gender=Neut|Number=Sing	12	obl	_	_
 11	_	बाहेर	ADP	_	_	10	case	_	_
 12	फिरकू	फिरकणे	VERB	_	Mood=Imp|Person=2|VerbForm=Fin	5	ccomp	_	_
-13	नका	नको	AUX	_	Number=Plur|Person=2|Polarity=Neg|VerbForm=Fin	12	aux	_	SpaceAfter=No
+13	नका	नको	AUX	_	Mood=Imp|Number=Plur|Person=2|Polarity=Neg|VerbForm=Fin	12	aux	_	SpaceAfter=No
 14	.	.	PUNCT	_	_	12	punct	_	_
 
 # sent_id = 472
