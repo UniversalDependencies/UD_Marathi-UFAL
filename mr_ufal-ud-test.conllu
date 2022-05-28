@@ -196,7 +196,7 @@
 21	बापाला	बाप	NOUN	_	Case=Dat|Gender=Masc|Number=Sing	23	nsubj	_	_
 22	काही	काही	PRON	_	Number=Sing|Person=3	23	obj	_	_
 23	कळत	कळणे	VERB	_	Aspect=Imp|VerbForm=Part	16	parataxis	_	_
-24	नाही	नाही	AUX	_	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin	23	aux	_	SpaceAfter=No
+24	नाही	असणे	AUX	_	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin	23	aux	_	SpaceAfter=No
 25	.	.	PUNCT	_	_	23	punct	_	SpaceAfter=No
 26	'	'	PUNCT	_	_	23	punct	_	_
 
@@ -219,7 +219,7 @@
 3	गेला	जाणे	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Person=3|VerbForm=Fin	5	advcl	_	_
 4	तरी	तरी	SCONJ	_	_	3	mark	_	_
 5	विकणार	विकणे	VERB	_	Aspect=Prosp|VerbForm=Fin	0	root	_	_
-6	नाही	नाही	AUX	_	Number=Sing|Person=1|Polarity=Neg|VerbForm=Fin	5	aux	_	SpaceAfter=No
+6	नाही	असणे	AUX	_	Number=Sing|Person=1|Polarity=Neg|VerbForm=Fin	5	aux	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	5	punct	_	SpaceAfter=No
 8	"	"	PUNCT	_	_	5	punct	_	_
 
@@ -262,7 +262,7 @@
 10	आज	आज	ADV	_	_	4	parataxis	_	_
 11	आहेत	असणे	AUX	_	Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	10	cop	_	_
 12	उद्या	उद्या	ADV	_	_	10	conj	_	_
-13	नाहीत	नाही	AUX	_	Number=Plur|Person=3|Polarity=Neg|VerbForm=Fin	12	cop	_	SpaceAfter=No
+13	नाहीत	असणे	AUX	_	Number=Plur|Person=3|Polarity=Neg|VerbForm=Fin	12	cop	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	16	punct	_	_
 15	जमीन	जमीन	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	16	nsubj	_	_
 16	कायमची	कायमचा	ADJ	_	Case=Nom|Gender=Fem|Number=Sing	10	parataxis	_	_
@@ -342,7 +342,7 @@
 6	_	करणे	VERB	_	Aspect=Perf|Case=Abs|VerbForm=Fin	8	advcl	_	_
 7	_	वाचून	ADP	_	_	6	case	_	_
 8	राहणार	रहाणे	VERB	_	Aspect=Prosp|VerbForm=Fin	0	root	_	_
-9	नाही	नाही	AUX	_	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin	8	cop	_	SpaceAfter=No
+9	नाही	असणे	AUX	_	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin	8	cop	_	SpaceAfter=No
 10	!	!	PUNCT	_	_	8	punct	_	SpaceAfter=No
 11	"	"	PUNCT	_	_	8	punct	_	_
 12	तो	तो	PRON	_	Case=Nom|Deixis=Remt|Gender=Masc|Number=Sing|Person=3	13	nsubj	_	_
@@ -398,7 +398,7 @@
 7	_	चा	ADP	_	Gender=Masc|Number=Sing	6	case	_	_
 8	देव	देव	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
 9	मरत	मरणे	VERB	_	Aspect=Imp|VerbForm=Part	0	root	_	_
-10	नाही	नाही	AUX	_	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin	9	aux	_	SpaceAfter=No
+10	नाही	असणे	AUX	_	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin	9	aux	_	SpaceAfter=No
 11	.	.	PUNCT	_	_	9	punct	_	_
 
 # sent_id = 427
@@ -473,7 +473,7 @@
 2	कोण	कोण	PRON	_	Case=Nom|PronType=Int	4	nsubj	_	_
 3	वश	वश	ADJ	_	Case=Nom	4	compound:lvc	_	_
 4	होत	होणे	VERB	_	Aspect=Imp|VerbForm=Part	0	root	_	_
-5	नाही	नाही	AUX	_	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin	4	aux	_	SpaceAfter=No
+5	नाही	असणे	AUX	_	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin	4	aux	_	SpaceAfter=No
 6	!	!	PUNCT	_	_	4	punct	_	_
 
 # sent_id = 434
@@ -565,7 +565,7 @@
 # text = सावकाराला बघवत नाही.
 1	सावकाराला	सावकार	NOUN	_	Case=Dat|Gender=Masc|Number=Sing	2	nsubj	_	_
 2	बघवत	बघणे	VERB	_	Aspect=Imp|VerbForm=Part|Voice=Cau	0	root	_	_
-3	नाही	नाही	AUX	_	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin	2	aux	_	SpaceAfter=No
+3	नाही	असणे	AUX	_	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin	2	aux	_	SpaceAfter=No
 4	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = 441
