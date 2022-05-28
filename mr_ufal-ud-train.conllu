@@ -1389,11 +1389,11 @@
 # sent_id = 132
 # text = थोड्या वेळाने खुशमस्कऱ्या जायला निघाला.
 1	थोड्या	थोडा	ADJ	_	Case=Abs	2	amod	_	_
-2	वेळाने	वेळ	NOUN	_	Case=Ins|Gender=Fem|Number=Sing	4	obl	_	_
-3	खुशमस्कऱ्या	खुशमस्कऱ्या	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
-4	जायला	जाणे	VERB	_	VerbForm=Sup	0	root	_	_
-5	निघाला	निघाला	AUX	_	Aspect=Perf|Gender=Masc|Number=Sing|Person=3|VerbForm=Fin	4	aux	_	SpaceAfter=No
-6	.	.	PUNCT	_	_	4	punct	_	_
+2	वेळाने	वेळ	NOUN	_	Case=Ins|Gender=Fem|Number=Sing	5	obl	_	_
+3	खुशमस्कऱ्या	खुशमस्कऱ्या	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+4	जायला	जाणे	VERB	_	VerbForm=Sup	5	xcomp	_	_
+5	निघाला	निघाला	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = 133
 # text = येत जा! राजपुत्र म्हणाला.
@@ -3064,7 +3064,7 @@
 3	किती	किती	ADV	_	_	4	advmod	_	_
 4	चांगले	चांगला	ADJ	_	Case=Nom|Gender=Neut|Number=Sing	0	root	_	_
 5	असले	असणे	AUX	_	Aspect=Perf|Gender=Neut|Number=Sing|Person=3|VerbForm=Fin	4	aux	_	_
-6	पाहिजे	पाहिजे	AUX	_	_	5	aux	_	SpaceAfter=No
+6	पाहिजे	पाहिजे	AUX	_	_	4	aux	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	13	punct	_	_
 8	असा	असा	ADJ	_	Case=Nom|Gender=Masc|Number=Sing	9	amod	_	_
 9	विचार	विचार	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	_
@@ -3327,7 +3327,7 @@
 3	बाहेर	बाहेर	ADV	_	_	4	advmod	_	_
 4	खेळू	खेळणे	VERB	_	InfForm=Incp|VerbForm=Inf	0	root	_	_
 5	शकले	शकणे	AUX	_	Aspect=Perf|Gender=Masc|Number=Plur|Person=3|VerbForm=Fin	4	aux	_	_
-6	नाहीत	नाही	AUX	_	Number=Plur|Person=3|Polarity=Neg|VerbForm=Fin	5	aux	_	SpaceAfter=No
+6	नाहीत	नाही	AUX	_	Number=Plur|Person=3|Polarity=Neg|VerbForm=Fin	4	aux	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = 307
