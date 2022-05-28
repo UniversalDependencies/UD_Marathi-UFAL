@@ -3102,7 +3102,7 @@
 4	राणीला	राणी	NOUN	_	Case=Dat|Gender=Fem|Number=Sing	6	nsubj	_	_
 5	झोप	झोप	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	6	obj	_	_
 6	येत	येणे	VERB	_	Aspect=Imp|VerbForm=Part	0	root	_	_
-7	नसे	नसणे	AUX	_	Aspect=Hab|Polarity=Neg|Tense=Past|VerbForm=Fin	6	aux	_	SpaceAfter=No
+7	नसे	असणे	AUX	_	Aspect=Hab|Polarity=Neg|Tense=Past|VerbForm=Fin	6	aux	_	SpaceAfter=No
 8	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = 278
