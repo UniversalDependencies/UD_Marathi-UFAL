@@ -1717,7 +1717,7 @@
 # sent_id = 160
 # text = चिंता नको करूस!
 1	चिंता	चिंता	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	3	obj	_	_
-2	नको	नको	AUX	_	Number=Sing|Person=2|Polarity=Neg|VerbForm=Fin	3	aux	_	_
+2	नको	नको	AUX	_	Mood=Imp|Number=Sing|Person=2|Polarity=Neg|VerbForm=Fin	3	aux	_	_
 3	करूस	करूस	VERB	_	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	_	SpaceAfter=No
 4	!	!	PUNCT	_	_	3	punct	_	_
 
@@ -1919,7 +1919,7 @@
 # sent_id = 176
 # text = चिंता नको करूस!
 1	चिंता	चिंता	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	3	compound:lvc	_	_
-2	नको	नको	AUX	_	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin	3	aux	_	_
+2	नको	नको	AUX	_	Mood=Imp|Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin	3	aux	_	_
 3	करूस	करूस	VERB	_	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	_	SpaceAfter=No
 4	!	!	PUNCT	_	_	3	punct	_	_
 
@@ -3963,7 +3963,7 @@
 # text = "आढेवेढे नको घेऊस! " केशवचंद्र म्हणाले.
 1	"	"	PUNCT	_	_	4	punct	_	SpaceAfter=No
 2	आढेवेढे	आढेवेढे	NOUN	_	Case=Acc|Gender=Masc|Number=Plur	4	obj	_	_
-3	नको	नको	AUX	_	Polarity=Neg|VerbForm=Fin	4	aux	_	_
+3	नको	नको	AUX	_	Mood=Imp|Number=Sing|Person=2|Polarity=Neg|VerbForm=Fin	4	aux	_	_
 4	घेऊस	घेणे	VERB	_	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	_	SpaceAfter=No
 5	!	!	PUNCT	_	_	4	punct	_	_
 6	"	"	PUNCT	_	_	4	punct	_	_
