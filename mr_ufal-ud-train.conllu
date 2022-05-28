@@ -2804,8 +2804,8 @@
 15-16	अंतरावर	_	_	_	_	_	_	_	_
 15	_	अंतर	NOUN	_	Case=Abs|Gender=Neut|Number=Sing	20	obl	_	_
 16	_	वर	ADP	_	_	15	case	_	_
-17	फण्	फण्	INTJ	_	_	19	advmod	_	_
-18	फण्	फण्	INTJ	_	_	17	goeswith	_	_
+17	फण्	फण्	INTJ	_	Typo=Yes	19	advmod	_	_
+18	फण्	_	X	_	_	17	goeswith	_	_
 19	करीत	करणे	VERB	_	Aspect=Imp|VerbForm=Part	20	advcl	_	_
 20	निघून	निघणे	VERB	_	Aspect=Perf|VerbForm=Conv	12	conj	_	_
 21	गेला	जाणे	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Person=3|VerbForm=Fin	20	compound:svc	_	SpaceAfter=No
