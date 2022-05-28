@@ -846,10 +846,10 @@
 
 # sent_id = 77
 # text = तिघे चालू लागली.
-1	तिघे	तिघे	PRON	_	Case=Nom|Number=Plur|Person=3	2	nsubj	_	_
-2	चालू	चालणे	VERB	_	InfForm=Incp|VerbForm=Inf	0	root	_	_
-3	लागली	लागणे	AUX	_	Aspect=Perf|Gender=Neut|Number=Plur|Person=3|VerbForm=Fin	2	aux	_	SpaceAfter=No
-4	.	.	PUNCT	_	_	2	punct	_	_
+1	तिघे	तिघे	PRON	_	Case=Nom|Number=Plur|Person=3	3	nsubj	_	_
+2	चालू	चालणे	VERB	_	InfForm=Incp|VerbForm=Inf	3	xcomp	_	_
+3	लागली	लागणे	VERB	_	Aspect=Perf|Gender=Neut|Number=Plur|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = 78
 # text = तो आणखी एक तरुण धावत आला.
@@ -1107,10 +1107,10 @@
 # text = दुसरी दोन विकावी लागली नाहीत.
 1	दुसरी	दुसरा	ADJ	_	Case=Nom|Gender=Neut|Number=Plur	2	amod	_	_
 2	दोन	दोन	NUM	_	_	3	obj	_	_
-3	विकावी	विकणे	VERB	_	Gender=Neut|Mood=Sub|Number=Plur|Person=3|VerbForm=Fin	0	root	_	_
-4	लागली	लागणे	AUX	_	Aspect=Perf|Gender=Neut|Number=Plur|Person=3|VerbForm=Fin	3	aux	_	_
+3	विकावी	विकणे	VERB	_	Gender=Neut|Mood=Sub|Number=Plur|Person=3|VerbForm=Fin	4	xcomp	_	_
+4	लागली	लागणे	VERB	_	Aspect=Perf|Gender=Neut|Number=Plur|Person=3|VerbForm=Fin	0	root	_	_
 5	नाहीत	नाही	AUX	_	Number=Plur|Person=3|Polarity=Neg|VerbForm=Fin	4	aux	_	SpaceAfter=No
-6	.	.	PUNCT	_	_	3	punct	_	_
+6	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = 104
 # text = त्यांनी राजवाडा खरेदी केली, नोकरचाकर ठेवले.
@@ -1365,11 +1365,11 @@
 1-2	राजपुत्राची	_	_	_	_	_	_	_	_
 1	_	राजपुत्र	NOUN	_	Case=Abs|Gender=Masc|Number=Sing	4	nmod:poss	_	_
 2	_	चा	ADP	_	Gender=Fem|Number=Sing	1	case	_	_
-3	तो	तो	PRON	_	Case=Nom|Deixis=Remt|Gender=Masc|Number=Sing|Person=3	5	nsubj	_	_
+3	तो	तो	PRON	_	Case=Nom|Deixis=Remt|Gender=Masc|Number=Sing|Person=3	6	nsubj	_	_
 4	करमणूक	करमणूक	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	5	obj	_	_
-5	करू	करणे	VERB	_	InfForm=Incp|VerbForm=Inf	0	root	_	_
-6	लागला	लागणे	AUX	_	Aspect=Perf|Gender=Masc|Number=Sing|Person=3|VerbForm=Fin	5	aux	_	SpaceAfter=No
-7	.	.	PUNCT	_	_	5	punct	_	_
+5	करू	करणे	VERB	_	InfForm=Incp|VerbForm=Inf	6	xcomp	_	_
+6	लागला	लागणे	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = 131
 # text = तो तेथील हास्यविनोद ऐकून त्याची बहीणही आली.
@@ -1601,11 +1601,11 @@
 
 # sent_id = 151
 # text = राजा विचार करू लागला.
-1	राजा	राजा	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+1	राजा	राजा	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
 2	विचार	विचार	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	3	obj	_	_
-3	करू	करणे	VERB	_	InfForm=Incp|VerbForm=Inf	0	root	_	_
-4	लागला	लागणे	AUX	_	Aspect=Perf|Gender=Masc|Number=Sing|Person=3|VerbForm=Fin	3	aux	_	SpaceAfter=No
-5	.	.	PUNCT	_	_	3	punct	_	_
+3	करू	करणे	VERB	_	InfForm=Incp|VerbForm=Inf	4	xcomp	_	_
+4	लागला	लागणे	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = 152
 # text = इतक्यात तो खुशमस्कऱ्या आला.
@@ -2697,11 +2697,11 @@
 
 # sent_id = 243
 # text = ती पुन्हा चालू लागली.
-1	ती	तो	PRON	_	Case=Nom|Deixis=Remt|Gender=Neut|Number=Plur|Person=3	3	nsubj	_	_
-2	पुन्हा	पुन्हा	ADV	_	_	3	advmod	_	_
-3	चालू	चालणे	VERB	_	InfForm=Incp|VerbForm=Inf	0	root	_	_
-4	लागली	लागणे	AUX	_	Aspect=Perf|Gender=Neut|Number=Plur|Person=3|VerbForm=Fin	3	aux	_	SpaceAfter=No
-5	.	.	PUNCT	_	_	3	punct	_	_
+1	ती	तो	PRON	_	Case=Nom|Deixis=Remt|Gender=Neut|Number=Plur|Person=3	4	nsubj	_	_
+2	पुन्हा	पुन्हा	ADV	_	_	4	advmod	_	_
+3	चालू	चालणे	VERB	_	InfForm=Incp|VerbForm=Inf	4	xcomp	_	_
+4	लागली	लागणे	VERB	_	Aspect=Perf|Gender=Neut|Number=Plur|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = 244
 # text = तो एक भाऊ म्हणाला, दादा, मला निरोप दे!
@@ -3258,14 +3258,14 @@
 # sent_id = 295
 # text = नवीन राजा-राणी उत्कृष्ठ राज्यकारभार चालवू लागली.
 1	नवीन	नवीन	ADJ	_	Case=Nom	2	amod	_	_
-2	राजा	राजा	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	7	nsubj	_	SpaceAfter=No
+2	राजा	राजा	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	8	nsubj	_	SpaceAfter=No
 3	-	-	PUNCT	_	_	4	punct	_	SpaceAfter=No
 4	राणी	राणी	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	2	flat	_	_
-5	उत्कृष्ठ	उत्कृष्ठ	ADV	_	_	7	advmod	_	_
-6	राज्यकारभार	राज्यकारभार	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	7	obl	_	_
-7	चालवू	चालवणे	VERB	_	InfForm=Incp|VerbForm=Inf	0	root	_	_
-8	लागली	लागणे	AUX	_	Aspect=Perf|Gender=Neut|Number=Plur|Person=3|VerbForm=Fin	7	aux	_	SpaceAfter=No
-9	.	.	PUNCT	_	_	7	punct	_	_
+5	उत्कृष्ठ	उत्कृष्ठ	ADV	_	_	8	advmod	_	_
+6	राज्यकारभार	राज्यकारभार	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	8	obl	_	_
+7	चालवू	चालवणे	VERB	_	InfForm=Incp|VerbForm=Inf	8	xcomp	_	_
+8	लागली	लागणे	VERB	_	Aspect=Perf|Gender=Neut|Number=Plur|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	_
 
 # sent_id = 296
 # text = सारी प्रजा सुखी झाली.
