@@ -4073,7 +4073,7 @@
 3	_	चा	ADP	_	Gender=Fem|Number=Sing	2	case	_	_
 4	जमीन	जमीन	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	5	obj	_	_
 5	सोडू	सोडणे	VERB	_	Mood=Imp|Person=2|VerbForm=Fin	0	root	_	_
-6	नये	नये	AUX	_	Mood=Sub|Polarity=Neg|VerbForm=Fin	5	aux	_	SpaceAfter=No
+6	नये	असणे	AUX	_	Mood=Sub|Polarity=Neg|VerbForm=Fin	5	aux	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	8	punct	_	_
 8	दादा	दादा	INTJ	_	_	5	vocative	_	SpaceAfter=No
 9	!	!	PUNCT	_	_	5	punct	_	_
