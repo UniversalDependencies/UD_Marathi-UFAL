@@ -463,8 +463,8 @@
 2	_	केशवचंद्र	PROPN	_	Case=Abs|Gender=Masc|Number=Sing	4	nmod:poss	_	_
 3	_	चा	ADP	_	Case=Abs	2	case	_	_
 4-5	मुठीतले	_	_	_	_	_	_	_	_
-4	_	मुठ	NOUN	_	Case=Abs|Gender=Fem|Number=Sing	0	root	_	_
-5	_	तील	ADP	_	_	4	case	_	_
+4	मुठी	मुठ	NOUN	_	Case=Abs|Gender=Fem|Number=Sing	0	root	_	_
+5	तले	तील	ADP	_	_	4	case	_	_
 6	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = 433
