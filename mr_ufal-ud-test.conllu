@@ -29,7 +29,7 @@
 3	मूळचे	मूळचा	ADJ	_	Case=Nom|Gender=Masc|Number=Plur	4	amod	_	_
 4	मालक	मालक	NOUN	_	Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	_
 5	मजूर	मजूर	ADJ	_	Case=Nom	6	xcomp	_	_
-6	झाले	होणे	AUX	_	Aspect=Perf|Gender=Masc|Number=Plur|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No
+6	झाले	होणे	VERB	_	Aspect=Perf|Gender=Masc|Number=Plur|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = 397
