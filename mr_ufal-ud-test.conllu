@@ -376,7 +376,7 @@
 2	त्यांनी	तो	PRON	_	Case=Erg|Deixis=Remt|Gender=Masc|Number=Plur|Person=3	4	nsubj	_	_
 3	हिंमत	हिंमत	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	4	obj	_	_
 4	सोडली	सोडणे	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Person=3|VerbForm=Fin	9	advcl	_	_
-5	म्हणून	म्हणून	SCONJ	_	_	4	advmod	_	_
+5	म्हणून	म्हणून	SCONJ	_	_	4	mark	_	_
 6-7	त्यांचा	_	_	_	_	_	_	_	_
 6	_	तो	PRON	_	Deixis=Remt|Gender=Masc|Number=Plur|Person=3	8	nmod:poss	_	_
 7	_	चा	ADP	_	Gender=Masc|Number=Sing	6	case	_	_

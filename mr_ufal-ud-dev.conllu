@@ -200,7 +200,7 @@
 1	"	"	PUNCT	_	_	6	punct	_	SpaceAfter=No
 2	आपण	मी	PRON	_	Case=Nom|Clusivity=In|Number=Plur|Person=1	6	nsubj	_	_
 3-4	उद्यापासून	_	_	_	_	_	_	_	_
-3	_	उद्या	NOUN	_	Case=Abs|Gender=Masc|Number=Sing	6	advmod	_	_
+3	_	उद्या	NOUN	_	Case=Abs|Gender=Masc|Number=Sing	6	obl	_	_
 4	_	पासून	ADP	_	_	3	case	_	_
 5	मजूर	मजूर	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	6	compound:lvc	_	_
 6	झालो	होणे	VERB	_	Aspect=Perf|Number=Plur|Person=1|VerbForm=Fin	0	root	_	SpaceAfter=No

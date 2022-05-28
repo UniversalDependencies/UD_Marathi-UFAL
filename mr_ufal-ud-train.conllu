@@ -382,7 +382,7 @@
 4	पाणी	पाणी	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	_
 5	पिऊन	पिणे	VERB	_	Aspect=Perf|VerbForm=Conv	2	conj	_	_
 6	तो	तो	PRON	_	Case=Nom|Deixis=Remt|Gender=Masc|Number=Sing|Person=3	8	nsubj	_	_
-7	पुढे	पुढे	ADP	_	_	8	advmod	_	_
+7	पुढे	पुढे	ADV	_	_	8	advmod	_	_
 8	निघाला	निघाला	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	14	punct	_	_
 10	तर	तर	CCONJ	_	_	14	cc	_	_
@@ -467,7 +467,7 @@
 # sent_id = 40
 # text = तो पुढे निघाला.
 1	तो	तो	PRON	_	Case=Nom|Deixis=Remt|Gender=Masc|Number=Sing|Person=3	3	nsubj	_	_
-2	पुढे	पुढे	ADP	_	_	3	advmod	_	_
+2	पुढे	पुढे	ADV	_	_	3	advmod	_	_
 3	निघाला	निघणे	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No
 4	.	.	PUNCT	_	_	3	punct	_	_
 
@@ -571,7 +571,7 @@
 # text = ये माझ्याबरोबर .
 1	ये	येणे	VERB	_	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	_	_
 2-3	माझ्याबरोबर	_	_	_	_	_	_	_	_
-2	_	मी	PRON	_	Case=Abs|Number=Sing|Person=1	1	advmod	_	_
+2	_	मी	PRON	_	Case=Abs|Number=Sing|Person=1	1	obl	_	_
 3	_	बरोबर	ADP	_	_	2	case	_	_
 4	.	.	PUNCT	_	_	1	punct	_	_
 
@@ -959,7 +959,7 @@
 3	_	ही	PART	_	_	1	discourse	_	_
 4	दोन	दोन	NUM	_	_	5	nummod	_	_
 5	रत्ने	रत्न	NOUN	_	Case=Nom|Gender=Neut|Number=Plur	7	nsubj	_	_
-6	बाहेर	बाहेर	ADP	_	_	7	advmod	_	_
+6	बाहेर	बाहेर	ADV	_	_	7	advmod	_	_
 7	निघाली	निघाली	VERB	_	Aspect=Perf|Gender=Neut|Number=Plur|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No
 8	.	.	PUNCT	_	_	7	punct	_	_
 
@@ -1307,7 +1307,7 @@
 1	पहारेकऱ्यांनी	पहारेकरा	NOUN	_	Case=Erg|Gender=Masc|Number=Plur	3	nsubj	_	_
 2	त्याला	तो	PRON	_	Case=Dat|Deixis=Remt|Gender=Masc|Number=Sing|Person=3	3	obj	_	_
 3	हटकले	हटकणे	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No
-4	.	.	PUNCT	_	_	3	case	_	_
+4	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = 125
 # text = तो म्हणाला, मी येथल्या राजाची करमणूक करणारा.
@@ -1737,7 +1737,7 @@
 2-3	घरातून	_	_	_	_	_	_	_	_
 2	_	घर	NOUN	_	Case=Abs|Gender=Neut|Number=Sing	5	obl	_	_
 3	_	तून	ADP	_	_	2	case	_	_
-4	बाहेर	बाहेर	ADP	_	_	5	advmod	_	_
+4	बाहेर	बाहेर	ADV	_	_	5	advmod	_	_
 5	पडली	पडणे	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
 6	आणि	आणि	CCONJ	_	_	12	cc	_	_
 7-8	शहराबाहेर	_	_	_	_	_	_	_	_
@@ -1939,7 +1939,7 @@
 2-3	भाऊही	_	_	_	_	_	_	_	_
 2	_	भाऊ	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
 3	_	ही	PART	_	_	2	discourse	_	_
-4	बाहेर	बाहेर	ADP	_	_	5	advmod	_	_
+4	बाहेर	बाहेर	ADV	_	_	5	advmod	_	_
 5	गेला	जाणे	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
 6	आणि	आणि	CCONJ	_	_	9	cc	_	_
 7	तो	तो	PRON	_	Case=Nom|Deixis=Remt|Gender=Masc|Number=Sing|Person=3	9	nsubj	_	_
@@ -3941,7 +3941,7 @@
 
 # sent_id = 352
 # text = मध्ये तुझेच हे शेत आडवे येते.
-1	मध्ये	मधे	ADP	_	_	7	advmod	_	_
+1	मध्ये	मधे	ADV	_	_	7	advmod	_	_
 2-4	तुझेच	_	_	_	_	_	_	_	_
 2	_	तू	PRON	_	Number=Sing|Person=2	6	nmod:poss	_	_
 3	_	चा	ADP	_	Gender=Neut|Number=Sing	2	case	_	_
