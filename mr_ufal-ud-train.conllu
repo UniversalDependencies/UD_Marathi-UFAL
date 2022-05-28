@@ -102,7 +102,7 @@
 2	तुम्हा	तुम्हा	DET	_	Case=Abs|Number=Plur|PronType=Dem	3	det	_	_
 3	बायकांना	बाई	NOUN	_	Case=Dat|Gender=Fem|Number=Plur	4	nsubj	_	_
 4	कळत	कळणे	VERB	_	Aspect=Imp|VerbForm=Part	0	root	_	_
-5	नाही	नाही	PART	_	Polarity=Neg	4	advmod	_	SpaceAfter=No
+5	नाही	नाही	AUX	_	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin	4	aux	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	4	punct	_	SpaceAfter=No
 7	"	"	PUNCT	_	_	4	punct	_	_
 
@@ -150,7 +150,7 @@
 3	तिला	तो	PRON	_	Case=Dat|Deixis=Remt|Gender=Fem|Number=Sing|Person=3	5	nsubj	_	_
 4	झोप	झोप	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	5	obj	_	_
 5	आली	येणे	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
-6	नाही	नाही	PART	_	Polarity=Neg	5	advmod	_	SpaceAfter=No
+6	नाही	नाही	AUX	_	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin	5	aux	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = 13
@@ -838,7 +838,7 @@
 1	ठीक	ठीक	INTJ	_	_	3	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	हरकत	हरकत	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
-4	नाही	नाही	PART	_	Polarity=Neg	3	advmod	_	SpaceAfter=No
+4	नाही	नाही	AUX	_	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin	3	aux	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	7	punct	_	_
 6	राजपुत्र	राजपुत्र	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
 7	म्हणाला	म्हणणे	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Person=3|VerbForm=Fin	3	parataxis	_	SpaceAfter=No
@@ -989,7 +989,7 @@
 5	लाडू	लाडू	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	7	dislocated	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	5	punct	_	_
 7	त्याने	तो	PRON	_	Case=Ins|Deixis=Remt|Gender=Masc|Number=Sing|Person=3	10	nsubj	_	_
-8	नाही	नाही	PART	_	Polarity=Neg	10	advmod	_	_
+8	नाही	नाही	AUX	_	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin	10	aux	_	_
 9	तृप्ती	तृप्ती	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	10	obj	_	_
 10	व्हावयाची	होणे	VERB	_	Gender=Fem|Mood=Des|Number=Sing|Person=3|VerbForm=Part	12	advcl	_	_
 11	तर	तर	SCONJ	_	_	10	mark	_	_
@@ -1582,7 +1582,7 @@
 4	राणी	राणी	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	6	obj	_	_
 5	होऊ	होणे	VERB	_	InfForm=Incp|VerbForm=Inf	6	xcomp	_	_
 6	शकत	शकणे	AUX	_	Aspect=Imp|VerbForm=Part	0	root	_	_
-7	नाही	नाही	PART	_	Polarity=Neg	6	advmod	_	SpaceAfter=No
+7	नाही	नाही	AUX	_	Number=Sing|Person=1|Polarity=Neg|VerbForm=Fin	6	aux	_	SpaceAfter=No
 8	!	!	PUNCT	_	_	6	punct	_	_
 
 # sent_id = 150
@@ -2495,7 +2495,7 @@
 14	वडिलांना	वडिल	NOUN	_	Case=Dat|Gender=Masc|Number=Plur	16	nsubj	_	_
 15	स्वर्गात	स्वर्ग	NOUN	_	Case=Loc|Gender=Masc|Number=Sing	16	obl	_	_
 16	करमत	करमणे	VERB	_	Aspect=Imp|VerbForm=Part	6	ccomp	_	_
-17	नाही	नाही	PART	_	Polarity=Neg	16	advmod	_	SpaceAfter=No
+17	नाही	नाही	AUX	_	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin	16	aux	_	SpaceAfter=No
 18	.	.	PUNCT	_	_	16	punct	_	_
 
 # sent_id = 225
@@ -2649,7 +2649,7 @@
 4	येथे	येथे	ADV	_	_	5	amod	_	_
 5	राहण्यात	रहाणे	VERB	_	Case=Loc|InfForm=Dict|VerbForm=Inf	6	advcl	_	_
 6	अर्थ	अर्थ	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	2	conj	_	_
-7	नाही	नाही	PART	_	Polarity=Neg	6	advmod	_	SpaceAfter=No
+7	नाही	नाही	AUX	_	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin	6	aux	_	SpaceAfter=No
 8	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = 238
@@ -3422,7 +3422,7 @@
 3	_	मेरी	PROPN	_	Case=Abs|Gender=Fem|Number=Sing	5	nsubj	_	_
 4	_	कडे	ADP	_	_	3	case	_	_
 5	कुत्रा	कुत्रा	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
-6	नाही	नाही	PART	_	Polarity=Neg	5	advmod	_	_
+6	नाही	नाही	AUX	_	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin	5	aux	_	_
 7	आहे	असणे	AUX	_	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop:own	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	12	punct	_	_
 9-11	तिच्याकडे	_	_	_	_	_	_	_	_
@@ -3527,7 +3527,7 @@
 1	तिला	तो	PRON	_	Case=Dat|Deixis=Remt|Gender=Fem|Number=Sing|Person=3	3	nsubj	_	_
 2	काही	काही	PRON	_	Gender=Neut|Number=Sing	3	obj	_	_
 3	दिसत	दिसणे	VERB	_	Aspect=Imp|VerbForm=Part	0	root	_	_
-4	नाही	नाही	PART	_	Polarity=Neg	3	advmod	_	_
+4	नाही	नाही	AUX	_	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin	3	aux	_	_
 5	आहे	असणे	AUX	_	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	9	punct	_	_
 7	आणि	आणि	CCONJ	_	_	9	cc	_	_
@@ -3609,7 +3609,7 @@
 5	हे	हा	PRON	_	Case=Acc|Deixis=Prox|Gender=Neut|Number=Sing|Person=3	7	obj	_	_
 6	मेरीला	मेरी	PROPN	_	Case=Dat|Gender=Fem|Number=Sing	7	nsubj	_	_
 7	माहित	माहित	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
-8	नाही	नाही	PART	_	Polarity=Neg	7	advmod	_	SpaceAfter=No
+8	नाही	नाही	AUX	_	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin	7	aux	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = 327
@@ -3633,7 +3633,7 @@
 4	_	बोलणे	VERB	_	InfForm=Incp|VerbForm=Inf	0	root	_	_
 5	_	च	PART	_	_	4	discourse	_	_
 6	शकत	शकणे	AUX	_	Aspect=Imp|VerbForm=Part	4	aux	_	_
-7	नाही	नाही	PART	_	Polarity=Neg	4	advmod	_	SpaceAfter=No
+7	नाही	नाही	AUX	_	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin	4	aux	_	SpaceAfter=No
 8	!	!	PUNCT	_	_	4	punct	_	_
 
 # sent_id = 329
@@ -3647,7 +3647,7 @@
 6	काही	काही	DET	_	Gender=Neut|Number=Sing|PronType=Ind	7	det	_	_
 7	उत्तर	उत्तर	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	8	obj	_	_
 8	मिळत	मिळणे	VERB	_	Aspect=Imp|VerbForm=Part	0	root	_	_
-9	नाही	नाही	PART	_	Polarity=Neg	8	advmod	_	SpaceAfter=No
+9	नाही	नाही	AUX	_	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin	8	aux	_	SpaceAfter=No
 10	.	.	PUNCT	_	_	8	punct	_	_
 
 # sent_id = 330
@@ -3660,7 +3660,7 @@
 5	काही	काही	DET	_	Gender=Neut|Number=Sing|PronType=Ind	6	det	_	_
 6	उत्तर	उत्तर	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	7	obj	_	_
 7	मिळत	मिळणे	VERB	_	Aspect=Imp|VerbForm=Part	0	root	_	_
-8	नाही	नाही	PART	_	Polarity=Neg	7	advmod	_	SpaceAfter=No
+8	नाही	नाही	AUX	_	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin	7	aux	_	SpaceAfter=No
 9	!	!	PUNCT	_	_	7	punct	_	_
 
 # sent_id = 331
@@ -3734,7 +3734,7 @@
 6	तुला	तू	PRON	_	Case=Dat|Number=Sing|Person=2	7	iobj	_	_
 7	सांगू	सांगणे	VERB	_	InfForm=Incp|VerbForm=Inf	0	root	_	_
 8	शकत	शकणे	AUX	_	Aspect=Imp|VerbForm=Part	7	aux	_	_
-9	नाही	नाही	PART	_	Polarity=Neg	7	advmod	_	SpaceAfter=No
+9	नाही	नाही	AUX	_	Number=Sing|Person=1|Polarity=Neg|VerbForm=Fin	7	aux	_	SpaceAfter=No
 10	"	"	PUNCT	_	_	7	punct	_	_
 11	ती	तो	PRON	_	Case=Nom|Deixis=Remt|Gender=Fem|Number=Sing|Person=3	13	nsubj	_	_
 12	उत्तर	उत्तर	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	13	obj	_	_
@@ -3756,7 +3756,7 @@
 11	तिला	तो	PRON	_	Case=Dat|Deixis=Remt|Gender=Fem|Number=Sing|Person=3	13	nsubj	_	_
 12	हे	हा	PRON	_	Case=Acc|Deixis=Prox|Gender=Neut|Number=Sing|Person=3	13	obj	_	_
 13	सांगायचे	सांगसांगणे	VERB	_	Gender=Fem|Mood=Des|Number=Sing|Person=3|VerbForm=Part	3	conj	_	_
-14	नाही	नाही	PART	_	Polarity=Neg	13	advmod	_	_
+14	नाही	नाही	AUX	_	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin	13	aux	_	_
 15	आहे	असणे	AUX	_	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	SpaceAfter=No
 16	.	.	PUNCT	_	_	13	punct	_	_
 
@@ -3795,7 +3795,7 @@
 10	पण	पण	CCONJ	_	_	12	cc	_	_
 11	जेम्स	जेम्स	PROPN	_	Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	_
 12	तिकडे	तिकडे	ADV	_	_	8	conj	_	_
-13	नाही	नाही	PART	_	Polarity=Neg	12	advmod	_	_
+13	नाही	नाही	AUX	_	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin	12	cop	_	_
 14	आहे	असणे	AUX	_	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	SpaceAfter=No
 15	.	.	PUNCT	_	_	12	punct	_	_
 
@@ -3808,7 +3808,7 @@
 5	तिला	तो	PRON	_	Case=Dat|Deixis=Remt|Gender=Fem|Number=Sing|Person=3	7	nsubj	_	_
 6	जेम्स	जेम्स	PROPN	_	Case=Acc|Gender=Masc|Number=Sing	7	obj	_	_
 7	सापडत	सापडणे	VERB	_	Aspect=Imp|VerbForm=Part	3	conj	_	_
-8	नाही	नाही	PART	_	Polarity=Neg	7	advmod	_	SpaceAfter=No
+8	नाही	नाही	AUX	_	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin	7	aux	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = 340
@@ -3856,7 +3856,7 @@
 2	पक्षी	पक्ष	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
 3	किंवा	किंवा	CCONJ	_	_	4	cc	_	_
 4	प्राणी	प्राण	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	2	conj	_	_
-5	नाही	नाही	PART	_	Polarity=Neg	2	advmod	_	_
+5	नाही	नाही	AUX	_	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin	2	cop	_	_
 6	आहे	असणे	AUX	_	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	2	punct	_	_
 
@@ -3979,7 +3979,7 @@
 3	_	चा	ADP	_	Gender=Fem|Number=Sing	2	case	_	_
 4	जमीन	जमीन	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	5	obj	_	_
 5	विकणार	विकणे	VERB	_	Aspect=Prosp|VerbForm=Fin	0	root	_	_
-6	नाही	नाही	PART	_	Polarity=Neg	5	advmod	_	SpaceAfter=No
+6	नाही	नाही	AUX	_	Number=Sing|Person=1|Polarity=Neg|VerbForm=Fin	5	aux	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = 356
@@ -4088,7 +4088,7 @@
 2	भीमा	भीमा	PROPN	_	Case=Nom|Gender=Masc|Number=Sing	7	vocative	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
 4	जमीन	जमीन	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	7	obj	_	_
-5	नाही	नाही	PART	_	Polarity=Neg	7	advmod	_	_
+5	नाही	नाही	AUX	_	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin	7	aux	_	_
 6	ना	ना	INTJ	_	_	7	discourse	_	_
 7	देत	देणे	VERB	_	Aspect=Imp|VerbForm=Part	0	root	_	SpaceAfter=No
 8	?	?	PUNCT	_	_	7	punct	_	SpaceAfter=No
@@ -4108,7 +4108,7 @@
 2	नाही	नाही	INTJ	_	_	4	vocative	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
 4	त्रिवार	त्रिवार	ADV	_	_	0	root	_	_
-5	नाही	नाही	PART	_	Polarity=Neg	4	advmod	_	SpaceAfter=No
+5	नाही	नाही	AUX	_	Number=Sing|Person=1|Polarity=Neg|VerbForm=Fin	4	aux	_	SpaceAfter=No
 6	!	!	PUNCT	_	_	4	punct	_	SpaceAfter=No
 7	"	"	PUNCT	_	_	4	punct	_	_
 
@@ -4134,7 +4134,7 @@
 8	_	मिळवणे	VERB	_	Aspect=Perf|Case=Abs|VerbForm=Fin	10	advcl	_	_
 9	_	शिवाय	ADP	_	_	8	case	_	_
 10	राहणार	रहाणे	VERB	_	Aspect=Prosp|VerbForm=Fin	0	root	_	_
-11	नाही	नाही	PART	_	Polarity=Neg	10	advmod	_	SpaceAfter=No
+11	नाही	नाही	AUX	_	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin	10	aux	_	SpaceAfter=No
 12	.	.	PUNCT	_	_	10	punct	_	_
 
 # sent_id = 373
@@ -4150,7 +4150,7 @@
 7	_	लावणे	VERB	_	Aspect=Perf|Case=Abs|VerbForm=Fin	9	advcl	_	_
 8	_	शिवाय	ADP	_	_	7	case	_	_
 9	राहणार	रहाणे	VERB	_	Aspect=Prosp|VerbForm=Fin	0	root	_	_
-10	नाही	नाही	PART	_	Polarity=Neg	9	advmod	_	SpaceAfter=No
+10	नाही	नाही	AUX	_	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin	9	aux	_	SpaceAfter=No
 11	!	!	PUNCT	_	_	9	punct	_	SpaceAfter=No
 12	"	"	PUNCT	_	_	9	punct	_	_
 
@@ -4160,7 +4160,7 @@
 2	देव	देव	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
 3	काही	काही	ADV	_	_	4	discourse	_	_
 4	मेला	मरणे	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
-5	नाही	नाही	PART	_	Polarity=Neg	4	advmod	_	SpaceAfter=No
+5	नाही	नाही	AUX	_	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin	4	aux	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	7	punct	_	_
 7	केशवबाबा	केशवबाबा	PROPN	_	Case=Nom|Gender=Masc|Number=Sing	4	vocative	_	SpaceAfter=No
 8	!	!	PUNCT	_	_	4	punct	_	SpaceAfter=No
