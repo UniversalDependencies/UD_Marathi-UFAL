@@ -74,18 +74,18 @@
 
 # sent_id = 402
 # text = उद्या मला येथे मजूर म्हणून का कामासाठी यावे लागेल?
-1	उद्या	उद्या	ADV	_	_	9	advmod	_	_
-2	मला	मी	PRON	_	Case=Dat|Number=Sing|Person=1	9	nsubj	_	_
-3	येथे	येथे	ADV	_	_	9	advmod	_	_
+1	उद्या	उद्या	ADV	_	_	10	advmod	_	_
+2	मला	मी	PRON	_	Case=Dat|Number=Sing|Person=1	10	nsubj	_	_
+3	येथे	येथे	ADV	_	_	10	advmod	_	_
 4	मजूर	मजूर	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	5	obj	_	_
-5	म्हणून	म्हणून	SCONJ	_	_	9	advcl	_	_
-6	का	का	ADV	_	_	9	advmod	_	_
+5	म्हणून	म्हणून	SCONJ	_	_	10	advcl	_	_
+6	का	का	ADV	_	_	10	advmod	_	_
 7-8	कामासाठी	_	_	_	_	_	_	_	_
-7	_	काम	NOUN	_	Case=Abs|Gender=Neut|Number=Sing	9	obl	_	_
+7	_	काम	NOUN	_	Case=Abs|Gender=Neut|Number=Sing	10	obl	_	_
 8	_	साठी	ADP	_	_	7	case	_	_
-9	यावे	येणे	VERB	_	Gender=Neut|Mood=Sub|Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
-10	लागेल	लागणे	VERB	_	Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	9	aux	_	SpaceAfter=No
-11	?	?	PUNCT	_	_	9	punct	_	_
+9	यावे	येणे	VERB	_	Gender=Neut|Mood=Sub|Number=Sing|Person=3|VerbForm=Fin	10	xcomp	_	_
+10	लागेल	लागणे	VERB	_	Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	SpaceAfter=No
+11	?	?	PUNCT	_	_	10	punct	_	_
 
 # sent_id = 403
 # text = भीमा विहिरीच्या काठी बसून विचार करीत होता.
@@ -478,10 +478,10 @@
 
 # sent_id = 434
 # text = भीमाला न्यायालयात बोलावण्यात आले.
-1	भीमाला	भीम	PROPN	_	Case=Dat|Gender=Masc|Number=Sing	3	nsubj	_	_
+1	भीमाला	भीम	PROPN	_	Case=Dat|Gender=Masc|Number=Sing	3	nsubj:pass	_	_
 2	न्यायालयात	न्यायालय	NOUN	_	Case=Loc|Gender=Masc|Number=Sing	3	obl	_	_
 3	बोलावण्यात	बोलावणे	VERB	_	Case=Loc|InfForm=Dict|VerbForm=Inf	0	root	_	_
-4	आले	येणे	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Person=3|VerbForm=Fin	3	aux	_	SpaceAfter=No
+4	आले	येणे	AUX	_	Aspect=Perf|Gender=Neut|Number=Sing|Person=3|VerbForm=Fin	3	aux:pass	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = 435
