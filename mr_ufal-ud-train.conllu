@@ -994,7 +994,7 @@
 10	व्हावयाची	होणे	VERB	_	Gender=Fem|Mood=Des|Number=Sing|Person=3|VerbForm=Part	12	advcl	_	_
 11	तर	तर	SCONJ	_	_	10	mark	_	_
 12	कशाने	काय	PRON	_	Case=Ins|PronType=Int	0	root	_	SpaceAfter=No
-13	?	?	PUNCT	_	_	13	punct	_	_
+13	?	?	PUNCT	_	_	12	punct	_	_
 
 # sent_id = 93
 # text = जवळच एक शहर दिसत होते.
