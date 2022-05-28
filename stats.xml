@@ -67,11 +67,11 @@
     <feat name="Person" value="3" upos="AUX,PRON,VERB">735</feat><!-- आहे, तो, म्हणाला, ती, नाही, त्या, आला, त्याला, होती, गेला -->
     <feat name="Polarity" value="Neg" upos="AUX">50</feat><!-- नाही, नका, नाहीत, नको, नकोस, नये, नव्हते, नसे, नाहीस -->
     <feat name="Polarity" value="Pos" upos="AUX">137</feat><!-- आहे, होती, होता, होते, आहेत, असतो, असेल, होतो, असतील, असले -->
-    <feat name="PronType" value="Dem" upos="DET">82</feat><!-- तो, त्या, ती, या, ही, हा, हे, ते, आम्ही, तुम्हा -->
+    <feat name="PronType" value="Dem" upos="DET,PRON">286</feat><!-- तो, ती, त्या, त्याला, त्याने, ते, तिला, ही, या, हे -->
     <feat name="PronType" value="Ind" upos="DET,PRON">31</feat><!-- एक, एका, काही, कोणी -->
     <feat name="PronType" value="Int" upos="PRON">29</feat><!-- काय, कोण, कोणी, कशाने, कोणता, कोणा -->
     <feat name="PronType" value="Prs" upos="PRON">136</feat><!-- मी, माझ, मला, तुझ, तुम, तुला, तू, आपल, तुम्ही, आपण -->
-    <feat name="PronType" value="Rel" upos="PRON">3</feat><!-- जो, ते -->
+    <feat name="PronType" value="Rel" upos="PRON">2</feat><!-- जो -->
     <feat name="PronType" value="Tot" upos="PRON">3</feat><!-- सर्वांना, सर्वांनी -->
     <feat name="Tense" value="Fut" upos="AUX,VERB">22</feat><!-- येईल, असेल, असतील, उडवीन, करशील, घालतील, जाई, जाल, देईल, मागशील -->
     <feat name="Tense" value="Past" upos="AUX,VERB">64</feat><!-- होती, होता, होते, होतो, करित, झोपे, नव्हते, नसे, मरायचा, हंबरायची -->
