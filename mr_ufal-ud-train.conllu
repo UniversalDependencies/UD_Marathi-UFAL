@@ -316,7 +316,7 @@
 3	_	चा	ADP	_	Gender=Fem|Number=Sing	2	case	_	_
 4	त्याला	तो	PRON	_	Case=Dat|Deixis=Remt|Gender=Masc|Number=Sing|Person=3	6	iobj	_	_
 5	आठवण	आठवण	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	6	compound:lvc	_	_
-6	झाली	होणे	AUX	_	Aspect=Perf|Gender=Fem|Number=Sing|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No
+6	झाली	होणे	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = 28
@@ -579,7 +579,7 @@
 # text = भावाला बहीण झाली. तो म्हणाला.
 1	भावाला	भाऊ	NOUN	_	Case=Dat|Gender=Masc|Number=Sing	3	nsubj	_	_
 2	बहीण	बहीण	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	3	obj	_	_
-3	झाली	होणे	AUX	_	Aspect=Perf|Gender=Fem|Number=Sing|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	झाली	होणे	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No
 4	.	.	PUNCT	_	_	3	punct	_	_
 5	तो	तो	PRON	_	Case=Nom|Deixis=Remt|Gender=Masc|Number=Sing|Person=3	6	nsubj	_	_
 6	म्हणाला	म्हणणे	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Person=3|VerbForm=Fin	3	parataxis	_	SpaceAfter=No
@@ -1494,7 +1494,7 @@
 1	कुशल	कुशल	ADJ	_	Case=Nom	2	amod	_	_
 2	प्रश्न	प्रश्न	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
 3-4	झाल्यावर	_	_	_	_	_	_	_	_
-3	_	होणे	AUX	_	Aspect=Perf|Case=Abs|VerbForm=Fin	6	advcl	_	_
+3	_	होणे	VERB	_	Aspect=Perf|Case=Abs|VerbForm=Fin	6	advcl	_	_
 4	_	वर	ADP	_	_	3	case	_	_
 5	राजा	राजा	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	_
 6	म्हणाला	म्हणणे	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No
@@ -2087,9 +2087,9 @@
 
 # sent_id = 189
 # text = मोती अलग झाले.
-1	मोती	मोती	NOUN	_	Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
-2	अलग	अलग	ADJ	_	Case=Nom	0	root	_	_
-3	झाले	होणे	VERB	_	Aspect=Perf|Gender=Masc|Number=Plur|Person=3|VerbForm=Fin	2	cop	_	SpaceAfter=No
+1	मोती	मोती	NOUN	_	Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+2	अलग	अलग	ADJ	_	Case=Nom	3	xcomp	_	_
+3	झाले	होणे	VERB	_	Aspect=Perf|Gender=Masc|Number=Plur|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No
 4	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = 190
@@ -4211,27 +4211,27 @@
 
 # sent_id = 380
 # text = आज मी तुला तू मागशील ती किंमत द्यायला तयार झालो होतो; परंतु तुझी बुद्धी भ्रष्ट झाली आहे.
-1	आज	आज	ADV	_	_	9	advmod	_	_
-2	मी	मी	PRON	_	Case=Nom|Number=Sing|Person=1	9	nsubj	_	_
+1	आज	आज	ADV	_	_	10	advmod	_	_
+2	मी	मी	PRON	_	Case=Nom|Number=Sing|Person=1	10	nsubj	_	_
 3	तुला	तू	PRON	_	Case=Dat|Number=Sing|Person=2	8	iobj	_	_
 4	तू	तू	PRON	_	Case=Nom|Number=Sing|Person=2	5	nsubj	_	_
 5	मागशील	मागणे	VERB	_	Number=Sing|Person=2|Tense=Fut|VerbForm=Fin	7	acl	_	_
 6	ती	तो	DET	_	Deixis=Remt|Gender=Fem|Number=Sing|PronType=Dem	7	det	_	_
 7	किंमत	किंमत	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	8	obj	_	_
 8	द्यायला	देणे	VERB	_	VerbForm=Sup	9	xcomp	_	_
-9	तयार	तयार	ADV	_	_	0	root	_	_
-10	झालो	होणे	AUX	_	Aspect=Perf|Gender=Masc|Number=Sing|Person=1|VerbForm=Fin	9	aux	_	_
-11	होतो	असणे	AUX	_	Gender=Masc|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	9	aux	_	SpaceAfter=No
-12	;	;	PUNCT	_	_	17	punct	_	_
-13	परंतु	परंतु	CCONJ	_	_	17	cc	_	_
+9	तयार	तयार	ADV	_	_	10	xcomp	_	_
+10	झालो	होणे	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Person=1|VerbForm=Fin	0	root	_	_
+11	होतो	असणे	AUX	_	Gender=Masc|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	10	aux	_	SpaceAfter=No
+12	;	;	PUNCT	_	_	18	punct	_	_
+13	परंतु	परंतु	CCONJ	_	_	18	cc	_	_
 14-15	तुझी	_	_	_	_	_	_	_	_
 14	_	तू	PRON	_	Number=Sing|Person=2	16	nmod:poss	_	_
 15	_	चा	ADP	_	Gender=Fem|Number=Sing	14	case	_	_
-16	बुद्धी	बुद्धी	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	17	nsubj	_	_
-17	भ्रष्ट	भ्रष्ट	ADJ	_	Case=Nom	9	conj	_	_
-18	झाली	होणे	AUX	_	Aspect=Perf|Gender=Fem|Number=Sing|Person=3|VerbForm=Fin	17	aux	_	_
-19	आहे	असणे	AUX	_	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	SpaceAfter=No
-20	.	.	PUNCT	_	_	17	punct	_	_
+16	बुद्धी	बुद्धी	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	18	nsubj	_	_
+17	भ्रष्ट	भ्रष्ट	ADJ	_	Case=Nom	18	xcomp	_	_
+18	झाली	होणे	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Person=3|VerbForm=Fin	10	conj	_	_
+19	आहे	असणे	AUX	_	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	10	punct	_	_
 
 # sent_id = 381
 # text = "तू तरी काय करशील?"
