@@ -4,7 +4,7 @@ UD Marathi is a manually annotated treebank consisting primarily of stories from
 
 # Introduction
 
-UD Marathi is a manually annotated treebank consisting primarily of stories from Wikisource, and parts of an article on Wikipediaj
+UD Marathi is a manually annotated treebank consisting primarily of stories from Wikisource, and parts of an article on Wikipedia.
 
 # Acknowledgements
 
