@@ -363,7 +363,7 @@
 1	आईला	आई	NOUN	_	Case=Dat|Gender=Fem|Number=Sing	6	advcl	_	_
 2	किती	किती	ADJ	_	Case=Nom	3	amod	_	_
 3	चिंता	चिंता	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	1	orphan	_	_
-4	ते	तो	PRON	_	Case=Nom|Deixis=Remt|Gender=Neut|Number=Sing|Person=3	5	mark	_	_
+4	ते	तो	PRON	_	Case=Nom|Deixis=Remt|Gender=Neut|Number=Sing|Person=3	5	det	_	_
 5	मनात	मन	NOUN	_	Case=Loc|Gender=Neut|Number=Sing	6	obl	_	_
 6	येऊन	येणे	VERB	_	Aspect=Perf|VerbForm=Conv	10	advcl	_	_
 7-8	त्याचे	_	_	_	_	_	_	_	_
@@ -473,7 +473,7 @@
 
 # sent_id = 41
 # text = काही अंतर चालून गेल्यावर मागून कोणीतरी माणूस येत आहे, असे त्याला वाटले.
-1	काही	काही	ADV	_	_	2	det	_	_
+1	काही	काही	DET	_	_	2	det	_	_
 2	अंतर	अंतर	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	3	obl	_	_
 3	चालून	चालून	VERB	_	Aspect=Perf|VerbForm=Conv	4	advcl	_	_
 4-5	गेल्यावर	_	_	_	_	_	_	_	_
@@ -965,7 +965,7 @@
 
 # sent_id = 90
 # text = अर्धा लाडू सर्वांनी खाल्ला.
-1	अर्धा	अर्धा	ADJ	_	Case=Nom|Gender=Masc|Number=Sing	2	nummod	_	_
+1	अर्धा	अर्धा	ADJ	_	Case=Nom|Gender=Masc|Number=Sing	2	amod	_	_
 2	लाडू	लाडू	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	4	obj	_	_
 3	सर्वांनी	सर्व	PRON	_	Case=Erg|Number=Plur|PronType=Tot	4	nsubj	_	_
 4	खाल्ला	खाणे	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No
@@ -1230,7 +1230,7 @@
 5	_	तून	ADP	_	_	4	case	_	_
 6	लोक	लोक	NOUN	_	Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	_
 7	बघत	बघणे	VERB	_	Aspect=Imp|VerbForm=Part	0	root	_	_
-8	होते	असणे	AUX	_	Gender=Masc|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	7	case	_	SpaceAfter=No
+8	होते	असणे	AUX	_	Gender=Masc|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	7	aux	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = 117
@@ -1888,7 +1888,7 @@
 
 # sent_id = 173
 # text = एक भाऊ येऊन म्हणाला, दादा, का रडतोस?
-1	एक	एक	NUM	_	_	2	det	_	_
+1	एक	एक	DET	_	_	2	det	_	_
 2	भाऊ	भाऊ	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
 3	येऊन	येणे	VERB	_	Aspect=Perf|VerbForm=Conv	4	advcl	_	_
 4	म्हणाला	म्हणणे	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No
@@ -1961,7 +1961,7 @@
 
 # sent_id = 180
 # text = लाखो बेडूक जमा झाले.
-1	लाखो	लाखो	ADJ	_	Case=Nom|Number=Plur	2	nummod	_	_
+1	लाखो	लाखो	NUM	_	Case=Nom|Number=Plur	2	nummod	_	_
 2	बेडूक	बेडूक	NOUN	_	Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
 3	जमा	जमा	ADV	_	_	4	compound:lvc	_	_
 4	झाले	होणे	VERB	_	Aspect=Perf|Gender=Masc|Number=Plur|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No
@@ -2281,7 +2281,7 @@
 
 # sent_id = 207
 # text = हजारो लोक तो प्रकार पाहत होते.
-1	हजारो	हजारो	ADJ	_	Case=Nom|Number=Plur	2	nummod	_	_
+1	हजारो	हजारो	NUM	_	Case=Nom|Number=Plur	2	nummod	_	_
 2	लोक	लोक	NOUN	_	Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
 3	तो	तो	DET	_	Deixis=Remt|Gender=Masc|Number=Sing|PronType=Dem	4	det	_	_
 4	प्रकार	प्रकार	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	5	obj	_	_
@@ -2662,7 +2662,7 @@
 # sent_id = 239
 # text = रात्री चौघे भावंडे निघाली.
 1	रात्री	रात्री	ADV	_	_	4	advmod	_	_
-2	चौघे	चौघे	ADJ	_	Case=Nom|Gender=Neut|Number=Plur	3	nummod	_	_
+2	चौघे	चौघे	NUM	_	Case=Nom|Gender=Neut|Number=Plur	3	nummod	_	_
 3	भावंडे	भावंड	NOUN	_	Case=Nom|Gender=Neut|Number=Plur	4	nsubj	_	_
 4	निघाली	निघाली	VERB	_	Aspect=Perf|Gender=Neut|Number=Plur|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	4	punct	_	_
