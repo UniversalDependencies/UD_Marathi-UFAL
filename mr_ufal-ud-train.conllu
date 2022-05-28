@@ -171,8 +171,8 @@
 # text = आपण आता शहाणे झालोत असे वाटेल तेव्हा घरी ये!
 1	आपण	आपण	PRON	_	Case=Nom|PronType=Prs	4	nsubj	_	_
 2	आता	आता	ADV	_	_	4	advmod	_	_
-3	शहाणे	शहाणा	ADJ	_	Case=Nom|Gender=Masc|Number=Plur	6	ccomp	_	_
-4	झालोत	झालोत	AUX	_	Aspect=Perf|Number=Plur|Person=1|VerbForm=Fin	3	cop	_	_
+3	शहाणे	शहाणा	ADJ	_	Case=Nom|Gender=Masc|Number=Plur	4	xcomp	_	_
+4	झालोत	झालोत	VERB	_	Aspect=Perf|Number=Plur|Person=1|VerbForm=Fin	6	ccomp	_	_
 5	असे	असे	ADV	_	_	4	mark	_	_
 6	वाटेल	वाटणे	VERB	_	Number=Sing|Person=1|Tense=Fut|VerbForm=Fin	9	advcl	_	_
 7	तेव्हा	तेव्हा	ADV	_	_	6	mark	_	_
