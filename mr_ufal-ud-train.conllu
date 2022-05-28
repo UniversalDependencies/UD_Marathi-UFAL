@@ -3867,7 +3867,7 @@
 3	तो	तो	PRON	_	Case=Acc|Deixis=Remt|Gender=Masc|Number=Sing|Person=3	5	obj	_	_
 4	नीट	नीट	ADV	_	_	5	advmod	_	_
 5	ऐकू	ऐकणे	VERB	_	InfForm=Incp|VerbForm=Inf	0	root	_	_
-6	येत	येणे	VERB	_	Aspect=Imp|VerbForm=Part	5	fixed	_	_
+6	येत	येणे	VERB	_	Aspect=Imp|VerbForm=Part	5	compound	_	_
 7	आहे	असणे	AUX	_	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	SpaceAfter=No
 8	.	.	PUNCT	_	_	5	punct	_	_
 
