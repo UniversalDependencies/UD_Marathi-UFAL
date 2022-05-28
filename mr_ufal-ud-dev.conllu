@@ -46,8 +46,8 @@
 # text = येथे तुम्ही आम्ही आहोत.
 # translit = yethe tumhī āmhī āhota.
 1	येथे	येथे	ADV	_	_	2	advmod	_	Translit=yethe|LTranslit=yethe
-2	तुम्ही	तू	PRON	_	Case=Nom|Number=Plur|Person=2	0	root	_	Translit=tumhī|LTranslit=tū
-3	आम्ही	मी	PRON	_	Case=Nom|Number=Plur|Person=1	2	conj	_	Translit=āmhī|LTranslit=mī
+2	तुम्ही	तू	PRON	_	Case=Nom|Number=Plur|Person=2|PronType=Prs	0	root	_	Translit=tumhī|LTranslit=tū
+3	आम्ही	मी	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	conj	_	Translit=āmhī|LTranslit=mī
 4	आहोत	असणे	AUX	_	Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	2	cop	_	SpaceAfter=No|Translit=āhota|LTranslit=asaṇe
 5	.	.	PUNCT	_	_	2	punct	_	Translit=.|LTranslit=.
 
@@ -119,7 +119,7 @@
 9	,	,	PUNCT	_	_	17	punct	_	Translit=,|LTranslit=,
 10	"	"	PUNCT	_	_	17	punct	_	SpaceAfter=No|Translit="|LTranslit="
 11-12	तुझ्या	_	_	_	_	_	_	_	Translit=tujhyā
-11	तुझ	तू	PRON	_	Number=Sing|Person=2	13	nmod:poss	_	Translit=tujha|LTranslit=tū
+11	तुझ	तू	PRON	_	Number=Sing|Person=2|PronType=Prs	13	nmod:poss	_	Translit=tujha|LTranslit=tū
 12	च्या	चा	ADP	_	Case=Abs	11	case	_	Translit=cyā|LTranslit=cā
 13	जगात	जग	NOUN	_	Case=Loc|Gender=Neut|Number=Sing	17	obl	_	Translit=jagāta|LTranslit=jaga
 14	देवा	देव	NOUN	_	Case=Voc|Gender=Masc|Number=Sing	17	vocative	_	SpaceAfter=No|Translit=devā|LTranslit=deva
@@ -136,7 +136,7 @@
 1	"	"	PUNCT	_	_	5	punct	_	SpaceAfter=No|Translit="|LTranslit="
 2	न्याय	न्याय	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	Translit=nyāya|LTranslit=nyāya
 3-4	आमच्या	_	_	_	_	_	_	_	Translit=āmacyā
-3	आम	मी	PRON	_	Number=Plur|Person=1	5	nmod:poss	_	Translit=āma|LTranslit=mī
+3	आम	मी	PRON	_	Number=Plur|Person=1|PronType=Prs	5	nmod:poss	_	Translit=āma|LTranslit=mī
 4	च्या	चा	ADP	_	Case=Abs	3	case	_	Translit=cyā|LTranslit=cā
 5	हातात	हात	NOUN	_	Case=Loc|Gender=Masc|Number=Sing	0	root	_	Translit=hātāta|LTranslit=hāta
 6	असतो	असणे	AUX	_	Aspect=Imp|Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	5	cop	_	SpaceAfter=No|Translit=asato|LTranslit=asaṇe
@@ -201,7 +201,7 @@
 # text = "आपण चोर ठरलो नि चोर मालक ठरला."
 # translit = "āpaṇa cora ṭharalo ni cora mālaka ṭharalā."
 1	"	"	PUNCT	_	_	4	punct	_	SpaceAfter=No|Translit="|LTranslit="
-2	आपण	मी	PRON	_	Case=Nom|Clusivity=In|Number=Plur|Person=1	4	nsubj	_	Translit=āpaṇa|LTranslit=mī
+2	आपण	मी	PRON	_	Case=Nom|Clusivity=In|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	Translit=āpaṇa|LTranslit=mī
 3	चोर	चोर	NOUN	_	Case=Acc|Gender=Masc|Number=Plur	4	obj	_	Translit=cora|LTranslit=cora
 4	ठरलो	ठरणे	VERB	_	Aspect=Perf|Number=Plur|Person=1|VerbForm=Fin	0	root	_	Translit=ṭharalo|LTranslit=ṭharaṇe
 5	नि	नि	CCONJ	_	_	8	cc	_	Translit=ni|LTranslit=ni
@@ -215,7 +215,7 @@
 # text = "आपण उद्यापासून मजूर झालो." तो दुःखाने बोलला.
 # translit = "āpaṇa udyāpāsūna majūra jhālo." to duḥkhāne bolalā.
 1	"	"	PUNCT	_	_	6	punct	_	SpaceAfter=No|Translit="|LTranslit="
-2	आपण	मी	PRON	_	Case=Nom|Clusivity=In|Number=Plur|Person=1	6	nsubj	_	Translit=āpaṇa|LTranslit=mī
+2	आपण	मी	PRON	_	Case=Nom|Clusivity=In|Number=Plur|Person=1|PronType=Prs	6	nsubj	_	Translit=āpaṇa|LTranslit=mī
 3-4	उद्यापासून	_	_	_	_	_	_	_	Translit=udyāpāsūna
 3	उद्या	उद्या	NOUN	_	Case=Abs|Gender=Masc|Number=Sing	6	obl	_	Translit=udyā|LTranslit=udyā
 4	पासून	पासून	ADP	_	_	3	case	_	Translit=pāsūna|LTranslit=pāsūna

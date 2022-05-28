@@ -75,7 +75,7 @@
 2-3	जमिनीचा	_	_	_	_	_	_	_	Translit=jaminīcā
 2	जमिनी	जमिन	NOUN	_	Case=Abs|Gender=Fem|Number=Sing	5	nmod:poss	_	Translit=jaminī|LTranslit=jamina
 3	चा	चा	ADP	_	Gender=Masc|Number=Sing	2	case	_	Translit=cā|LTranslit=cā
-4	मी	मी	PRON	_	Case=Nom|Number=Sing|Person=1	5	nsubj	_	Translit=mī|LTranslit=mī
+4	मी	मी	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	Translit=mī|LTranslit=mī
 5	मालक	मालक	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No|Translit=mālaka|LTranslit=mālaka
 6	.	.	PUNCT	_	_	5	punct	_	Translit=.|LTranslit=.
 
@@ -83,7 +83,7 @@
 # text = उद्या मला येथे मजूर म्हणून का कामासाठी यावे लागेल?
 # translit = udyā malā yethe majūra mhaṇūna kā kāmāsāṭhī yāve lāgela?
 1	उद्या	उद्या	ADV	_	_	10	advmod	_	Translit=udyā|LTranslit=udyā
-2	मला	मी	PRON	_	Case=Dat|Number=Sing|Person=1	10	nsubj	_	Translit=malā|LTranslit=mī
+2	मला	मी	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	Translit=malā|LTranslit=mī
 3	येथे	येथे	ADV	_	_	10	advmod	_	Translit=yethe|LTranslit=yethe
 4	मजूर	मजूर	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	5	obj	_	Translit=majūra|LTranslit=majūra
 5	म्हणून	म्हणून	SCONJ	_	_	10	advcl	_	Translit=mhaṇūna|LTranslit=mhaṇūna
@@ -202,12 +202,12 @@
 12	!	!	PUNCT	_	_	11	punct	_	SpaceAfter=No|Translit=!|LTranslit=!
 13	'	'	PUNCT	_	_	8	punct	_	Translit='|LTranslit='
 14	आणि	आणि	CCONJ	_	_	16	cc	_	Translit=āṇi|LTranslit=āṇi
-15	मला	मी	PRON	_	Case=Dat|Number=Sing|Person=1	16	obj	_	Translit=malā|LTranslit=mī
+15	मला	मी	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	16	obj	_	Translit=malā|LTranslit=mī
 16	म्हणाला	म्हणणे	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Person=3|VerbForm=Fin	3	conj	_	SpaceAfter=No|Translit=mhaṇālā|LTranslit=mhaṇaṇe
 17	,	,	PUNCT	_	_	23	punct	_	Translit=,|LTranslit=,
 18	'	'	PUNCT	_	_	23	punct	_	SpaceAfter=No|Translit='|LTranslit='
 19-20	तुझ्या	_	_	_	_	_	_	_	Translit=tujhyā
-19	तुझ	तू	PRON	_	Number=Sing|Person=2	21	nmod:poss	_	Translit=tujha|LTranslit=tū
+19	तुझ	तू	PRON	_	Number=Sing|Person=2|PronType=Prs	21	nmod:poss	_	Translit=tujha|LTranslit=tū
 20	च्या	चा	ADP	_	Case=Abs	19	case	_	Translit=cyā|LTranslit=cā
 21	बापाला	बाप	NOUN	_	Case=Dat|Gender=Masc|Number=Sing	23	nsubj	_	Translit=bāpālā|LTranslit=bāpa
 22	काही	काही	PRON	_	Number=Sing|Person=3	23	obj	_	Translit=kāhī|LTranslit=kāhī
@@ -224,7 +224,7 @@
 3	,	,	PUNCT	_	_	2	punct	_	Translit=,|LTranslit=,
 4	शेत	शेत	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	7	obj	_	Translit=śeta|LTranslit=śeta
 5	का	का	ADV	_	_	7	discourse	_	Translit=kā|LTranslit=kā
-6	तुम्ही	तू	PRON	_	Case=Nom|Number=Plur|Person=2	7	nsubj	_	Translit=tumhī|LTranslit=tū
+6	तुम्ही	तू	PRON	_	Case=Nom|Number=Plur|Person=2|PronType=Prs	7	nsubj	_	Translit=tumhī|LTranslit=tū
 7	विकणार	विकणे	VERB	_	Aspect=Prosp|VerbForm=Fin	0	root	_	SpaceAfter=No|Translit=vikaṇāra|LTranslit=vikaṇe
 8	?	?	PUNCT	_	_	7	punct	_	SpaceAfter=No|Translit=?|LTranslit=?
 9	"	"	PUNCT	_	_	7	punct	_	Translit="|LTranslit="
@@ -246,7 +246,7 @@
 # translit = "tujhī āī kāya mhaṇālī?"
 1	"	"	PUNCT	_	_	6	punct	_	SpaceAfter=No|Translit="|LTranslit="
 2-3	तुझी	_	_	_	_	_	_	_	Translit=tujhī
-2	तुझ	तू	PRON	_	Number=Sing|Person=2	4	nmod:poss	_	Translit=tujha|LTranslit=tū
+2	तुझ	तू	PRON	_	Number=Sing|Person=2|PronType=Prs	4	nmod:poss	_	Translit=tujha|LTranslit=tū
 3	ची	चा	ADP	_	Gender=Fem|Number=Sing	2	case	_	Translit=cī|LTranslit=cā
 4	आई	आई	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	Translit=āī|LTranslit=āī
 5	काय	काय	PRON	_	Case=Acc|PronType=Int	6	obj	_	Translit=kāya|LTranslit=kāya
@@ -307,7 +307,7 @@
 1	शहाणी	शहाणा	ADJ	_	Case=Nom|Gender=Fem|Number=Sing	0	root	_	Translit=śahāṇī|LTranslit=śahāṇā
 2	आहे	असणे	AUX	_	Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	1	cop	_	Translit=āhe|LTranslit=asaṇe
 3-4	तुझी	_	_	_	_	_	_	_	Translit=tujhī
-3	तुझ	तू	PRON	_	Number=Sing|Person=2	5	nmod:poss	_	Translit=tujha|LTranslit=tū
+3	तुझ	तू	PRON	_	Number=Sing|Person=2|PronType=Prs	5	nmod:poss	_	Translit=tujha|LTranslit=tū
 4	ची	चा	ADP	_	Gender=Fem|Number=Sing	3	case	_	Translit=cī|LTranslit=cā
 5	आई	आई	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	1	nsubj	_	SpaceAfter=No|Translit=āī|LTranslit=āī
 6	!	!	PUNCT	_	_	1	punct	_	Translit=!|LTranslit=!
@@ -363,7 +363,7 @@
 1	"	"	PUNCT	_	_	8	punct	_	SpaceAfter=No|Translit="|LTranslit="
 2	तो	तो	PRON	_	Case=Nom|Deixis=Remt|Gender=Masc|Number=Sing|Person=3	8	nsubj	_	Translit=to|LTranslit=to
 3-4	आपला	_	_	_	_	_	_	_	Translit=āpalā
-3	आपल	मी	PRON	_	Clusivity=In|Number=Plur|Person=1	5	nmod:poss	_	Translit=āpala|LTranslit=mī
+3	आपल	मी	PRON	_	Clusivity=In|Number=Plur|Person=1|PronType=Prs	5	nmod:poss	_	Translit=āpala|LTranslit=mī
 4	चा	चा	ADP	_	Gender=Masc|Number=Sing	3	case	_	Translit=cā|LTranslit=cā
 5	सत्यानाश	सत्यानाश	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	6	obj	_	Translit=satyānāśa|LTranslit=satyānāśa
 6-7	केल्यावाचून	_	_	_	_	_	_	_	Translit=kelyāvācūna
@@ -465,7 +465,7 @@
 4	जमीन	जमीन	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	0	root	_	Translit=jamīna|LTranslit=jamīna
 5	वास्तविक	वास्तविक	ADV	_	_	4	advmod	_	Translit=vāstavika|LTranslit=vāstavika
 6-7	आपली	_	_	_	_	_	_	_	Translit=āpalī
-6	आपल	मी	PRON	_	Clusivity=In|Number=Plur|Person=1	4	nmod:poss	_	Translit=āpala|LTranslit=mī
+6	आपल	मी	PRON	_	Clusivity=In|Number=Plur|Person=1|PronType=Prs	4	nmod:poss	_	Translit=āpala|LTranslit=mī
 7	ची	चा	ADP	_	Gender=Fem|Number=Sing	6	case	_	Translit=cī|LTranslit=cā
 8	आहे	असणे	AUX	_	Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	4	cop	_	SpaceAfter=No|Translit=āhe|LTranslit=asaṇe
 9	.	.	PUNCT	_	_	4	punct	_	Translit=.|LTranslit=.
@@ -543,7 +543,7 @@
 # translit = tyāne āpalī bājū māṁḍaṇyāsāṭhī kāyadepaṁḍitahī āṇalā hotā.
 1	त्याने	तो	PRON	_	Case=Erg|Deixis=Remt|Gender=Masc|Number=Sing|Person=3	9	nsubj	_	Translit=tyāne|LTranslit=to
 2-3	आपली	_	_	_	_	_	_	_	Translit=āpalī
-2	आपल	मी	PRON	_	Clusivity=In|Number=Plur|Person=1	4	nmod:poss	_	Translit=āpala|LTranslit=mī
+2	आपल	मी	PRON	_	Clusivity=In|Number=Plur|Person=1|PronType=Prs	4	nmod:poss	_	Translit=āpala|LTranslit=mī
 3	ची	चा	ADP	_	Gender=Fem|Number=Sing	2	case	_	Translit=cī|LTranslit=cā
 4	बाजू	बाजू	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	Translit=bājū|LTranslit=bājū
 5-6	मांडण्यासाठी	_	_	_	_	_	_	_	Translit=māṁḍaṇyāsāṭhī
@@ -582,12 +582,12 @@
 9	,	,	PUNCT	_	_	8	punct	_	Translit=,|LTranslit=,
 10	देवाधर्माला	देवाधर्म	NOUN	_	Case=Dat|Gender=Masc|Number=Sing	11	obj	_	Translit=devādharmālā|LTranslit=devādharma
 11	स्मरून	स्मरणे	VERB	_	Aspect=Perf|VerbForm=Conv	13	advcl	_	Translit=smarūna|LTranslit=smaraṇe
-12	मी	मी	PRON	_	Case=Nom|Number=Sing|Person=1	13	nsubj	_	Translit=mī|LTranslit=mī
+12	मी	मी	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	Translit=mī|LTranslit=mī
 13	सांगतो	सांगणे	VERB	_	Aspect=Imp|Gender=Masc|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	parataxis	_	Translit=sāṁgato|LTranslit=sāṁgaṇe
 14	की	की	SCONJ	_	_	8	mark	_	Translit=kī|LTranslit=kī
 15	ही	हा	PRON	_	Case=Nom|Deixis=Prox|Gender=Fem|Number=Sing|Person=3	18	nsubj	_	Translit=hī|LTranslit=hā
 16-17	माझी	_	_	_	_	_	_	_	Translit=mājhī
-16	माझ	मी	PRON	_	Number=Sing|Person=1	18	nmod:poss	_	Translit=mājha|LTranslit=mī
+16	माझ	मी	PRON	_	Number=Sing|Person=1|PronType=Prs	18	nmod:poss	_	Translit=mājha|LTranslit=mī
 17	ची	चा	ADP	_	Gender=Fem|Number=Sing	16	case	_	Translit=cī|LTranslit=cā
 18	जमीन	जमीन	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	13	ccomp	_	Translit=jamīna|LTranslit=jamīna
 19	आहे	असणे	AUX	_	Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	18	aux	_	SpaceAfter=No|Translit=āhe|LTranslit=asaṇe

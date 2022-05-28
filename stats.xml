@@ -70,7 +70,7 @@
     <feat name="PronType" value="Dem" upos="DET">82</feat><!-- तो, त्या, ती, या, ही, हा, हे, ते, आम्ही, तुम्हा -->
     <feat name="PronType" value="Ind" upos="DET,PRON">31</feat><!-- एक, एका, काही, कोणी -->
     <feat name="PronType" value="Int" upos="PRON">29</feat><!-- काय, कोण, कोणी, कशाने, कोणता, कोणा -->
-    <feat name="PronType" value="Prs" upos="PRON">13</feat><!-- आपल, आपण, आपल्या, आपापल्या, स्वतः -->
+    <feat name="PronType" value="Prs" upos="PRON">136</feat><!-- मी, माझ, मला, तुझ, तुम, तुला, तू, आपल, तुम्ही, आपण -->
     <feat name="PronType" value="Rel" upos="PRON">3</feat><!-- जो, ते -->
     <feat name="PronType" value="Tot" upos="PRON">3</feat><!-- सर्वांना, सर्वांनी -->
     <feat name="Tense" value="Fut" upos="AUX,VERB">22</feat><!-- येईल, असेल, असतील, उडवीन, करशील, घालतील, जाई, जाल, देईल, मागशील -->
