@@ -296,23 +296,21 @@
 1	_	राजा	NOUN	_	Case=Abs|Gender=Masc|Number=Sing	3	nmod:poss	_	_
 2	_	चा	ADP	_	Case=Abs	1	case	_	_
 3-4	सत्कारसमारंभासाठी	_	_	_	_	_	_	_	_
-3	_	सत्कारसमारंभ	NOUN	_	Case=Abs|Gender=Masc|Number=Sing	14	obl	_	_
+3	_	सत्कारसमारंभ	NOUN	_	Case=Abs|Gender=Masc|Number=Sing	13	obl	_	_
 4	_	साठी	ADP	_	_	3	case	_	_
 5-6	आजूबाजूच्या	_	_	_	_	_	_	_	_
-5	_	आजूबाजू	NOUN	_	Case=Abs|Gender=Masc|Number=Sing	9	nmod:poss	_	_
+5	_	आजूबाजू	NOUN	_	Case=Abs|Gender=Masc|Number=Sing	8	nmod:poss	_	_
 6	_	चा	ADP	_	Case=Abs	5	case	_	_
-7-8	पाचपन्नास	_	_	_	_	_	_	_	_
-7	_	पाच	NUM	_	_	9	nummod	_	_
-8	_	पन्नास	NUM	_	_	7	flat	_	_
-9-10	कोसांतील	_	_	_	_	_	_	_	_
-9	_	कोस	NOUN	_	Case=Abs|Gender=Masc|Number=Plur	13	amod	_	_
-10	_	तील	ADP	_	_	9	case	_	_
-11	शेकडो	शेकडो	ADJ	_	Case=Abs	13	amod	_	_
-12	मोठमोठी	मोठमोठा	ADJ	_	Case=Nom|Gender=Masc|Number=Plur	13	amod	_	_
-13	माणसे	माणूस	NOUN	_	Case=Abs|Gender=Masc|Number=Plur	14	nsubj	_	_
-14	येणार	येणे	VERB	_	Aspect=Prosp|VerbForm=Fin	0	root	_	_
-15	होती	असणे	AUX	_	Gender=Masc|Number=Plur|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin	14	aux	_	SpaceAfter=No
-16	.	.	PUNCT	_	_	14	punct	_	_
+7	पाचपन्नास	पाचपन्नास	NUM	_	_	8	nummod	_	_
+8-9	कोसांतील	_	_	_	_	_	_	_	_
+8	_	कोस	NOUN	_	Case=Abs|Gender=Masc|Number=Plur	12	amod	_	_
+9	_	तील	ADP	_	_	8	case	_	_
+10	शेकडो	शेकडो	ADJ	_	Case=Abs	12	amod	_	_
+11	मोठमोठी	मोठमोठा	ADJ	_	Case=Nom|Gender=Masc|Number=Plur	12	amod	_	_
+12	माणसे	माणूस	NOUN	_	Case=Abs|Gender=Masc|Number=Plur	13	nsubj	_	_
+13	येणार	येणे	VERB	_	Aspect=Prosp|VerbForm=Fin	0	root	_	_
+14	होती	असणे	AUX	_	Gender=Masc|Number=Plur|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin	13	aux	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	13	punct	_	_
 
 # sent_id = 467
 # text = सरदार-जहागीरदार, सावकार, व्यापारी येणार होते.
@@ -412,23 +410,21 @@
 # sent_id = 474
 # text = आजूबाजूच्या पाचपन्नास कोसांतील साऱ्या संपत्तीचे तेथे जणू प्रदर्शन होते.
 1-2	आजूबाजूच्या	_	_	_	_	_	_	_	_
-1	_	आजूबाजू	NOUN	_	Case=Abs|Gender=Masc|Number=Sing	5	nmod:poss	_	_
+1	_	आजूबाजू	NOUN	_	Case=Abs|Gender=Masc|Number=Sing	4	nmod:poss	_	_
 2	_	चा	ADP	_	Case=Abs	1	case	_	_
-3-4	पाचपन्नास	_	_	_	_	_	_	_	_
-3	_	पाच	NUM	_	_	5	nummod	_	_
-4	_	पन्नास	NUM	_	_	3	flat	_	_
-5-6	कोसांतील	_	_	_	_	_	_	_	_
-5	_	कोस	NOUN	_	Case=Abs|Gender=Masc|Number=Plur	8	amod	_	_
-6	_	तील	ADP	_	_	5	case	_	_
-7	साऱ्या	सारा	ADJ	_	Case=Abs	8	amod	_	_
-8-9	संपत्तीचे	_	_	_	_	_	_	_	_
-8	_	संपत्ती	NOUN	_	Case=Abs|Gender=Fem|Number=Sing	12	nmod:poss	_	_
-9	_	चा	ADP	_	Gender=Neut|Number=Sing	8	case	_	_
-10	तेथे	तेथे	ADV	_	_	12	advmod	_	_
-11	जणू	जणू	ADV	_	_	12	discourse	_	_
-12	प्रदर्शन	प्रदर्शन	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	0	root	_	_
-13	होते	असणे	AUX	_	Gender=Neut|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin	12	aux	_	SpaceAfter=No
-14	.	.	PUNCT	_	_	12	punct	_	_
+3	पाचपन्नास	पाचपन्नास	NUM	_	_	4	nummod	_	_
+4-5	कोसांतील	_	_	_	_	_	_	_	_
+4	_	कोस	NOUN	_	Case=Abs|Gender=Masc|Number=Plur	7	amod	_	_
+5	_	तील	ADP	_	_	4	case	_	_
+6	साऱ्या	सारा	ADJ	_	Case=Abs	7	amod	_	_
+7-8	संपत्तीचे	_	_	_	_	_	_	_	_
+7	_	संपत्ती	NOUN	_	Case=Abs|Gender=Fem|Number=Sing	11	nmod:poss	_	_
+8	_	चा	ADP	_	Gender=Neut|Number=Sing	7	case	_	_
+9	तेथे	तेथे	ADV	_	_	11	advmod	_	_
+10	जणू	जणू	ADV	_	_	11	discourse	_	_
+11	प्रदर्शन	प्रदर्शन	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	0	root	_	_
+12	होते	असणे	AUX	_	Gender=Neut|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin	11	aux	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	11	punct	_	_
 
 # sent_id = 475
 # text = नटूनथटून श्रीमंत मंडळी आली होती.
