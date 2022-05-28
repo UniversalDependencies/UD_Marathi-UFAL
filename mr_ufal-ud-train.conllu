@@ -3460,8 +3460,8 @@
 8	,	,	PUNCT	_	_	12	punct	_	_
 9	ती	तो	PRON	_	Case=Nom|Deixis=Remt|Gender=Fem|Number=Sing|Person=3	12	nsubj	_	_
 10-11	खिडकीतनं	_	_	_	_	_	_	_	_
-10	_	खिडकी	NOUN	_	Case=Abs|Gender=Fem|Number=Sing	12	obl	_	_
-11	_	तून	ADP	_	_	10	case	_	_
+10	खिडकी	खिडकी	NOUN	_	Case=Abs|Gender=Fem|Number=Sing	12	obl	_	_
+11	तनं	तून	ADP	_	_	10	case	_	_
 12	बघते	बघणे	VERB	_	Aspect=Imp|Gender=Fem|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
 13	आणि	आणि	CCONJ	_	_	19	cc	_	_
 14	तिला	तो	PRON	_	Case=Dat|Deixis=Remt|Gender=Fem|Number=Sing|Person=3	19	nsubj	_	_
