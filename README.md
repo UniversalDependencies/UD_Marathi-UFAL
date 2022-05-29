@@ -12,6 +12,8 @@ The treebank has been manually annotated by Vinit Ravishankar. We thank Dan Zema
 
 # Changelog
 
+* 2022-11-15 v2.11
+  * Fixed validation errors.
 * 2021-05-15 v2.8
   * Fixed non-projective punctuation with Udapi ud.FixPunct.
   * Case=Obl was undocumented and causing validation errors.
