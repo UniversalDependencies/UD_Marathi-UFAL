@@ -215,7 +215,7 @@
 13-14	आईचा	_	_	_	_	_	_	_	Translit=āīcā
 13	आई	आई	NOUN	_	Case=Abs|Gender=Fem|Number=Sing	15	nmod	_	Translit=āī|LTranslit=āī
 14	चा	चा	ADP	_	Case=Nom|Gender=Masc|Number=Sing	13	case	_	Translit=cā|LTranslit=cā
-15	निरोप	निरोप	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	17	nsubj	_	Translit=niropa|LTranslit=niropa
+15	निरोप	निरोप	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	17	obj	_	Translit=niropa|LTranslit=niropa
 16	घ्यायला	घेणे	VERB	_	VerbForm=Sup	17	xcomp	_	Translit=ghyāyalā|LTranslit=gheṇe
 17	गेला	जाणे	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Person=3|VerbForm=Fin	3	parataxis	_	SpaceAfter=No|Translit=gelā|LTranslit=jāṇe
 18	.	.	PUNCT	_	_	17	punct	_	Translit=.|LTranslit=.
@@ -2354,7 +2354,7 @@
 # sent_id = 197
 # text = राजपुत्राला ती गोष्ट कळविण्यात आली.
 # translit = rājaputrālā tī goṣṭa kaḷaviṇyāta ālī.
-1	राजपुत्राला	राजपुत्र	NOUN	_	Case=Dat|Gender=Masc|Number=Sing	5	nsubj	_	Translit=rājaputrālā|LTranslit=rājaputra
+1	राजपुत्राला	राजपुत्र	NOUN	_	Case=Dat|Gender=Masc|Number=Sing	5	iobj	_	Translit=rājaputrālā|LTranslit=rājaputra
 2	ती	तो	DET	_	Deixis=Remt|Gender=Fem|Number=Sing|PronType=Dem	3	det	_	Translit=tī|LTranslit=to
 3	गोष्ट	गोष्ट	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	Translit=goṣṭa|LTranslit=goṣṭa
 4	कळविण्यात	कळणे	VERB	_	Case=Loc|InfForm=Dict|VerbForm=Inf	5	advcl	_	Translit=kaḷaviṇyāta|LTranslit=kaḷaṇe

@@ -489,7 +489,7 @@
 13-14	त्याचे	_	_	_	_	_	_	_	Translit=tyāce
 13	त्या	तो	PRON	_	Deixis=Remt|Gender=Masc|Number=Sing|Person=3|PronType=Dem	15	nmod:poss	_	Translit=tyā|LTranslit=to
 14	चे	चा	ADP	_	Gender=Neut|Number=Sing	13	case	_	Translit=ce|LTranslit=cā
-15	म्हणणे	म्हणणे	VERB	_	Case=Nom|InfForm=Dict|VerbForm=Inf	9	nsubj	_	SpaceAfter=No|Translit=mhaṇaṇe|LTranslit=mhaṇaṇe
+15	म्हणणे	म्हणणे	VERB	_	Case=Nom|InfForm=Dict|VerbForm=Inf	9	parataxis	_	SpaceAfter=No|Translit=mhaṇaṇe|LTranslit=mhaṇaṇe
 16	.	.	PUNCT	_	_	9	punct	_	Translit=.|LTranslit=.
 
 # sent_id = 432
