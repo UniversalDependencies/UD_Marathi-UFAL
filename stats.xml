@@ -60,7 +60,7 @@
     <feat name="Mood" value="Imp" upos="AUX,VERB">88</feat><!-- दे, जा, नका, द्या, हो, करा, घ्या, नको, पाठवा, सांग -->
     <feat name="Mood" value="Ind" upos="VERB">2</feat><!-- मरायचा, हंबरायची -->
     <feat name="Mood" value="Sub" upos="AUX,VERB">9</feat><!-- म्हणावे, द्यावे, नये, पिकवी, फेडावे, यावे, वाचवावा, विकावी -->
-    <feat name="Number" value="Plur" upos="ADJ,ADP,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">375</feat><!-- चे, तुम, होती, तुम्ही, होते, लागली, आहेत, त्या, त्यां, दोघे -->
+    <feat name="Number" value="Plur" upos="ADJ,ADP,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">375</feat><!-- चे, तुम, होती, तुम्ही, होते, त्यां, लागली, आहेत, त्या, दोघे -->
     <feat name="Number" value="Sing" upos="ADJ,ADP,AUX,DET,NOUN,PRON,PROPN,VERB">1765</feat><!-- तो, आहे, ची, ती, म्हणाला, नाही, चा, राजा, त्या, मी -->
     <feat name="Person" value="1" upos="AUX,PRON,VERB">106</feat><!-- मी, माझ, मला, नाही, आपल, झालो, आपण, आम, आम्ही, जाऊ -->
     <feat name="Person" value="2" upos="AUX,PRON,VERB">147</feat><!-- तुझ, तुम, तुला, तू, दे, तुम्ही, जा, नका, द्या, हो -->
