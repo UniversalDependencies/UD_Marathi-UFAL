@@ -11,7 +11,7 @@
     <test><sentences>47</sentences><tokens>376</tokens><words>412</words><fused>36</fused></test>
   </size>
   <lemmas unique="695" /><!-- ., तो, असणे, चा, ,, ", येणे, मी, म्हणणे, !, जाणे, तू, ?, राजपुत्र, राजा -->
-  <forms unique="1103" /><!-- ., ,, ", तो, आहे, !, ?, च्या, ची, ती, त्या, म्हणाला, नाही, चे, वर -->
+  <forms unique="1105" /><!-- ., ,, ", तो, आहे, !, च्या, ?, ची, त्या, ती, म्हणाला, नाही, चे, वर -->
   <fusions unique="230" /><!-- माझी, तुझी, त्याच्या, त्याचे, आपल्या, तिच्या, राजाच्या, कानावर, तुमचा, माझा, अंतरावर, तुझे, त्याची, माझ्या, राजपुत्राची -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
   <tags unique="16">
@@ -24,7 +24,7 @@
     <tag name="INTJ">21</tag><!-- नाही, दादा, रे, अरे, डराव, ग, ठीक, ना, फण्, हो -->
     <tag name="NOUN">829</tag><!-- राजपुत्र, राजा, आई, भाऊ, बहीण, जमीन, लाडू, राणी, खुशमस्कऱ्या, दादा -->
     <tag name="NUM">34</tag><!-- दोन, हजार, एक, चार, पाचपन्नास, चाळीस, चौघे, दहा, दुसरा, पाच -->
-    <tag name="PART">47</tag><!-- ही, च, च्या, चा, तरी, सुद्धा -->
+    <tag name="PART">47</tag><!-- ही, च, चा, च्या, तरी, सुद्धा -->
     <tag name="PRON">379</tag><!-- तो, मी, तू, कोण, काय, आपण, हा, दोघे, सर्व, काही -->
     <tag name="PROPN">55</tag><!-- जेम्स, भीमा, केशवचंद्र, मेरी, भीम, केशवबाबा, भीमी -->
     <tag name="PUNCT">748</tag><!-- ., ,, ", !, ?, ', -, ; -->
@@ -39,7 +39,7 @@
     <feat name="Aspect" value="Perf" upos="AUX,VERB">424</feat><!-- म्हणाला, आला, गेला, आली, म्हणाली, घेऊन, बसला, विचारले, निघाला, लागली -->
     <feat name="Aspect" value="Prosp" upos="VERB">16</feat><!-- राहणार, विकणार, येणार, करणार, जाणार, बोलणार, मांडणार, मारणार, लाटणार, सोडणार -->
     <feat name="Case" value="Abl" upos="NOUN">1</feat><!-- राखेतून -->
-    <feat name="Case" value="Abs" upos="ADJ,ADP,DET,NOUN,PRON,PROPN,VERB">320</feat><!-- च्या, त्या, _, राजा, भीमा, राजपुत्रा, आई, एका, गावा, या -->
+    <feat name="Case" value="Abs" upos="ADJ,ADP,DET,NOUN,PRON,PROPN,VERB">320</feat><!-- च्या, त्या, राजा, ति, भीमा, राजपुत्रा, आई, एका, गावा, या -->
     <feat name="Case" value="Acc" upos="NOUN,PRON,PROPN">187</feat><!-- काय, जमीन, निरोप, बहीण, लाडू, फुले, उपकार, भाऊ, भूक, रुपये -->
     <feat name="Case" value="Com" upos="NOUN">4</feat><!-- कुत्र्यांशी, पोटाशी, मुलांशी, हृदयाशी -->
     <feat name="Case" value="Dat" upos="NOUN,PRON,PROPN">134</feat><!-- त्याला, मला, तिला, तुला, राजाला, राजपुत्राला, आईला, त्यांना, मेरीला, सर्वांना -->
@@ -50,24 +50,24 @@
     <feat name="Case" value="Voc" upos="NOUN">2</feat><!-- देवा, पोरी -->
     <feat name="Clusivity" value="In" upos="PRON">5</feat><!-- आपल, आपण -->
     <feat name="Deixis" value="Prox" upos="DET,PRON">47</feat><!-- ही, या, हे, तो, ती, त्या, हा, आम्ही, याला, ह्या -->
-    <feat name="Deixis" value="Remt" upos="DET,PRON">226</feat><!-- तो, ती, त्या, त्याला, त्याने, ते, तिला, ति, _, त्यां -->
-    <feat name="Gender" value="Fem" upos="ADJ,ADP,AUX,DET,NOUN,PRON,PROPN,VERB">480</feat><!-- ची, ती, बहीण, आली, आई, जमीन, म्हणाली, तिला, मेरी, राणी -->
-    <feat name="Gender" value="Masc" upos="ADJ,ADP,AUX,DET,NOUN,PRON,PROPN,VERB">938</feat><!-- तो, म्हणाला, चा, राजपुत्र, आला, गेला, त्या, भीमा, होता, भाऊ -->
-    <feat name="Gender" value="Neut" upos="ADJ,ADP,AUX,DET,NOUN,NUM,PRON,VERB">329</feat><!-- चे, राजा, होते, हे, ते, विचारले, होती, लागली, फुले, शेत -->
+    <feat name="Deixis" value="Remt" upos="DET,PRON">226</feat><!-- तो, त्या, ती, त्याला, त्याने, ते, ति, तिला, त्यां, त्यांना -->
+    <feat name="Gender" value="Fem" upos="ADJ,ADP,AUX,DET,NOUN,PRON,PROPN,VERB">480</feat><!-- ची, ती, बहीण, आली, आई, जमीन, म्हणाली, ति, तिला, मेरी -->
+    <feat name="Gender" value="Masc" upos="ADJ,ADP,AUX,DET,NOUN,PRON,PROPN,VERB">938</feat><!-- तो, म्हणाला, चा, राजपुत्र, आला, त्या, गेला, भीमा, होता, भाऊ -->
+    <feat name="Gender" value="Neut" upos="ADJ,ADP,AUX,DET,NOUN,NUM,PRON,VERB">329</feat><!-- चे, राजा, होते, हे, ते, विचारले, होती, लागली, त्या, फुले -->
     <feat name="InfForm" value="Dict" upos="VERB">22</feat><!-- कळविण्यात, उडवण्यात, उभारण्यात, करण्यात, ठेवण्यात, देणे, देण्यात, नेण्या, पाठविण्यात, फेडण्या -->
     <feat name="InfForm" value="Incp" upos="VERB">22</feat><!-- होऊ, ऐकू, करू, चालू, येऊ, खेळू, चालवू, जाऊ, देऊ, बोलू -->
     <feat name="Mood" value="Des" upos="VERB">6</feat><!-- जायचे, द्यायची, व्हावयाची, शमवायची, शोधायचा, सांगायचे -->
     <feat name="Mood" value="Imp" upos="AUX,VERB">88</feat><!-- दे, जा, नका, द्या, हो, करा, घ्या, नको, पाठवा, सांग -->
     <feat name="Mood" value="Ind" upos="VERB">2</feat><!-- मरायचा, हंबरायची -->
     <feat name="Mood" value="Sub" upos="AUX,VERB">9</feat><!-- म्हणावे, द्यावे, नये, पिकवी, फेडावे, यावे, वाचवावा, विकावी -->
-    <feat name="Number" value="Plur" upos="ADJ,ADP,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">375</feat><!-- चे, तुम, होती, तुम्ही, होते, लागली, आहेत, त्या, दोघे, नका -->
-    <feat name="Number" value="Sing" upos="ADJ,ADP,AUX,DET,NOUN,PRON,PROPN,VERB">1765</feat><!-- तो, आहे, ची, ती, म्हणाला, नाही, चा, राजा, मी, राजपुत्र -->
+    <feat name="Number" value="Plur" upos="ADJ,ADP,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">375</feat><!-- चे, तुम, होती, तुम्ही, होते, लागली, आहेत, त्या, त्यां, दोघे -->
+    <feat name="Number" value="Sing" upos="ADJ,ADP,AUX,DET,NOUN,PRON,PROPN,VERB">1765</feat><!-- तो, आहे, ची, ती, म्हणाला, नाही, चा, राजा, त्या, मी -->
     <feat name="Person" value="1" upos="AUX,PRON,VERB">106</feat><!-- मी, माझ, मला, नाही, आपल, झालो, आपण, आम, आम्ही, जाऊ -->
     <feat name="Person" value="2" upos="AUX,PRON,VERB">147</feat><!-- तुझ, तुम, तुला, तू, दे, तुम्ही, जा, नका, द्या, हो -->
     <feat name="Person" value="3" upos="AUX,PRON,VERB">735</feat><!-- आहे, तो, म्हणाला, ती, नाही, त्या, आला, त्याला, होती, गेला -->
     <feat name="Polarity" value="Neg" upos="AUX">50</feat><!-- नाही, नका, नाहीत, नको, नकोस, नये, नव्हते, नसे, नाहीस -->
     <feat name="Polarity" value="Pos" upos="AUX">137</feat><!-- आहे, होती, होता, होते, आहेत, असतो, असेल, होतो, असतील, असले -->
-    <feat name="PronType" value="Dem" upos="DET,PRON">288</feat><!-- तो, ती, त्या, त्याला, त्याने, ते, तिला, ही, या, हे -->
+    <feat name="PronType" value="Dem" upos="DET,PRON">288</feat><!-- तो, त्या, ती, त्याला, त्याने, ते, ति, तिला, ही, या -->
     <feat name="PronType" value="Ind" upos="DET,PRON">34</feat><!-- एक, एका, काही, कोणी -->
     <feat name="PronType" value="Int" upos="PRON">29</feat><!-- काय, कोण, कोणी, कशाने, कोणता, कोणा -->
     <feat name="PronType" value="Prs" upos="PRON">136</feat><!-- मी, माझ, मला, तुझ, तुम, तुला, तू, आपल, तुम्ही, आपण -->
@@ -111,17 +111,17 @@
     <dep name="fixed">3</dep>
     <dep name="flat">6</dep>
     <dep name="goeswith">1</dep>
-    <dep name="iobj">30</dep>
+    <dep name="iobj">31</dep>
     <dep name="mark">28</dep>
     <dep name="nmod">5</dep>
     <dep name="nmod:poss">156</dep>
-    <dep name="nsubj">482</dep>
+    <dep name="nsubj">479</dep>
     <dep name="nsubj:pass">8</dep>
     <dep name="nummod">31</dep>
-    <dep name="obj">250</dep>
+    <dep name="obj">251</dep>
     <dep name="obl">180</dep>
     <dep name="orphan">1</dep>
-    <dep name="parataxis">75</dep>
+    <dep name="parataxis">76</dep>
     <dep name="punct">748</dep>
     <dep name="root">466</dep>
     <dep name="vocative">29</dep>
