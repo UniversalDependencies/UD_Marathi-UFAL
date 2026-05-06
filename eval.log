@@ -1,10 +1,10 @@
 Running the following version of UD tools:
-commit 26e6c87a2f518322d15901a351199b6be6569062
+commit b39dc4111bb13658bc0c204b48bb78b492e45d2b
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Fri Nov 7 15:39:58 2025 +0100
+Date:   Tue May 5 17:01:41 2026 +0200
 Evaluating the following revision of UD_Marathi-UFAL:
-commit 8fd602dd07fe5fd299bf59a1ed486108a9876bd3
-Merge: a958789 0df6089
+commit 6edb547edfa7ae94a64e98071b5f9774b25eac39
+Merge: e0e5e96 6dacc8b
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
 Language-treebank code (from CoNLL-U file name) = 'mr_ufal'
@@ -21,50 +21,50 @@ Universal POS tags: 16 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 1.
 Features: 2585 out of 3847 total words have one or more features.
 Features: source of annotation (from README) factor is 1.
-Universal relations: 32 out of 37 found in the corpus.
+Universal relations: 31 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
 Genres: found 2 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang mr --max-err=10 UD_Marathi-UFAL/mr_ufal-ud-dev.conllu
-[Line 20 Sent 444]: [L3 Warning verbform-fin-without-mood] Finite verb 'देईल deīla' lacks the 'Mood' feature
-[Line 30 Sent 445]: [L3 Warning verbform-fin-without-mood] Finite verb 'आहे āhe' lacks the 'Mood' feature
-[Line 40 Sent 446]: [L3 Warning verbform-fin-without-mood] Finite verb 'आहे āhe' lacks the 'Mood' feature
-[Line 51 Sent 447]: [L3 Warning verbform-fin-without-mood] Finite verb 'आहोत āhota' lacks the 'Mood' feature
-[Line 59 Sent 448]: [L3 Warning verbform-fin-without-mood] Finite verb 'सांगतात sāṁgatāta' lacks the 'Mood' feature
-[Line 72 Sent 449]: [L3 Warning verbform-fin-without-mood] Finite verb 'सांगतात sāṁgatāta' lacks the 'Mood' feature
-[Line 76 Sent 449]: [L3 Warning verbform-fin-without-mood] Finite verb 'म्हणाला mhaṇālā' lacks the 'Mood' feature
-[Line 88 Sent 450]: [L3 Warning verbform-fin-without-mood] Finite verb 'घेतली ghetalī' lacks the 'Mood' feature
-[Line 99 Sent 451]: [L3 Warning verbform-fin-without-mood] Finite verb 'आहे āhe' lacks the 'Mood' feature
-[Line 104 Sent 451]: [L3 Warning verbform-fin-without-mood] Finite verb 'दिला dilā' lacks the 'Mood' feature
-...suppressing further errors regarding Warning
+[Line 20 Sent 444]: [L3 WARNING verbform-fin-without-mood] Finite verb 'देईल deīla' lacks the 'Mood' feature
+[Line 30 Sent 445]: [L3 WARNING verbform-fin-without-mood] Finite verb 'आहे āhe' lacks the 'Mood' feature
+[Line 40 Sent 446]: [L3 WARNING verbform-fin-without-mood] Finite verb 'आहे āhe' lacks the 'Mood' feature
+[Line 51 Sent 447]: [L3 WARNING verbform-fin-without-mood] Finite verb 'आहोत āhota' lacks the 'Mood' feature
+[Line 59 Sent 448]: [L3 WARNING verbform-fin-without-mood] Finite verb 'सांगतात sāṁgatāta' lacks the 'Mood' feature
+[Line 72 Sent 449]: [L3 WARNING verbform-fin-without-mood] Finite verb 'सांगतात sāṁgatāta' lacks the 'Mood' feature
+[Line 76 Sent 449]: [L3 WARNING verbform-fin-without-mood] Finite verb 'म्हणाला mhaṇālā' lacks the 'Mood' feature
+[Line 88 Sent 450]: [L3 WARNING verbform-fin-without-mood] Finite verb 'घेतली ghetalī' lacks the 'Mood' feature
+[Line 99 Sent 451]: [L3 WARNING verbform-fin-without-mood] Finite verb 'आहे āhe' lacks the 'Mood' feature
+[Line 104 Sent 451]: [L3 WARNING verbform-fin-without-mood] Finite verb 'दिला dilā' lacks the 'Mood' feature
+...suppressing further messages regarding WARNING/MORPHO
 Warnings: 70
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang mr --max-err=10 UD_Marathi-UFAL/mr_ufal-ud-test.conllu
-[Line 13 Sent 391]: [L3 Warning verbform-fin-without-mood] Finite verb 'होते hote' lacks the 'Mood' feature
-[Line 23 Sent 393]: [L3 Warning verbform-fin-without-mood] Finite verb 'सापडले sāpaḍale' lacks the 'Mood' feature
-[Line 35 Sent 395]: [L3 Warning verbform-fin-without-mood] Finite verb 'झाले jhāle' lacks the 'Mood' feature
-[Line 45 Sent 397]: [L3 Warning verbform-fin-without-mood] Finite verb 'नव्हते navhate' lacks the 'Mood' feature
-[Line 58 Sent 399]: [L3 Warning verbform-fin-without-mood] Finite verb 'झाली jhālī' lacks the 'Mood' feature
-[Line 68 Sent 400]: [L3 Warning verbform-fin-without-mood] Finite verb 'लाटणार lāṭaṇāra' lacks the 'Mood' feature
-[Line 95 Sent 402]: [L3 Warning verbform-fin-without-mood] Finite verb 'लागेल lāgela' lacks the 'Mood' feature
-[Line 109 Sent 403]: [L3 Warning verbform-fin-without-mood] Finite verb 'होता hotā' lacks the 'Mood' feature
-[Line 121 Sent 404]: [L3 Warning verbform-fin-without-mood] Finite verb 'काळवंडले kāḷavaṁḍale' lacks the 'Mood' feature
-[Line 137 Sent 405]: [L3 Warning verbform-fin-without-mood] Finite verb 'आली ālī' lacks the 'Mood' feature
-...suppressing further errors regarding Warning
-Warnings: 66
+[Line 13 Sent 391]: [L3 WARNING verbform-fin-without-mood] Finite verb 'होते hote' lacks the 'Mood' feature
+[Line 23 Sent 393]: [L3 WARNING verbform-fin-without-mood] Finite verb 'सापडले sāpaḍale' lacks the 'Mood' feature
+[Line 35 Sent 395]: [L3 WARNING verbform-fin-without-mood] Finite verb 'झाले jhāle' lacks the 'Mood' feature
+[Line 45 Sent 397]: [L3 WARNING verbform-fin-without-mood] Finite verb 'नव्हते navhate' lacks the 'Mood' feature
+[Line 58 Sent 399]: [L3 WARNING verbform-fin-without-mood] Finite verb 'झाली jhālī' lacks the 'Mood' feature
+[Line 68 Sent 400]: [L3 WARNING verbform-fin-without-mood] Finite verb 'लाटणार lāṭaṇāra' lacks the 'Mood' feature
+[Line 95 Sent 402]: [L3 WARNING verbform-fin-without-mood] Finite verb 'लागेल lāgela' lacks the 'Mood' feature
+[Line 109 Sent 403]: [L3 WARNING verbform-fin-without-mood] Finite verb 'होता hotā' lacks the 'Mood' feature
+[Line 121 Sent 404]: [L3 WARNING verbform-fin-without-mood] Finite verb 'काळवंडले kāḷavaṁḍale' lacks the 'Mood' feature
+[Line 137 Sent 405]: [L3 WARNING verbform-fin-without-mood] Finite verb 'आली ālī' lacks the 'Mood' feature
+...suppressing further messages regarding WARNING/MORPHO
+Warnings: 65
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang mr --max-err=10 UD_Marathi-UFAL/mr_ufal-ud-train.conllu
-[Line 5 Sent 0]: [L3 Warning verbform-fin-without-mood] Finite verb 'होता hotā' lacks the 'Mood' feature
-[Line 15 Sent 1]: [L3 Warning verbform-fin-without-mood] Finite verb 'होता hotā' lacks the 'Mood' feature
-[Line 29 Sent 2]: [L3 Warning fixed-without-extpos] Fixed expression 'जीव की प्राण' does not have the 'ExtPos' feature
-[Line 32 Sent 2]: [L3 Warning verbform-fin-without-mood] Finite verb 'करित karita' lacks the 'Mood' feature
-[Line 43 Sent 3]: [L3 Warning verbform-fin-without-mood] Finite verb 'बिघडला bighaḍalā' lacks the 'Mood' feature
-[Line 51 Sent 4]: [L3 Warning verbform-fin-without-mood] Finite verb 'म्हणाला mhaṇālā' lacks the 'Mood' feature
-[Line 69 Sent 5]: [L3 Warning verbform-fin-without-mood] Finite verb 'येईल yeīla' lacks the 'Mood' feature
-[Line 80 Sent 6]: [L3 Warning verbform-fin-without-mood] Finite verb 'सांगितला sāṁgitalā' lacks the 'Mood' feature
-[Line 89 Sent 7]: [L3 Warning verbform-fin-without-mood] Finite verb 'सुधारेल sudhārela' lacks the 'Mood' feature
-[Line 105 Sent 8]: [L3 Warning verbform-fin-without-mood] Finite verb 'म्हणाली mhaṇālī' lacks the 'Mood' feature
-...suppressing further errors regarding Warning
-Warnings: 448
+[Line 5 Sent 0]: [L3 WARNING verbform-fin-without-mood] Finite verb 'होता hotā' lacks the 'Mood' feature
+[Line 15 Sent 1]: [L3 WARNING verbform-fin-without-mood] Finite verb 'होता hotā' lacks the 'Mood' feature
+[Line 33 Sent 2]: [L3 WARNING verbform-fin-without-mood] Finite verb 'करित karita' lacks the 'Mood' feature
+[Line 44 Sent 3]: [L3 WARNING verbform-fin-without-mood] Finite verb 'बिघडला bighaḍalā' lacks the 'Mood' feature
+[Line 52 Sent 4]: [L3 WARNING verbform-fin-without-mood] Finite verb 'म्हणाला mhaṇālā' lacks the 'Mood' feature
+[Line 70 Sent 5]: [L3 WARNING verbform-fin-without-mood] Finite verb 'येईल yeīla' lacks the 'Mood' feature
+[Line 81 Sent 6]: [L3 WARNING verbform-fin-without-mood] Finite verb 'सांगितला sāṁgitalā' lacks the 'Mood' feature
+[Line 90 Sent 7]: [L3 WARNING verbform-fin-without-mood] Finite verb 'सुधारेल sudhārela' lacks the 'Mood' feature
+[Line 106 Sent 8]: [L3 WARNING verbform-fin-without-mood] Finite verb 'म्हणाली mhaṇālī' lacks the 'Mood' feature
+[Line 116 Sent 9]: [L3 WARNING verbform-fin-without-mood] Finite verb 'नाही nāhī' lacks the 'Mood' feature
+...suppressing further messages regarding WARNING/MORPHO
+Warnings: 446
 *** PASSED ***
 Validity: 1
 (weight=0.111111111111111) * (score{features}=1) = 0.111111111111111
@@ -73,7 +73,7 @@ Validity: 1
 (weight=0.37037037037037) * (score{size}=0.195040728768938) = 0.0722373069514587
 (weight=0.0740740740740741) * (score{split}=0.01) = 0.000740740740740741
 (weight=0.111111111111111) * (score{tags}=0.941176470588235) = 0.104575163398693
-(weight=0.111111111111111) * (score{udeprels}=0.864864864864865) = 0.0960960960960961
-(TOTAL score=0.508217208421556) * (availability=1) * (validity=1) = 0.508217208421556
+(weight=0.111111111111111) * (score{udeprels}=0.837837837837838) = 0.0930930930930931
+(TOTAL score=0.505214205418553) * (availability=1) * (validity=1) = 0.505214205418553
 STARS = 2.5
-UD_Marathi-UFAL	0.508217208421556	2.5
+UD_Marathi-UFAL	0.505214205418553	2.5
