@@ -380,11 +380,12 @@
 # sent_id = 424
 # text = " त्यांच्या बाबतीत देव मेला, तसा आपल्या बाबतीतही मरायचा!"
 # translit = " tyāṁcyā bābatīta deva melā, tasā āpalyā bābatītahī marāyacā!"
+# text_en = "God died for them, so he will die for us too!"
 1	"	"	PUNCT	_	_	13	punct	_	Translit="|LTranslit="
 2-3	त्यांच्या	_	_	_	_	_	_	_	Translit=tyāṁcyā
 2	त्यां	तो	PRON	_	Case=Abs|Deixis=Remt|Gender=Masc|Number=Plur|Person=3|PronType=Dem	4	nmod:poss	_	Translit=tyāṁ|LTranslit=to
 3	च्या	चा	ADP	_	Case=Abs	2	case	_	Translit=cyā|LTranslit=cā
-4	बाबतीत	बाबत	NOUN	_	Case=Loc|Gender=Fem|Number=Sing	5	obl	_	Translit=bābatīta|LTranslit=bābata
+4	बाबतीत	बाबत	NOUN	_	Case=Loc|Gender=Fem|Number=Sing	5	nmod	_	Translit=bābatīta|LTranslit=bābata
 5	देव	देव	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	Translit=deva|LTranslit=deva
 6	मेला	मरणे	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Person=3|VerbForm=Fin	13	advcl	_	SpaceAfter=No|Translit=melā|LTranslit=maraṇe
 7	,	,	PUNCT	_	_	8	punct	_	Translit=,|LTranslit=,

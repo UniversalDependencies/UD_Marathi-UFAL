@@ -18,6 +18,7 @@
 # sent_id = 2
 # text = एकुलता एक मुलगा म्हणून राजा-राणी त्याला जीव की प्राण करित.
 # translit = ekulatā eka mulagā mhaṇūna rājā-rāṇī tyālā jīva kī prāṇa karita.
+# text_en = As an only son, the king and queen cherished him with all their heart.
 1	एकुलता	एकुलता	ADJ	_	Case=Nom|Gender=Masc|Number=Sing	3	amod	_	Translit=ekulatā|LTranslit=ekulatā
 2	एक	एक	DET	_	Number=Sing|PronType=Ind	3	det	_	Translit=eka|LTranslit=eka
 3	मुलगा	मुलगा	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	0	root	_	Translit=mulagā|LTranslit=mulagā
@@ -27,8 +28,8 @@
 7	राणी	राणी	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	5	conj	_	Translit=rāṇī|LTranslit=rāṇī
 8	त्याला	तो	PRON	_	Case=Dat|Deixis=Remt|Gender=Masc|Number=Sing|Person=3|PronType=Dem	12	obj	_	Translit=tyālā|LTranslit=to
 9	जीव	जीव	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	12	compound:lvc	_	Translit=jīva|LTranslit=jīva
-10	की	की	ADV	_	_	9	fixed	_	Translit=kī|LTranslit=kī
-11	प्राण	प्राण	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	9	fixed	_	Translit=prāṇa|LTranslit=prāṇa
+10	की	की	ADV	_	_	9	compound	_	Translit=kī|LTranslit=kī
+11	प्राण	प्राण	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	9	compound	_	Translit=prāṇa|LTranslit=prāṇa
 12	करित	करित	VERB	_	Aspect=Hab|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	3	conj	_	SpaceAfter=No|Translit=karita|LTranslit=karita
 13	.	.	PUNCT	_	_	12	punct	_	Translit=.|LTranslit=.
 
@@ -4143,11 +4144,12 @@
 # sent_id = 340
 # text = मग तिला आवाज ऐकू येतो, तो त्या मोठ्या जुन्या झाडाच्या मागून येत आहे.
 # translit = maga tilā āvāja aikū yeto, to tyā moṭhyā junyā jhāḍācyā māgūna yeta āhe.
+# text_en = Then she hears a voice, it's coming from behind that big old tree.
 1	मग	मग	ADV	_	_	4	advmod	_	Translit=maga|LTranslit=maga
 2	तिला	तो	PRON	_	Case=Dat|Deixis=Remt|Gender=Fem|Number=Sing|Person=3|PronType=Dem	4	nsubj	_	Translit=tilā|LTranslit=to
 3	आवाज	आवाज	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	4	obj	_	Translit=āvāja|LTranslit=āvāja
 4	ऐकू	ऐकणे	VERB	_	InfForm=Incp|VerbForm=Inf	0	root	_	Translit=aikū|LTranslit=aikaṇe
-5	येतो	येणे	VERB	_	Aspect=Imp|Gender=Masc|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	fixed	_	SpaceAfter=No|Translit=yeto|LTranslit=yeṇe
+5	येतो	येणे	VERB	_	Aspect=Imp|Gender=Masc|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	compound	_	SpaceAfter=No|Translit=yeto|LTranslit=yeṇe
 6	,	,	PUNCT	_	_	14	punct	_	Translit=,|LTranslit=,
 7	तो	तो	PRON	_	Case=Nom|Deixis=Remt|Gender=Masc|Number=Sing|Person=3|PronType=Dem	14	nsubj	_	Translit=to|LTranslit=to
 8	त्या	तो	DET	_	Case=Abs|Deixis=Remt|PronType=Dem	11	det	_	Translit=tyā|LTranslit=to
