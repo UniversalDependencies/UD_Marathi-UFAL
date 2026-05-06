@@ -85,7 +85,7 @@
     <feat name="Voice" value="Cau" upos="VERB">2</feat><!-- बघवत, बसविले -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
-  <deps unique="40">
+  <deps unique="39">
     <dep name="acl">9</dep>
     <dep name="acl:relcl">5</dep>
     <dep name="advcl">117</dep>
@@ -97,7 +97,7 @@
     <dep name="case">302</dep>
     <dep name="cc">65</dep>
     <dep name="ccomp">24</dep>
-    <dep name="compound">7</dep>
+    <dep name="compound">10</dep>
     <dep name="compound:lvc">43</dep>
     <dep name="compound:redup">1</dep>
     <dep name="compound:svc">32</dep>
@@ -108,18 +108,17 @@
     <dep name="det">114</dep>
     <dep name="discourse">57</dep>
     <dep name="dislocated">8</dep>
-    <dep name="fixed">3</dep>
     <dep name="flat">6</dep>
     <dep name="goeswith">1</dep>
     <dep name="iobj">31</dep>
     <dep name="mark">28</dep>
-    <dep name="nmod">5</dep>
+    <dep name="nmod">6</dep>
     <dep name="nmod:poss">156</dep>
     <dep name="nsubj">479</dep>
     <dep name="nsubj:pass">8</dep>
     <dep name="nummod">31</dep>
     <dep name="obj">251</dep>
-    <dep name="obl">180</dep>
+    <dep name="obl">179</dep>
     <dep name="orphan">1</dep>
     <dep name="parataxis">76</dep>
     <dep name="punct">748</dep>
